@@ -7031,7 +7031,13 @@ Lust for Dark Power: The power of his ancestors sings through him, encouraging t
     <rule id="b0b5-2001-3816-d334" name="Acrobatic Grace" hidden="false">
       <description>A model with this special rule has a 4+ cover save unless it remained stationary in its previous Movement phase.</description>
     </rule>
-    <rule id="2243-1d72-669d-1780" name="Agile" publicationId="3ae4-9ad8-pub12" hidden="false"/>
+    <rule id="2243-1d72-669d-1780" name="Agile" publicationId="3ae4-9ad8-pub12" hidden="false">
+      <description>In the shooting phase, a Warhound can choose to either:
+
+-fire all available weapons
+-fire a single weapon and then Run
+-fire no weapons at all and Run twice</description>
+    </rule>
     <rule id="ce57-25dd-7d75-6574" name="Bladestorm" publicationId="3ae4-9ad8-pub13" page="150" hidden="false">
       <description>When firing a weapon with this special rule, a To Wound roll of a 6 wounds automatically, regardless of the target's Toughness, and is resolved at AP2.</description>
     </rule>
@@ -7099,7 +7105,11 @@ Lust for Dark Power: The power of his ancestors sings through him, encouraging t
     <rule id="d66f-7e7d-2554-87bc" name="Vibro-pulse" publicationId="3ae4-9ad8-pub2" page="155" hidden="false">
       <description>For each model from the same unit that scores a 6 To Hit when firing a weapon with this special rule, while targeting the same target unit, add +1 to the Strength (to a maximum of 10) and subtract -1 from the AP (to a minimum of 1) when resolving To Wound rolls for all weapons with this special rule during this Shooting attack only.</description>
     </rule>
-    <rule id="cea4-fe6a-8796-d4dc" name="Warlord" hidden="false"/>
+    <rule id="cea4-fe6a-8796-d4dc" name="Warlord" hidden="false">
+      <description>If Thulsa Kane is part of an army then he will always be the army's Warlord, regardless of the Leadership value of other HQ choices. He does not roll on the Warlord Traits table, but instead receives the following unique Warlord trait:
+
+• The Wrath of Old Night: During any Assault phase in which Thulsa Kane is fighting a challenge, all friendly units with Chapter Tactics (Executioners) gain a +1 bonus to their score for working out the victor in assaults and +1 to their Sweeping Advance.</description>
+    </rule>
     <rule id="d8ee-98d6-c1f4-fd93" name="Wild Psyker" publicationId="3ae4-9ad8-pub2" page="154" hidden="false">
       <description>A model with this special rule follows all the usual rules for Psykers and is considered to have the Psyker special rule, but when called upon to roll on the Perils of the Warp table rolls on the following table instead:
 

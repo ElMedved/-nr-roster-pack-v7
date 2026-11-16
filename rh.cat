@@ -2669,7 +2669,7 @@
           <profiles>
             <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item" id="c54e-ef1d-c85d-d10b" name="Neural Goad" publicationId="ca4c-9142-pub3" page="238" hidden="false">
               <characteristics>
-                <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+                <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">Melee weapon carried by Enforcers that modifies the unit's Leadership check results.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4666,7 +4666,9 @@
         <categoryLink id="9fc689c0-5863-0475-2802-bead2ee65c93-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="5457-04ec-251b-f0df" name="Warp Amp" publicationId="ca4c-9142-pub2" page="104" hidden="false"/>
+        <rule id="5457-04ec-251b-f0df" name="Warp Amp" publicationId="ca4c-9142-pub2" page="104" hidden="false">
+      <description>Should the Sonic Dreadnought choose not to move in any of its controlling player’s player turns, it may double the rate of fire of any of its some weaponry (ie, blastmaster, sonic blaster and doom sirens) for that player turn.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="8a3e45ff-d358-a1b0-1265-dee76d7e9ed5" hidden="false" targetId="d08a366d-0b19-fabf-d1b9-4e7ed76f8d9b" type="profile"/>
@@ -17282,58 +17284,150 @@
   <sharedRules>
     <rule id="b5edcb5b-5323-9144-2deb-59aa5938214f" name="5+ Invulnerable Save" publicationId="ca4c-9142-pub12" hidden="false"/>
     <rule id="88b225e2-ffcd-ac15-65ad-3853932c8850" name="Accurate Bombardment" publicationId="ca4c-9142-pub3" page="259" hidden="false"/>
-    <rule id="e7631a3f-1fbc-f24c-de42-bb7ace11f322" name="Agile" publicationId="ca4c-9142-pub8" page="6" hidden="false"/>
-    <rule id="c3c24c87-92a7-d6ee-ba91-d2e122d95920" name="Amphibious" publicationId="ca4c-9142-pub3" page="256" hidden="false"/>
-    <rule id="e8aa9825-5b0b-d897-6e7f-f5aea824b1f6" name="Angel of Despair" publicationId="ca4c-9142-pub2" page="200" hidden="false"/>
-    <rule id="5317607a-3f17-ac41-76bc-3552cd4db4a2" name="Apocalyptic Barrage" publicationId="ca4c-9142-pub13" page="0" hidden="false"/>
-    <rule id="7e129f9f-7ace-4d29-45d5-2791e000a4a7" name="Artillery Bombardment" publicationId="ca4c-9142-pub4" page="0" hidden="false"/>
+    <rule id="e7631a3f-1fbc-f24c-de42-bb7ace11f322" name="Agile" publicationId="ca4c-9142-pub8" page="6" hidden="false">
+      <description>In the shooting phase, a Warhound can choose to either:
+
+-fire all available weapons
+-fire a single weapon and then Run
+-fire no weapons at all and Run twice</description>
+    </rule>
+    <rule id="c3c24c87-92a7-d6ee-ba91-d2e122d95920" name="Amphibious" publicationId="ca4c-9142-pub3" page="256" hidden="false">
+      <description>All water terrain is open ground.</description>
+    </rule>
+    <rule id="e8aa9825-5b0b-d897-6e7f-f5aea824b1f6" name="Angel of Despair" publicationId="ca4c-9142-pub2" page="200" hidden="false">
+      <description>It re-rolls all failed To-hit and To-wound rolls in combat and is equipped with assault grenades when charging. When charging into an assault, it gets +D3 attacks. 
+Any non-Fearless unit in CC with this unit must pass a leadership check or be unable to strike blows that turn. Roll once for the unit, with IC's rolled separately.</description>
+    </rule>
+    <rule id="5317607a-3f17-ac41-76bc-3552cd4db4a2" name="Apocalyptic Barrage" publicationId="ca4c-9142-pub13" page="0" hidden="false">
+      <description>An Apocalyptic Barrage follows all of the rules for a Barrage weapon, but uses the clover-shaped apocalyptic barrage marker. Before the marker is placed, the attacker is allowed to rotate the marker about its centre to maximise the number of models that could potentially be hit. Place the marker and roll for scatter in the same way you would for a Blast. If the marker scatters, be careful to maintain the same orientation as you move it.
+Once the final position of the marker has been determined, roll a number of dice equal to the number of attacks on the weapon’s profile. So, for example, with a weapon with the type ‘Heavy 4, Apocalyptic Barrage’, you would roll four dice. Each dice roll corresponds to a ‘strike’ on one of the circles on the apocalyptic barrage marker. For example, each roll of a 2 indicates a strike on circle number 2. Resolve the strikes as for a Multiple Barrage, as if each were a Barrage attack that had landed on that circle and hit all the models underneath it. To determine Wound allocation and cover saves, always assume the shot is coming from the centre of the entire apocalyptic barrage marker.
+Apocalyptic Barrage Marker
+In this example, a Heavy 4 weapon with the Apocalyptic Barrage special rule is fired. The centre of the apocalyptic barrage marker is placed over the target model and rotated by the firing player until he is happy with its position. The barrage marker then scatters 8" to the right – the player is careful to maintain the template’s orientation as he moves it. Once the final position is determined, four dice are rolled to determine where the strikes land, and the results are 2, 3, 3 and 6. The circles 2 and 5-6 are hit once each, and the circle 3 is hit twice. This results in a total of 12 hits. Wounds are allocated from the centre of the apocalyptic barrage marker (the centre of circle 5-6).</description>
+    </rule>
+    <rule id="7e129f9f-7ace-4d29-45d5-2791e000a4a7" name="Artillery Bombardment" publicationId="ca4c-9142-pub4" page="0" hidden="false">
+      <description>[text removed]</description>
+    </rule>
     <rule id="d5376551-ff34-ad82-af46-6146a2bc5d4f" name="Aura of the Witch" publicationId="ca4c-9142-pub3" page="237" hidden="false"/>
-    <rule id="1363-ad89-34d2-14ed" name="Auto Targeting" publicationId="ca4c-9142-pub3" page="273" hidden="false"/>
+    <rule id="1363-ad89-34d2-14ed" name="Auto Targeting" publicationId="ca4c-9142-pub3" page="273" hidden="false">
+      <description>Weapons with this special rule ignore any cover saves or cover save bonuses provided by the Supersonic or Jink special rules, as well as any provided by moving Flat Out.</description>
+    </rule>
     <rule id="dac3c89e-bc06-7a2f-5688-7f032e403fb1" name="Baleful Judge" publicationId="ca4c-9142-pub3" page="242" hidden="false"/>
     <rule id="21a35577-c564-7cf5-d620-971cf6fe0a50" name="Blasphemous Icon" publicationId="ca4c-9142-pub3" page="269" hidden="false"/>
-    <rule id="654dc176-b108-4171-92ab-6aba9dcd374f" name="Blind Fury" publicationId="ca4c-9142-pub3" page="247" hidden="false"/>
-    <rule id="43b5cfa0-148c-68c2-5d49-51ea5990387f" name="Blood Frenzy" publicationId="ca4c-9142-pub2" page="198" hidden="false"/>
-    <rule id="32b0b507-82e7-5304-1a9c-b69fb2f5ae98" name="Bulky" publicationId="ca4c-9142-pub4" page="35" hidden="false"/>
-    <rule id="1cf301b9-f5c0-2a62-0e32-83f102eea785" name="Champion of Chaos" publicationId="ca4c-9142-pub6" page="28" hidden="false"/>
+    <rule id="654dc176-b108-4171-92ab-6aba9dcd374f" name="Blind Fury" publicationId="ca4c-9142-pub3" page="247" hidden="false">
+      <description>It must always move as fast as possible towards the closest visible enemy and must consolidate towards the closest visible enemy. If it chooses to run during the shooting phase, it must be towards the closest visible enemy. Does not apply if there are no visible enemies.</description>
+    </rule>
+    <rule id="43b5cfa0-148c-68c2-5d49-51ea5990387f" name="Blood Frenzy" publicationId="ca4c-9142-pub2" page="198" hidden="false">
+      <description>An'ggrath must charge if an enemy is in range at the start of the assault phase.</description>
+    </rule>
+    <rule id="32b0b507-82e7-5304-1a9c-b69fb2f5ae98" name="Bulky" publicationId="ca4c-9142-pub4" page="35" hidden="false">
+      <description>Bulky models count as two models for the purposes of Transport Capacity.</description>
+    </rule>
+    <rule id="1cf301b9-f5c0-2a62-0e32-83f102eea785" name="Champion of Chaos" publicationId="ca4c-9142-pub6" page="28" hidden="false">
+      <description>A Model with this rule must issue and accept challenges. Where there are multiple models with this rule, the controlling player may decide.
+Whenever a model with this rule kills a character, roll a D66 and consult the Chaos Boon chart. This boon remains for the rest of the game.</description>
+    </rule>
     <rule id="b3c31351-e087-7ecc-cfcd-5a11b9c07568" name="Chaos Covenant" publicationId="ca4c-9142-pub3" page="237" hidden="false"/>
-    <rule id="9be7f148-fd49-4e67-32fc-9995ef92f121" name="Chosen of Tzeentch" publicationId="ca4c-9142-pub2" page="203" hidden="false"/>
+    <rule id="9be7f148-fd49-4e67-32fc-9995ef92f121" name="Chosen of Tzeentch" publicationId="ca4c-9142-pub2" page="203" hidden="false">
+      <description>Must generate a total of four powers, two from the Discipline of Change (ignoring the maximum limit). Others may be from the other disciplines in the BRB.</description>
+    </rule>
     <rule id="b811c855-3286-16fa-d95a-e3f0ae417da2" name="Co-axial Weapon" publicationId="ca4c-9142-pub3" page="257" hidden="false"/>
-    <rule id="6d1b-064f-e834-7d13" name="Collar of Khorne" publicationId="ca4c-9142-pub3" page="281" hidden="false"/>
-    <rule id="7bfb0330-2af6-68ec-7fda-47f41f5e3e5a" name="Contagion" publicationId="ca4c-9142-pub2" page="197" hidden="false"/>
+    <rule id="6d1b-064f-e834-7d13" name="Collar of Khorne" publicationId="ca4c-9142-pub3" page="281" hidden="false">
+      <description>A unit containing one or more models with a Collar of Khorne has a +2 bonus to all Deny the Witch rolls.</description>
+    </rule>
+    <rule id="7bfb0330-2af6-68ec-7fda-47f41f5e3e5a" name="Contagion" publicationId="ca4c-9142-pub2" page="197" hidden="false">
+      <description>A model that suffers an unsaved Wound from this weapon must immediately pass a Toughness test or suffer an additional Wound with no armour or cover saves alowed.</description>
+    </rule>
     <rule id="4ebc63df-4a7c-2425-85a8-353ba7067a4c" name="Covenant of Khorne" publicationId="ca4c-9142-pub3" page="237" hidden="false"/>
     <rule id="a58b39b9-c3ab-eb26-3b11-aa7ce0abd38e" name="Covenant of Nurgle" publicationId="ca4c-9142-pub3" page="237" hidden="false"/>
     <rule id="993ba417-9cd4-4667-99a4-46e4b2c79748" name="Covenant of Slaanesh" publicationId="ca4c-9142-pub2" page="151" hidden="false"/>
     <rule id="5f096744-e856-e2c3-f361-53434ead0025" name="Covenant of Tzeentch" publicationId="ca4c-9142-pub2" page="151" hidden="false"/>
-    <rule id="e60281e5-ed41-0d9d-ea4f-beb543420eaf" name="Crushing Weight" publicationId="ca4c-9142-pub2" page="193" hidden="false"/>
+    <rule id="e60281e5-ed41-0d9d-ea4f-beb543420eaf" name="Crushing Weight" publicationId="ca4c-9142-pub2" page="193" hidden="false">
+      <description>A Super-Heavy vehicle with this special rule adds +1 to all rolls on the Thunderblitz table when making a Ram or Tank Shock attack.</description>
+    </rule>
     <rule id="2d51caa6-3438-67e4-525a-6bb2bff439e6" name="Cumbersome" publicationId="ca4c-9142-pub14" page="97" hidden="false"/>
     <rule id="90d41e01-d7f3-83a4-aec7-89fb7eb7e10f" name="Curse of Mutation" publicationId="ca4c-9142-pub3" page="237" hidden="false">
       <description>1-2: Horrific Disfiguration
 3-4: Unnatural Senses
 5-6: Horns, Claws and Fangs</description>
     </rule>
-    <rule id="bc30e89d-3d5e-5c61-597e-670aaff454b2" name="Daemon Lord" publicationId="ca4c-9142-pub8" page="67" hidden="false"/>
-    <rule id="c04f75e0-8faa-322a-64f0-7ab58d3af0c6" name="Daemon Lord" publicationId="ca4c-9142-pub2" page="197" hidden="false"/>
-    <rule id="8cee5f40-7dc9-a8ba-75db-028a25e9ecf1" name="Daemon of Khorne" publicationId="ca4c-9142-pub3" page="247" hidden="false"/>
-    <rule id="243d84ba-706e-8c17-6ddb-0b68b2936276" name="Daemon of Nurgle" publicationId="ca4c-9142-pub3" page="248" hidden="false"/>
-    <rule id="2f41ce9c-ae5e-93fa-14ea-688902df84a0" name="Daemon of Slaanesh" publicationId="ca4c-9142-pub12" page="26" hidden="false"/>
-    <rule id="2d8fcaa9-009a-d96b-7982-2f6cc45848c7" name="Daemon of Tzeentch" publicationId="ca4c-9142-pub12" page="26" hidden="false"/>
-    <rule id="4c3ea262-9aa1-9054-82fa-46bab9940c85" name="Daemon Titan of Khorne" publicationId="ca4c-9142-pub2" page="141" hidden="false"/>
-    <rule id="66d34342-0be5-0547-efba-52a51385c527" name="Daemon Titan of Nurgle" publicationId="ca4c-9142-pub2" page="141" hidden="false"/>
-    <rule id="79e0eba7-dbe4-4aef-f54b-da984ddf4cfb" name="Daemon Titan of Slaanesh" publicationId="ca4c-9142-pub2" page="141" hidden="false"/>
-    <rule id="f6c38542-7ac9-bb8c-d032-ae46463a1a29" name="Daemon Titan of Tzeentch" publicationId="ca4c-9142-pub2" page="141" hidden="false"/>
-    <rule id="20f48c4c-0aa3-b426-d8c1-0698bbc34749" name="Daemonforge" publicationId="ca4c-9142-pub6" page="51" hidden="false"/>
-    <rule id="521fb0b8-870d-f3e9-6f25-483767d3b77e" name="Daemonic Instability" publicationId="ca4c-9142-pub12" page="26" hidden="false"/>
-    <rule id="2c0c-fbab-996d-f3aa" name="Daemonic Possession" publicationId="ca4c-9142-pub3" page="241" hidden="false"/>
-    <rule id="4a7d1539-37ad-9246-8153-10283bd14da6" name="Daemonic Resilience" publicationId="ca4c-9142-pub3" page="247" hidden="false"/>
-    <rule id="beb2f459-cae7-661c-f59d-e5f06e4d6933" name="Dark Jealousy" publicationId="ca4c-9142-pub2" page="203" hidden="false"/>
+    <rule id="bc30e89d-3d5e-5c61-597e-670aaff454b2" name="Daemon Lord" publicationId="ca4c-9142-pub8" page="67" hidden="false">
+      <description>The invunerable save is 3+</description>
+    </rule>
+    <rule id="c04f75e0-8faa-322a-64f0-7ab58d3af0c6" name="Daemon Lord" publicationId="ca4c-9142-pub2" page="197" hidden="false">
+      <description>The invunerable save is 3+</description>
+    </rule>
+    <rule id="8cee5f40-7dc9-a8ba-75db-028a25e9ecf1" name="Daemon of Khorne" publicationId="ca4c-9142-pub3" page="247" hidden="false">
+      <description>Has Daemon, Furious Charge and Hatred (Daemon of Slaanesh)</description>
+    </rule>
+    <rule id="243d84ba-706e-8c17-6ddb-0b68b2936276" name="Daemon of Nurgle" publicationId="ca4c-9142-pub3" page="248" hidden="false">
+      <description>Has the Daemon rule, Hatred (Daemon of Tzeentch), Shrouded and Slow and Purposeful.</description>
+    </rule>
+    <rule id="2f41ce9c-ae5e-93fa-14ea-688902df84a0" name="Daemon of Slaanesh" publicationId="ca4c-9142-pub12" page="26" hidden="false">
+      <description>Has Daemon, Fleet, Hatred (Daemon of Khorne) and Rending. Can run an additional 3"</description>
+    </rule>
+    <rule id="2d8fcaa9-009a-d96b-7982-2f6cc45848c7" name="Daemon of Tzeentch" publicationId="ca4c-9142-pub12" page="26" hidden="false">
+      <description>Has Daemon, Hatred (Daemon of Nurgle) and may re-roll failing saves of 1</description>
+    </rule>
+    <rule id="4c3ea262-9aa1-9054-82fa-46bab9940c85" name="Daemon Titan of Khorne" publicationId="ca4c-9142-pub2" page="141" hidden="false">
+      <description>Gains Daemon and Hatred (Daemons of Slaanesh). It may re-roll the dice to determine the number of Stomps makes, and gains +D3 attacks on any turn in which it successfully charges an enemy unit. Counts as aligned with Khorne.</description>
+    </rule>
+    <rule id="66d34342-0be5-0547-efba-52a51385c527" name="Daemon Titan of Nurgle" publicationId="ca4c-9142-pub2" page="141" hidden="false">
+      <description>Gains Daemon, Hatred (Daemons of Tzeentch) and It Will Not Die. Counts as aligned with Nurgle.</description>
+    </rule>
+    <rule id="79e0eba7-dbe4-4aef-f54b-da984ddf4cfb" name="Daemon Titan of Slaanesh" publicationId="ca4c-9142-pub2" page="141" hidden="false">
+      <description>Gains Daemon and Hatred (Khorne). All models with a Ld value in combat against this titan at the start of the fight sub-phase must pass a Ld check of -2 or reduce their Initiative to -1 for the duration of that sub-phase. Counts as aligned with Slaanesh.</description>
+    </rule>
+    <rule id="f6c38542-7ac9-bb8c-d032-ae46463a1a29" name="Daemon Titan of Tzeentch" publicationId="ca4c-9142-pub2" page="141" hidden="false">
+      <description>Gains Daemon and Hatred (Nurgle). The daemon-titan may re-roll all To Hit rolls of 1 and any Inferno cannon mounted gains Soul Blaze. Counts as Aligned with Tzeentch.</description>
+    </rule>
+    <rule id="20f48c4c-0aa3-b426-d8c1-0698bbc34749" name="Daemonforge" publicationId="ca4c-9142-pub6" page="51" hidden="false">
+      <description>Once per game, a model with this rule may re-roll failed to wound/penetration rolls. Declare at the start of the shooting or assault phase that you are using this ability.
+At the end of the phase, roll a D6, on a 1 the unit loses a HP with no saves allowed.</description>
+    </rule>
+    <rule id="521fb0b8-870d-f3e9-6f25-483767d3b77e" name="Daemonic Instability" publicationId="ca4c-9142-pub12" page="26" hidden="false">
+      <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear, Pinning, and Morale tests.
+
+When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
+
+1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon's presence fluctuates:
+  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1" from enemy models. If the returning modell's unit is locked in combat, the model Piles In.
+  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
+
+2) Now, if a double 1 or double 6 wasn't rolled, compare the roll to the Daemon's Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
+    </rule>
+    <rule id="2c0c-fbab-996d-f3aa" name="Daemonic Possession" publicationId="ca4c-9142-pub3" page="241" hidden="false">
+      <description>The Adversary’s Warlord gains the Daemon, Fleshbane, Armourbane and Smash special rules, as well as a 3+ invulnerable save.
+The Adversary can take one of the following options for any Independent Characters in their army (except those with the Genestealer Cults, Necrons, Tau Empire or Tyranids Faction):
+• May be upgraded to a Psyker (Mastery Level 1) with the Daemon special rulefree
+• May be upgraded to a Psyker (Mastery Level 2) with the Daemon special rule25 pts/model
+Independent Characters upgraded in this way generate their powers from the Daemonology (Malefic) discipline.
+The Adversary can also take the following option for any Independent Characters in their army that are already Psykers (except those with the Genestealer Cults or Tyranids Faction):
+• May be upgraded with the Daemon special rulefree
+Independent Characters upgraded in this way generate their powers from the Daemonology (Malefic) discipline.
+The Adversary can include units with the Chaos Daemons Faction as Allies of Convenience of all units in their army (unless they would normally be Battle Brothers).</description>
+    </rule>
+    <rule id="4a7d1539-37ad-9246-8153-10283bd14da6" name="Daemonic Resilience" publicationId="ca4c-9142-pub3" page="247" hidden="false">
+      <description>Ignores Crew Shaken and Stunned results on a 2+</description>
+    </rule>
+    <rule id="beb2f459-cae7-661c-f59d-e5f06e4d6933" name="Dark Jealousy" publicationId="ca4c-9142-pub2" page="203" hidden="false">
+      <description>If another Greater Daemon, Daemon Prince or Daemon Lord is within 18" at the beginning of the controlling players shooting phase, Aetaos must direct all of his ranged attacks at them instead (Regardless of if they're friend or foe).</description>
+    </rule>
     <rule id="5f807ed5-bc47-39cb-d104-307901143661" name="Deathly Rapture" publicationId="ca4c-9142-pub2" page="200" hidden="false"/>
-    <rule id="083e17e5-7d3b-5b7c-bc26-e8f20cdd461f" name="Decapitating Blow" publicationId="ca4c-9142-pub12" page="62" hidden="false"/>
+    <rule id="083e17e5-7d3b-5b7c-bc26-e8f20cdd461f" name="Decapitating Blow" publicationId="ca4c-9142-pub12" page="62" hidden="false">
+      <description>Any To Wound rolls of 6 made with this weapon have the Instant Death special rule.</description>
+    </rule>
     <rule id="bea3ff96-df7f-d772-4a07-3b256a640bc6" name="Dedicated to Khorne" publicationId="ca4c-9142-pub2" page="160" hidden="false"/>
     <rule id="7cab0b5e-d7e8-f1fc-6556-db359a659843" name="Dedicated to Nurgle" publicationId="ca4c-9142-pub2" page="160" hidden="false"/>
-    <rule id="3dd7156a-8d1a-ece8-efc0-10a3683b9a3b" name="Dedicated to Slaanesh" publicationId="ca4c-9142-pub2" page="160" hidden="false"/>
+    <rule id="3dd7156a-8d1a-ece8-efc0-10a3683b9a3b" name="Dedicated to Slaanesh" publicationId="ca4c-9142-pub2" page="160" hidden="false">
+      <description>The sonic dreadnought counts as being equipped with both Assault and Defensive grenades.</description>
+    </rule>
     <rule id="957effeb-f250-934b-564d-34e174dd0c90" name="Dedicated to Tzeentch" publicationId="ca4c-9142-pub2" page="160" hidden="false"/>
-    <rule id="75f46c65-7f3d-f7a2-0075-2cbdf9092ce1" name="Defending Battle Force" publicationId="ca4c-9142-pub15" hidden="true"/>
-    <rule id="979d1cc0-9ed5-22e8-101c-802e25393947" name="Defensive Strategy" publicationId="ca4c-9142-pub15" hidden="true"/>
+    <rule id="75f46c65-7f3d-f7a2-0075-2cbdf9092ce1" name="Defending Battle Force" publicationId="ca4c-9142-pub15" hidden="true">
+      <description>Once, in each of your turns, you can choose one unit before making any Reserve Rolls. You can choose to pass or fail the Reserve Roll for that unit automatically (it must still arrive on the fourth turn).</description>
+    </rule>
+    <rule id="979d1cc0-9ed5-22e8-101c-802e25393947" name="Defensive Strategy" publicationId="ca4c-9142-pub15" hidden="true">
+      <description>If this is your Primary Detachment, you have +1 Stratagem Point to spend when selecting Planetstrike stratagems.</description>
+    </rule>
     <rule id="211ffdcf-64ab-dca8-496b-bea2e215b0f3" name="Demagogue Devotion: Arch-heretic Revolutionary" publicationId="ca4c-9142-pub3" page="238" hidden="false"/>
     <rule id="25509b6f-44ec-89b6-5b8c-bb68eeec7f23" name="Demagogue Devotion: Bloody-handed Reaver" publicationId="ca4c-9142-pub2" page="153" hidden="false"/>
     <rule id="78e332e1-c988-32da-aaf6-d7fd7e342a77" name="Demagogue Devotion: Heretek Magus" publicationId="ca4c-9142-pub2" page="152" hidden="false"/>
@@ -17343,49 +17437,124 @@
     <rule id="4e7aefd7-7608-a2f4-a3ff-34fec9c51628" name="Demagogue Devotion: Primaris-rogue Witch" publicationId="ca4c-9142-pub3" page="238" hidden="false"/>
     <rule id="b99e-9d1c-8b95-9973" name="Demagogue Devotion: Shock Legion Taskmaster" publicationId="ca4c-9142-pub3" page="238" hidden="false"/>
     <rule id="26e979b1-620c-37a1-f3f0-f45ed96f1fa4" name="Demagogue Devotions" publicationId="ca4c-9142-pub2" page="152" hidden="false"/>
-    <rule id="94d5e154-31ca-f9e8-7581-000ff7d5e559" name="Doomsday Reactor" publicationId="ca4c-9142-pub2" page="192" hidden="false"/>
+    <rule id="94d5e154-31ca-f9e8-7581-000ff7d5e559" name="Doomsday Reactor" publicationId="ca4c-9142-pub2" page="192" hidden="false">
+      <description>When a model with this rule rolls on the Apocalyptic explosion chart, it adds +2 to the result.</description>
+    </rule>
     <rule id="8b944469-c22c-0687-f219-30517ed5b030" name="Dreadclaw Assault" publicationId="ca4c-9142-pub13" page="0" hidden="false"/>
-    <rule id="d4b3d116-b57e-46c1-e3b8-2d6261b65ecb" name="Drop Pod Assault" publicationId="ca4c-9142-pub2" page="89" hidden="false"/>
-    <rule id="1cd1806f-3b3e-a936-39a6-e36450f39efa" name="Engine Damage" publicationId="ca4c-9142-pub8" page="6" hidden="false"/>
-    <rule id="24920ba8-69bf-812e-3edf-87009867c74f" name="Explosion of Pus" publicationId="ca4c-9142-pub3" page="248" hidden="false"/>
-    <rule id="3d07f624-4f87-3389-b892-f6fd53515138" name="Explosive Demise" publicationId="ca4c-9142-pub3" page="264" hidden="false"/>
+    <rule id="d4b3d116-b57e-46c1-e3b8-2d6261b65ecb" name="Drop Pod Assault" publicationId="ca4c-9142-pub2" page="89" hidden="false">
+      <description>Drop Pods and units embarked upon them must be held in Deep Strike Reserves. At the beginning of your first turn, half your Drop Pods (rounding up) automatically arrive from Reserve. The arrival of remaining Drop Pods is rolled for normally.</description>
+    </rule>
+    <rule id="1cd1806f-3b3e-a936-39a6-e36450f39efa" name="Engine Damage" publicationId="ca4c-9142-pub8" page="6" hidden="false">
+      <description>When this Super-heavy vehicle suffers an Explodes! result on the Vehicle Damage table, roll a D6. On the score of a 4+, it is Immobilised (as per the entry on the Vehicle Damage table) as well as suffering the effects of any other damage inflicted upon it, this ignores a Super-heavy vehicle's normal immunity to such damage.</description>
+    </rule>
+    <rule id="24920ba8-69bf-812e-3edf-87009867c74f" name="Explosion of Pus" publicationId="ca4c-9142-pub3" page="248" hidden="false">
+      <description>The Blight Drone always explodes when destroyed. It does not become Wrecked.</description>
+    </rule>
+    <rule id="3d07f624-4f87-3389-b892-f6fd53515138" name="Explosive Demise" publicationId="ca4c-9142-pub3" page="264" hidden="false">
+      <description>When the Rapier loses its last wound, roll a D6. If the result of this roll is 2-6 then remove the Rapier as a casualty as normal.  If the result of the roll is a 1 then place a Large Blast template onto the table, centered on the Rapier. All models, friendly and enemy, under this template take a single S3 AP- hit.  Once these hits are resolved, remove the Rapier as a casualty as normal.</description>
+    </rule>
     <rule id="92a1e864-adf6-a246-d3b6-aa9d7c7ea721" name="Fanatic" publicationId="ca4c-9142-pub3" page="237" hidden="false"/>
     <rule id="648ef41d-4e12-acbc-bc4a-16c3bbc9c9db" name="Fanatical" publicationId="ca4c-9142-pub16" page="135" hidden="false"/>
-    <rule id="1179ef63-efd4-051e-89a3-3e8dee31b019" name="Feedback" publicationId="ca4c-9142-pub8" page="135" hidden="false"/>
-    <rule id="0659c2f0-2ade-4c75-631f-ff484780df39" name="Fighter Ace" publicationId="ca4c-9142-pub1" page="44" hidden="false"/>
+    <rule id="1179ef63-efd4-051e-89a3-3e8dee31b019" name="Feedback" publicationId="ca4c-9142-pub8" page="135" hidden="false">
+      <description>If a weapon with this type fail it Penetration roll against a target vehicle's armour or fails a To Wound roll against a target model roll a D6. If the result is a 1, dangerous energy feedback along the beam causes the firing model to lose 1 Hull Point or Wound.</description>
+    </rule>
+    <rule id="0659c2f0-2ade-4c75-631f-ff484780df39" name="Fighter Ace" publicationId="ca4c-9142-pub1" page="44" hidden="false">
+      <description>At the start of the battle, roll a D6 for your Fighter Ace.  This model has one benefit for the rest of the game corresponding to the table below:
+
+1-2: The Fighter Ace has +1 Ballistic Skill
+3-4: The Fighter Ace can pivot up to 180 degrees before moving in the Movement phase each turn.
+5-6: All friendly units within 12" of the Fighter Ace that are from the same Faction as the Fighter Ace have the Hatred special rule.</description>
+    </rule>
     <rule id="fa78a4a2-6798-0e0b-7ee0-448c71c54306" name="Finest Hour - Never Where You Expect" publicationId="ca4c-9142-pub8" page="149" hidden="true"/>
     <rule id="98f5d827-4428-295b-3409-b8535a7e2e09" name="Finest Hour - The Skulltaker" publicationId="ca4c-9142-pub8" page="149" hidden="true"/>
-    <rule id="41121a8b-ffba-09d6-d08a-324b9991b02f" name="Firing Calibration" publicationId="ca4c-9142-pub2" page="127" hidden="false"/>
-    <rule id="f31db724-6323-391b-c81d-0a29644de03d" name="Flail" publicationId="ca4c-9142-pub6" page="64" hidden="false"/>
-    <rule id="e7bd0d8a-8570-cb34-ed0b-32d2e3b00295" name="Flux" publicationId="ca4c-9142-pub12" page="67" hidden="false"/>
+    <rule id="41121a8b-ffba-09d6-d08a-324b9991b02f" name="Firing Calibration" publicationId="ca4c-9142-pub2" page="127" hidden="false">
+      <description>This weapon may not be fired if the model carrying it has moved in the same turn, regardless of the Relentless special rule or if the carrying model is a vehicle, etc.</description>
+    </rule>
+    <rule id="f31db724-6323-391b-c81d-0a29644de03d" name="Flail" publicationId="ca4c-9142-pub6" page="64" hidden="false">
+      <description>If one or models are within contact of a model with this weapon, roll a D3 and subtract that result from their Weapon Skill until the end of that phase.</description>
+    </rule>
+    <rule id="e7bd0d8a-8570-cb34-ed0b-32d2e3b00295" name="Flux" publicationId="ca4c-9142-pub12" page="67" hidden="false">
+      <description>Roll to determine the Strength immediately after the target has been nominated. If an 11 or 12 is rolled, Wind of Chaos is resolved at Strength 10 and has the Large Blast special rule instead of Blast.</description>
+    </rule>
     <rule id="cc837ff3-ceaf-e1fa-0ec4-f62f4ee80628" name="Flying Monstrous Creatures" publicationId="ca4c-9142-pub17" page="0" hidden="false"/>
-    <rule id="5e63-3b00-68a8-c547" name="Forbidden Munitions" publicationId="ca4c-9142-pub3" page="270" hidden="false"/>
-    <rule id="36402ed8-61b7-a2e5-1f56-f7637e0f36d8" name="Frenzied Charge" publicationId="ca4c-9142-pub2" page="192" hidden="false"/>
-    <rule id="5109d69e-3ed1-a17d-826b-ecc3dfe18d50" name="Fuelled by Rage" publicationId="ca4c-9142-pub7" page="84" hidden="false"/>
-    <rule id="142fdfb8-c3d2-2c2c-d088-20b76023a202" name="Fury of Khorne" publicationId="ca4c-9142-pub3" page="247" hidden="false"/>
-    <rule id="8e1a63f9-f78d-8c6e-f942-afd8621c80f8" name="Gnaw" publicationId="ca4c-9142-pub7" page="85" hidden="false"/>
-    <rule id="471b5c19-fb46-88a7-ed37-d48bcff86e1b" name="Grav Chute Insertion" publicationId="ca4c-9142-pub18" page="0" hidden="false"/>
+    <rule id="5e63-3b00-68a8-c547" name="Forbidden Munitions" publicationId="ca4c-9142-pub3" page="270" hidden="false">
+      <description>Any friendly unit in the army equipped with flamers or heavy flamers may be upgraded to be equipped with chemical flamers for free, and any model equipped with a missile launcher may take chemical rockets as a free upgrade.</description>
+    </rule>
+    <rule id="36402ed8-61b7-a2e5-1f56-f7637e0f36d8" name="Frenzied Charge" publicationId="ca4c-9142-pub2" page="192" hidden="false">
+      <description>when charging, roll 3D6 and add together for total charge distance.</description>
+    </rule>
+    <rule id="5109d69e-3ed1-a17d-826b-ecc3dfe18d50" name="Fuelled by Rage" publicationId="ca4c-9142-pub7" page="84" hidden="false">
+      <description>For every Hull Point the Khorne Lord of Skulls has lost, it gains an
+additional Attack, even if that Hull Point is later regained (keep a note on your roster).
+Note that its Attacks characteristic cannot exceed 10.</description>
+    </rule>
+    <rule id="142fdfb8-c3d2-2c2c-d088-20b76023a202" name="Fury of Khorne" publicationId="ca4c-9142-pub3" page="247" hidden="false">
+      <description>When charging into Assault, the Blood Slaughterer gains +D3 attacks instead.</description>
+    </rule>
+    <rule id="8e1a63f9-f78d-8c6e-f942-afd8621c80f8" name="Gnaw" publicationId="ca4c-9142-pub7" page="85" hidden="false">
+      <description>Successful saving throws against this weapon must be re-rolled.</description>
+    </rule>
+    <rule id="471b5c19-fb46-88a7-ed37-d48bcff86e1b" name="Grav Chute Insertion" publicationId="ca4c-9142-pub18" page="0" hidden="false">
+      <description>[text removed]</description>
+    </rule>
     <rule id="d2937f8a-fa05-d47e-5ebe-b948f79d8337" name="Gun Carriage" publicationId="ca4c-9142-pub3" page="262" hidden="false"/>
     <rule id="4c9f6a2b-cfbc-e93e-625e-0b086d241689" name="Gun Deployment" publicationId="ca4c-9142-pub19" page="0" hidden="false"/>
-    <rule id="33f21f8b-2e1d-53de-5d58-a5b0575dbe16" name="Heat Blast" publicationId="ca4c-9142-pub2" page="89" hidden="false"/>
-    <rule id="27a28e76-70ff-f033-29e4-340fa339aad6" name="Hellish Demise" publicationId="ca4c-9142-pub2" page="192" hidden="false"/>
-    <rule id="6137de0a-4282-9cb9-bbb8-9c54c6ef6b70" name="Hulking Monster" publicationId="ca4c-9142-pub2" page="197" hidden="false"/>
-    <rule id="721b6bb8-6e4a-46a7-25e3-a9f9fe9c86d8" name="Immobile" publicationId="ca4c-9142-pub3" page="265" hidden="false"/>
+    <rule id="33f21f8b-2e1d-53de-5d58-a5b0575dbe16" name="Heat Blast" publicationId="ca4c-9142-pub2" page="89" hidden="false">
+      <description>When a model with this rule arrives via Deep Strike, or later when operating as a skimmer in Hover mode, it may if its controlling player wishes inflict a Heat Blast attack. If it does so, then models it is transporting may not disembark or embark on the turn this attack is used.
+
+Heat Blast (Deep Strike): Immediately after the model lands, measure a radius of 3"+D3" horizontally outwards from its main hull (do not count any landing struts, etc). All models caught in the blast suffer a Str 6 AP 5 hit with no cover saves. Vehicles are struck on their weakest Armour value. This is counted as a flamer-based attack.
+
+Heat Blast (Fire Sweep): If the controlling player wishes, any unit the model passes directly over (i.e., falls directly under its hull during its Movement phase) suffers D6 Str 5 AP 5 hits with no cover saves. Vehicles are struck on their weakest Armour value. This is counted as a flamer-based attack. Hits from this attack are distributed across a unit as the player suffering the attack wishes. Roll a D6 each time this attack is inflicted. On a result of a 1, the Drop Pod itself suffers a penetrating hit.</description>
+    </rule>
+    <rule id="27a28e76-70ff-f033-29e4-340fa339aad6" name="Hellish Demise" publicationId="ca4c-9142-pub2" page="192" hidden="false">
+      <description>when the rapier loses its last wound, roll as D6
+
+1. Place a Large Blast on the table with the Rapier as the centre. All models under the template take a single Str 3 AP - hit with Soul Blaze. Remove the rapier as normal after this.
+
+2-5. Is removed as normal
+
+6. It explodes as it's a 1 result. In addition, a marker is placed where the rapier was, and any unit with Daemon that Deep Strikes within 6" does not scatter.</description>
+    </rule>
+    <rule id="6137de0a-4282-9cb9-bbb8-9c54c6ef6b70" name="Hulking Monster" publicationId="ca4c-9142-pub2" page="197" hidden="false">
+      <description>May only move 6" instead of 12"</description>
+    </rule>
+    <rule id="721b6bb8-6e4a-46a7-25e3-a9f9fe9c86d8" name="Immobile" publicationId="ca4c-9142-pub3" page="265" hidden="false">
+      <description>A Drop Pod cannot move once it has entered play, and counts in all respects as a vehicle that has suffered an Immobilised result that cannot be repaired in any way. This does not cause it to lose a Hull Point.</description>
+    </rule>
     <rule id="d95115cb-ee1c-adcc-8af9-0ebbe3c8aebf" name="Immobile Artillery" publicationId="ca4c-9142-pub3" page="262" hidden="false"/>
-    <rule id="2eaf4348-69f8-aeba-b766-264837a21e60" name="Impaler" publicationId="ca4c-9142-pub3" page="247" hidden="false"/>
+    <rule id="2eaf4348-69f8-aeba-b766-264837a21e60" name="Impaler" publicationId="ca4c-9142-pub3" page="247" hidden="false">
+      <description>Drags the target model into Close Combat. Counts as a shooting attack that hits on a 4+. If successfuly hit or penetrating (and the target survives), move the target 2D6" straight towards the Blood Slaughterer.
+Cannot drag model through obstructions it cannot normally pass through and stops 1" away from the obstruction.
+
+Super-heavies, Gargantuan Creatures and buildings cannot be dragged by the impaler.</description>
+    </rule>
     <rule id="e4de7bdf-262b-38c4-3d69-e7e5beaa7126" name="Improvised Weapon Mount" publicationId="ca4c-9142-pub2" page="170" hidden="false"/>
     <rule id="f7782c61-af76-5f6e-0555-d7bb0d42920e" name="In It for the Money" publicationId="ca4c-9142-pub2" page="157" hidden="false"/>
     <rule id="4945-3c68-0f41-7f20" name="In Numbers Uncounted" publicationId="ca4c-9142-pub3" page="271" hidden="false"/>
-    <rule id="3aa5a5a7-901a-6428-a35e-f9e377b5dbdc" name="Indirect Fire" publicationId="ca4c-9142-pub4" page="0" hidden="false"/>
-    <rule id="7730d261-be86-2c7d-460c-aaf2bc754edd" name="Infernal Relic" publicationId="ca4c-9142-pub2" page="191" hidden="false"/>
-    <rule id="596d8220-53fd-c63e-e0fc-d67cf1cf8977" name="Invading Battle Force" publicationId="ca4c-9142-pub15" hidden="true"/>
-    <rule id="cc952c81-5865-c702-1719-f571c6abf093" name="Maggotspore" publicationId="ca4c-9142-pub2" page="197" hidden="false"/>
-    <rule id="4597fab4-8416-28cf-f670-65612454a9af" name="Mantle of Twisted Fates" publicationId="ca4c-9142-pub2" page="203" hidden="false"/>
+    <rule id="3aa5a5a7-901a-6428-a35e-f9e377b5dbdc" name="Indirect Fire" publicationId="ca4c-9142-pub4" page="0" hidden="false">
+      <description>This weapon fires as a Barrage weapon.</description>
+    </rule>
+    <rule id="7730d261-be86-2c7d-460c-aaf2bc754edd" name="Infernal Relic" publicationId="ca4c-9142-pub2" page="191" hidden="false">
+      <description>Only 1 Infernal Relic may be taken per primary detachment, unless a Technomancer is taken as a HQ. An Infernal Relic can be taken in an allied Detachment if a Technomancer is taken as the compulsory HQ.</description>
+    </rule>
+    <rule id="596d8220-53fd-c63e-e0fc-d67cf1cf8977" name="Invading Battle Force" publicationId="ca4c-9142-pub15" hidden="true">
+      <description>Once, in each of your turns, you can choose one unit before making any Reserve Rolls. You can choose to pass or fail the Reserve Roll for that unit automatically (it must still arrive on the fourth turn).</description>
+    </rule>
+    <rule id="cc952c81-5865-c702-1719-f571c6abf093" name="Maggotspore" publicationId="ca4c-9142-pub2" page="197" hidden="false">
+      <description>Has feel no pain (4+) and is equipped with assault and defensive grenades. Gains +D3 attacks when charging. All models with a toughness value within 6" at the start of the controlling players turn, that are not Daemons or have the mark of Nurgle,must take a toughness test or suffer a wound with no armour or cover saves allowed.</description>
+    </rule>
+    <rule id="4597fab4-8416-28cf-f670-65612454a9af" name="Mantle of Twisted Fates" publicationId="ca4c-9142-pub2" page="203" hidden="false">
+      <description>Any successful deny the witch can then be bounced onto the original caster at 4+ on a D6. These attacks hit automatically and in occasions where both must take a test, Aetaos counts as being the user.</description>
+    </rule>
     <rule id="fb60bf09-745c-9382-a734-2de26e8dd367" name="Master of Renegades" publicationId="ca4c-9142-pub3" page="240" hidden="false"/>
-    <rule id="0a0fcce4-7b98-2618-354d-2adcc6ad58d6" name="Master of the Dead" publicationId="ca4c-9142-pub8" page="151" hidden="false"/>
+    <rule id="0a0fcce4-7b98-2618-354d-2adcc6ad58d6" name="Master of the Dead" publicationId="ca4c-9142-pub8" page="151" hidden="false">
+      <description>While Necrosius is on the field, all Plague Zombies gain Furious Charge.</description>
+    </rule>
     <rule id="6faf1ed7-7cb8-6959-bb9e-8962bb579ba5" name="Maximum 25%" publicationId="ca4c-9142-pub2" hidden="false"/>
     <rule id="69c729b8-6950-2491-738b-21540b227b4b" name="Monstrous Creature" publicationId="ca4c-9142-pub4" page="0" hidden="false"/>
-    <rule id="9e7d0109-9d62-8492-a9c1-0fa1740fb017" name="Multi-legged Terror" publicationId="ca4c-9142-pub2" page="192" hidden="false"/>
+    <rule id="9e7d0109-9d62-8492-a9c1-0fa1740fb017" name="Multi-legged Terror" publicationId="ca4c-9142-pub2" page="192" hidden="false">
+      <description>When making stomp attacks, the scorpion makes D3+2 stomps</description>
+    </rule>
     <rule id="da217204-ead2-81a8-a990-fb563a008af0" name="Mutated Beyond Reason" publicationId="ca4c-9142-pub3" page="244" hidden="false">
       <description>1 Subcutaneous Armour
 2 Grasping Pseudopods
@@ -17397,53 +17566,154 @@
 3 Frenzied Regeneration</description>
     </rule>
     <rule id="d991e473-454f-1215-140a-54ef1e3a9ebb" name="No Chaos Covenant" publicationId="ca4c-9142-pub2" page="154" hidden="false"/>
-    <rule id="85d30290-548e-6ab1-8d49-f0f2885d8099" name="Nurgling Infestation" publicationId="ca4c-9142-pub2" page="197" hidden="false"/>
+    <rule id="85d30290-548e-6ab1-8d49-f0f2885d8099" name="Nurgling Infestation" publicationId="ca4c-9142-pub2" page="197" hidden="false">
+      <description>Any unit that attacks the Plaguereaper in the fight sub-phase suffers a 3D6, Strength 3, AP- hit at Initiative step 3 (regardless if the plaguereaper is destroyed or not).</description>
+    </rule>
     <rule id="22d4a890-4ae2-4a4b-3136-3dda07cc989f" name="Obsolete Power Plant" publicationId="ca4c-9142-pub3" page="266" hidden="false"/>
-    <rule id="dfa2c1f9-0c3c-c276-6fd3-abdc60fc2657" name="Offensive Strategy" publicationId="ca4c-9142-pub15" hidden="true"/>
+    <rule id="dfa2c1f9-0c3c-c276-6fd3-abdc60fc2657" name="Offensive Strategy" publicationId="ca4c-9142-pub15" hidden="true">
+      <description>If this is your Primary Detachment, you have +1 Stratagem Point to spend when selecting Planetstrike stratagems.</description>
+    </rule>
     <rule id="7bfaad39-9954-9c72-e442-0901cd21ec92" name="Orbital Workhorse" publicationId="ca4c-9142-pub2" page="170" hidden="false"/>
     <rule id="c8d7-5689-fa87-753d" name="Over the Corpses of the Slain" publicationId="ca4c-9142-pub3" page="271" hidden="false"/>
-    <rule id="63b2d5fd-0f8a-f182-008e-366944dfb973" name="Overdriven Sonic Weaponry" publicationId="ca4c-9142-pub2" page="104" hidden="false"/>
+    <rule id="63b2d5fd-0f8a-f182-008e-366944dfb973" name="Overdriven Sonic Weaponry" publicationId="ca4c-9142-pub2" page="104" hidden="false">
+      <description>The dreadnoughts sonic weaponry may be fired in Overdriven mode, in which all weapons must be fired in this manner. They all gain Gets Hot and Rending for these attacks.</description>
+    </rule>
     <rule id="0d86763e-43b7-f89e-1f7a-cd0fe369936b" name="Packmaster" publicationId="ca4c-9142-pub3" page="246" hidden="false"/>
-    <rule id="346455b1-2461-8cbb-6327-8dc1c5865a06" name="Plague Zombies" publicationId="ca4c-9142-pub8" page="151" hidden="false"/>
+    <rule id="346455b1-2461-8cbb-6327-8dc1c5865a06" name="Plague Zombies" publicationId="ca4c-9142-pub8" page="151" hidden="false">
+      <description>Makes Plague Zombies.</description>
+    </rule>
     <rule id="a1425687-e233-a063-08a3-e2819f068a44" name="Psychic Discipline: Discipline of Change" publicationId="ca4c-9142-pub12" page="68" hidden="false"/>
     <rule id="f45ab4da-b32b-5ff7-69c2-4e95c22d5e55" name="Psychic Discipline: Powers of the Witch" publicationId="ca4c-9142-pub2" page="155" hidden="false"/>
-    <rule id="dffd9688-0124-fbc7-2cb8-8088a84351fd" name="Random Attacks" publicationId="ca4c-9142-pub3" page="244" hidden="false"/>
-    <rule id="36092205-0364-6fbd-5e0b-1d479d3c8674" name="Random Attacks (Giant Chaos Spawn)" publicationId="ca4c-9142-pub2" page="201" hidden="false"/>
-    <rule id="e62673a2-b8b7-53eb-1836-d08c880ab3be" name="Reactor Meltdown" publicationId="ca4c-9142-pub2" page="192" hidden="false"/>
-    <rule id="af5725b5-3ac9-a2bd-f459-ef1a934472eb" name="Render of the Veils" publicationId="ca4c-9142-pub8" page="70" hidden="false"/>
-    <rule id="1a0dc6b9-bd8b-79bb-8253-8a9e9834556c" name="Repair" publicationId="ca4c-9142-pub6" page="0" hidden="false"/>
+    <rule id="dffd9688-0124-fbc7-2cb8-8088a84351fd" name="Random Attacks" publicationId="ca4c-9142-pub3" page="244" hidden="false">
+      <description>Roll a D6. The result is the number of attacks for that unit.</description>
+    </rule>
+    <rule id="36092205-0364-6fbd-5e0b-1d479d3c8674" name="Random Attacks (Giant Chaos Spawn)" publicationId="ca4c-9142-pub2" page="201" hidden="false">
+      <description>Roll a D6. The result is the number of attacks for that unit.</description>
+    </rule>
+    <rule id="e62673a2-b8b7-53eb-1836-d08c880ab3be" name="Reactor Meltdown" publicationId="ca4c-9142-pub2" page="192" hidden="false">
+      <description>Warlord Catastrophic Damage Table uses 12"/24"/36" blast measurements
+
+D6                    Result                           S                 AP
+ 1                   Explosion                    D/8/4             2/3/5
+2-3        Devastating Explosion        D/10/6           2/3/4
+4-6             Titanic Explosion            D/D/D            1/2/2</description>
+    </rule>
+    <rule id="af5725b5-3ac9-a2bd-f459-ef1a934472eb" name="Render of the Veils" publicationId="ca4c-9142-pub8" page="70" hidden="false">
+      <description>Shooting attack with 48" and LoS of Aetaos, using 5" Large Blast marker. Place D6+3 Pink horrors where the attack lands. They deploy using Deep Strike rules, but may not shoot. 
+
+If there is no space for the pink horrors, or no models, they are then destroyed. The pink horrors do not count towards point cost and are worth no victory points.</description>
+    </rule>
+    <rule id="1a0dc6b9-bd8b-79bb-8253-8a9e9834556c" name="Repair" publicationId="ca4c-9142-pub6" page="0" hidden="false">
+      <description>If a Rhino is Immobilised, then in subsequent turns, it may attempt to repair itself instead of shooting. To make the attempt, roll a D6 in the Shooting phase; on the roll of a 6, the vehicle is no longer Immobilised. Note that a successful Repair does not restore a Hull Point.</description>
+    </rule>
     <rule id="cea2f531-e1ab-7405-dac8-18c7d58fc61a" name="Riftbringer" publicationId="ca4c-9142-pub12" page="0" hidden="false"/>
     <rule id="85126b10-c277-9d0e-4bee-84d4d7daeabd" name="Run Them Down" publicationId="ca4c-9142-pub3" page="246" hidden="false"/>
-    <rule id="de7f39ee-743d-8959-0608-cc966821d015" name="Runes of the Blood God" publicationId="ca4c-9142-pub2" page="192" hidden="false"/>
-    <rule id="b10d-126f-2494-006a" name="Salt the Earth" publicationId="ca4c-9142-pub3" page="270" hidden="false"/>
-    <rule id="3d8293cf-eed3-a505-8edd-aeb9c6fbce92" name="Shell Shock" publicationId="ca4c-9142-pub3" page="265" hidden="false"/>
-    <rule id="cb1b68cf-76f7-6387-1488-8687567ea98c" name="Shock Pulse" publicationId="ca4c-9142-pub8" page="135" hidden="false"/>
+    <rule id="de7f39ee-743d-8959-0608-cc966821d015" name="Runes of the Blood God" publicationId="ca4c-9142-pub2" page="192" hidden="false">
+      <description>A psyker who targets the Tower suffers a perils of the warp regardless of circumstance. If they rolled a double 1 or double 6 they then suffer a Terrors of the Warp as well.</description>
+    </rule>
+    <rule id="b10d-126f-2494-006a" name="Salt the Earth" publicationId="ca4c-9142-pub3" page="270" hidden="false">
+      <description>When a model from this Detachment fires a Barrage weapon with the Blast type, leave the template in place after resolving all damage from the attack until the beginning of the controlling player's next turn. The area under the template is considered dangerous terrain by all models.</description>
+    </rule>
+    <rule id="3d8293cf-eed3-a505-8edd-aeb9c6fbce92" name="Shell Shock" publicationId="ca4c-9142-pub3" page="265" hidden="false">
+      <description>Due to the rapid impact of the Quad Mortar's shells, Pinning tests taken because of its attacks are made at a -1 Leadership penalty.</description>
+    </rule>
+    <rule id="cb1b68cf-76f7-6387-1488-8687567ea98c" name="Shock Pulse" publicationId="ca4c-9142-pub8" page="135" hidden="false">
+      <description>Any vehicle (including super-heavy vehicles) that suffers a Penterating hit from a weapon with this type may only fire Snap Shots in the following game turn.</description>
+    </rule>
     <rule id="29a8e445-a143-3ee3-cd68-1a397c34b213" name="Skulltaker Chainaxe" publicationId="ca4c-9142-pub8" page="152" hidden="false"/>
-    <rule id="bb05d286-b406-d9b5-65d7-a487539e29aa" name="Slow" publicationId="ca4c-9142-pub4" page="0" hidden="false"/>
-    <rule id="cca103a0-8b09-ebe5-f77b-793e8a63de51" name="Son of Alpharius" publicationId="ca4c-9142-pub8" page="153" hidden="false"/>
-    <rule id="8e8d09d3-e0b8-787b-0a8a-8e1bb69ad4d5" name="Souleater" publicationId="ca4c-9142-pub8" page="72" hidden="false"/>
+    <rule id="bb05d286-b406-d9b5-65d7-a487539e29aa" name="Slow" publicationId="ca4c-9142-pub4" page="0" hidden="false">
+      <description>This vehicle may move up to 6" at Combat Speed and up to 12" at Cruising Speed, and cannot move Flat Out.</description>
+    </rule>
+    <rule id="cca103a0-8b09-ebe5-f77b-793e8a63de51" name="Son of Alpharius" publicationId="ca4c-9142-pub8" page="153" hidden="false">
+      <description>A squad joined by Arkos gains Counter-attacks. The squad loses the benefit when he leaves or is slain.</description>
+    </rule>
+    <rule id="8e8d09d3-e0b8-787b-0a8a-8e1bb69ad4d5" name="Souleater" publicationId="ca4c-9142-pub8" page="72" hidden="false">
+      <description>At the end of any fight sub-phase where this weapon has inflicted an unsaved wound, roll a D6. on a 2+, the bearer gains an additional wound (up to a max of 10).</description>
+    </rule>
     <rule id="eb95dad9-5e29-2474-4d99-3874751f67c1" name="Special Manoeuvres" publicationId="ca4c-9142-pub20" page="77" hidden="false"/>
     <rule id="86c80439-a72a-aa14-a511-227390091da7" name="Specialist" publicationId="ca4c-9142-pub2" page="157" hidden="false"/>
     <rule id="77cc5a93-aec1-b426-4afb-b058d4b2477b" name="Specialists: Hereteks" publicationId="ca4c-9142-pub2" page="157" hidden="false"/>
     <rule id="3eac78aa-91ca-74d8-348f-ca7818fbca41" name="Specialists: Murder Cultists" publicationId="ca4c-9142-pub2" page="157" hidden="false"/>
-    <rule id="4bf778ec-4ca3-d257-b207-59a394cfc455" name="Specialists: Stalkers" publicationId="ca4c-9142-pub2" page="157" hidden="false"/>
+    <rule id="4bf778ec-4ca3-d257-b207-59a394cfc455" name="Specialists: Stalkers" publicationId="ca4c-9142-pub2" page="157" hidden="false">
+      <description>75
+BS
+F
+S
+R
+HP
+Unit Type
+Stalker
+4
+12
+12
+10
+3
+Vehicle (Tank)
+Unit Composition: 1 Stalker
+Wargear:
+• Icarus stormcannon array
+• Searchlight
+• Smoke launchers
+Special Rules:
+• Skystorm
+Options:
+• May include up to two additional Stalkers75 pts/model
+• May take items from the Space Marine Vehicle Equipment list.</description>
+    </rule>
     <rule id="3677c721-80d9-38f3-8aae-32ca80774ed0" name="Staff of Cataclysm" publicationId="ca4c-9142-pub2" page="203" hidden="false"/>
-    <rule id="381bb905-a0f2-f66b-13ee-74bbf271a5cf" name="Supersonic" publicationId="ca4c-9142-pub4" page="43" hidden="false"/>
+    <rule id="381bb905-a0f2-f66b-13ee-74bbf271a5cf" name="Supersonic" publicationId="ca4c-9142-pub4" page="43" hidden="false">
+      <description>A Supersonic vehicle that moves Flat Out must move at least 18" and can move up to 36".</description>
+    </rule>
     <rule id="613c1532-0949-56e6-59cb-77dce8a8f5cc" name="The Daemon Unbound" publicationId="ca4c-9142-pub2" page="155" hidden="false"/>
-    <rule id="d1828df3-3c40-1b60-9da9-1f9d9b454983" name="The Deathbringer" publicationId="ca4c-9142-pub2" page="198" hidden="false"/>
+    <rule id="d1828df3-3c40-1b60-9da9-1f9d9b454983" name="The Deathbringer" publicationId="ca4c-9142-pub2" page="198" hidden="false">
+      <description>Counts as being equipped with assault grenades when charging. Receives an additional +D6 attacks on the charge. Passes Deny the Witch on a 2+</description>
+    </rule>
     <rule id="1ef344a1-ca37-b686-ae9e-adf41f84f136" name="Thunderblitzing &amp; Assaulting the Minotaur" publicationId="ca4c-9142-pub3" page="267" hidden="false"/>
     <rule id="0093-4805-4500-c5be" name="Til the Guns Run Dry" publicationId="ca4c-9142-pub3" page="271" hidden="false"/>
     <rule id="e606fd38-7043-4515-926c-d6ece8a6384c" name="Toxic Discharge" publicationId="ca4c-9142-pub2" page="197" hidden="false"/>
-    <rule id="5d112820-6a4c-d03f-ca1c-908fb0c51c91" name="Tracked Behemoth" publicationId="ca4c-9142-pub7" page="84" hidden="false"/>
+    <rule id="5d112820-6a4c-d03f-ca1c-908fb0c51c91" name="Tracked Behemoth" publicationId="ca4c-9142-pub7" page="84" hidden="false">
+      <description>A Khorne Lord of Skulls may Tank Shock or Ram using the
+Thunderblitz table (see the Super-heavy Vehicles section), in the same manner as a
+Super-heavy vehicle, but it may not make Stomp attacks.</description>
+    </rule>
     <rule id="fd41def0-d6e6-e50d-1d48-fd0cc5699082" name="Uncertain Worth" publicationId="ca4c-9142-pub3" page="237" hidden="false"/>
-    <rule id="a82c6f6d-ccfe-dc36-0619-12d1d416ea70" name="Unholy Vigor" publicationId="ca4c-9142-pub2" page="127" hidden="false"/>
-    <rule id="23888c9c-deb0-2791-db21-ba0c3b1819ed" name="Unstable Reactor" publicationId="ca4c-9142-pub8" page="6" hidden="false"/>
-    <rule id="0e9b8876-0140-0771-3b1f-36fcb502d8f2" name="Veterans of the Long War" publicationId="ca4c-9142-pub6" page="30" hidden="false"/>
-    <rule id="27cbbc05-d77c-f536-d21d-8fce6e701e32" name="Vulcan - Fire twice at same target if stationary" publicationId="ca4c-9142-pub8" page="33" hidden="false"/>
-    <rule id="e0387285-c637-31a0-e2d3-6b870c40f53a" name="Warlord" publicationId="ca4c-9142-pub4" page="0" hidden="false"/>
-    <rule id="2ac03825-bcfb-2820-4cdf-dd18580a5e09" name="Warlord Trait: Devious Tactician" publicationId="ca4c-9142-pub8" page="153" hidden="false"/>
-    <rule id="b8621850-4eba-f875-158e-de1a60281216" name="Warlord Trait: Intimidating Presence" publicationId="ca4c-9142-pub8" page="151" hidden="false"/>
-    <rule id="26ad5d40-ad44-79a2-36b6-4d1f0f1429d2" name="Warlord Trait: Legendary Fighter" publicationId="ca4c-9142-pub8" page="152" hidden="false"/>
+    <rule id="a82c6f6d-ccfe-dc36-0619-12d1d416ea70" name="Unholy Vigor" publicationId="ca4c-9142-pub2" page="127" hidden="false">
+      <description>Whenever the Decimator suffers a Weapon Destroyed or Immobilized result, it can be ignored on a D6 roll of 5+
+If the Decimator is wrecked (but not exploded), place it on its back, side or leave a marker on the table to represent its position. 
+
+At the start of the controlling players subsequent turns, before movement, roll a D6. On a 6 the model returns to play (as close to the original location but 1" away from an enemy) as though it has just Deep Struck in with all of its weapons and mobility restored and D3 Hull Points. On a 1, the Decimator is permamently wrecked.
+
+On a roll of a 2-5, it remains wrecked but the controlling player may attempt to roll for Unholy Vigor on their next turn.</description>
+    </rule>
+    <rule id="23888c9c-deb0-2791-db21-ba0c3b1819ed" name="Unstable Reactor" publicationId="ca4c-9142-pub8" page="6" hidden="false">
+      <description>When this vehicle suffers a Catastrophic Explosion result, add +D3" to the radius of the explosion.</description>
+    </rule>
+    <rule id="0e9b8876-0140-0771-3b1f-36fcb502d8f2" name="Veterans of the Long War" publicationId="ca4c-9142-pub6" page="30" hidden="false">
+      <description>Models with this rule have +1 Ld and Hatred (Space Marines)
+This Hatred applies for the following books:
+Codex: Space Marines
+Codex: Dark Angels
+Codex: Space Wolves
+Codex: Blood Angels
+Codex: Grey Knights</description>
+    </rule>
+    <rule id="27cbbc05-d77c-f536-d21d-8fce6e701e32" name="Vulcan - Fire twice at same target if stationary" publicationId="ca4c-9142-pub8" page="33" hidden="false">
+      <description>If a Macharius Vulcan remains stationary in the Movement phase, it may fire its Vulcan Mega-bolter twice in the following Shooting phase at the same target.</description>
+    </rule>
+    <rule id="e0387285-c637-31a0-e2d3-6b870c40f53a" name="Warlord" publicationId="ca4c-9142-pub4" page="0" hidden="false">
+      <description>If Thulsa Kane is part of an army then he will always be the army's Warlord, regardless of the Leadership value of other HQ choices. He does not roll on the Warlord Traits table, but instead receives the following unique Warlord trait:
+
+• The Wrath of Old Night: During any Assault phase in which Thulsa Kane is fighting a challenge, all friendly units with Chapter Tactics (Executioners) gain a +1 bonus to their score for working out the victor in assaults and +1 to their Sweeping Advance.</description>
+    </rule>
+    <rule id="2ac03825-bcfb-2820-4cdf-dd18580a5e09" name="Warlord Trait: Devious Tactician" publicationId="ca4c-9142-pub8" page="153" hidden="false">
+      <description>A player using Arkos as their warlord may re-roll the dice when determining who selects deployment zone and when seizing the initiative.</description>
+    </rule>
+    <rule id="b8621850-4eba-f875-158e-de1a60281216" name="Warlord Trait: Intimidating Presence" publicationId="ca4c-9142-pub8" page="151" hidden="false">
+      <description>Enemy units within 12" of the Warlord must use their lowest Leadership value, not the highest.</description>
+    </rule>
+    <rule id="26ad5d40-ad44-79a2-36b6-4d1f0f1429d2" name="Warlord Trait: Legendary Fighter" publicationId="ca4c-9142-pub8" page="152" hidden="false">
+      <description>Gain 1 VP for each enemy character slain by Zhufor</description>
+    </rule>
     <rule id="c9d28c63-1a53-8878-f2a2-146ed01dc705" name="Warlord Trait: Planetstrike Attacker" publicationId="ca4c-9142-pub15" hidden="true">
       <description>1 Siege Breaker
 2 Burner of Worlds
@@ -17989,7 +18259,7 @@
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="9193eb56-75a4-19f3-db2b-f2c7735697b6" name="Defence Searchlight" publicationId="ca4c-9142-pub19" page="0" hidden="false">
       <characteristics>
-        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">A building or vehicle equipped with a Defence Searchlight may illuminate an enemy unit within 48" during Night Fighting.</characteristic>
       </characteristics>
     </profile>
     <profile typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" id="40f273ab-ea82-9837-e84b-0017b1fe3bdd" name="Defiler" publicationId="ca4c-9142-pub6" page="53" hidden="false">
@@ -19442,7 +19712,7 @@
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="d6e95c40-ce26-1531-22bb-dd831ce20a28" name="Smoke Shells" page="0" hidden="false">
       <characteristics>
-        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">Range 12"-48", S-, AP-, Heavy 1, Barrage, Blast. Places a smoke marker granting a 5+ cover save to models within or behind the blast.</characteristic>
       </characteristics>
     </profile>
     <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" id="a712b346-1af7-324e-01c1-b39f31a9c6d8" name="Sonic Blaster" publicationId="ca4c-9142-pub6" page="65" hidden="false">

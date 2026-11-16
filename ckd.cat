@@ -2046,7 +2046,9 @@ Heat Blast (Fire Sweep): If the controlling player wishes, any unit the model pa
         <rule id="d049-3de4-edbd-106a" name="Unstoppable Slaughter" hidden="false">
           <description>The Kytan may assault another unit if the unit it was shooting at was killed in the previous phase.</description>
         </rule>
-        <rule id="d744-6fc3-e806-a40e" name="Crusader" hidden="false"/>
+        <rule id="d744-6fc3-e806-a40e" name="Crusader" hidden="false">
+      <description>A unit that contains at least one model with this special rule rolls an extra dice when making Run moves, using highest result rolled. IN addition, a unit that contains at least one model with this rule adds D3 to its Sweeping Advance totals (roll each time).</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="39a9-a7a5-2549-6fb1" hidden="false" targetId="c573-9539-c944-eca6" type="rule"/>
@@ -2126,7 +2128,9 @@ Heat Blast (Fire Sweep): If the controlling player wishes, any unit the model pa
         </profile>
       </profiles>
       <rules>
-        <rule id="b9ba-29e5-7fc1-fd21" name="Hatred (Infantry)" hidden="false"/>
+        <rule id="b9ba-29e5-7fc1-fd21" name="Hatred (Infantry)" hidden="false">
+      <description>This rule is often presented as Hatred (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then the unit has Hatred against everyone. This can refer to a Faction, or a specific unit. For example, Hatred (Orks) means any model with the Ork Faction, whilst Hatred (Big Meks) means only Big Meks. A model striking a hated foe in close combat re-rolls all failed To Hit rolls during the first round of each close combat.</description>
+    </rule>
         <rule id="2c42-eada-201c-f4c8" name="Born of Murder" hidden="false">
           <description>Samus must enter play via deep strike (and must start in reserve). If a model with the character type is slain before Samus enters play, place a counter within 3" of the model. If the player wishes to, on the turn Samus enters play he may Deep strike at one of these counters. If he does so, he deep strikes without scattering (provided he can deep strike without hitting either friendly orwithin 1" of enemy models).</description>
         </rule>
@@ -5694,7 +5698,9 @@ their Random Attacks.
         <rule id="e31b-07e0-8036-16bd" name="Run them to Ground!" hidden="false">
           <description>Flesh hounds in this formation have Hammer of Wrath. Chaos bikers have shred on their Hammer of Wrath attacks.</description>
         </rule>
-        <rule id="59e9-21dd-a196-9fee" name="Preferred Enemy (Psykers)" hidden="false"/>
+        <rule id="59e9-21dd-a196-9fee" name="Preferred Enemy (Psykers)" hidden="false">
+      <description>This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="47b6-d781-9cd7-8b30" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
@@ -7414,7 +7420,15 @@ Once per game at the start of the enemies psychic phase, you can declare that yo
     </selectionEntry>
     <selectionEntry id="b8fc-9a78-208b-5643" name="The Goreguard" hidden="false" collective="false" type="upgrade">
       <rules>
-        <rule id="a087-85cf-759a-c279" name="Feel no Pain" hidden="false"/>
+        <rule id="a087-85cf-759a-c279" name="Feel no Pain" hidden="false">
+      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that 'no saves of any kind are allowed', for example those inflicted by Perils of the Warp).
+
+Feel No Pain saves may not be taken against Destroyer attacks or against unsaved Wounds that have the Instant Death special rule.
+
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved  Wound is discounted - treat it as having been saved.
+
+If a unit has the Feel No Pain special rule with a number in brackets afterwards -Feel No Pain (6+), for example - then the number in brackets is the D6 result needed to discount the Wound.</description>
+    </rule>
         <rule id="65a3-99ef-bdaf-f1d5" name="The Chosen of An'ggrath" hidden="false">
           <description>All bloodthirsters in the formation that are within 18" of An'ggrath have Adamantium Will, Counter-Attack and gain an extra attack.</description>
         </rule>
@@ -7650,7 +7664,9 @@ Once per game at the start of the enemies psychic phase, you can declare that yo
         </profile>
       </profiles>
       <rules>
-        <rule id="780e-a69e-850a-1abe" name="Hatred (Characters)" hidden="false"/>
+        <rule id="780e-a69e-850a-1abe" name="Hatred (Characters)" hidden="false">
+      <description>This rule is often presented as Hatred (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then the unit has Hatred against everyone. This can refer to a Faction, or a specific unit. For example, Hatred (Orks) means any model with the Ork Faction, whilst Hatred (Big Meks) means only Big Meks. A model striking a hated foe in close combat re-rolls all failed To Hit rolls during the first round of each close combat.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="6e56-5bf1-9687-7eef" hidden="false" targetId="c573-9539-c944-eca6" type="rule"/>
@@ -8647,7 +8663,9 @@ If a Chaos Contemptor suffers an explosion result, add +D3 to the explosion radi
     <rule id="4909-64c4-f90e-a0f4" name="Skulls for the Skull Throne!" hidden="false">
       <description>Model must issue and accept challenges. If multiple models have this rule then the controlling player chooses.</description>
     </rule>
-    <rule id="6978-3631-00c4-e8d2" name="Warlord Trait: Favoured of Khorne" hidden="false"/>
+    <rule id="6978-3631-00c4-e8d2" name="Warlord Trait: Favoured of Khorne" hidden="false">
+      <description>So brutal is this Warlord that the Blood God favours him above all others – for now.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" id="a69e-df9f-cada-3156" name="Axe of Khorne" hidden="false">

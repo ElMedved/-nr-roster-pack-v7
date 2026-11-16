@@ -1686,7 +1686,21 @@ Each projected void shield has an Armour Value of 12. A glancing or penetrating 
         </profile>
       </profiles>
       <rules>
-        <rule id="6bab-4d10-2155-8f4a" name="Firestorm" publicationId="e1ebd931--pub6" hidden="false"/>
+        <rule id="6bab-4d10-2155-8f4a" name="Firestorm" publicationId="e1ebd931--pub6" hidden="false">
+      <description>If the mission has the Firestorm special rule, the Attacker makes Firestorm Attacks at the start of his first turn. This is treated as an additional, out of sequence Shooting phase. The number of Firestorm Attacks the Attacker can make will be stated in the Planetstrike mission itself. Each Firestorm Attack is completely resolved, one at a time, using the following profile:
+Range
+S
+AP
+Type
+n/a
+9
+3
+Ordnance 1, Barrage, Large Blast, Orbital Attack, Warscape
+Orbital Attack:
+These attacks can target any point on the tabletop.
+Warscape:
+If this attack’s blast marker does not hit any models or terrain, the Attacker can choose to place a single Moonscape crater on the battlefield, centred on the blast marker’s hole.</description>
+    </rule>
       </rules>
       <selectionEntryGroups>
         <selectionEntryGroup id="a5e0-ba6c-12b4-42c4" name="Firestorm Redoubt" hidden="false" collective="false" defaultSelectionEntryId="f880-946f-7cb0-73bf">
@@ -1708,8 +1722,12 @@ Each projected void shield has an Armour Value of 12. A glancing or penetrating 
         <categoryLink id="313e-4ded-d611-0bf5-8dbf948c-125b-4886-b21e-3ccabc1e1188" targetId="8dbf948c-125b-4886-b21e-3ccabc1e1188" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="0e1b-f316-34b8-4897" name="Underground Barracks" publicationId="e1ebd931--pub7" hidden="false"/>
-        <rule id="f33f-1d4d-f7ce-498c" name="Defend to the Last Man" publicationId="e1ebd931--pub7" hidden="false"/>
+        <rule id="0e1b-f316-34b8-4897" name="Underground Barracks" publicationId="e1ebd931--pub7" hidden="false">
+      <description>Infantry units in Strategic Reserve may enter play from the Access Points of any Aquila Strongpoint in a Grand Redoubt.</description>
+    </rule>
+        <rule id="f33f-1d4d-f7ce-498c" name="Defend to the Last Man" publicationId="e1ebd931--pub7" hidden="false">
+      <description>Any unit with a model occupying any part of the Grand Redoubt has the Stubborn special rule.</description>
+    </rule>
       </rules>
       <selectionEntryGroups>
         <selectionEntryGroup id="cdaf-915d-06b7-08cc" name="Structures" hidden="false" collective="false">
@@ -1789,8 +1807,12 @@ Each projected void shield has an Armour Value of 12. A glancing or penetrating 
         <categoryLink id="053a-fd01-be65-238e-8dbf948c-125b-4886-b21e-3ccabc1e1188" targetId="8dbf948c-125b-4886-b21e-3ccabc1e1188" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="8afe-4ca0-ee85-6426" name="Magos Machine Spirit" publicationId="e1ebd931--pub8" hidden="false"/>
-        <rule id="2e8d-9d66-343d-db28" name="Automated Repairs" publicationId="e1ebd931--pub8" hidden="false"/>
+        <rule id="8afe-4ca0-ee85-6426" name="Magos Machine Spirit" publicationId="e1ebd931--pub8" hidden="false">
+      <description>This building’s automated fire is resolved using BS3.</description>
+    </rule>
+        <rule id="2e8d-9d66-343d-db28" name="Automated Repairs" publicationId="e1ebd931--pub8" hidden="false">
+      <description>At the end of each of the controlling player's turns, roll a D6 for each Immobilised or Weapon Destroyed result the vehicle has suffered; on a 5+, that damage result is repaired.</description>
+    </rule>
       </rules>
       <selectionEntryGroups>
         <selectionEntryGroup id="d253-d8bd-fbe4-ee5a" name="Aquila Stongpoints" hidden="false" collective="false" defaultSelectionEntryId="4694-80c1-c5ad-88f2">
@@ -3602,9 +3624,15 @@ BENEDICTION OF OMNISCIENCE
         </profile>
       </profiles>
       <rules>
-        <rule id="e5bf-c429-0c21-1893" name="Preferred Enemy (Psykers)" hidden="false"/>
-        <rule id="b41c-ef16-6f7e-162e" name="Indomitable Will" hidden="false"/>
-        <rule id="5081-bd9c-4e2d-b3da" name="Warlord Trait: Master of Interrogation" hidden="false"/>
+        <rule id="e5bf-c429-0c21-1893" name="Preferred Enemy (Psykers)" hidden="false">
+      <description>This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</description>
+    </rule>
+        <rule id="b41c-ef16-6f7e-162e" name="Indomitable Will" hidden="false">
+      <description>When making a Deny the Witch test, Inquisitor Greyfax always counts as having a higher Mastery Level than the Psyker manifesting the power.</description>
+    </rule>
+        <rule id="5081-bd9c-4e2d-b3da" name="Warlord Trait: Master of Interrogation" hidden="false">
+      <description>No heretic can conceal their master’s battle plans once within this Inquisitor’s interrogation chamber.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="b1e9-2da4-3f45-ef29" name="New InfoLink" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
@@ -3651,7 +3679,7 @@ BENEDICTION OF OMNISCIENCE
           <profiles>
             <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item" id="21b1-a1e1-29cc-3e7c" name="Condemnor Boltgun" hidden="false">
               <characteristics>
-                <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+                <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">24" S4 AP5 Rapid Fire; Stake Crossbow: 24" S5 AP5 Assault 1, One Use Only, Psi-shock.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3692,7 +3720,7 @@ BENEDICTION OF OMNISCIENCE
           <profiles>
             <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item" id="130b-bb96-3b49-eb01" name="Psyk-Out Grenades" hidden="false">
               <characteristics>
-                <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+                <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">Range 8", S2, AP-, Assault 1, Blast, Psi-shock. Units with Psykers assaulted by models with Psyk-out grenades have their Initiative reduced to 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>

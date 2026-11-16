@@ -1116,7 +1116,9 @@
             <rule id="5fc2-d571-05ce-9707" name="The Aegis" publicationId="b3f5-5360-pub1" page="126" hidden="false">
               <description>Model's unit re-rolls 1's to Deny the Witch</description>
             </rule>
-            <rule id="674a-d0e5-28d3-457a" name="Purity of Spirit" publicationId="b3f5-5360-pub1" page="126" hidden="false"/>
+            <rule id="674a-d0e5-28d3-457a" name="Purity of Spirit" publicationId="b3f5-5360-pub1" page="126" hidden="false">
+      <description>Grey Knights Psykers can generate psychic powers from the Daemonology (Sanctic) discipline.  In addition, unless otherwise stated, when attempting to manifest psychic powers from the Daemonology discipline, Grey Knights Psykers only suffer Perils of the Warp if two or more 6s are rolled when taking a psychic test.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="82bd-f846-ef5a-5d69" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule">

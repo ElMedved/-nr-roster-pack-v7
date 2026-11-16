@@ -1042,17 +1042,53 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
         </profile>
       </profiles>
       <rules>
-        <rule id="1033-eccb-44fe-d7d9" name="Blazing Weapons" page="0" hidden="false"/>
-        <rule id="95ab-1d54-503e-73b4" name="Divine Protection" page="0" hidden="false"/>
-        <rule id="b07c-7516-82d3-0e9c" name="Never Forgive" page="0" hidden="false"/>
-        <rule id="8694-561a-fe4a-ff1a" name="Shadowy Herald of Strife" page="0" hidden="false"/>
-        <rule id="80a5-5114-e0bc-1a9f" name="Eternal Warrior" page="0" hidden="false"/>
-        <rule id="c308-5be1-cab3-e602" name="Shrouded" page="0" hidden="false"/>
-        <rule id="f9fd-89df-6b61-7c2c" name="And They Shall Know No Fear" page="0" hidden="false"/>
-        <rule id="95d1-e57f-b0ce-6203" name="Fleet" page="0" hidden="false"/>
-        <rule id="cdf6-6117-9672-1d63" name="Hit &amp; Run" page="0" hidden="false"/>
-        <rule id="c676-c39f-6bb1-f73c" name="Independent Character" page="0" hidden="false"/>
-        <rule id="b2be-60f0-68d5-de67" name="Infiltrate" page="0" hidden="false"/>
+        <rule id="1033-eccb-44fe-d7d9" name="Blazing Weapons" page="0" hidden="false">
+      <description>Cypher can shoot both of his pistols twice each in his Shooting phase, or can fire them once each either before or after making a Run move.  When making Overwatch shots, Cypher uses his full Ballistic Skill.  In the Assault phase, half of Cypher's close combat attakcs (rounding up) are Strength 4 and AP5, and all remaining attacks are Strength 7 and AP2.</description>
+    </rule>
+        <rule id="95ab-1d54-503e-73b4" name="Divine Protection" page="0" hidden="false">
+      <description>If there is an enemy model within D6" of Cypher when he loses his last Wound or is otherwise removed as a casualty, then Cypher is assumed to have been captured alive. If there are no enemy models within this range when Cypher is removed as a casualty, then he has made a miraculous escape. If Cypher escapes, then he is not considered to be a casualty for the purposes of awarding Victory Points. If he is captured, then Victory Points are awarded normally.</description>
+    </rule>
+        <rule id="b07c-7516-82d3-0e9c" name="Never Forgive" page="0" hidden="false">
+      <description>In missions that include both Dark Angels Models and either Cypher or units of Fallen, all Dark Angels models with the Deathwing special rule also receive the Zealot special rule.</description>
+    </rule>
+        <rule id="8694-561a-fe4a-ff1a" name="Shadowy Herald of Strife" page="0" hidden="false">
+      <description>Cypher cannot be selected as the Warlord of an army. In addition, the Leadership characteristic of the Warlord of an army that includes Cypher suffers a -1 penalty.</description>
+    </rule>
+        <rule id="80a5-5114-e0bc-1a9f" name="Eternal Warrior" page="0" hidden="false">
+      <description>If a model with this special rule suffers an unsaved Wound from an attack that inflicts Instant Death, it only reduces its Wounds by 1, instead of automatically reducing its Wounds to 0.</description>
+    </rule>
+        <rule id="c308-5be1-cab3-e602" name="Shrouded" page="0" hidden="false">
+      <description>A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it's in the open.
+
+Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
+    </rule>
+        <rule id="f9fd-89df-6b61-7c2c" name="And They Shall Know No Fear" page="0" hidden="false">
+      <description>A unit that contains at least one model with this special rule automatically passes Fear and Regroup tests. When it Regroups, the unit does not make the 3" Regroup move, but can instead move, shoot (or Run) and declare charges normally in that turn. Furthermore, if a unit containing one or more models with this special rule is caught by a Sweeping Advance, they are not destroyed, but remain locked in combat instead.</description>
+    </rule>
+        <rule id="95d1-e57f-b0ce-6203" name="Fleet" page="0" hidden="false">
+      <description>A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
+    </rule>
+        <rule id="cdf6-6117-9672-1d63" name="Hit &amp; Run" page="0" hidden="false">
+      <description>A unit that contains at least one model with this special rule that is locked in combat can choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it must take an Initiative test. If the test is failed, nothing happens and the models remain locked in the fight.
+If the test is passed, choose a direction  then roll 3D6. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over 1" away from all of the enemy units they are locked in combat with, the unit breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 3D6 result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6".
+A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1" away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</description>
+    </rule>
+        <rule id="c676-c39f-6bb1-f73c" name="Independent Character" page="0" hidden="false">
+      <description>Independent characters can join other units.  They cannot, however, join units that contain vehicles or Monstrous Creatures.  They can join other Independent Characters, though, to form a powerful multi-character unit!  Independent Characters pass Look Out, Sir rolls on a 2+. A unit that contains one or more Independent Characters does not need a double 1 to Regroup if reduced to below 25% of its starting numbres, but instead tests as if it had at least 25% remaining.
+
+Full details in BRB. Rule too long to copy verbatim.</description>
+    </rule>
+        <rule id="b2be-60f0-68d5-de67" name="Infiltrate" page="0" hidden="false">
+      <description>Units that contain at least one model with this special rule are deployed last, after all other units (friend and foe) have been deployed. If both sides have Infiltrators, the players roll-off and the winner decides who goes first, then alternate deploying these units.
+
+Infiltrators can be set up anywhere on the table that is more than 12" from any enemy unit, as long as no deployed enemy unit can draw line of sight to them. This includes in a building, as long as the building is more than 12" from any enemy unit. Alternatively, they can be set up anywhere on the table more than 18" from any enemy unit, even in plain sight.
+
+If a unit with Infiltrate deploys inside a Dedicated Transport, they may Infiltrate along with their Transport. 
+
+A unit that deploys using these rules cannot charge in their first turn. Having Infiltrate also confers the Outflank special rule to units of Infiltrators that are kept as Reserves.
+
+If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
+    </rule>
       </rules>
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -7801,7 +7837,9 @@ If the result is a 5 or more, you may either restore a Hull Point lost earlier i
     <rule id="5a07-10f4-f421-414f" name="Castelln of the Black Vault" hidden="false">
       <description>All weapons carried by your Warlord have the Master-crafted special rule (except Relics of the Vigilant).</description>
     </rule>
-    <rule id="15f12b40-90ae-a6cf-a89c-637f09456817" name="Chapter Tactics *" hidden="false"/>
+    <rule id="15f12b40-90ae-a6cf-a89c-637f09456817" name="Chapter Tactics *" hidden="false">
+      <description>When choosing an army, all models in the same Detachment or Formation must be drawn from the same Chapter.  If a unit's datasheet contains a Chapter in brackets after the Chapter Tactics special rule - for example, "Chapter Tactics (Ultramarines)" - the unit must always be drawn from this Chapter, and therefore cannot be included in a Detachment or Formation with any units that are drawn from other Chapters. All models drawn from a given Chapter benefit from that Chapter's Special Rule. If a unit contains models drawn from two different Chapters, it counts as from neither Chapter, and thus benefits from neither Chapter Tactic.</description>
+    </rule>
     <rule id="ad0f1887-e9e4-6606-ef5d-ece52f763469" name="Combat Squads" hidden="false">
       <description>A full strength, ten-man unit with this special rule can break down into two five-man units, called combat squads, considered to be two five-man squads of the same type. For example, a ten-man Tactical Squad can split into two five-man Tactical Squads using the Combat Squads special rule.
 
@@ -7809,7 +7847,9 @@ You must decide which units are splitting into combat squads, and which models g
 
 Note that Bike Squads count as being at full strength when they have eight Space Marine Bikers and one Attack Bike. If split into combat squads, one combat squad will have five Bikers, the other will have three and the Attack Bike.</description>
     </rule>
-    <rule id="e434-8332-32cb-1f3e" name="Comrades-in-Arms" hidden="false"/>
+    <rule id="e434-8332-32cb-1f3e" name="Comrades-in-Arms" hidden="false">
+      <description>If an enemy unit declares a charge against a unit in this formation, then any unengaged non-vehicle units from this formation within 12" of the charging unit's target can choose to fire Overwatch as if they were also targets of the charge (though they can still only fire Overwatch once per phase).</description>
+    </rule>
     <rule id="e8e7-0ab5-3e65-c247" name="Decapitation Doctrine" hidden="false">
       <description>Re-roll any failed To Wound rolls and armour penetration rolls for attacks made by non-vehicle models from this Formation that target an enemy unit that includes a Warlord, a Psyker or an Independant Character.</description>
     </rule>
@@ -7912,7 +7952,9 @@ Terrors of The Warp</description>
 
 Secondary Detachments may also take Relics of the Armoury, within the usual army list provisions. In this case the Master of the Forge must be the detachment's compulsory HQ.</description>
     </rule>
-    <rule id="9379-2ae9-0d61-97f2" name="Seize and Control" hidden="false"/>
+    <rule id="9379-2ae9-0d61-97f2" name="Seize and Control" hidden="false">
+      <description>All units in the formation within 12" of a Strategic Objective have the Stubborn special rule.</description>
+    </rule>
     <rule id="cbebed0d-9f1e-cc8b-868d-47880070c5f9" name="Skies of Fury" hidden="false">
       <description>If the Stormraven has moved more than 6", passengers can still disembark, but they must do so as follows:
 
@@ -7920,22 +7962,34 @@ Nominate any point over which the Stormraven moved that turn and deploy the squa
 
 Models that disembark using the Skies of Fury special rule cannot charge in the turn that they do so.</description>
     </rule>
-    <rule id="4575-5ccb-811d-2335" name="Strike Cruiser" hidden="false"/>
+    <rule id="4575-5ccb-811d-2335" name="Strike Cruiser" hidden="false">
+      <description>The player with this formation has an additional Orbital Strike Strategic Asset.</description>
+    </rule>
     <rule id="45ab-2457-528b-9b49" name="Strike from the Shadows" hidden="false">
       <description>Edryc has the Shrouded special rule until the start of the second game turn.</description>
     </rule>
     <rule id="e0fa-ec33-b6d8-fd29" name="Suffer Not the Alien to Live" hidden="false">
       <description>If a Strategium Command Team is led by a Chaplain, all non-vehicle models in this Formation have the Furious Charge special rule as long as he has not been removed as a casualty.</description>
     </rule>
-    <rule id="d7e8-bd31-cd83-9516" name="Targeted Teleportation" hidden="false"/>
+    <rule id="d7e8-bd31-cd83-9516" name="Targeted Teleportation" hidden="false">
+      <description>All units in a Titanhammer Squad begin the game in Strategic Reserve. When they become available, they must deploy by Deep Strike. Any that choose to deploy within 12" of an enemy Super-heavy vehicle (except Super-heavy Flyers), Gargantuan Creature or Grounded Flying Gargantuan Creature will not scatter.</description>
+    </rule>
     <rule id="4ee1-3381-137a-bc39" name="Thrice-blessed Hull" hidden="false">
       <description>Revered acient Nihilus has a 6+ invulnerable save, which is increased to 5+ against damage sustained from enemy witchfire powers.</description>
     </rule>
-    <rule id="ddda-49e4-7703-53bb" name="Transport Capacity 10" hidden="false"/>
+    <rule id="ddda-49e4-7703-53bb" name="Transport Capacity 10" hidden="false">
+      <description>Transport Capacity: 10 models.</description>
+    </rule>
     <rule id="8f34-ad86-aa50-6f34" name="Transport Capacity 10 or 1 Dreadnought" hidden="false"/>
-    <rule id="5721-7584-339a-3642" name="Transport Capacity 12" hidden="false"/>
-    <rule id="1741-0e98-c209-4a91" name="Transport Capacity 16" hidden="false"/>
-    <rule id="0b44-44b8-97c1-518c" name="Transport Capacity 6" hidden="false"/>
+    <rule id="5721-7584-339a-3642" name="Transport Capacity 12" hidden="false">
+      <description>Transport Capacity: 12 models.</description>
+    </rule>
+    <rule id="1741-0e98-c209-4a91" name="Transport Capacity 16" hidden="false">
+      <description>Transport Capacity: 16 models.</description>
+    </rule>
+    <rule id="0b44-44b8-97c1-518c" name="Transport Capacity 6" hidden="false">
+      <description>Transport Capacity: 6 models.</description>
+    </rule>
     <rule id="af6f-466a-fd34-839c" name="Venator Doctrine" hidden="false">
       <description>Re-roll any failed To Wound rolls and armour penatration rolls for non-vehicle models from this Formation that are targeting a unit with the Fast Attack battlefield role.</description>
     </rule>
@@ -7946,7 +8000,9 @@ You must accept the second roll , even if it is worse than the first.</descripti
     <rule id="3fa5-9bbc-4f1d-56c0" name="Vigilance Incarnate" hidden="false">
       <description>You can change Mission Tactics one additional time during the battle</description>
     </rule>
-    <rule id="50c1-55dc-0eb1-0749" name="Vortex Grenade Strike" hidden="false"/>
+    <rule id="50c1-55dc-0eb1-0749" name="Vortex Grenade Strike" hidden="false">
+      <description>Captain Lysander has the Vortex Grenade Strategic Asset. This is in addition to the normal allocation of Strategic Assets available to the owning player's side.</description>
+    </rule>
     <rule id="0b1c-07c5-7c77-2920" name="Wing Leader (Space Marines)" publicationId="ee8b-68c8-pub15" page="76" hidden="false">
       <description>At the start of any game, immediately after determining your Warlord Trait, roll on the Wing Leader table relevant to their Faction for each Wing Leader to determine their special rule.
 

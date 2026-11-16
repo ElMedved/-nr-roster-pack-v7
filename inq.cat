@@ -556,7 +556,17 @@ Perils of the Warp in addition to any other effects.</description>
         </selectionEntry>
         <selectionEntry id="123e-8598-09ab-51e8" name="Psychic Powers" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="7cdc-bfbd-861d-0d13" name="Psyker (Mastery Level 2)" page="0" hidden="false"/>
+            <rule id="7cdc-bfbd-861d-0d13" name="Psyker (Mastery Level 2)" page="0" hidden="false">
+      <description>Ahazra Redth is a powerful psyker. He has the special Mirage Psychic power (shown below) and may also roll one additional power from any of the following Psychic disciplines (see the Core Rulebook, page 418):
+
+• Biomancy
+• Pyromancy
+• Telepathy
+• Divination
+
+Mirage - Warp Charge 1
+Mirage is a blessing that targets the psyker, as well as any unit he has joined or vehicle in which he is being transported. Any models charging the target/s of this power while it is in effect count as making a Disordered Charge (see page 27 of the Core Rulebook). However, if the charged unit was already locked in combat from a previous turn, or has gone to ground, the power has no effect and the attackers gain bonus attacks as normal. In addition, all models protected by this power gain the Shrouded special rule.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc0a-b4b5-2469-54fe" type="min"/>
@@ -743,8 +753,20 @@ Perils of the Warp in addition to any other effects.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="a2e0-f63f-3ee9-4c1b" name="Psyker (Mastery Level 2)" page="0" hidden="false"/>
-        <rule id="f72f-87c0-7477-ec39" name="Adamantium Will" hidden="false"/>
+        <rule id="a2e0-f63f-3ee9-4c1b" name="Psyker (Mastery Level 2)" page="0" hidden="false">
+      <description>Ahazra Redth is a powerful psyker. He has the special Mirage Psychic power (shown below) and may also roll one additional power from any of the following Psychic disciplines (see the Core Rulebook, page 418):
+
+• Biomancy
+• Pyromancy
+• Telepathy
+• Divination
+
+Mirage - Warp Charge 1
+Mirage is a blessing that targets the psyker, as well as any unit he has joined or vehicle in which he is being transported. Any models charging the target/s of this power while it is in effect count as making a Disordered Charge (see page 27 of the Core Rulebook). However, if the charged unit was already locked in combat from a previous turn, or has gone to ground, the power has no effect and the attackers gain bonus attacks as normal. In addition, all models protected by this power gain the Shrouded special rule.</description>
+    </rule>
+        <rule id="f72f-87c0-7477-ec39" name="Adamantium Will" hidden="false">
+      <description>A unit that contains at least one model with this special rule receives a +1 bonus to Deny the Witch tests.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="6f3a-b914-a318-7117" hidden="false" targetId="a1e0-247a-474f-2f5a" type="rule"/>
@@ -885,7 +907,9 @@ Sanctuary</description>
             </profile>
           </profiles>
           <rules>
-            <rule id="bfd6-f0d6-8d37-29e2" name="Transport Capacity - 12" hidden="false"/>
+            <rule id="bfd6-f0d6-8d37-29e2" name="Transport Capacity - 12" hidden="false">
+      <description>Transport Capacity: 12 models.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7bc2-af3f-53af-5c64" type="min"/>
@@ -1077,7 +1101,9 @@ Sanctuary</description>
       <selectionEntries>
         <selectionEntry id="7fb8-a73e-d7ae-598a" name="Psyocculum" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="b31c-f007-efaf-c304" name="Psyocculum" page="0" hidden="false"/>
+            <rule id="b31c-f007-efaf-c304" name="Psyocculum" page="0" hidden="false">
+      <description>The bearer of a psyocculum (and their unit) count as being Ballistic Skill 10 if shooting at a unit containing one or more models with the Psyker, Psychic Pilot or Brotherhood of Psykers/Sorcerers special rules. However this rule has no effect if the bearer (and their unit) are firing Snap Shots.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4667-59cb-f010-7f4f" type="max"/>
@@ -1088,7 +1114,25 @@ Sanctuary</description>
         </selectionEntry>
         <selectionEntry id="4898-20d8-da74-0f19" name="Warlord" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="b90e-0706-3029-6e4e" name="ORDO HERETICUS TRAITS" page="0" hidden="false"/>
+            <rule id="b90e-0706-3029-6e4e" name="ORDO HERETICUS TRAITS" page="0" hidden="false">
+      <description>D6Warlord Traits
+1Unquestionable Wisdom The Warlord and his unit can choose to pass or fail any Morale checks they are called upon to make.
+2Reader of the Tarot Whilst the Warlord is alive, you can roll two dice and choose the result you want when rolling for Reserves, Outflank, mysterious terrain or mysterious objectives.
+3Burner of Worlds Once per game, your Warlord can call down an orbital attack in his Shooting phase. This counts as firing a ranged weapon with the profile below. This does not prevent the Warlord and his unit from declaring a charge against the target unit that turn.
+Range
+S
+AP
+Type
+Infinite
+10
+1
+Ordnance 1, Barrage, Large Blast, One use only, Orbital
+Orbital:
+If an arrow is rolled on the scatter dice, an orbital bombardment always scatters the full 2D6" – the Warlord’s Ballistic Skill makes no difference.
+4Witch Hunter The Warlord and his unit have the Preferred Enemy (Psykers) special rule.
+5Will of Iron The Warlord has the Adamantium Will special rule.
+6Master of Interrogation Enemy Infiltrators cannot be set up anywhere within 24" of the Warlord.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c11a-6657-2597-9add" type="max"/>
@@ -1224,7 +1268,9 @@ Sanctuary</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="b6c3-b437-fa9b-6ccf" name="Psi-shock" page="0" hidden="false"/>
+                <rule id="b6c3-b437-fa9b-6ccf" name="Psi-shock" page="0" hidden="false">
+      <description>If a unit containing at least one Psyker (i.e. a model with the Psyker, Brotherhood of Psykers/Sorcerers or Psychic Pilot special rule) is hit by a weapon with the Psi-shock special rule, one randomly determined Psyker model in that unit suffers Perils of the Warp in addition to any other damage.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="4c7b-cfc5-0e3d-570a" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
@@ -1253,7 +1299,9 @@ Sanctuary</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="0be0-c8bc-bd30-45af" name="Witchbane" page="0" hidden="false"/>
+                <rule id="0be0-c8bc-bd30-45af" name="Witchbane" page="0" hidden="false">
+      <description>Any unsaved Wounds inflicted on a model with the Psyker or Brotherhood of Psykers/Sorcerers special rule by a null rod have the Instant Death special rule. Furthermore, the bearer (and their squad) cannot be targeted by psychic powers (friendly or enemy).</description>
+    </rule>
               </rules>
               <costs>
                 <cost typeId="points" name="pts" value="25"/>
@@ -1389,7 +1437,9 @@ Sanctuary</description>
         </selectionEntry>
         <selectionEntry id="5ecf-2784-effd-e6f0" name="Empyrean Brain Mines" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="733c-cbf8-7060-1f7d" name="Empyrean Brain Mines" page="0" hidden="false"/>
+            <rule id="733c-cbf8-7060-1f7d" name="Empyrean Brain Mines" page="0" hidden="false">
+      <description>Empyrean brain mines are used at the start of the Fight sub-phase. Nominate one enemy model in base contact with the bearer. That model must pass an Initiative test to avoid the brain mine. If the test is passed, the effects of the brain mine have been resisted. If the test is failed, the victim has been rendered momentarily catatonic and cannot strike any blows during this sub-phase.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41ba-d312-97b3-33ca" type="max"/>
@@ -1418,7 +1468,25 @@ Sanctuary</description>
         </selectionEntry>
         <selectionEntry id="9834-fd9f-d874-50db" name="Warlord" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="0199-a503-415f-5245" name="ORDO MALLEUS TRAITS" page="0" hidden="false"/>
+            <rule id="0199-a503-415f-5245" name="ORDO MALLEUS TRAITS" page="0" hidden="false">
+      <description>D6Warlord Traits
+1Unquestionable Wisdom The Warlord and his unit can choose to pass or fail any Morale checks they are called upon to make.
+2Reader of the Tarot Whilst the Warlord is alive, you can roll two dice and choose the result you want when rolling for Reserves, Outflank, mysterious terrain or mysterious objectives.
+3Burner of Worlds Once per game, your Warlord can call down an orbital attack in his Shooting phase. This counts as firing a ranged weapon with the profile below. This does not prevent the Warlord and his unit from declaring a charge against the target unit that turn.
+Range
+S
+AP
+Type
+Infinite
+10
+1
+Ordnance 1, Barrage, Large Blast, One use only, Orbital
+Orbital:
+If an arrow is rolled on the scatter dice, an orbital bombardment always scatters the full 2D6" – the Warlord’s Ballistic Skill makes no difference.
+4Daemonhunter The Warlord and his unit have the Preferred Enemy (Daemons) special rule.
+5Incorruptible All units with the Daemon special rule within 12" of the Warlord suffer a -1 penalty to their invulnerable save (to a minimum of 6+). This is cumulative with any other modifiers.
+6Forbidden Lore If the Warlord is a Psyker, he generates one additional Warp Charge point in each of his turns. If the Warlord is not a Psyker, he has the Adamantium Will special rule.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2403-ffe9-0f16-13cd" type="max"/>
@@ -1606,7 +1674,19 @@ Sanctuary</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="356a-157a-5483-d4be" name="DAEMONIC POWERS" page="0" hidden="false"/>
+                <rule id="356a-157a-5483-d4be" name="DAEMONIC POWERS" page="0" hidden="false">
+      <description>Every Daemonblade has two daemonic powers randomly generated from the following list before the army is deployed. If the same result is rolled twice, you can choose the Daemonblade’s second daemonic power.
+2D6Daemonic Power
+2-3Warpflame: Attacks made with the Daemonblade are resolved at +3 Strength.
+4Unholy Speed: The wielder has +3 Attacks.
+5Etherblade: The Daemonblade has an AP of 2.
+6Vampyre: When the Daemonblade inflicts an unsaved wound, its wielder immediately gains +1 Wound (to a maximum of 10).
+7Daemonic Feud: Close combat attacks from this sword always wound models with the Daemon special rule on a roll of 2+. Furthermore, models with the Daemon special rule must re-roll any successful invulnerable saves against any Wounds caused by this Daemonblade.
+8Deathlust: The wielder of the Daemonblade has the Furious Charge and Rage special rules.
+9Dark Resurrection: The wielder of the Daemonblade has the Feel No Pain and Eternal Warrior special rules.
+10Daemon Venom: The Daemonblade has the Poisoned (2+) special rule.
+11+Familiar: The wielder generates one additional Warp Charge point in each of his turns. In addition, the Daemonblade gains the Force special rule.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a27d-61b4-8fc5-00c0" type="max"/>
@@ -1645,7 +1725,9 @@ Sanctuary</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="2b71-f075-7a58-b605" name="Daemonbane:" page="0" hidden="false"/>
+                <rule id="2b71-f075-7a58-b605" name="Daemonbane:" page="0" hidden="false">
+      <description>If the Force psychic power is successfully manifested and targets a unit with one or more weapons with this special rule then, in addition to the usual effects, all weapons with this special rule re-roll failed To Wound and armour penetration rolls against models with the Daemon special rule whist the blessing is in effect.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="24fa-ee8f-3ad6-ce4c" type="max"/>
@@ -1863,7 +1945,25 @@ Sanctuary</description>
         </selectionEntry>
         <selectionEntry id="e880-ebe5-cf78-0596" name="Warlord" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="3d1b-4f8b-680b-bc40" name="ORDO XENOS TRAITS" page="0" hidden="false"/>
+            <rule id="3d1b-4f8b-680b-bc40" name="ORDO XENOS TRAITS" page="0" hidden="false">
+      <description>D6Warlord Traits
+1Unquestionable Wisdom The Warlord and his unit can choose to pass or fail any Morale checks they are called upon to make.
+2Reader of the Tarot Whilst the Warlord is alive, you can roll two dice and choose the result you want when rolling for Reserves, Outflank, mysterious terrain or mysterious objectives.
+3Burner of Worlds Once per game, your Warlord can call down an orbital attack in his Shooting phase. This counts as firing a ranged weapon with the profile below. This does not prevent the Warlord and his unit from declaring a charge against the target unit that turn.
+Range
+S
+AP
+Type
+Infinite
+10
+1
+Ordnance 1, Barrage, Large Blast, One use only, Orbital
+Orbital:
+If an arrow is rolled on the scatter dice, an orbital bombardment always scatters the full 2D6" – the Warlord’s Ballistic Skill makes no difference.
+4Xeno Hunter The Warlord and his unit have the Preferred Enemy special rule when targeting any enemy non-vehicle units with the following Faction: Dark Eldar, Eldar, Harlequins, Necrons, Orks, Tau Empire, Tyranids and Genestealer Cults.
+5Xenotech Collector The Warlord has a 6+ invulnerable save. In addition, select one of the Warlord’s ranged weapons. That weapon gains +1 Strength and the Rending special rule for the duration of the battle.
+6Purity of Mankind The Warlord and his unit have the Hatred special rule.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a22e-d25c-7f9c-8d37" type="max"/>
@@ -1997,7 +2097,25 @@ Sanctuary</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="5747-02d0-b0a9-7a30" name="Conversion Beamer" page="0" hidden="false"/>
+                <rule id="5747-02d0-b0a9-7a30" name="Conversion Beamer" page="0" hidden="false">
+      <description>A shot from a conversion beamer has a different profile depending on how far the target is from the firer. When firing the conversion beamer, place the blast marker over a target within 72" and then roll for scatter. Once the final location of the blast marker has been determined, measure the distance from the firer to the centre of the blast marker and consult the chart below to determine the effect. If this distance is greater than 72", the shot misses. If it is not clear which of the profiles to use, the controlling player can choose.
+Range
+S
+AP
+Type
+up to 18"
+6
+-
+Heavy 1, Blast
+18"-42"
+8
+4
+Heavy 1, Blast
+42"-72"
+10
+1
+Heavy 1, Blast</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9591-fe07-6581-26be" type="max"/>
@@ -2231,9 +2349,21 @@ Sanctuary</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="29e3-c4fe-9d06-23e7" name="Deep Strike" hidden="false"/>
-                <rule id="b865-380c-549f-f334" name="Preferred Enemy (Tyranids)" hidden="false"/>
-                <rule id="68d3-8d03-0ea2-c0b3" name="Stubborn" hidden="false"/>
+                <rule id="29e3-c4fe-9d06-23e7" name="Deep Strike" hidden="false">
+      <description>Deep Strike Mishap Table: D6 Roll
+
+1: Terrible Accident! - The entire unit is destroyed!
+
+2-3: Misplaced - Your opponent may deploy the unit anywhere on the table (excluding impassable terrain, but including difficult terrain, which of course counts as dangerous for Deep Striking units), in a valid Deep Strike formation, without rolling for scatter. Units embarked on a misplaced Transport can disembark during their Movement phase as normal.
+
+4-6: Delayed - The unit is placed in Ongoing Reserves.</description>
+    </rule>
+                <rule id="b865-380c-549f-f334" name="Preferred Enemy (Tyranids)" hidden="false">
+      <description>This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</description>
+    </rule>
+                <rule id="68d3-8d03-0ea2-c0b3" name="Stubborn" hidden="false">
+      <description>When a unit that contains at least one model with this special rule takes Morale checks or Pinning tests, they ignore any negative Leadership modifiers. If a unit is both Fearless and Stubborn, it uses the rules for Fearless instead.</description>
+    </rule>
                 <rule id="b381-b50a-1fe2-8f7b" name="Geno-surgical Enhancement" hidden="false"/>
               </rules>
               <infoLinks>
@@ -2358,7 +2488,9 @@ Sanctuary</description>
         </selectionEntry>
         <selectionEntry id="53e0-d8c1-166c-fb2c" name="Empyrean Brain Mines" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="a715-0363-2fac-5e67" name="Empyrean Brain Mines" page="0" hidden="false"/>
+            <rule id="a715-0363-2fac-5e67" name="Empyrean Brain Mines" page="0" hidden="false">
+      <description>Empyrean brain mines are used at the start of the Fight sub-phase. Nominate one enemy model in base contact with the bearer. That model must pass an Initiative test to avoid the brain mine. If the test is passed, the effects of the brain mine have been resisted. If the test is failed, the victim has been rendered momentarily catatonic and cannot strike any blows during this sub-phase.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c0e3-baf7-6d90-61ff" type="max"/>
@@ -2387,7 +2519,25 @@ Sanctuary</description>
         </selectionEntry>
         <selectionEntry id="8a3b-5571-4d03-615d" name="Warlord" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="4a76-d6ff-dfed-a11a" name="ORDO MALLEUS TRAITS" page="0" hidden="false"/>
+            <rule id="4a76-d6ff-dfed-a11a" name="ORDO MALLEUS TRAITS" page="0" hidden="false">
+      <description>D6Warlord Traits
+1Unquestionable Wisdom The Warlord and his unit can choose to pass or fail any Morale checks they are called upon to make.
+2Reader of the Tarot Whilst the Warlord is alive, you can roll two dice and choose the result you want when rolling for Reserves, Outflank, mysterious terrain or mysterious objectives.
+3Burner of Worlds Once per game, your Warlord can call down an orbital attack in his Shooting phase. This counts as firing a ranged weapon with the profile below. This does not prevent the Warlord and his unit from declaring a charge against the target unit that turn.
+Range
+S
+AP
+Type
+Infinite
+10
+1
+Ordnance 1, Barrage, Large Blast, One use only, Orbital
+Orbital:
+If an arrow is rolled on the scatter dice, an orbital bombardment always scatters the full 2D6" – the Warlord’s Ballistic Skill makes no difference.
+4Daemonhunter The Warlord and his unit have the Preferred Enemy (Daemons) special rule.
+5Incorruptible All units with the Daemon special rule within 12" of the Warlord suffer a -1 penalty to their invulnerable save (to a minimum of 6+). This is cumulative with any other modifiers.
+6Forbidden Lore If the Warlord is a Psyker, he generates one additional Warp Charge point in each of his turns. If the Warlord is not a Psyker, he has the Adamantium Will special rule.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="376b-9375-836c-c87c" type="max"/>
@@ -2585,7 +2735,19 @@ Sanctuary</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="d6e1-74e1-bfe6-7d7f" name="DAEMONIC POWERS" page="0" hidden="false"/>
+                <rule id="d6e1-74e1-bfe6-7d7f" name="DAEMONIC POWERS" page="0" hidden="false">
+      <description>Every Daemonblade has two daemonic powers randomly generated from the following list before the army is deployed. If the same result is rolled twice, you can choose the Daemonblade’s second daemonic power.
+2D6Daemonic Power
+2-3Warpflame: Attacks made with the Daemonblade are resolved at +3 Strength.
+4Unholy Speed: The wielder has +3 Attacks.
+5Etherblade: The Daemonblade has an AP of 2.
+6Vampyre: When the Daemonblade inflicts an unsaved wound, its wielder immediately gains +1 Wound (to a maximum of 10).
+7Daemonic Feud: Close combat attacks from this sword always wound models with the Daemon special rule on a roll of 2+. Furthermore, models with the Daemon special rule must re-roll any successful invulnerable saves against any Wounds caused by this Daemonblade.
+8Deathlust: The wielder of the Daemonblade has the Furious Charge and Rage special rules.
+9Dark Resurrection: The wielder of the Daemonblade has the Feel No Pain and Eternal Warrior special rules.
+10Daemon Venom: The Daemonblade has the Poisoned (2+) special rule.
+11+Familiar: The wielder generates one additional Warp Charge point in each of his turns. In addition, the Daemonblade gains the Force special rule.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="434e-a594-e255-9ad9" type="max"/>
@@ -2624,7 +2786,9 @@ Sanctuary</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="360c-d3c3-0821-d0cc" name="Daemonbane:" page="0" hidden="false"/>
+                <rule id="360c-d3c3-0821-d0cc" name="Daemonbane:" page="0" hidden="false">
+      <description>If the Force psychic power is successfully manifested and targets a unit with one or more weapons with this special rule then, in addition to the usual effects, all weapons with this special rule re-roll failed To Wound and armour penetration rolls against models with the Daemon special rule whist the blessing is in effect.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d81c-5779-0581-113f" type="max"/>
@@ -2789,7 +2953,9 @@ Sanctuary</description>
       <selectionEntries>
         <selectionEntry id="84f5-5a5c-136e-c903" name="Psyocculum" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="19ff-b2f6-0687-68e2" name="Psyocculum" page="0" hidden="false"/>
+            <rule id="19ff-b2f6-0687-68e2" name="Psyocculum" page="0" hidden="false">
+      <description>The bearer of a psyocculum (and their unit) count as being Ballistic Skill 10 if shooting at a unit containing one or more models with the Psyker, Psychic Pilot or Brotherhood of Psykers/Sorcerers special rules. However this rule has no effect if the bearer (and their unit) are firing Snap Shots.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9605-54ed-facb-8daf" type="max"/>
@@ -2800,7 +2966,25 @@ Sanctuary</description>
         </selectionEntry>
         <selectionEntry id="f981-ee94-ddc9-b14e" name="Warlord" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="0fa2-f84b-b105-179b" name="ORDO HERETICUS TRAITS" page="0" hidden="false"/>
+            <rule id="0fa2-f84b-b105-179b" name="ORDO HERETICUS TRAITS" page="0" hidden="false">
+      <description>D6Warlord Traits
+1Unquestionable Wisdom The Warlord and his unit can choose to pass or fail any Morale checks they are called upon to make.
+2Reader of the Tarot Whilst the Warlord is alive, you can roll two dice and choose the result you want when rolling for Reserves, Outflank, mysterious terrain or mysterious objectives.
+3Burner of Worlds Once per game, your Warlord can call down an orbital attack in his Shooting phase. This counts as firing a ranged weapon with the profile below. This does not prevent the Warlord and his unit from declaring a charge against the target unit that turn.
+Range
+S
+AP
+Type
+Infinite
+10
+1
+Ordnance 1, Barrage, Large Blast, One use only, Orbital
+Orbital:
+If an arrow is rolled on the scatter dice, an orbital bombardment always scatters the full 2D6" – the Warlord’s Ballistic Skill makes no difference.
+4Witch Hunter The Warlord and his unit have the Preferred Enemy (Psykers) special rule.
+5Will of Iron The Warlord has the Adamantium Will special rule.
+6Master of Interrogation Enemy Infiltrators cannot be set up anywhere within 24" of the Warlord.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="63f6-a211-e874-5710" type="max"/>
@@ -2913,7 +3097,9 @@ Sanctuary</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="460b-a201-e6c5-c428" name="Psi-shock" page="0" hidden="false"/>
+                <rule id="460b-a201-e6c5-c428" name="Psi-shock" page="0" hidden="false">
+      <description>If a unit containing at least one Psyker (i.e. a model with the Psyker, Brotherhood of Psykers/Sorcerers or Psychic Pilot special rule) is hit by a weapon with the Psi-shock special rule, one randomly determined Psyker model in that unit suffers Perils of the Warp in addition to any other damage.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="796a-d58e-95da-0987" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
@@ -2942,7 +3128,9 @@ Sanctuary</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="0bda-180f-7fd5-ff20" name="Witchbane" page="0" hidden="false"/>
+                <rule id="0bda-180f-7fd5-ff20" name="Witchbane" page="0" hidden="false">
+      <description>Any unsaved Wounds inflicted on a model with the Psyker or Brotherhood of Psykers/Sorcerers special rule by a null rod have the Instant Death special rule. Furthermore, the bearer (and their squad) cannot be targeted by psychic powers (friendly or enemy).</description>
+    </rule>
               </rules>
               <costs>
                 <cost typeId="points" name="pts" value="25"/>
@@ -3099,7 +3287,25 @@ Sanctuary</description>
         </selectionEntry>
         <selectionEntry id="65eb-0f42-5ecf-2ec0" name="Warlord" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="f3b9-1812-f4bc-e178" name="ORDO XENOS TRAITS" page="0" hidden="false"/>
+            <rule id="f3b9-1812-f4bc-e178" name="ORDO XENOS TRAITS" page="0" hidden="false">
+      <description>D6Warlord Traits
+1Unquestionable Wisdom The Warlord and his unit can choose to pass or fail any Morale checks they are called upon to make.
+2Reader of the Tarot Whilst the Warlord is alive, you can roll two dice and choose the result you want when rolling for Reserves, Outflank, mysterious terrain or mysterious objectives.
+3Burner of Worlds Once per game, your Warlord can call down an orbital attack in his Shooting phase. This counts as firing a ranged weapon with the profile below. This does not prevent the Warlord and his unit from declaring a charge against the target unit that turn.
+Range
+S
+AP
+Type
+Infinite
+10
+1
+Ordnance 1, Barrage, Large Blast, One use only, Orbital
+Orbital:
+If an arrow is rolled on the scatter dice, an orbital bombardment always scatters the full 2D6" – the Warlord’s Ballistic Skill makes no difference.
+4Xeno Hunter The Warlord and his unit have the Preferred Enemy special rule when targeting any enemy non-vehicle units with the following Faction: Dark Eldar, Eldar, Harlequins, Necrons, Orks, Tau Empire, Tyranids and Genestealer Cults.
+5Xenotech Collector The Warlord has a 6+ invulnerable save. In addition, select one of the Warlord’s ranged weapons. That weapon gains +1 Strength and the Rending special rule for the duration of the battle.
+6Purity of Mankind The Warlord and his unit have the Hatred special rule.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f208-2d1b-2eb3-1775" type="max"/>
@@ -3214,7 +3420,25 @@ Sanctuary</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="9368-bd45-de31-aeca" name="Conversion Beamer" page="0" hidden="false"/>
+                <rule id="9368-bd45-de31-aeca" name="Conversion Beamer" page="0" hidden="false">
+      <description>A shot from a conversion beamer has a different profile depending on how far the target is from the firer. When firing the conversion beamer, place the blast marker over a target within 72" and then roll for scatter. Once the final location of the blast marker has been determined, measure the distance from the firer to the centre of the blast marker and consult the chart below to determine the effect. If this distance is greater than 72", the shot misses. If it is not clear which of the profiles to use, the controlling player can choose.
+Range
+S
+AP
+Type
+up to 18"
+6
+-
+Heavy 1, Blast
+18"-42"
+8
+4
+Heavy 1, Blast
+42"-72"
+10
+1
+Heavy 1, Blast</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="326f-a086-d483-cfe9" type="max"/>
@@ -3809,7 +4033,9 @@ Sanctuary</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="718e-9ed2-8173-2a89" name="Amphibious" page="0" hidden="false"/>
+        <rule id="718e-9ed2-8173-2a89" name="Amphibious" page="0" hidden="false">
+      <description>All water terrain is open ground.</description>
+    </rule>
       </rules>
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f9b0-9179-9a58-4fa9" type="max"/>
@@ -4473,7 +4699,15 @@ The Righteousness of the Emperor: The model and his unit re-roll failed rolls To
                 </profile>
               </profiles>
               <rules>
-                <rule id="cbbf-ea94-9893-3454" name="Feel No Pain" page="0" hidden="false"/>
+                <rule id="cbbf-ea94-9893-3454" name="Feel No Pain" page="0" hidden="false">
+      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that 'no saves of any kind are allowed', for example those inflicted by Perils of the Warp).
+
+Feel No Pain saves may not be taken against Destroyer attacks or against unsaved Wounds that have the Instant Death special rule.
+
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved  Wound is discounted - treat it as having been saved.
+
+If a unit has the Feel No Pain special rule with a number in brackets afterwards -Feel No Pain (6+), for example - then the number in brackets is the D6 result needed to discount the Wound.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95dc-497b-2a05-1fe7" type="min"/>
@@ -6252,7 +6486,17 @@ Note that Bike Squads count as being at full strength when they have eight Space
         </selectionEntry>
         <selectionEntry id="1e6d-6124-aa8a-86e9" name="Psychic Powers" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="d380-35c9-f57b-b491" name="Psyker (Mastery Level 2)" page="0" hidden="false"/>
+            <rule id="d380-35c9-f57b-b491" name="Psyker (Mastery Level 2)" page="0" hidden="false">
+      <description>Ahazra Redth is a powerful psyker. He has the special Mirage Psychic power (shown below) and may also roll one additional power from any of the following Psychic disciplines (see the Core Rulebook, page 418):
+
+• Biomancy
+• Pyromancy
+• Telepathy
+• Divination
+
+Mirage - Warp Charge 1
+Mirage is a blessing that targets the psyker, as well as any unit he has joined or vehicle in which he is being transported. Any models charging the target/s of this power while it is in effect count as making a Disordered Charge (see page 27 of the Core Rulebook). However, if the charged unit was already locked in combat from a previous turn, or has gone to ground, the power has no effect and the attackers gain bonus attacks as normal. In addition, all models protected by this power gain the Shrouded special rule.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="96a5-c4d5-2df4-1b72" type="min"/>
@@ -7203,7 +7447,9 @@ Note that Bike Squads count as being at full strength when they have eight Space
                     </profile>
                   </profiles>
                   <rules>
-                    <rule id="9542ffdb-5a4e-d6bb-94be-529a6285f5c2" name="Psi-shock" page="0" hidden="false"/>
+                    <rule id="9542ffdb-5a4e-d6bb-94be-529a6285f5c2" name="Psi-shock" page="0" hidden="false">
+      <description>If a unit containing at least one Psyker (i.e. a model with the Psyker, Brotherhood of Psykers/Sorcerers or Psychic Pilot special rule) is hit by a weapon with the Psi-shock special rule, one randomly determined Psyker model in that unit suffers Perils of the Warp in addition to any other damage.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -7456,7 +7702,9 @@ Note that Bike Squads count as being at full strength when they have eight Space
             </profile>
           </profiles>
           <rules>
-            <rule id="95ce0da0-e27d-9aa1-eb3a-111608740105" name="Repair" page="0" hidden="false"/>
+            <rule id="95ce0da0-e27d-9aa1-eb3a-111608740105" name="Repair" page="0" hidden="false">
+      <description>If a Rhino is Immobilised, then in subsequent turns, it may attempt to repair itself instead of shooting. To make the attempt, roll a D6 in the Shooting phase; on the roll of a 6, the vehicle is no longer Immobilised. Note that a successful Repair does not restore a Hull Point.</description>
+    </rule>
           </rules>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -7668,7 +7916,9 @@ Note that Bike Squads count as being at full strength when they have eight Space
             </profile>
           </profiles>
           <rules>
-            <rule id="6deb4405-443d-0b51-8809-be8c169419d6" name="Amphibious" page="0" hidden="false"/>
+            <rule id="6deb4405-443d-0b51-8809-be8c169419d6" name="Amphibious" page="0" hidden="false">
+      <description>All water terrain is open ground.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -7813,8 +8063,12 @@ Note that Bike Squads count as being at full strength when they have eight Space
             </profile>
           </profiles>
           <rules>
-            <rule id="c4b79c1f-02d0-a05b-6e5a-07122f7e6cb4" name="Assault Vehicle" page="0" hidden="false"/>
-            <rule id="babf604b-127b-7302-de61-721ecf7272c0" name="Power of the Machine Spirit" page="0" hidden="false"/>
+            <rule id="c4b79c1f-02d0-a05b-6e5a-07122f7e6cb4" name="Assault Vehicle" page="0" hidden="false">
+      <description>Passengers disembarking from Access Points on a vehicle with this special rule can charge on the turn they do so (even in a turn that the vehicle was destroyed, or in the following turn) unless the vehicle arrived from Reserve that turn.</description>
+    </rule>
+            <rule id="babf604b-127b-7302-de61-721ecf7272c0" name="Power of the Machine Spirit" page="0" hidden="false">
+      <description>In a turn in which the vehicle neither moves Flat Out nor uses smoke launchers, the vehicle can fire one more weapon at its full Ballistic Skill than normally permitted. In addition, this weapon can be fired at a different target unit to any other weapons, subject to the normal rules for shooting.</description>
+    </rule>
           </rules>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -7914,9 +8168,15 @@ Note that Bike Squads count as being at full strength when they have eight Space
             </profile>
           </profiles>
           <rules>
-            <rule id="2a92a2fe-1ccd-d24c-1203-4e1e5eabbca3" name="Assault Vehicle" page="0" hidden="false"/>
-            <rule id="fb0f8554-2927-5c8e-3764-e77f4d334f7a" name="Power of the Machine Spirit" page="0" hidden="false"/>
-            <rule id="b20b7dbc-500f-f120-4111-b245f6f65b79" name="Frag Assault Launchers" page="0" hidden="false"/>
+            <rule id="2a92a2fe-1ccd-d24c-1203-4e1e5eabbca3" name="Assault Vehicle" page="0" hidden="false">
+      <description>Passengers disembarking from Access Points on a vehicle with this special rule can charge on the turn they do so (even in a turn that the vehicle was destroyed, or in the following turn) unless the vehicle arrived from Reserve that turn.</description>
+    </rule>
+            <rule id="fb0f8554-2927-5c8e-3764-e77f4d334f7a" name="Power of the Machine Spirit" page="0" hidden="false">
+      <description>In a turn in which the vehicle neither moves Flat Out nor uses smoke launchers, the vehicle can fire one more weapon at its full Ballistic Skill than normally permitted. In addition, this weapon can be fired at a different target unit to any other weapons, subject to the normal rules for shooting.</description>
+    </rule>
+            <rule id="b20b7dbc-500f-f120-4111-b245f6f65b79" name="Frag Assault Launchers" page="0" hidden="false">
+      <description>Any unit charging into close combat on the same turn as it disembarks from a transport vehicle equipped with frag assault launchers counts as having frag grenades.</description>
+    </rule>
           </rules>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -8016,9 +8276,15 @@ Note that Bike Squads count as being at full strength when they have eight Space
             </profile>
           </profiles>
           <rules>
-            <rule id="7513d083-c47e-39b7-7118-44b7a88ddaf2" name="Assault Vehicle" page="0" hidden="false"/>
-            <rule id="449acdc0-e89f-5dbd-6909-c713284989c9" name="Power of the Machine Spirit" page="0" hidden="false"/>
-            <rule id="d83daa81-291b-78d1-04ab-0bc9eecf6897" name="Frag Assault Launchers" page="0" hidden="false"/>
+            <rule id="7513d083-c47e-39b7-7118-44b7a88ddaf2" name="Assault Vehicle" page="0" hidden="false">
+      <description>Passengers disembarking from Access Points on a vehicle with this special rule can charge on the turn they do so (even in a turn that the vehicle was destroyed, or in the following turn) unless the vehicle arrived from Reserve that turn.</description>
+    </rule>
+            <rule id="449acdc0-e89f-5dbd-6909-c713284989c9" name="Power of the Machine Spirit" page="0" hidden="false">
+      <description>In a turn in which the vehicle neither moves Flat Out nor uses smoke launchers, the vehicle can fire one more weapon at its full Ballistic Skill than normally permitted. In addition, this weapon can be fired at a different target unit to any other weapons, subject to the normal rules for shooting.</description>
+    </rule>
+            <rule id="d83daa81-291b-78d1-04ab-0bc9eecf6897" name="Frag Assault Launchers" page="0" hidden="false">
+      <description>Any unit charging into close combat on the same turn as it disembarks from a transport vehicle equipped with frag assault launchers counts as having frag grenades.</description>
+    </rule>
           </rules>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -8131,7 +8397,9 @@ Note that Bike Squads count as being at full strength when they have eight Space
             </profile>
           </profiles>
           <rules>
-            <rule id="8d385bb3-7fcd-729e-31a1-d0d1f3b21696" name="Grav Chute Insertion" publicationId="6e6c7c90--pub6" page="56" hidden="false"/>
+            <rule id="8d385bb3-7fcd-729e-31a1-d0d1f3b21696" name="Grav Chute Insertion" publicationId="6e6c7c90--pub6" page="56" hidden="false">
+      <description>[text removed]</description>
+    </rule>
           </rules>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -8290,11 +8558,21 @@ Note that Bike Squads count as being at full strength when they have eight Space
             </profile>
           </profiles>
           <rules>
-            <rule id="8294c7cf-9980-0b38-4ec8-c3fb5174511f" name="Assault Vehicle" page="0" hidden="false"/>
-            <rule id="fd79f632-5cb7-874f-8d18-e5a0995f4cb9" name="Power of the Machine Spirit" page="0" hidden="false"/>
-            <rule id="f2be7d60-e3cc-733b-6be5-75802dc7b2f9" name="Transport Capacity - 10" hidden="false"/>
-            <rule id="79decd51-35ec-dccb-fb1e-099cf42f5dff" name="Battle Auspex" hidden="false"/>
-            <rule id="373964c1-1297-9527-cd12-1ca2756e70a4" name="Improved Comms" hidden="false"/>
+            <rule id="8294c7cf-9980-0b38-4ec8-c3fb5174511f" name="Assault Vehicle" page="0" hidden="false">
+      <description>Passengers disembarking from Access Points on a vehicle with this special rule can charge on the turn they do so (even in a turn that the vehicle was destroyed, or in the following turn) unless the vehicle arrived from Reserve that turn.</description>
+    </rule>
+            <rule id="fd79f632-5cb7-874f-8d18-e5a0995f4cb9" name="Power of the Machine Spirit" page="0" hidden="false">
+      <description>In a turn in which the vehicle neither moves Flat Out nor uses smoke launchers, the vehicle can fire one more weapon at its full Ballistic Skill than normally permitted. In addition, this weapon can be fired at a different target unit to any other weapons, subject to the normal rules for shooting.</description>
+    </rule>
+            <rule id="f2be7d60-e3cc-733b-6be5-75802dc7b2f9" name="Transport Capacity - 10" hidden="false">
+      <description>Transport Capacity: 10 models.</description>
+    </rule>
+            <rule id="79decd51-35ec-dccb-fb1e-099cf42f5dff" name="Battle Auspex" hidden="false">
+      <description>The Prometheus has the Night Vision special rule. In addition, the cover saves of enemy targets that it fires on are reduced by -1</description>
+    </rule>
+            <rule id="373964c1-1297-9527-cd12-1ca2756e70a4" name="Improved Comms" hidden="false">
+      <description>The presence of one or more vehicles on the battlefield adds +1 to the result of the controlling player's Reserve rolls (note that this effect is not cumulative with other bonuses).</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="57db-4c42-867a-1fec" name="New InfoLink" hidden="false" targetId="4b04-2a83-8ae7-d134" type="profile"/>
@@ -8668,7 +8946,9 @@ special rule is made after deployment, but before the first turn begins.</descri
         </selectionEntry>
         <selectionEntry id="37e84a15-74c2-9c26-0d51-a5f58f8a526d" name="Truesilver Armour" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="b8f2a4ad-6442-7080-f04b-e3660c34ed17" name="Truesilver Armour" page="0" hidden="false"/>
+            <rule id="b8f2a4ad-6442-7080-f04b-e3660c34ed17" name="Truesilver Armour" page="0" hidden="false">
+      <description>If a model with the Daemon, Psyker, Brotherhood of Psykers/Sorcerers or Psychic Pilot special rules succeeds in hitting this vehicle in close combat, it suffers a Strength 6 hit for each hit once damage has been resolved against the vehicle.</description>
+    </rule>
           </rules>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -10106,7 +10386,7 @@ Once during the battle, at the start of any turn after the first, you can choose
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="c3c2b70c-aa03-cc4e-98cf-86857828740f" name="Digital Weapons" hidden="false">
       <characteristics>
-        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">A model armed with digital weapons can re-roll a single failed roll To Wound in each Assault phase.</characteristic>
       </characteristics>
     </profile>
     <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" id="5170-7f13-ba17-20e6" name="Nemesis Daemon Hammer" hidden="false">
@@ -10119,7 +10399,7 @@ Once during the battle, at the start of any turn after the first, you can choose
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="e01c270a-8c5b-29e8-2b24-b056b080428c" name="Psybolt ammunition" page="0" hidden="false">
       <characteristics>
-        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">A model equipped with psybolt ammunition counts the Strength of its shots as being one point higher than normal if it is firing a boltgun, as defined in Core Rulebook (including the ‘boltgun’ part of any combi-weapon). E.g. a bolt pistol would be Strength 5, rather than Strength 4, if the firer had psybolt ammunition.</characteristic>
       </characteristics>
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="70d5475c-4606-6c1e-5faf-0a8d78e070ea" name="Psyk-out grenades" hidden="false">

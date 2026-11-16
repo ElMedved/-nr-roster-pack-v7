@@ -1718,7 +1718,9 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <rule id="3542-6817-d0c6-ab2a" name="Sun's Brilliance" publicationId="555e-9663-pub3" page="106" hidden="false">
           <description>When Baharroth enters play from Deep Strike, all enemy units within 6" must take a test as if hit by a weapon with the Blind special rule. Models that are immune to the Blind special rule are immune to Sun's Brilliance.</description>
         </rule>
-        <rule id="11fe-6e0f-14e2-2941" name="Warlord Trait: Falcon's Swiftness" publicationId="555e-9663-pub3" page="148" hidden="false"/>
+        <rule id="11fe-6e0f-14e2-2941" name="Warlord Trait: Falcon's Swiftness" publicationId="555e-9663-pub3" page="148" hidden="false">
+      <description>The Warlord and his unit add 3 to the dice roll when determining how far they can Run (this will normally be D6+3").</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="0df9-537c-2e0d-21cc" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
@@ -3394,7 +3396,9 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         </profile>
       </profiles>
       <rules>
-        <rule id="d9b1-8d00-1f3d-c794" name="Warlord Trait: An Eye on Distant Events" publicationId="555e-9663-pub3" page="148" hidden="false"/>
+        <rule id="d9b1-8d00-1f3d-c794" name="Warlord Trait: An Eye on Distant Events" publicationId="555e-9663-pub3" page="148" hidden="false">
+      <description>Choose up to D3 units in your army. These units gain the Scout special rule.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="97ad-5d13-f911-c858" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
@@ -4602,7 +4606,9 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         </profile>
       </profiles>
       <rules>
-        <rule id="b6c3-f173-723a-9221" name="Warlord Trait: Mark of the Imcomparable Hunter" publicationId="555e-9663-pub3" page="148" hidden="false"/>
+        <rule id="b6c3-f173-723a-9221" name="Warlord Trait: Mark of the Imcomparable Hunter" publicationId="555e-9663-pub3" page="148" hidden="false">
+      <description>The Warlord is a skilled hunter and a master marksman. He places his shots precisely where they are most needed, each kill tipping the course of the battle to his advantage.</description>
+    </rule>
         <rule id="338d-9220-f042-a055" name="Crack Shot" publicationId="555e-9663-pub3" page="105" hidden="false">
           <description>A model with this special rule can re-roll one failed To Hit or To Wound roll, or Armour Penetration roll, per turn.</description>
         </rule>
@@ -6414,7 +6420,9 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         </profile>
       </profiles>
       <rules>
-        <rule id="7ec3-be2e-c806-a719" name="Warlord Trait: Mark of the Incomparable Hunter" publicationId="555e-9663-pub3" page="148" hidden="false"/>
+        <rule id="7ec3-be2e-c806-a719" name="Warlord Trait: Mark of the Incomparable Hunter" publicationId="555e-9663-pub3" page="148" hidden="false">
+      <description>The Warlord is a skilled hunter and a master marksman. He places his shots precisely where they are most needed, each kill tipping the course of the battle to his advantage.</description>
+    </rule>
         <rule id="67fe-2690-9974-183f" name="Sharpshot" publicationId="555e-9663-pub3" page="101" hidden="false">
           <description>Shots fired by models with this special rule (excluding Snap Shots) are always Precision Shots as described in the Precision Shots special rule (See Core Rulebook).</description>
         </rule>
@@ -6772,7 +6780,9 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <rule id="2936-6952-f1b0-5480" name="Hunter's Strike" publicationId="555e-9663-pub3" page="104" hidden="false">
           <description>If Karandras is held in Reserve, he automatically arrives at the start of the controlling player's second turn. When he arrives from Reserve, he can move on from any table edge. If Karandras joins a unit of Striking Scorpions during deployment, and no other characters join the unit, all models in that unit also benefit from this special rule.</description>
         </rule>
-        <rule id="dd98-72d6-d4dc-07df" name="Warlord Trait: Ambush of Blades" publicationId="555e-9663-pub3" page="148" hidden="false"/>
+        <rule id="dd98-72d6-d4dc-07df" name="Warlord Trait: Ambush of Blades" publicationId="555e-9663-pub3" page="148" hidden="false">
+      <description>The Warlord’s uncanny senses pierce the fog of war. Knowing the precise time at which to strike, he commands his kin to level a storm of blades, energy blasts and razor-edged shuriken into the foe.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="b477-917c-f417-2502" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
@@ -7145,7 +7155,9 @@ The Controlling player may choose to have a Lynx deployed on the table at the be
         </profile>
       </profiles>
       <rules>
-        <rule id="5697-71b5-841b-545e" name="Warlord Trait: Mark of the Incomparable Hunter" publicationId="555e-9663-pub3" page="148" hidden="false"/>
+        <rule id="5697-71b5-841b-545e" name="Warlord Trait: Mark of the Incomparable Hunter" publicationId="555e-9663-pub3" page="148" hidden="false">
+      <description>The Warlord is a skilled hunter and a master marksman. He places his shots precisely where they are most needed, each kill tipping the course of the battle to his advantage.</description>
+    </rule>
         <rule id="c814-1b98-18d5-e0c3" name="Whirlwind of Death" publicationId="555e-9663-pub3" page="107" hidden="false">
           <description>Maugan Ra can fire the Maugetar twice in each Shooting Phase, either at the same target or at two different targets.</description>
         </rule>
@@ -7863,7 +7875,9 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         </profile>
       </profiles>
       <rules>
-        <rule id="a1ea-432f-dd17-913c" name="Warlord Trait: Ambush of Blades" publicationId="555e-9663-pub3" page="148" hidden="false"/>
+        <rule id="a1ea-432f-dd17-913c" name="Warlord Trait: Ambush of Blades" publicationId="555e-9663-pub3" page="148" hidden="false">
+      <description>The Warlord’s uncanny senses pierce the fog of war. Knowing the precise time at which to strike, he commands his kin to level a storm of blades, energy blasts and razor-edged shuriken into the foe.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="ae70-f524-8534-8626" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
@@ -15666,7 +15680,13 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
     <rule id="b0b5-2001-3816-d334" name="Aerobatic Grace" hidden="false">
       <description>A model with this special rule has a 4+ cover save unless it remained stationary in its previous Movement phase.</description>
     </rule>
-    <rule id="2243-1d72-669d-1780" name="Agile" hidden="false"/>
+    <rule id="2243-1d72-669d-1780" name="Agile" hidden="false">
+      <description>In the shooting phase, a Warhound can choose to either:
+
+-fire all available weapons
+-fire a single weapon and then Run
+-fire no weapons at all and Run twice</description>
+    </rule>
     <rule id="80e8-2653-cfa1-0d13" name="Ancient Doom" publicationId="555e-9663-pub3" page="148" hidden="false">
       <description>A model with this special rule has the Hatred special rule against Daemons of Slaanesh or models with the Mark of Slaanesh. Furthermore, when making Fear tests, a unit containing at least one model with this special rule suffers a -1 penalty to its Leadership if it is engaged in combat with a unit that contains at least one model with the Mark of Slaanesh or the Daemon of Slaanesh special rule.</description>
     </rule>

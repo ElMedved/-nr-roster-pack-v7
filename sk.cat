@@ -3054,7 +3054,15 @@ BENEDICTION OF OMNISCIENCE
     <rule id="f8d7-4dd4-dba5-b879" name="Dunestrider" publicationId="2301-1cab-pub1" page="70" hidden="false">
       <description>May add 3 inches to Movement phase moves, Run moves, and charge moves.</description>
     </rule>
-    <rule id="61cc-b208-c9f0-2049" name="Feel No Pain (6+)" publicationId="2301-1cab-pub4" page="164" hidden="false"/>
+    <rule id="61cc-b208-c9f0-2049" name="Feel No Pain (6+)" publicationId="2301-1cab-pub4" page="164" hidden="false">
+      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that 'no saves of any kind are allowed', for example those inflicted by Perils of the Warp).
+
+Feel No Pain saves may not be taken against Destroyer attacks or against unsaved Wounds that have the Instant Death special rule.
+
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved  Wound is discounted - treat it as having been saved.
+
+If a unit has the Feel No Pain special rule with a number in brackets afterwards -Feel No Pain (6+), for example - then the number in brackets is the D6 result needed to discount the Wound.</description>
+    </rule>
     <rule id="6540-34f4-1bd4-e207" name="Incense Cloud" publicationId="2301-1cab-pub1" page="61" hidden="false">
       <description>Always obscured; 5+ cover save</description>
     </rule>

@@ -296,7 +296,7 @@ Until the start of your next turn, all friendly models with the Doctrina Imperat
         </profile>
         <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="7187-a3c0-15d5-96ee" name="Armoured Ceramite" hidden="false">
           <characteristics>
-            <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+            <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">Immune to the Melta USR</characteristic>
           </characteristics>
         </profile>
         <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="ee74-854c-7ea4-4af9" name="Void Shields" hidden="false">

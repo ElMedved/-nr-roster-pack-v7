@@ -140,7 +140,9 @@ updated by Eric Falsken, eric@everylittlething.net</description>
         <categoryLink id="624c35d9-cb7e-26b8-1d3a-77a4bc324d57-38cf4ccf-0665-45cb-a773-fea06ee1467a" targetId="38cf4ccf-0665-45cb-a773-fea06ee1467a" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="170f928d-d3e7-3035-d813-4622f7226b2d" name="Ambush" publicationId="24a0-49b6-pub3" page="11" hidden="false"/>
+        <rule id="170f928d-d3e7-3035-d813-4622f7226b2d" name="Ambush" publicationId="24a0-49b6-pub3" page="11" hidden="false">
+      <description>If Boss Snikrot joins a unit of Kommandos that are held in Reserves, and no other Independent Characters join the unit, then Snikrot's unit can move on from any table edge when they arrive from Reserves. No dice roll is required to determine where they enter from; the Ork player chooses. In addition, Boss Snikrot and his unit have their Stealth special rule replaced with the Shrouded special rule on the turn they deploy or arrive from Reserves, until the start of their next turn.</description>
+    </rule>
       </rules>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -192,7 +194,9 @@ updated by Eric Falsken, eric@everylittlething.net</description>
         <categoryLink id="d041ab2d-f3dd-7cb1-3af2-06d55adfb0cb-38cf4ccf-0665-45cb-a773-fea06ee1467a" targetId="38cf4ccf-0665-45cb-a773-fea06ee1467a" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="50b3d863-dd35-3aca-cca7-6ee3f3521de4" name="Armoured Behemoths" publicationId="24a0-49b6-pub3" page="11" hidden="false"/>
+        <rule id="50b3d863-dd35-3aca-cca7-6ee3f3521de4" name="Armoured Behemoths" publicationId="24a0-49b6-pub3" page="11" hidden="false">
+      <description>Models from this Formation ignore Crew Shaken, Crew Stunned, Weapon Destroyed, and Imobilised results on the Vehicle Damage table as long as they are within 6" of at least one other model from this Formation when the roll is made.</description>
+    </rule>
       </rules>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -799,7 +803,9 @@ updated by Eric Falsken, eric@everylittlething.net</description>
         <categoryLink id="187aeff4-c6fd-8ecb-ff0f-b187ac425dd4-38cf4ccf-0665-45cb-a773-fea06ee1467a" targetId="38cf4ccf-0665-45cb-a773-fea06ee1467a" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="292c63f3-634d-55de-42a5-6b0ca1d761bb" name="Lightning Strike" publicationId="24a0-49b6-pub3" page="16" hidden="false"/>
+        <rule id="292c63f3-634d-55de-42a5-6b0ca1d761bb" name="Lightning Strike" publicationId="24a0-49b6-pub3" page="16" hidden="false">
+      <description>The Chaos Lord and all other units in the formation within 12" of him may charge even if they have Turbo-boosted during that turn.</description>
+    </rule>
       </rules>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -3523,7 +3529,9 @@ Killing Blade: Rending until the end of the current phase.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="d66e74b6-4cb9-0444-ae3a-aeb18fdc87c3" name="Preferred Enemy (Orks)" publicationId="24a0-49b6-pub12" page="40" hidden="false"/>
+        <rule id="d66e74b6-4cb9-0444-ae3a-aeb18fdc87c3" name="Preferred Enemy (Orks)" publicationId="24a0-49b6-pub12" page="40" hidden="false">
+      <description>This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="886dd1a7-3a9b-3f69-457b-c353e13493f9" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
@@ -4223,7 +4231,9 @@ Killing Blade: Rending until the end of the current phase.</description>
         <categoryLink id="80e30ae0-8ca0-938d-81bf-87532c1599e5-5d76b6f5-20ae-4d70-8f59-ade72a2add3a" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="d5710efe-050e-c46c-a6a0-539f999ddbdf" name="Immobile Vehicle" publicationId="24a0-49b6-pub10" page="175" hidden="false"/>
+        <rule id="d5710efe-050e-c46c-a6a0-539f999ddbdf" name="Immobile Vehicle" publicationId="24a0-49b6-pub10" page="175" hidden="false">
+      <description>An Immobile Vehicle cannot move under any circumstances after deployment. Any special rules which force it to move will instead cause the vehicle to take a single glancing hit. If an Immobile Vehicle sustains a Vehicle Immobilised damage result then it loses an additional Hull Point instead. The Automated Repair System cannot be used to restore Hull Points lost when an Immobile Vehicle sustains a Vehicle Immobilised damage result, nor does a successful repair attempt grant any ability to move to the Immobile Vehicle.</description>
+    </rule>
       </rules>
       <selectionEntries>
         <selectionEntry id="5a7922fd-b018-be93-33f5-d36c402bd12f" name="Deep Strike" hidden="false" collective="false" type="upgrade">
@@ -8792,7 +8802,9 @@ Killing Blade: Rending until the end of the current phase.</description>
       </categoryLinks>
       <rules>
         <rule id="0d142225-c91c-a628-a685-15479a759f5d" name="Battlefield Debris (Drone Tower)" publicationId="24a0-49b6-pub10" page="179" hidden="false"/>
-        <rule id="7591e8ff-351a-3c06-2897-275e0f539b7b" name="Multi-phasic Sensor Suite" publicationId="24a0-49b6-pub10" page="179" hidden="false"/>
+        <rule id="7591e8ff-351a-3c06-2897-275e0f539b7b" name="Multi-phasic Sensor Suite" publicationId="24a0-49b6-pub10" page="179" hidden="false">
+      <description>Once per turn in the Shooting phase, a single friendly unit selected from Codex: Tau Empire that is within 2" of any Sensor Tower in the unit may re-roll all failed To Hit rolls of 1 and gain the Night Vision special rule.</description>
+    </rule>
       </rules>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -11281,7 +11293,9 @@ To deploy a squad of Gun Drones, nominate any point over which the Tiger Shark m
         </selectionEntry>
         <selectionEntry id="21eea908-38f2-8dd0-d31a-22db76695248" name="Longstrike" page="62" hidden="false" collective="false" type="model">
           <rules>
-            <rule id="72f8387d-0281-54d2-02cc-34f7e6c8f972" name="Preferred Enemy (Astra Militarum)" publicationId="24a0-49b6-pub12" page="40" hidden="false"/>
+            <rule id="72f8387d-0281-54d2-02cc-34f7e6c8f972" name="Preferred Enemy (Astra Militarum)" publicationId="24a0-49b6-pub12" page="40" hidden="false">
+      <description>This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</description>
+    </rule>
             <rule id="4942-cca0-456f-da39" name="Hammerhead Ace" page="48" hidden="false">
               <description>Longstrike's Hammerhead is BS 5. Longstrike also dies if his Hammerhead is destroyed. Longstrike and his vehicle count are a single unit for purposes of Victory Points.</description>
             </rule>
@@ -14989,7 +15003,9 @@ Seeker: (Markerlight Cost 1+) For each markerlight counter expended on this abil
 
 5-6 Improved Data Capture: The Wing Leader counts each markerlight counter that they use as two markerlight counters.</description>
     </rule>
-    <rule id="a355-de0c-f617-e096" name="Homing" hidden="false"/>
+    <rule id="a355-de0c-f617-e096" name="Homing" hidden="false">
+      <description>Smart missile systems can be fired at targets out of the unit’s line of sight.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="02c91765-6330-2a40-f727-e7f6525780e9" name="Advanced Targeting System" hidden="false">

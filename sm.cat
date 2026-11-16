@@ -16002,7 +16002,9 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
     </selectionEntry>
     <selectionEntry id="c184-00cf-264b-4da3" name="Tyrannic War Veteran Squad" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="ba2d-b1bb-36f2-7f45" name="Avenge the Fallen 1st" publicationId="7ab0-ceb9-pubN154977" hidden="false"/>
+        <rule id="ba2d-b1bb-36f2-7f45" name="Avenge the Fallen 1st" publicationId="7ab0-ceb9-pubN154977" hidden="false">
+      <description>Models in this unit have the Hatred (Chaos Space Marines) special rule and re-roll failed Morale checks when fighting Chaos Space Marines.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="70a2-bc09-af0c-3d5b" hidden="false" targetId="241b-bdad-83f2-760f" type="profile"/>
@@ -17175,7 +17177,9 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
         </modifier>
       </modifiers>
       <rules>
-        <rule id="7510-e26f-fc4c-e4b6" name="Swift Redeployment" publicationId="7ab0-ceb9-pubN162349" hidden="false"/>
+        <rule id="7510-e26f-fc4c-e4b6" name="Swift Redeployment" publicationId="7ab0-ceb9-pubN162349" hidden="false">
+      <description>At the start of your movement phase, pick one unit from this Formation that is within 12" of its Ethereal. Now choose a single model in the unit you picked to be the lynchpin around which the rest of the unit will reform; remove all other models in the unit from the battlefield (do not remove the DS8 Tactical Support Turret if there is one) and immediately set them up again within 3" of the lynchpin. The unit does not count as moving; it may move normally in the same movement phase.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="14f9-b9af-08d6-b231" hidden="false" targetId="e15d-1437-cfb2-b8dd" type="rule"/>
@@ -21504,7 +21508,9 @@ Mirage is a blessing that targets the psyker, as well as any unit he has joined 
 
 • The Wrath of Old Night: During any Assault phase in which Thulsa Kane is fighting a challenge, all friendly units with Chapter Tactics (Executioners) gain a +1 bonus to their score for working out the victor in assaults and +1 to their Sweeping Advance.</description>
         </rule>
-        <rule id="8b3f-cf9b-d4e6-7afd" name="Chapter Tactics: Executioners" hidden="false"/>
+        <rule id="8b3f-cf9b-d4e6-7afd" name="Chapter Tactics: Executioners" hidden="false">
+      <description>Models with this Chapter Tactic have the Headhunters special rule (in a challenge, To Wound rolls of 6 have the Instant Death special rule) and Stubborn.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="541d-9102-e0fb-7dd3" hidden="false" targetId="894f-81b4-7aca-8eda" type="rule">
@@ -26300,7 +26306,9 @@ The Warlord Titan's carapace-mounted weapons may not target models closer than 1
             </profile>
           </profiles>
           <rules>
-            <rule id="dd5e-211e-25f2-c831" name="Extremly Bulky" hidden="false"/>
+            <rule id="dd5e-211e-25f2-c831" name="Extremly Bulky" hidden="false">
+      <description>Extremely Bulky models count as five models for the purposes of Transport Capacity.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="93f7-a2a6-df06-76f0" hidden="false" targetId="2e56-6b02-4343-0e40" type="rule"/>
@@ -27434,7 +27442,9 @@ The Warlord Titan's carapace-mounted weapons may not target models closer than 2
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c15-0724-59a5-a173" type="max"/>
           </constraints>
           <rules>
-            <rule id="9c55-1e58-c7ff-a7cb" name="Command Tank" publicationId="7ab0-ceb9-pubN218573" page="6" hidden="false"/>
+            <rule id="9c55-1e58-c7ff-a7cb" name="Command Tank" publicationId="7ab0-ceb9-pubN218573" page="6" hidden="false">
+      <description>A Command Tank may be chosen as a HQ selection and confers command benefits to friendly units within 12" as described on its datasheet.</description>
+    </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="20"/>
@@ -27994,7 +28004,10 @@ The Warlord Titan's carapace-mounted weapons may not target models closer than 2
                 </profile>
               </profiles>
               <rules>
-                <rule id="6955-5d6d-4fa0-e980" name="Voice of Command" publicationId="7ab0-ceb9-pubN221661" page="28" hidden="false"/>
+                <rule id="6955-5d6d-4fa0-e980" name="Voice of Command" publicationId="7ab0-ceb9-pubN221661" page="28" hidden="false">
+      <description>A model with this special rule is known as an officer. An officer can issue one order each turn. Orders are issued and their effects resolved at the start of your Shooting phase. If you have more than one officer, or if you have an officer that has a special rule allowing it to issue more than one order a turn, issue and resolve each order one at a time.
+An officer can attempt to issue an order provided he is not locked in combat, embarked in a vehicle or building, falling back, or has gone to ground. Issuing an order does not prevent the officer’s unit from acting (shooting, Running etc.) later in that phase.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="3513-1ba4-3622-a2e6" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
@@ -28007,12 +28020,24 @@ The Warlord Titan's carapace-mounted weapons may not target models closer than 2
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ae7-7756-20ab-40c7" type="min"/>
                   </constraints>
                   <rules>
-                    <rule id="d48b-fc61-9c50-1800" name="Orders: Take Aim!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false"/>
-                    <rule id="af9d-02bb-4856-a5a8" name="Orders: Smite at Will!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false"/>
-                    <rule id="0745-62f0-150d-13fe" name="Orders: First Rank, FIRE! Second Rank, FIRE!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false"/>
-                    <rule id="78b8-e6bd-d3d4-f777" name="Orders: Forwards, for the Emperor!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false"/>
-                    <rule id="b0b3-90fe-7df3-4fdb" name="Orders: Move! Move! Move!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false"/>
-                    <rule id="41a6-8f54-dcc8-167b" name="Orders: Suppressive Fire!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false"/>
+                    <rule id="d48b-fc61-9c50-1800" name="Orders: Take Aim!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false">
+      <description>The ordered unit must make a shooting attack. When resolving this shooting attack, all models in the ordered unit have the Precision Shot special rule.</description>
+    </rule>
+                    <rule id="af9d-02bb-4856-a5a8" name="Orders: Smite at Will!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false">
+      <description>The ordered unit must make a shooting attack. When resolving this shooting attack, the ordered unit has the Split Fire special rule.</description>
+    </rule>
+                    <rule id="0745-62f0-150d-13fe" name="Orders: First Rank, FIRE! Second Rank, FIRE!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false">
+      <description>The ordered unit must make a shooting attack. When resolving this shooting attack, all models firing with lasguns or hot-shot lasguns fire one additional shot.</description>
+    </rule>
+                    <rule id="78b8-e6bd-d3d4-f777" name="Orders: Forwards, for the Emperor!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false">
+      <description>The ordered unit must make a shooting attack. Once this shooting attack has been resolved, the ordered unit must Run, even though a unit cannot normally Shoot and Run in the same phase.</description>
+    </rule>
+                    <rule id="b0b3-90fe-7df3-4fdb" name="Orders: Move! Move! Move!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false">
+      <description>The ordered unit must Run. When determining how far the unit Runs, roll three dice and use the highest result.</description>
+    </rule>
+                    <rule id="41a6-8f54-dcc8-167b" name="Orders: Suppressive Fire!" publicationId="7ab0-ceb9-pubN221661" page="0" hidden="false">
+      <description>The ordered unit must make a shooting attack. When resolving this shooting attack, all weapons in the ordered unit have the Pinning special rule.</description>
+    </rule>
                   </rules>
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
@@ -32091,7 +32116,9 @@ Devastator: Affected models can re-roll To Hit rolls of 1 in the Shooting phase 
             <rule id="a54d-c0da-4e03-6a71" name="Amphibious" publicationId="7ab0-ceb9-pubN221661" page="40" hidden="false">
               <description>All water terrain is open ground.</description>
             </rule>
-            <rule id="918c-bb5a-22b5-6bbf" name="Mobile Command Vehicle" publicationId="7ab0-ceb9-pubN221661" page="40" hidden="false"/>
+            <rule id="918c-bb5a-22b5-6bbf" name="Mobile Command Vehicle" publicationId="7ab0-ceb9-pubN221661" page="40" hidden="false">
+      <description>An officer embarked within a Chimera may still issue orders to squads. Measure range from any part of the Chimera’s hull.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="5a3b-d05c-c758-fa7f" hidden="false" targetId="4b04-2a83-8ae7-d134" type="profile"/>

@@ -19846,31 +19846,80 @@ As such &amp; with the consent of your opponents, they may add colour to friendl
       <description>If Boss Snikrot joins a unit of Kommandos that are held in Reserves, and no other Independent Characters join the unit, then Snikrot's unit can move on from any table edge when they arrive from Reserves. No dice roll is required to determine where they enter from; the Ork player chooses. In addition, Boss Snikrot and his unit have their Stealth special rule replaced with the Shrouded special rule on the turn they deploy or arrive from Reserves, until the start of their next turn.</description>
     </rule>
     <rule id="f7988dd7-77c1-4a5f-4be7-71d4e1d15b99" name="Aquatic Deployment" publicationId="5e29cf46--pub27" page="0" hidden="false"/>
-    <rule id="c6a44270-0d8c-9bd9-f700-f4076257c67e" name="Automated Repairs" publicationId="5e29cf46--pub28" page="54" hidden="false"/>
+    <rule id="c6a44270-0d8c-9bd9-f700-f4076257c67e" name="Automated Repairs" publicationId="5e29cf46--pub28" page="54" hidden="false">
+      <description>At the end of each of the controlling player's turns, roll a D6 for each Immobilised or Weapon Destroyed result the vehicle has suffered; on a 5+, that damage result is repaired.</description>
+    </rule>
     <rule id="5881d5a1-85ef-7495-6994-4d6c19301e1e" name="Banner of da Great Waaagh!" publicationId="5e29cf46--pub14" page="56" hidden="false">
       <description>As long as the bearer of the Waaagh! banner is still alive, all models in the same unit have the fearless special rule and add 1 to the Weapon Skill characteristic on their profile.  In addition, all friendly units with the Orks Faction within 12" re-roll failed Moral and Pinning checks.</description>
     </rule>
     <rule id="d34c6ce0-879d-8b23-f6e2-3ff0b5591cfb" name="Battle Boss" publicationId="5e29cf46--pub29" page="0" hidden="false"/>
     <rule id="5083d8a2-2606-647c-9e2c-a2c7757e4109" name="Big Gunz - Shooting at Artillery" publicationId="5e29cf46--pub18" page="46" hidden="false"/>
-    <rule id="ffebd546-c89f-2ed5-755b-829ee525649d" name="Big Mek Mogrok" publicationId="5e29cf46--pub4" hidden="false"/>
+    <rule id="ffebd546-c89f-2ed5-755b-829ee525649d" name="Big Mek Mogrok" publicationId="5e29cf46--pub4" hidden="false">
+      <description>The controlling player must nominate one Big Mek in this formation to be his Warlord (Mogrok). Mogrok always has the Kunnin’ But Brutal Warlord Trait.</description>
+    </rule>
     <rule id="a7fe93db-6029-a4a4-b85c-f475b7a6049a" name="Big Pulsa Rokkit" publicationId="5e29cf46--pub27" page="0" hidden="false"/>
-    <rule id="c0019570-79d1-032a-21b2-a32e91b3882b" name="Bigbomm" publicationId="5e29cf46--pub2" page="48" hidden="false"/>
-    <rule id="774bed60-ea1d-6c46-ce05-ac74ec91c85b" name="Biggest an' da Best" publicationId="5e29cf46--pub14" page="52" hidden="true"/>
-    <rule id="afb0365f-84ca-20de-65e9-edc890f35661" name="Biggest an' da Best (formation)" publicationId="5e29cf46--pub14" page="52" hidden="false"/>
-    <rule id="2c7a7bdf-943f-66bd-722e-23be54447438" name="Bike of the Aporkalypse" publicationId="5e29cf46--pub2" page="60" hidden="false"/>
-    <rule id="028e1148-99c0-afa0-4ed2-104c6aa982ad" name="Blazing Inferno" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
-    <rule id="7ca7a8ce-884a-fb35-8671-af23fa6ee068" name="Bomb-squig" publicationId="5e29cf46--pub2" page="42" hidden="false"/>
+    <rule id="c0019570-79d1-032a-21b2-a32e91b3882b" name="Bigbomm" publicationId="5e29cf46--pub2" page="48" hidden="false">
+      <description>A Deffkopta with a bigbomm can make a bombing run even though it is a Jetbike. When resolving a Deffkopta’s bombing run, follow the rules for bombing runs in Core Rulebook, but ignore the rule’s first sentence (which references Flyers and Flying Monstrous Creatures).
+Range
+S
+AP
+Type
+-
+4
+5
+Bomb 1, Large Blast, One use only</description>
+    </rule>
+    <rule id="774bed60-ea1d-6c46-ce05-ac74ec91c85b" name="Biggest an' da Best" publicationId="5e29cf46--pub14" page="52" hidden="true">
+      <description>This special rule only applies to a Warlord chosen as part of a Detachment or Formation presented in this supplement. If your Warlord has this special rule, he must always issue and accept a challenge whenever possible. If you have more than one model in a combat with a special rule to this effect, you can choose which model issues or accepts the challenge. If a Warlord with this special rule kills an enemy character in a challenge, he can re-roll all failed To Wound rolls in close combat for the rest of the game.</description>
+    </rule>
+    <rule id="afb0365f-84ca-20de-65e9-edc890f35661" name="Biggest an' da Best (formation)" publicationId="5e29cf46--pub14" page="52" hidden="false">
+      <description>This special rule only applies to a Warlord chosen as part of a Detachment or Formation presented in this supplement. If your Warlord has this special rule, he must always issue and accept a challenge whenever possible. If you have more than one model in a combat with a special rule to this effect, you can choose which model issues or accepts the challenge. If a Warlord with this special rule kills an enemy character in a challenge, he can re-roll all failed To Wound rolls in close combat for the rest of the game.</description>
+    </rule>
+    <rule id="2c7a7bdf-943f-66bd-722e-23be54447438" name="Bike of the Aporkalypse" publicationId="5e29cf46--pub2" page="60" hidden="false">
+      <description>Kustom Warbike.</description>
+    </rule>
+    <rule id="028e1148-99c0-afa0-4ed2-104c6aa982ad" name="Blazing Inferno" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>If two or more Burna-bommers make a Bombing Run whilst in the Arrowhead Attack Pattern, the Ork player can leave one of the large blast markers used for the Bombing Run in play at its final location after the attack is resolved. This may require temporarily relocating some surviving models and putting them back in their previous locations once the marker(s) is in place. This marker is lethal terrain for the rest of the game.</description>
+    </rule>
+    <rule id="7ca7a8ce-884a-fb35-8671-af23fa6ee068" name="Bomb-squig" publicationId="5e29cf46--pub2" page="42" hidden="false">
+      <description>One use only. A model with a bomb squig can make a Shooting attack using the following profile. Bomb squigs cannot be used to make Snap Shots, and cannot be used to attack Flyers, Flying Monstrous Creatures, or Skimmers.
+Range
+S
+AP
+Type
+18"
+8
+4
+Assault 1, One use only, Scuttle Scuttle Blam!
+Scuttle Scuttle Blam!:
+Bomb squigs always hit the target on a To Hit roll of 2 or more.</description>
+    </rule>
     <rule id="0fd28dca-ff5c-f8f7-d0dc-fcc0c44f8d4e" name="Boss Mob" publicationId="5e29cf46--pub14" page="56" hidden="false">
       <description>All models in this Formation must be deployed as a single unit. Models with the Independent Character special rule cannot choose to leave or join the unit.</description>
     </rule>
     <rule id="6becc748-a69c-7720-e5f0-7e811f63ed5d" name="Boss of Da Waaagh!" publicationId="5e29cf46--pub2" page="0" hidden="true">
       <description>If this Detachment is chosen as your Primary Detachment, you can re-roll the results when rolling on the Warlord Traits table in Codex: Orks.</description>
     </rule>
-    <rule id="302ac4f3-00a3-8ead-e5da-0088973485bf" name="Boss of Da Waaagh! (formation)" publicationId="5e29cf46--pub2" page="0" hidden="false"/>
+    <rule id="302ac4f3-00a3-8ead-e5da-0088973485bf" name="Boss of Da Waaagh! (formation)" publicationId="5e29cf46--pub2" page="0" hidden="false">
+      <description>If this Detachment is chosen as your Primary Detachment, you can re-roll the results when rolling on the Warlord Traits table in Codex: Orks.</description>
+    </rule>
     <rule id="f5a3054e-00ca-bf58-6740-dc26872decaa" name="Boss of the Red Skull Kommandos" publicationId="5e29cf46--pub2" page="69" hidden="false">
       <description>Boss Snikrot can only join units of Kommandos. If Boss Snikrot is included in a Detachment that includes at least one unit of Kommandos, Boss Snikrot does not take up a slot on the Force Organization Chart.</description>
     </rule>
-    <rule id="90aaae98-96d5-a8ab-0243-c3caffc518f2" name="Bully Boyz" publicationId="5e29cf46--pub11" page="210" hidden="false"/>
+    <rule id="90aaae98-96d5-a8ab-0243-c3caffc518f2" name="Bully Boyz" publicationId="5e29cf46--pub11" page="210" hidden="false">
+      <description>APOCALYPSE FORMATION • 5 Warbosses (one of these may be Ghazghkull Thraka)
+• 5 mobs of Nobz or Meganobz. The formation can include a mixture of the two types of mobs.
+RESTRICTIONS
+One Warboss must be nominated as the Supreme Warboss; if Ghazghkull is in the formation, he is automatically the Supreme Warboss. One Warboss must be assigned to each Nobz or Meganobz mob, which they may not leave.
+TYPE
+• Battle Formation
+SPECIAL RULES
+• Fearless
+• Feel No Pain
+Rok’em Boyz: Once during the battle, the Supreme Warboss may make a single Asteroid Strike shooting attack with the following profile:
+RangeSAPType
+Asteroid StrikeInfinite10/8/61/3/5Assault 1, Apocalyptic Mega-blast</description>
+    </rule>
     <rule id="aeb764a3-bd40-ae4d-e160-7cff3fc55bd7" name="Bullyboyz" publicationId="5e29cf46--pub14" page="57" hidden="false">
       <description>All models in this Formation add 1 to the Weapon Skill characteristic on their profile.</description>
     </rule>
@@ -19879,57 +19928,138 @@ As such &amp; with the consent of your opponents, they may add colour to friendl
       <description>All friendly units with the Orks Faction that are within 6" of a Stompa have the Fearless special rule.</description>
     </rule>
     <rule id="4910dc98-5d9b-0f5a-8bc7-f7a6274900da" name="Combined Power Fields" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
-    <rule id="8fce20c7-4989-1f17-1aee-8605459d2a61" name="Containment Failure" publicationId="5e29cf46--pub31" page="0" hidden="false"/>
+    <rule id="8fce20c7-4989-1f17-1aee-8605459d2a61" name="Containment Failure" publicationId="5e29cf46--pub31" page="0" hidden="false">
+      <description>If the main strongpoint suffers a Total Collapse or Detonation! result, roll one dice for each remaining vortex missile.  On a roll of 1-2, the missile explodes.  Place the vortex's blast marker on the center of the main strongpoint, then scatter 2D6"</description>
+    </rule>
     <rule id="cbf2e908-4ea6-4b06-ac9b-d422fa4284d8" name="Corkscrew Dive" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
     <rule id="5cd704ba-04d7-96c1-17fe-be4fb093117c" name="Cowardly Grots!" publicationId="5e29cf46--pub2" page="81" hidden="false">
       <description>If a unit of Killa Kans suffers 25% or more casualties during any one phase, the unit must roll a D6 at the end of that phase. Add +1 to the dice roll if there are three or more Killa Kans in the unit, and a further +1 if there are one or more Deff Dreads within 6" of the unit. On a result of 3+ the test is passed and nothing happens. On a result of 1-2 the test is failed and every model in the unit immediately suffers a Crew Shaken result. Note that no models lose a Hull Point as a result of a failed Cowardly Grots! test</description>
     </rule>
-    <rule id="dc65-bda8-8288-be9a" name="Crush 'em" publicationId="5e29cf46--pub14" page="59" hidden="false"/>
-    <rule id="e60281e5-ed41-0d9d-ea4f-beb543420eaf" name="Crushing Weight" publicationId="5e29cf46--pub7" page="6" hidden="false"/>
-    <rule id="136523e9-ecdc-77b4-75d4-07d4d69a7e98" name="Cut &amp; Slam" publicationId="5e29cf46--pub7" page="120" hidden="false"/>
-    <rule id="f6e30ca3-f34d-ae7f-dadd-dad329cb2a55" name="Da Beast" publicationId="5e29cf46--pub17" page="0" hidden="false"/>
-    <rule id="5880-54d2-4bce-3f17" name="Da Big Boss" publicationId="5e29cf46--pub14" page="0" hidden="true"/>
-    <rule id="18e063ec-4006-f1b1-4c5f-e317c6baf7ed" name="Da Boss iz Watchin'" publicationId="5e29cf46--pub14" page="52" hidden="true"/>
-    <rule id="e26b2446-8e7f-8037-3b9c-4db2424312be" name="Da Boss iz Watchin' (formation)" publicationId="5e29cf46--pub14" page="52" hidden="false"/>
+    <rule id="dc65-bda8-8288-be9a" name="Crush 'em" publicationId="5e29cf46--pub14" page="59" hidden="false">
+      <description>Any vehicle Rammed by a unit from this Formation suffers a Strength 10 hit – do not calculate the Strength of the Ramming hit as you normally would.</description>
+    </rule>
+    <rule id="e60281e5-ed41-0d9d-ea4f-beb543420eaf" name="Crushing Weight" publicationId="5e29cf46--pub7" page="6" hidden="false">
+      <description>A Super-Heavy vehicle with this special rule adds +1 to all rolls on the Thunderblitz table when making a Ram or Tank Shock attack.</description>
+    </rule>
+    <rule id="136523e9-ecdc-77b4-75d4-07d4d69a7e98" name="Cut &amp; Slam" publicationId="5e29cf46--pub7" page="120" hidden="false">
+      <description>Mega-Rippa Krews specialise in ganging up on and tearing apart tanks, bunkers and just about anything else that gets in their way, even Titans when they get the chance! In any Assault phase where multiple Mega-Dreads from this formation are in combat against a single structure, vehicle or Super-heavy of any kind, they may re-roll any failed attempts to penetrate their victim's armour.</description>
+    </rule>
+    <rule id="f6e30ca3-f34d-ae7f-dadd-dad329cb2a55" name="Da Beast" publicationId="5e29cf46--pub17" page="0" hidden="false">
+      <description>When Turbo Boosting, Zhadsnark may move up to 24" rather than the usual 12". In addition, at the beginning of any Turbo Boost move he may declare that he will Tank Shock. When making a Tank Shock move Zhadsnark is treated as though he was a vehicle with the Tank type and the Tank Shock is carried out normally, however he must move at least 12". If an enemy model declares a Death or Glory attack on Zhadsnark whilst he is Tank Shocking then it inflicts a single automatic hit with one weapon (either shooting or close combat). Resolve this hit normally. If Zhadsnark is wounded (whether or not he makes a save), he becomes locked in combat with the unit and is placed in base contact with the model that inflicted the wound, and the Tank Shock ends. If the hit fails to wound Zhadsnark then the model that attempted the Death or Glory attack is removed as a casualty (regardless of wounds or saves of any kind) and Zhadsnark continues to move.</description>
+    </rule>
+    <rule id="5880-54d2-4bce-3f17" name="Da Big Boss" publicationId="5e29cf46--pub14" page="0" hidden="true">
+      <description>If this Detachment is chosen as your Primary Detachment, you can choose to re-roll the result on the Warlord Traits table.</description>
+    </rule>
+    <rule id="18e063ec-4006-f1b1-4c5f-e317c6baf7ed" name="Da Boss iz Watchin'" publicationId="5e29cf46--pub14" page="52" hidden="true">
+      <description>Units with the Mob Rule special rule that include at least one model from this Detachment or Formation gain a +2 modifier to any rolls on the Mob Rule table. However, should any of these units suffer hits from the Breaking Heads or Squabble results on the Mob Rule table, they will suffer D3+3 Strength 4 AP- hits instead of D6 Strength 4 AP- hits.</description>
+    </rule>
+    <rule id="e26b2446-8e7f-8037-3b9c-4db2424312be" name="Da Boss iz Watchin' (formation)" publicationId="5e29cf46--pub14" page="52" hidden="false">
+      <description>Units with the Mob Rule special rule that include at least one model from this Detachment or Formation gain a +2 modifier to any rolls on the Mob Rule table. However, should any of these units suffer hits from the Breaking Heads or Squabble results on the Mob Rule table, they will suffer D3+3 Strength 4 AP- hits instead of D6 Strength 4 AP- hits.</description>
+    </rule>
     <rule id="d2877dac-e9e4-91b1-20f0-8b9db5a2b6d1" name="Da Boss' Nobz" publicationId="5e29cf46--pub2" page="0" hidden="false"/>
     <rule id="068d770f-a3c8-27e1-594c-fb1dbdaa6660" name="Da Dredheadz" publicationId="5e29cf46--pub17" page="0" hidden="false"/>
-    <rule id="ab4a-deb0-d62c-7216" name="Da Great Waaagh!" publicationId="5e29cf46--pub14" page="0" hidden="true"/>
-    <rule id="32f3-0531-5fe4-de58" name="Da Greeen Horde" publicationId="5e29cf46--pub14" page="0" hidden="true"/>
-    <rule id="0d29be7a-ae30-68a8-510a-99d86ff50dee" name="Da Latest Gubbins" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
+    <rule id="ab4a-deb0-d62c-7216" name="Da Great Waaagh!" publicationId="5e29cf46--pub14" page="0" hidden="true">
+      <description>If this Detachment contains your Warlord and he has the Waaagh! special rule, he can call a Waaagh! each and every turn, including the first turn.</description>
+    </rule>
+    <rule id="32f3-0531-5fe4-de58" name="Da Greeen Horde" publicationId="5e29cf46--pub14" page="0" hidden="true">
+      <description>Every unit with 10 or more models in this Detachment gains the Hammer of Wrath special rule in any Assault phase in which it successfully charges an enemy unit. Note that it does not matter if the unit’s size is reduced below 10 models during its charge (as a result of Overwatch, Dangerous Terrain tests, etc.) so long as it can still successfully make the charge.</description>
+    </rule>
+    <rule id="0d29be7a-ae30-68a8-510a-99d86ff50dee" name="Da Latest Gubbins" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>Roll a D6 before deployment and apply the result to every model in the formation.
+D6</description>
+    </rule>
     <rule id="980b06c5-0892-8c5f-c0fb-c63d39c81075" name="Da Latest Gubbins: Dead Shooty" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
     <rule id="e009e58d-79c3-6d05-4f47-b951b1f3eeb5" name="Da Latest Gubbins: Extra Stompy" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
-    <rule id="f8231eb9-39dd-4162-cbf2-7e902454bea7" name="Da Latest Gubbins: Kustom Fields" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
+    <rule id="f8231eb9-39dd-4162-cbf2-7e902454bea7" name="Da Latest Gubbins: Kustom Fields" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>5+ Invul Sv</description>
+    </rule>
     <rule id="384f60bb-1fc6-85d3-30bf-7a7cb8eb2d20" name="Da Latest Gubbins: Mek's Been Busy" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
     <rule id="3f0c6a9b-0fb2-8468-ec74-6932ca554019" name="Da Rampage!" publicationId="5e29cf46--pub9" page="56" hidden="false"/>
     <rule id="fadd85f7-3d4c-c9df-4b87-ca45c3c3ff94" name="Da Right Boss for da Plan" publicationId="5e29cf46--pub32" page="0" hidden="true">
       <description>If this Detachment is chosen as your Primary Detachment, you can re-roll the results when rolling on the Waaagh! Ghazghkull Warlord Traits Table.</description>
     </rule>
-    <rule id="7b5fdf15-3ae0-c72c-9ffe-2f7f5a7a213f" name="Dead Killy" publicationId="5e29cf46--pub32" page="0" hidden="false"/>
+    <rule id="7b5fdf15-3ae0-c72c-9ffe-2f7f5a7a213f" name="Dead Killy" publicationId="5e29cf46--pub32" page="0" hidden="false">
+      <description>The controlling player can choose to exchange all of the wielder’s close combat Attacks for a single Attack with the Instant Death special rule.</description>
+    </rule>
     <rule id="90d2f8e1-99bd-2a63-5fda-0c74dd397082" name="Dead on Target... ish" publicationId="5e29cf46--pub14" page="58" hidden="false">
       <description>All units from this Formation begin the game in Reserves, and must arrive via Deep Strike.  However, units from this Formation only scatter D6" when arriving via Deep Strike.</description>
     </rule>
-    <rule id="5c514e4f-6ea1-6d00-1009-fa57d50fcbd4" name="Decapitating Strike" publicationId="5e29cf46--pub2" page="0" hidden="false"/>
-    <rule id="2ccdb186-0b32-1955-ff05-50fc392b2c02" name="Defend to the Last Man" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
-    <rule id="75f46c65-7f3d-f7a2-0075-2cbdf9092ce1" name="Defending Battle Force" publicationId="5e29cf46--pub33" hidden="true"/>
-    <rule id="979d1cc0-9ed5-22e8-101c-802e25393947" name="Defensive Strategy" publicationId="5e29cf46--pub33" hidden="true"/>
-    <rule id="3ef1a1e9-75ac-a085-7dad-cfe4af4ae777" name="Don't Press Dat!" publicationId="5e29cf46--pub2" page="54" hidden="false"/>
+    <rule id="5c514e4f-6ea1-6d00-1009-fa57d50fcbd4" name="Decapitating Strike" publicationId="5e29cf46--pub2" page="0" hidden="false">
+      <description>Any to-wound roll of a 6 against non-vehicle models have Instant Death.</description>
+    </rule>
+    <rule id="2ccdb186-0b32-1955-ff05-50fc392b2c02" name="Defend to the Last Man" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>Any unit with a model occupying any part of the Grand Redoubt has the Stubborn special rule.</description>
+    </rule>
+    <rule id="75f46c65-7f3d-f7a2-0075-2cbdf9092ce1" name="Defending Battle Force" publicationId="5e29cf46--pub33" hidden="true">
+      <description>Once, in each of your turns, you can choose one unit before making any Reserve Rolls. You can choose to pass or fail the Reserve Roll for that unit automatically (it must still arrive on the fourth turn).</description>
+    </rule>
+    <rule id="979d1cc0-9ed5-22e8-101c-802e25393947" name="Defensive Strategy" publicationId="5e29cf46--pub33" hidden="true">
+      <description>If this is your Primary Detachment, you have +1 Stratagem Point to spend when selecting Planetstrike stratagems.</description>
+    </rule>
+    <rule id="3ef1a1e9-75ac-a085-7dad-cfe4af4ae777" name="Don't Press Dat!" publicationId="5e29cf46--pub2" page="54" hidden="false">
+      <description>Roll 1D6 for each Looted Wagon at the start of their Shooting phase. On a roll of 1, the Looted Wagon must move Flat Out, even if it performed a Tank Shock earlier in the turn.</description>
+    </rule>
     <rule id="2a2054a9-9067-94e7-27b0-e4010676026a" name="Drifter" publicationId="5e29cf46--pub27" page="0" hidden="false"/>
-    <rule id="a82a-1c8b-85a2-4034" name="Drop da Bomb" publicationId="5e29cf46--pub14" page="66" hidden="false"/>
-    <rule id="1cd1806f-3b3e-a936-39a6-e36450f39efa" name="Engine Damage" publicationId="5e29cf46--pub7" page="6" hidden="false"/>
+    <rule id="a82a-1c8b-85a2-4034" name="Drop da Bomb" publicationId="5e29cf46--pub14" page="66" hidden="false">
+      <description>Blitza-bommers in this Formation re-roll failed armour penetration rolls with their boom bombs, and can choose to re-roll glancing hits in an attempt to instead get a penetrating hit, but the second result must be kept.</description>
+    </rule>
+    <rule id="1cd1806f-3b3e-a936-39a6-e36450f39efa" name="Engine Damage" publicationId="5e29cf46--pub7" page="6" hidden="false">
+      <description>When this Super-heavy vehicle suffers an Explodes! result on the Vehicle Damage table, roll a D6. On the score of a 4+, it is Immobilised (as per the entry on the Vehicle Damage table) as well as suffering the effects of any other damage inflicted upon it, this ignores a Super-heavy vehicle's normal immunity to such damage.</description>
+    </rule>
     <rule id="1c084249-cf6e-062a-e9f3-f2863b894df4" name="Erratic Flight" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
-    <rule id="6f951b67-cecb-9008-eea4-81429ae063a8" name="Escalating Rivalry" publicationId="5e29cf46--pub14" page="64" hidden="false"/>
-    <rule id="d0255b6e-cf08-a387-c99c-cdee3c293735" name="Exhaust Cloud" publicationId="5e29cf46--pub17" page="0" hidden="false"/>
+    <rule id="6f951b67-cecb-9008-eea4-81429ae063a8" name="Escalating Rivalry" publicationId="5e29cf46--pub14" page="64" hidden="false">
+      <description>At the start of each game turn, look up the current game turn number on the following table. All models in this Formation gain the special rules listed on the table.
+Turn</description>
+    </rule>
+    <rule id="d0255b6e-cf08-a387-c99c-cdee3c293735" name="Exhaust Cloud" publicationId="5e29cf46--pub17" page="0" hidden="false">
+      <description>The cloud of exhaust fumes from Da Beast grant Zhadsnark the Jink special rule.</description>
+    </rule>
     <rule id="96c5965a-4737-81be-5b1e-ef654bdfc499" name="Favoured of Mork" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
-    <rule id="257e406b-e006-275d-b110-5675b4dcbe8b" name="Feel No Pain (6+)" publicationId="5e29cf46--pub18" page="35" hidden="false"/>
-    <rule id="0659c2f0-2ade-4c75-631f-ff484780df39" name="Fighter Ace" publicationId="5e29cf46--pub34" page="44" hidden="false"/>
-    <rule id="fd9a46fc-9ffa-a505-9e99-786705f483bb" name="Finest Hour" publicationId="5e29cf46--pub5" page="0" hidden="true"/>
+    <rule id="257e406b-e006-275d-b110-5675b4dcbe8b" name="Feel No Pain (6+)" publicationId="5e29cf46--pub18" page="35" hidden="false">
+      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that 'no saves of any kind are allowed', for example those inflicted by Perils of the Warp).
+
+Feel No Pain saves may not be taken against Destroyer attacks or against unsaved Wounds that have the Instant Death special rule.
+
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved  Wound is discounted - treat it as having been saved.
+
+If a unit has the Feel No Pain special rule with a number in brackets afterwards -Feel No Pain (6+), for example - then the number in brackets is the D6 result needed to discount the Wound.</description>
+    </rule>
+    <rule id="0659c2f0-2ade-4c75-631f-ff484780df39" name="Fighter Ace" publicationId="5e29cf46--pub34" page="44" hidden="false">
+      <description>At the start of the battle, roll a D6 for your Fighter Ace.  This model has one benefit for the rest of the game corresponding to the table below:
+
+1-2: The Fighter Ace has +1 Ballistic Skill
+3-4: The Fighter Ace can pivot up to 180 degrees before moving in the Movement phase each turn.
+5-6: All friendly units within 12" of the Fighter Ace that are from the same Faction as the Fighter Ace have the Hatred special rule.</description>
+    </rule>
+    <rule id="fd9a46fc-9ffa-a505-9e99-786705f483bb" name="Finest Hour" publicationId="5e29cf46--pub5" page="0" hidden="true">
+      <description>Once per game, at the start of any of their turns, a player may choose to take his Warlord's Finest Hour.
+The warlord has a 3++ and Eternal Warrior and is allowed to order an All-out Attack.
+Furthermore you may roll on the Exemplar Tables or use the Sons of the Primarch-rule.
+These effects last until the Warlord's next turn.</description>
+    </rule>
     <rule id="5ac2e7bf-f1cb-5f2f-0ef9-61ccc2b72f71" name="Finest Hour: Death to Anyfing Dat Walks or Crawls" publicationId="5e29cf46--pub35" page="0" hidden="true"/>
-    <rule id="51949d39-f57a-d4cb-41a7-1687b23c3f21" name="Firestorm" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
+    <rule id="51949d39-f57a-d4cb-41a7-1687b23c3f21" name="Firestorm" publicationId="5e29cf46--pub30" page="0" hidden="false">
+      <description>If the mission has the Firestorm special rule, the Attacker makes Firestorm Attacks at the start of his first turn. This is treated as an additional, out of sequence Shooting phase. The number of Firestorm Attacks the Attacker can make will be stated in the Planetstrike mission itself. Each Firestorm Attack is completely resolved, one at a time, using the following profile:
+Range
+S
+AP
+Type
+n/a
+9
+3
+Ordnance 1, Barrage, Large Blast, Orbital Attack, Warscape
+Orbital Attack:
+These attacks can target any point on the tabletop.
+Warscape:
+If this attack’s blast marker does not hit any models or terrain, the Attacker can choose to place a single Moonscape crater on the battlefield, centred on the blast marker’s hole.</description>
+    </rule>
     <rule id="070c3b34-49ae-075a-cd54-2d23720b883b" name="Flash Gitz: Blastas" publicationId="5e29cf46--pub2" page="56" hidden="false"/>
     <rule id="d3868609-5626-96c7-4325-d55229e09305" name="Flash Gitz: More Dakka" publicationId="5e29cf46--pub2" page="56" hidden="false"/>
     <rule id="cd7a142d-70d5-074e-8e07-6e35f1ac8d97" name="Flash Gitz: Shootier" publicationId="5e29cf46--pub2" page="56" hidden="false"/>
     <rule id="4a51c700-69cb-31a4-3b3d-50a50ebd2460" name="Flyin' Eddbutt" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
-    <rule id="9b73cd25-3d15-7709-76ad-1fd330ef369f" name="Follow Me Ladz!" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
+    <rule id="9b73cd25-3d15-7709-76ad-1fd330ef369f" name="Follow Me Ladz!" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>Any friendly Ork Boyz mob that is not embarked in a Transport vehicle, and which ends its Movement phase with models within 2" of a model from a Green Tide, immediately joins the Green Tide formation and remains with it for the remainder of the battle. If the Ork Boyz mob was falling back when it joins the Green Tide, it immediately regroups. Note that Independent Characters other than the Warboss may leave a Green Tide if they choose or are forced to join it.</description>
+    </rule>
     <rule id="223e9f7c-e0ec-c3a4-70dd-8b4dc78f8173" name="Foot of Gork (or is it Mork?)" publicationId="5e29cf46--pub5" page="0" hidden="true"/>
     <rule id="6841a24d-8b1b-a179-12b7-c24a9b064526" name="Formation Restriction: Battle Boss Tank" publicationId="5e29cf46--pub7" page="121" hidden="false"/>
     <rule id="c6d0eaf1-77ce-7433-adbb-1954bf7c3ccf" name="Formation Restriction: Da Big Un" publicationId="5e29cf46--pub9" page="56" hidden="false"/>
@@ -19940,26 +20070,36 @@ As such &amp; with the consent of your opponents, they may add colour to friendl
 
 Roll once for the entire squadron.  If a double 1 is rolled, on Grot Tank suffers a Penetrating hit.</description>
     </rule>
-    <rule id="ebc5a0a0-b1ff-0523-b9df-93e2950c6a92" name="Fully Automated" publicationId="5e29cf46--pub31" page="0" hidden="false"/>
+    <rule id="ebc5a0a0-b1ff-0523-b9df-93e2950c6a92" name="Fully Automated" publicationId="5e29cf46--pub31" page="0" hidden="false">
+      <description>Emplaced weapons on a Firestorm Redoubt can only fire using the automated fire rule: models occupying a Firestorm Redoubt cannot use the manual fire rule to fire any of its emplaced weapons.</description>
+    </rule>
     <rule id="fd7f4504-57fc-802c-dddb-e0c92d0ee751" name="Ghazghkull's Leftenuntz" publicationId="5e29cf46--pub14" page="56" hidden="false">
       <description>Both of the Ork Warbosses in the Formation have +1 WS on their profile.  Furthermore, at the start of each battle, before deployment, make 2 rolls on the Waaagh! Ghazghkull Warlord Traits table, re-rolling duplicates, and apply both of the results to Ghazghkull Thraka in addition to his standard Warlord Trait.</description>
     </rule>
     <rule id="3c56-3b0d-3593-9ec3" name="Gitbusta Turret" publicationId="5e29cf46--pub16" page="149" hidden="false">
       <description>Weapons in the gitbusta turret have the Interceptor special rule.</description>
     </rule>
-    <rule id="fc0f-d6bc-ca57-6030" name="Give 'em Some Dakka" publicationId="5e29cf46--pub14" page="68" hidden="false"/>
+    <rule id="fc0f-d6bc-ca57-6030" name="Give 'em Some Dakka" publicationId="5e29cf46--pub14" page="68" hidden="false">
+      <description>Dakkajets in this Formation have the Tank Hunters special rule if the target of their attack is a Flyer.</description>
+    </rule>
     <rule id="27bfa0f0-99b3-07f0-4d55-b3018862e55d" name="Glory Hogs" publicationId="5e29cf46--pub2" page="65" hidden="false">
       <description>In a mission that has the First Blood Secondary Objective, the Ork player receives double the normal number of Victory Points from that objective if the first casualty to be removed is an enemy vehicle that was destroyed by an attack made by one or more units of Tankbustas.</description>
     </rule>
-    <rule id="010317da-c96f-476b-8425-a1288206cf8e" name="Go, go, go!" publicationId="5e29cf46--pub12" page="43" hidden="false"/>
-    <rule id="08abff1d-f5be-ae8a-3256-44b686feab74" name="Grand Destiny" publicationId="5e29cf46--pub32" page="0" hidden="false"/>
+    <rule id="010317da-c96f-476b-8425-a1288206cf8e" name="Go, go, go!" publicationId="5e29cf46--pub12" page="43" hidden="false">
+      <description>When a Flakk Trukk or Flakk Trakk has an enemy aircraft in its sights the driver will floor the accelerator and engage the squig-fuel injectors In an attempt to keep up with the target aircraft's strafing run. A vehicle can move flat out and still fire its Flakka gunz provided their target is a Flyer.</description>
+    </rule>
+    <rule id="08abff1d-f5be-ae8a-3256-44b686feab74" name="Grand Destiny" publicationId="5e29cf46--pub32" page="0" hidden="false">
+      <description>At the end of any Assault phase in which the bearer of the Choppa of da Ragnarork inflicted one or more casualties, the weapon’s Strength modifier is increased by 1 and its AP value is lowered by 1. These effects are cumulative and last for the rest of the battle (but cannot be made better than AP1).</description>
+    </rule>
     <rule id="e50ede20-ee64-b903-4c7e-63b4928349e6" name="Green Tide" publicationId="5e29cf46--pub5" page="0" hidden="false">
       <description>All of the units of Boyz and the Warboss form a single unit known as the Green Tide.  The Warboss cannot leave this unit.  The Green Tide counts as 11 units for Victory Points purposes if it is completely destroyed.  If the Green Tide ever rolls a Breaking Heads or Squabble result on the Mob Rule table, any resulting hits are allocated by the Formation's controlling player.</description>
     </rule>
     <rule id="90e3d203-2be7-5e72-1b3a-79651f834d7c" name="Grot Gunner" publicationId="5e29cf46--pub2" page="0" hidden="false">
       <description>When a model with this special rule fires a big shoota or twin-linked big shoota, these shots are resolved at BS3</description>
     </rule>
-    <rule id="6df5fbe0-2c1e-43e1-72b3-21e0b001aae3" name="Grot-guided" publicationId="5e29cf46--pub12" page="41" hidden="false"/>
+    <rule id="6df5fbe0-2c1e-43e1-72b3-21e0b001aae3" name="Grot-guided" publicationId="5e29cf46--pub12" page="41" hidden="false">
+      <description>When resolving hits from a Grot-guided weapon you may re-roll the dice used to determine where on the Apocalyptic Barrage template weapon has struck.</description>
+    </rule>
     <rule id="0fe318c9-7127-ef88-18a0-dc570df4d075" name="Grukk's Killboyz" publicationId="5e29cf46--pub26" hidden="false">
       <description>Skrak's Skull-Nobz and all units of Boyz in this Formation can re-roll their charge distances.</description>
     </rule>
@@ -19969,8 +20109,12 @@ Roll once for the entire squadron.  If a double 1 is rolled, on Grot Tank suffer
       <description>When the wielder makes its close combat Attacks, it can instead choose to make a single High Voltage Attack.  If it does so, roll To Hit as normal, but resolve the Attack at double the wielder's Strength (to a maximum of 10) for the purposes of that Attack.</description>
     </rule>
     <rule id="85eb165a-d3cc-3732-26b4-9e6b59ba1057" name="Incompetent" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
-    <rule id="049f2c72-cf5d-6968-af00-7883c98e3024" name="Interceptor" publicationId="5e29cf46--pub18" page="42" hidden="false"/>
-    <rule id="596d8220-53fd-c63e-e0fc-d67cf1cf8977" name="Invading Battle Force" publicationId="5e29cf46--pub33" hidden="true"/>
+    <rule id="049f2c72-cf5d-6968-af00-7883c98e3024" name="Interceptor" publicationId="5e29cf46--pub18" page="42" hidden="false">
+      <description>At the end of the enemy Movement phase, a weapon with the Interceptor special rule can be fired at any one unit that has arrived from Reserve within its range and line of sight. If this rule is used, the weapon cannot be fired in the next turn, but the firing model can shoot a different weapon if it has one.</description>
+    </rule>
+    <rule id="596d8220-53fd-c63e-e0fc-d67cf1cf8977" name="Invading Battle Force" publicationId="5e29cf46--pub33" hidden="true">
+      <description>Once, in each of your turns, you can choose one unit before making any Reserve Rolls. You can choose to pass or fail the Reserve Roll for that unit automatically (it must still arrive on the fourth turn).</description>
+    </rule>
     <rule id="5ce1b6b1-a6c8-9cfd-4e72-c241d3b5b3e5" name="It's a Grot's Life" publicationId="5e29cf46--pub2" page="50" hidden="false"/>
     <rule id="469df92c-cf8a-7217-5827-4b5308be4d1f" name="Jam!" publicationId="5e29cf46--pub23" hidden="false">
       <description>If the number of shots fired is a double 1's, the weapon is treated as though it had been affect by a Weapon Destroyed result, but loses no Hull Points.</description>
@@ -19988,8 +20132,55 @@ Roll once for the entire squadron.  If a double 1 is rolled, on Grot Tank suffer
       <description>During deployment, the controlling player can choose to form Kaptin Badrukk and all of the units of Flash Gitz in this Formation into a single unit known as Kaptin Badrukk's Flash Gitz.  Badrukk cannot leave this unit.  Kaptin Badrukk's Flash Gitz counts as 3 units for Victory Points purposes if it is completely destroyed.</description>
     </rule>
     <rule id="efb52a05-643d-66c4-91b9-2d41104f4f54" name="Kastorel-Novem Campaign Only" publicationId="5e29cf46--pub36" page="0" hidden="false"/>
-    <rule id="800ebf88-9201-37ba-b73a-7254d780ad3e" name="Keep Firin'" publicationId="5e29cf46--pub7" page="121" hidden="false"/>
-    <rule id="ddd9b99f-b278-6a45-e1d1-1756d0ea3dc7" name="Kill-dakka" publicationId="5e29cf46--pub32" page="0" hidden="false"/>
+    <rule id="800ebf88-9201-37ba-b73a-7254d780ad3e" name="Keep Firin'" publicationId="5e29cf46--pub7" page="121" hidden="false">
+      <description>The mob specializes in driving straight into hellish fire and letting rip with its guns at all comers until they, the enemy or both of them are no more than smouldering wreckage. All Kill Tanks in the formation may re-roll To Hit rolls of a 1 as long as the Battle Boss tank remains mobile.</description>
+    </rule>
+    <rule id="ddd9b99f-b278-6a45-e1d1-1756d0ea3dc7" name="Kill-dakka" publicationId="5e29cf46--pub32" page="0" hidden="false">
+      <description>Kill-dakka is a ranged weapon with a profile that is randomly generated before deployment at the start of each battle. Roll a D6 and consult the chart below to see what effects Kill-dakka has for the duration of the battle:
+D6
+Effect
+Range
+S
+AP
+Type
+1
+Heavy
+24"
+7
+4
+Heavy (D3+1)
+2
+Burny
+Template
+5
+4
+Assault 1
+3
+Shooty
+24"
+6
+4
+Assault 3
+4
+Zappy
+24"
+2D6
+2
+Assault 1, Zzap
+5
+Blasty
+24"
+6
+5
+Assault 1, Blast
+6
+Bubbly
+24"
+*
+*
+Assault 1, Large Blast
+* Roll a D6 each Shooting phase to determine the Strength and AP value, after the target unit has been chosen. For example, if you rolled a 3, the shot would be resolved at Strength 3 AP3.</description>
+    </rule>
     <rule id="d416f325-5b2c-a9be-479d-fda5fb209e95" name="Killa Reputation" publicationId="5e29cf46--pub2" page="62" hidden="false"/>
     <rule id="e36279fc-08d1-f253-3daa-75c102020917" name="Klawfrenzy" publicationId="5e29cf46--pub13" page="23" hidden="false"/>
     <rule id="e6ce4fb6-db08-3825-5719-00ba0a30d282" name="Know Yer Limitz" publicationId="5e29cf46--pub14" page="59" hidden="false">
@@ -20002,11 +20193,35 @@ Roll once for the entire squadron.  If a double 1 is rolled, on Grot Tank suffer
     <rule id="a8001246-5764-f432-94fc-ecba4944018e" name="Kustomized" publicationId="5e29cf46--pub14" page="62" hidden="false">
       <description>All snazzguns carried by models in this formation have the Master-Crafted special rule.</description>
     </rule>
-    <rule id="752cc054-42f1-bfb0-2139-ef84f56ba370" name="Lifta-droppa" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
-    <rule id="605e783f-1a49-937d-66c0-ed21fb008e7e" name="Loader Gubbins" publicationId="5e29cf46--pub7" page="112" hidden="false"/>
+    <rule id="752cc054-42f1-bfb0-2139-ef84f56ba370" name="Lifta-droppa" publicationId="5e29cf46--pub30" page="0" hidden="false">
+      <description>Range
+S
+AP
+Type
+48"
+-
+-
+Lifta-droppa
+Lifta-droppa:
+Choose an enemy vehicle which began the game with up to 4 Hull Points. If the target is hit, is it seized by the weapon's traktor beam, lifted up and smashed into the ground. The Stompa's controlling player moves the target to anywhere within 2D6" of its starting location that is not within 1" of another model, where it immediately suffers an Explodes! result from the Vehicle Damage table.</description>
+    </rule>
+    <rule id="605e783f-1a49-937d-66c0-ed21fb008e7e" name="Loader Gubbins" publicationId="5e29cf46--pub7" page="112" hidden="false">
+      <description>While the krusha kannon's Grot-served auto-loader gubbins are a miracle of Orky design, they don't always work as they should. Every time the kannon is fired, declare which kind of shell you are trying to use and roll a D6. If you roll a 1, then roll again on the following table:
+D6Result
+1-2Dud: The gun jams, the Grots get caught in the gears or the elastic breaks.
+No shot is fired this turn.
+3-5You mean ’dis one? Grots love da boom!
+The kannon fires a Boom shell regardless of the type the Ork kommander is bellowing for.
+6Not that way! The shell is fitted in backwards or something equally catastrophic occurs.
+The Kill Krusha suffers an automatic Glancing hit and no shell is fired.</description>
+    </rule>
     <rule id="4c2d5aef-9a40-3f3b-517b-6ccc075faceb" name="Luck of Gork!" publicationId="5e29cf46--pub11" page="205" hidden="false"/>
-    <rule id="3fac979b-3539-9219-bdec-313b50e7e5c0" name="Magos Machine Spirit" publicationId="5e29cf46--pub28" page="54" hidden="false"/>
-    <rule id="6409589d-c23b-3ca8-93ce-31cfdee2797e" name="Massive Fortification" publicationId="5e29cf46--pub31" page="0" hidden="false"/>
+    <rule id="3fac979b-3539-9219-bdec-313b50e7e5c0" name="Magos Machine Spirit" publicationId="5e29cf46--pub28" page="54" hidden="false">
+      <description>This building’s automated fire is resolved using BS3.</description>
+    </rule>
+    <rule id="6409589d-c23b-3ca8-93ce-31cfdee2797e" name="Massive Fortification" publicationId="5e29cf46--pub31" page="0" hidden="false">
+      <description>Massive Fortifications follow all th erules for buildings as defined in the Core Rulebook, but have the Mighty Bulwark special rule and can have an Armour Value of up to 15 rather than being limited to 14. The datasheet entry for the fortification will list the actual Armour Values it has.</description>
+    </rule>
     <rule id="3c1d8938-7fad-7725-c94e-eab9b77263ff" name="Mekaniaks" publicationId="5e29cf46--pub2" page="0" hidden="false">
       <description>For each HQ choice in a Detachment (not including other Meks) you may include a single Mek chosen from this datasheet.  These selections do not use up Force Organisation slots.  Before the battle, immediately after determining Warlord Traits, any Mek that is not already part of another unit must, if possible, be assigned to any unit with the Infantry or Artillery type in their Detachment; a Mek cannot leave his unit and is treated as part of it for the entire battle for all rules purposes.</description>
     </rule>
@@ -20021,41 +20236,99 @@ D6	Result
 
 4-6:	If the unit has 10 or more models, it suffers D6 Strength 4 AP- hits, and is then treated as if it had passed the Moral check or Pinning test. The hits are Randomly Allocated. If the unit has fewer than 10 models, it fails the Moral check or Pinning test.</description>
     </rule>
-    <rule id="9f95090c-c4e6-1d41-b3f0-820ae80c7935" name="Monstrous Transport" publicationId="5e29cf46--pub7" page="118" hidden="false"/>
+    <rule id="9f95090c-c4e6-1d41-b3f0-820ae80c7935" name="Monstrous Transport" publicationId="5e29cf46--pub7" page="118" hidden="false">
+      <description>A model with this special rule counts as an Open-topped Transport vehicle, with a Transport capacity of 15 models, for the purposes of allowing Infantry models to embark and disembark from it. It follows all the usual rules for a Transport vehicle when embarking or disembarking Infantry models. This rule does not affect the model's attacks or movement, and does not bestow the ability to Tank Shock or Ram, or to use any other part of the Vehicle rules.</description>
+    </rule>
     <rule id="bbeb7a10-8f6d-d718-e6af-d8a58101b182" name="Nest of Vipers" publicationId="5e29cf46--pub2" page="61" hidden="false"/>
-    <rule id="906a5f96-4c50-0fd6-c525-cd611e4ee811" name="Objective Secured" publicationId="5e29cf46--pub18" hidden="true"/>
-    <rule id="dfa2c1f9-0c3c-c276-6fd3-abdc60fc2657" name="Offensive Strategy" publicationId="5e29cf46--pub33" hidden="true"/>
+    <rule id="906a5f96-4c50-0fd6-c525-cd611e4ee811" name="Objective Secured" publicationId="5e29cf46--pub18" hidden="true">
+      <description>A unit with this special rule controls objectives even if an enemy scoring unit is within range of the objective marker, unless the enemy unit also has this special rule.</description>
+    </rule>
+    <rule id="dfa2c1f9-0c3c-c276-6fd3-abdc60fc2657" name="Offensive Strategy" publicationId="5e29cf46--pub33" hidden="true">
+      <description>If this is your Primary Detachment, you have +1 Stratagem Point to spend when selecting Planetstrike stratagems.</description>
+    </rule>
     <rule id="d63fce70-5222-5847-bf71-5b672a824578" name="One Scalpel Short of a Medpack" publicationId="5e29cf46--pub2" page="59" hidden="false">
       <description>Dok Grotsnik and any unit he joins have the Fearless and Rampage special rules. Once Dok Grotsnik has joined a unit, he may not leave it unless he is the last remaining member of that unit.</description>
     </rule>
     <rule id="b7ca78b6-e155-3f16-cddf-e6ec3907ccbf" name="One-shot Wonder" publicationId="5e29cf46--pub27" page="0" hidden="false"/>
     <rule id="4b500276-314f-9b44-ec23-fec07cca5fa5" name="Oops, da wheels slipped" publicationId="5e29cf46--pub27" page="0" hidden="false"/>
-    <rule id="ae625cd8-6bd0-4c34-d935-d5cfdcdb05e6" name="Orders: Bring it Down!" publicationId="5e29cf46--pub8" page="0" hidden="false"/>
-    <rule id="741bb832-399a-6b47-d80b-a14e49cfec96" name="Orders: Fire on my Target!" publicationId="5e29cf46--pub8" page="0" hidden="false"/>
-    <rule id="d8fecad7-7b67-3d10-fc25-4ef58be26ae2" name="Orders: First Rank, FIRE! Second Rank, FIRE!" publicationId="5e29cf46--pub8" page="0" hidden="false"/>
-    <rule id="40f9f8da-06b3-85a6-f361-f08fe2f19066" name="Orders: Forwards, for the Emperor!" publicationId="5e29cf46--pub8" page="0" hidden="false"/>
-    <rule id="6be995b3-2399-e320-4e91-7223188f4e8f" name="Orders: Get Back in the Fight!" publicationId="5e29cf46--pub8" page="0" hidden="false"/>
-    <rule id="925fcdd3-e334-ae6a-f89c-e82559f3992e" name="Orders: Move! Move! Move!" publicationId="5e29cf46--pub8" page="0" hidden="false"/>
-    <rule id="40a6a236-30da-ba43-f9a2-4e4126b2e935" name="Orders: Smite at Will!" publicationId="5e29cf46--pub8" page="0" hidden="false"/>
-    <rule id="333c18e2-0b91-8da6-0fcc-a1fde4cd65cd" name="Orders: Suppressive Fire!" publicationId="5e29cf46--pub8" page="0" hidden="false"/>
-    <rule id="4aa3b953-bf90-960d-c72c-fe0f78f792c7" name="Orders: Take Aim!" publicationId="5e29cf46--pub8" page="0" hidden="false"/>
+    <rule id="ae625cd8-6bd0-4c34-d935-d5cfdcdb05e6" name="Orders: Bring it Down!" publicationId="5e29cf46--pub8" page="0" hidden="false">
+      <description>‘Bring it Down!’ can only be issued by a model with the Senior Officer special rule. The ordered unit must make a shooting attack. When resolving this shooting attack, all models in the ordered unit have the Tank Hunters and Monster Hunter special rules.</description>
+    </rule>
+    <rule id="741bb832-399a-6b47-d80b-a14e49cfec96" name="Orders: Fire on my Target!" publicationId="5e29cf46--pub8" page="0" hidden="false">
+      <description>‘Fire on my Target!’ can only be issued by a model with the Senior Officer special rule. The ordered unit must make a shooting attack. When resolving this shooting attack, all weapons in the ordered unit have the Ignores Cover special rule.</description>
+    </rule>
+    <rule id="d8fecad7-7b67-3d10-fc25-4ef58be26ae2" name="Orders: First Rank, FIRE! Second Rank, FIRE!" publicationId="5e29cf46--pub8" page="0" hidden="false">
+      <description>The ordered unit must make a shooting attack. When resolving this shooting attack, all models firing with lasguns or hot-shot lasguns fire one additional shot.</description>
+    </rule>
+    <rule id="40f9f8da-06b3-85a6-f361-f08fe2f19066" name="Orders: Forwards, for the Emperor!" publicationId="5e29cf46--pub8" page="0" hidden="false">
+      <description>The ordered unit must make a shooting attack. Once this shooting attack has been resolved, the ordered unit must Run, even though a unit cannot normally Shoot and Run in the same phase.</description>
+    </rule>
+    <rule id="6be995b3-2399-e320-4e91-7223188f4e8f" name="Orders: Get Back in the Fight!" publicationId="5e29cf46--pub8" page="0" hidden="false">
+      <description>‘Get Back in the Fight!’ can only be issued by a model with the Senior Officer special rule. Unlike other orders, ‘Get Back in the Fight!’ can only be issued to a unit that is falling back or that has gone to ground. The ordered unit immediately regroups if falling back, but it does not make a 3" move. If the unit has gone to ground, the effects of going to ground are immediately cancelled instead. In either case, the ordered unit can act (shoot, run, charge etc.) normally for the remainder of the turn.</description>
+    </rule>
+    <rule id="925fcdd3-e334-ae6a-f89c-e82559f3992e" name="Orders: Move! Move! Move!" publicationId="5e29cf46--pub8" page="0" hidden="false">
+      <description>The ordered unit must Run. When determining how far the unit Runs, roll three dice and use the highest result.</description>
+    </rule>
+    <rule id="40a6a236-30da-ba43-f9a2-4e4126b2e935" name="Orders: Smite at Will!" publicationId="5e29cf46--pub8" page="0" hidden="false">
+      <description>The ordered unit must make a shooting attack. When resolving this shooting attack, the ordered unit has the Split Fire special rule.</description>
+    </rule>
+    <rule id="333c18e2-0b91-8da6-0fcc-a1fde4cd65cd" name="Orders: Suppressive Fire!" publicationId="5e29cf46--pub8" page="0" hidden="false">
+      <description>The ordered unit must make a shooting attack. When resolving this shooting attack, all weapons in the ordered unit have the Pinning special rule.</description>
+    </rule>
+    <rule id="4aa3b953-bf90-960d-c72c-fe0f78f792c7" name="Orders: Take Aim!" publicationId="5e29cf46--pub8" page="0" hidden="false">
+      <description>The ordered unit must make a shooting attack. When resolving this shooting attack, all models in the ordered unit have the Precision Shot special rule.</description>
+    </rule>
     <rule id="20e69192-b955-ff48-b77b-87915082995b" name="Ork Tactical Objectives" publicationId="5e29cf46--pub2" page="0" hidden="false"/>
-    <rule id="a05358c6-2504-94c1-c189-78b42ae06f7f" name="Orkish War Beast" publicationId="5e29cf46--pub7" page="118" hidden="false"/>
+    <rule id="a05358c6-2504-94c1-c189-78b42ae06f7f" name="Orkish War Beast" publicationId="5e29cf46--pub7" page="118" hidden="false">
+      <description>As long as the Big Squiggoth is transporting at least five friendly models chosen from Codex: Orks, or is within 3" of a unit composed of at least five friendly models chosen from Codex: Orks, it gains the Fearless special rule.</description>
+    </rule>
     <rule id="4c92eb14-8c7e-d7ef-c87d-dbd526249c5b" name="Out of Ammo" publicationId="5e29cf46--pub23" hidden="false">
       <description>After it has been fired, roll a D6. On a 1-2 the weapon is out of ammunition and may not fire again during this game.</description>
     </rule>
-    <rule id="d12a-2728-5e61-78d4" name="Pile On Da Pain!" publicationId="5e29cf46--pub24" hidden="false"/>
-    <rule id="8dc36e4b-0e04-5ec6-d8a7-b071583731b8" name="Power-mad Bully" publicationId="5e29cf46--pub3" page="28" hidden="false"/>
-    <rule id="fa7385f3-0ad8-76b7-3b40-b25dcebd4066" name="Primary Target" publicationId="5e29cf46--pub31" page="0" hidden="false"/>
-    <rule id="a004e025-5589-0768-4593-c70ab258d828" name="Psychic Discipline: Daemonology" publicationId="5e29cf46--pub18" page="0" hidden="false"/>
+    <rule id="d12a-2728-5e61-78d4" name="Pile On Da Pain!" publicationId="5e29cf46--pub24" hidden="false">
+      <description>Once per battle, at the start of your Movement phase, an Ork Painmob can ‘Pile On Da Pain!’. When it does so, every unit from the Formation that is locked in combat is allowed to Pile In and fight as if it were a Fight sub-phase, but enemy units cannot fight back. Using this ability does not stop the Ork units from fighting again in the Assault phase of the same turn.</description>
+    </rule>
+    <rule id="8dc36e4b-0e04-5ec6-d8a7-b071583731b8" name="Power-mad Bully" publicationId="5e29cf46--pub3" page="28" hidden="false">
+      <description>Krumpa counts as a Deff Dread for the purposes of Cowardly Grots! tests.</description>
+    </rule>
+    <rule id="fa7385f3-0ad8-76b7-3b40-b25dcebd4066" name="Primary Target" publicationId="5e29cf46--pub31" page="0" hidden="false">
+      <description>Emplaced weapons on a Firestorm Redoubt that have the Skyfire special rule must fire at the nearest enemy Flyer of Flying Monstrous Creature unit within range and line of sight. If no enemy unit of either of these types is within range or line of sight, that emplaced weapon must instead fire at the nearest enemy unit within range and line of sight.</description>
+    </rule>
+    <rule id="a004e025-5589-0768-4593-c70ab258d828" name="Psychic Discipline: Daemonology" publicationId="5e29cf46--pub18" page="0" hidden="false">
+      <description>This model may generate psychic powers from the Daemonology discipline.</description>
+    </rule>
     <rule id="11e3bcbc-cf42-ed6d-747c-80256e9383d4" name="Psychic Discipline: Power of the Waaagh!" publicationId="5e29cf46--pub18" page="0" hidden="false"/>
-    <rule id="e620f674-2f38-9f9a-dbc4-3c6979941fe4" name="Psychic: Da Krunch" publicationId="5e29cf46--pub2" page="0" hidden="false"/>
+    <rule id="e620f674-2f38-9f9a-dbc4-3c6979941fe4" name="Psychic: Da Krunch" publicationId="5e29cf46--pub2" page="0" hidden="false">
+      <description>Warp Сharge: 2
+Da Krunch is a witchfire power with the following profile:
+Range
+S
+AP
+Type
+24"
+2D6*
+4
+Assault 1, Barrage, Large Blast
+* If, when rolling to determine Da Krunch’s Strength, you roll an 11 or 12, completely resolve the attack at Strength 10 and then roll another 2D6 and resolve a second attack against the original target of the psychic power (if it still has any surviving models). If this second attack also rolls an 11 or 12 for its Strength, resolve another attack as described above. Continue repeating this process until either you roll a 10 or less when determining the attack’s Strength, or the original target is completely destroyed.</description>
+    </rule>
     <rule id="b020aafd-cf7f-3966-312e-f1b60297a192" name="Psychic: Zogwort's Curse" publicationId="5e29cf46--pub2" page="61" hidden="false"/>
     <rule id="27f33c69-2389-87b7-e737-24c86f654fd9" name="Psycho-Dakka-Blasta!" publicationId="5e29cf46--pub2" page="96" hidden="false">
       <description>The supa-gatler makes three shooting attacks with the profile above each time it fires. Completely resolve each shooting attack before moving onto the next. A new target may be chosen for each attack.</description>
     </rule>
-    <rule id="7672255a-03d3-3a8b-e7f5-ea6d624175f0" name="Psyker (Mastery Level 1)" publicationId="5e29cf46--pub18" page="0" hidden="false"/>
-    <rule id="fa0ea3b3-9cba-8035-7c1d-33148075f3ac" name="Psyker (Mastery Level 2)" publicationId="5e29cf46--pub18" page="0" hidden="false"/>
+    <rule id="7672255a-03d3-3a8b-e7f5-ea6d624175f0" name="Psyker (Mastery Level 1)" publicationId="5e29cf46--pub18" page="0" hidden="false">
+      <description>A model with this special rule is a Psyker. This rule is typically presented with a Mastery level, shown in brackets - if no Mastery Level is shown then the model has a Mastery Level of 1. Rules for generating and manifesting psychic powers can be found in the Psychic phase section.</description>
+    </rule>
+    <rule id="fa0ea3b3-9cba-8035-7c1d-33148075f3ac" name="Psyker (Mastery Level 2)" publicationId="5e29cf46--pub18" page="0" hidden="false">
+      <description>Ahazra Redth is a powerful psyker. He has the special Mirage Psychic power (shown below) and may also roll one additional power from any of the following Psychic disciplines (see the Core Rulebook, page 418):
+
+• Biomancy
+• Pyromancy
+• Telepathy
+• Divination
+
+Mirage - Warp Charge 1
+Mirage is a blessing that targets the psyker, as well as any unit he has joined or vehicle in which he is being transported. Any models charging the target/s of this power while it is in effect count as making a Disordered Charge (see page 27 of the Core Rulebook). However, if the charged unit was already locked in combat from a previous turn, or has gone to ground, the power has no effect and the attackers gain bonus attacks as normal. In addition, all models protected by this power gain the Shrouded special rule.</description>
+    </rule>
     <rule id="8600b268-c961-480b-ef96-2e49713c4184" name="Quick Ladz!" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
     <rule id="15e2fb3f-6159-201e-a6f4-2adfb388ba3f" name="Ramshackle" publicationId="5e29cf46--pub2" page="70" hidden="false">
       <description>Roll a D6 each time a Trukk suffers a penetrating hit. On the roll of a 6, the Trukk only suffers a glancing hit instead.</description>
@@ -20066,20 +20339,30 @@ D6	Result
     <rule id="8bd9bf4f-e57a-1d1f-a632-5610d6083ac5" name="Ramshackle Waaagh!" publicationId="5e29cf46--pub29" page="0" hidden="false"/>
     <rule id="0bb9ad99-73e1-c74d-bddf-bce75b22ae97" name="Rippa Klaw" publicationId="5e29cf46--pub7" page="107" hidden="false"/>
     <rule id="6d0a8cca-f0af-5ad9-f53e-a43102438dc9" name="Roadsters" publicationId="5e29cf46--pub27" page="0" hidden="false"/>
-    <rule id="51e9d9a0-4d2c-a1f3-098b-1950f2586c9c" name="Rok 'em Boyz" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
+    <rule id="51e9d9a0-4d2c-a1f3-098b-1950f2586c9c" name="Rok 'em Boyz" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>Once during the battle, the Supreme Warboss may make a single Asteroid Strike shooting attack with the following profile:</description>
+    </rule>
     <rule id="e0c2-a6ea-e89a-2164" name="Rokkit Boostaz" publicationId="5e29cf46--pub16" page="149" hidden="false">
       <description>Once per game, at the start of a Dogfight phase or your Movement phase, a Wazbom Blastajet can trigger its Rokkit Boostaz.  When it does, it has a Pursuit value of 6 and an Agility value of 1 until the end of the turn or Dogfight.</description>
     </rule>
     <rule id="7f064968-8d5e-4ce6-4da6-d10740785483" name="Rolling Scrap Pile" publicationId="5e29cf46--pub23" hidden="false">
       <description>Grot Tanks have a 5+ invul save except those of Ordnance, Destroyer, or Armourbane weapons.</description>
     </rule>
-    <rule id="fe52a691-48ea-7742-ed5f-26feff4e7044" name="Rumbler" publicationId="5e29cf46--pub12" page="47" hidden="false"/>
-    <rule id="435d-4dae-7225-f0e9" name="Scorch da Earth" publicationId="5e29cf46--pub14" page="67" hidden="false"/>
-    <rule id="d87aea2f-f05a-bb96-70f1-133077fc7af2" name="Screaming Death" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
+    <rule id="fe52a691-48ea-7742-ed5f-26feff4e7044" name="Rumbler" publicationId="5e29cf46--pub12" page="47" hidden="false">
+      <description>A vehicle may re-roll failed Difficult and Dangerous Terrain tests as long as it is moving at combat speed.</description>
+    </rule>
+    <rule id="435d-4dae-7225-f0e9" name="Scorch da Earth" publicationId="5e29cf46--pub14" page="67" hidden="false">
+      <description>Add 1 to the Strength of any burna bombs used by Burna-bommers in this Formation.</description>
+    </rule>
+    <rule id="d87aea2f-f05a-bb96-70f1-133077fc7af2" name="Screaming Death" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>Any enemy unit that is hit by one or more attacks by the Flyer Wing must subtract the number of Flyers in the formation from any Morale Checks or Pinning tests that they make in that phase.</description>
+    </rule>
     <rule id="29b99237-38aa-39e4-b511-85db6ac6e161" name="Scuttle Scuttle Blam!" publicationId="5e29cf46--pub2" page="97" hidden="false">
       <description>One use only. A model with a bomb squig can make a Shooting attack using the following profile. Bomb squigs cannot be used to make Snap Shots, and cannot be used to attack Flyers, Flying Monstrous Creatures, or Skimmers</description>
     </rule>
-    <rule id="f34c8090-4e32-bd27-df37-1b714a4288d2" name="Senior Officer" publicationId="5e29cf46--pub8" page="30" hidden="false"/>
+    <rule id="f34c8090-4e32-bd27-df37-1b714a4288d2" name="Senior Officer" publicationId="5e29cf46--pub8" page="30" hidden="false">
+      <description>This model can issue up to two orders each turn.</description>
+    </rule>
     <rule id="b5a46d1d-b929-2d2e-9068-c6a34dbc14c3" name="Shokk Attack Gun" publicationId="5e29cf46--pub2" page="0" hidden="false">
       <description>1, 1  Boom! Not Shot is fired.  Remove the Mek as a casualty.
 
@@ -20111,33 +20394,73 @@ Execute the Bombing Run attack normally.
 10-12	Dakka-dakka-boom!
 Execute the Bombing Run attack normally. In addition, the flyer making the attack may shoot any of its assault weapons at the target model's unit. All hits on vehicles strike the vehicle's rear facing. Any unit that suffers one or more unsaved Wounds from any of the attacks must take a Pinning test. Note that the flyer may shoot its assault weapons again in the Shooting phase and it can target a different unit.</description>
     </rule>
-    <rule id="6d8ad870-17f1-b463-370b-cc08a0c9228b" name="Snakebite Combat Drugs" publicationId="5e29cf46--pub7" page="118" hidden="false"/>
-    <rule id="6524baa5-2aef-da8a-52c0-79837628b9e5" name="Snazzgun" publicationId="5e29cf46--pub2" page="56" hidden="false"/>
+    <rule id="6d8ad870-17f1-b463-370b-cc08a0c9228b" name="Snakebite Combat Drugs" publicationId="5e29cf46--pub7" page="118" hidden="false">
+      <description>A model with this must roll on the following table after deployment, but before the first turn has begun:
+D6Result
+1A potent mixture of stimulants ravages the Squiggoth's body, but provides no benefit other than angering the beast.
+The Big Squiggoth begins the game having already lost 1 wound (this result may only be applied to an individual Big Squiggoth once).
+2The Orks daub the Squiggoth in a viscous red mixture that seeps into its flesh and energizes its muscles.
+The Big Squiggoth gains the Fleet special rule.
+3A combination of drugs and a selection of razor-edged spikes and hooks hammered into the Squiggoth's flesh turn the beast into a living weapon.
+The Big Squiggoth may re-roll the dice when rolling for the random number of attacks provided by its Wild Rampage and Trample special rules.
+4The vile concoction fed to the Squiggoth enrages the beast.
+The Big Squiggoth gains the Preferred Enemy (Infantry) special rule.
+5The combat drugs dull the beast's ability to feel pain, allowing it to fight on, even when grievously wounded.
+The Big Squiggoth gains the Feel No Pain (5+) special rule.
+6Roll two more D6, applying both results (re-roll any further results of 6).</description>
+    </rule>
+    <rule id="6524baa5-2aef-da8a-52c0-79837628b9e5" name="Snazzgun" publicationId="5e29cf46--pub2" page="56" hidden="false">
+      <description>Range
+S
+AP
+Type
+24"
+5
+D6*
+Assault 3
+* Roll once each time the unit shoots to determine the AP of all the unit’s snazzguns, after the target unit has been chosen.</description>
+    </rule>
     <rule id="e39f918b-2e88-1c19-c405-50027098feda" name="Sneaky Gitz" publicationId="5e29cf46--pub14" page="60" hidden="false">
       <description>Boss Snikrot must join one of the units in this Formation, and the whole Formation must be held back as Reserves.  When rolling for Reserves, make a single Reserve Roll for all the units in this Formation.  All units in this Formation move on from any table edge when they arrive from Reserves, but they must all enter from the same table edge.  No dice roll is required to determine where they enter from; the controlling player chooses.  Furthermore, on the turn they arrive, whichever turn it is, any unit in this Formation that does not shoot in the Shooting phase can re-roll its failed cover saves until the start of their next turn.</description>
     </rule>
-    <rule id="8694be98-1cbf-00cf-30d7-f8f76b516cc0" name="Sonic Boom" publicationId="5e29cf46--pub31" page="0" hidden="false"/>
+    <rule id="8694be98-1cbf-00cf-30d7-f8f76b516cc0" name="Sonic Boom" publicationId="5e29cf46--pub31" page="0" hidden="false">
+      <description>After firing a quake shell, draw a straight line between the Aquila macro-cannon and the central hole of the apocalyptic mega-blast template.  Roll a dice for each Flyer, Flying Monstrous Creature, or Flying Gargantuan Creature model crossed by this line.  On a roll of 1, a Flyer will Crash and Burn, while a Clying Monstrous Creature or Flying Gargantuan Creature will take D3 Wounds with no saving throws allowed.</description>
+    </rule>
     <rule id="eb95dad9-5e29-2474-4d99-3874751f67c1" name="Special Manoeuvres" publicationId="5e29cf46--pub37" page="77" hidden="false"/>
     <rule id="dbc390f5-773f-c1ca-040e-af01c87b060b" name="Squash 'em Flat, Lads" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
     <rule id="cd29a59a-dfb3-8a77-7331-7658d575c42d" name="Stampede" publicationId="5e29cf46--pub14" page="63" hidden="false">
       <description>If the Formation's Warboss is your Warlord, he can use the Waaagh! special rule each and every turn after the 1st.</description>
     </rule>
-    <rule id="3a2d9724-077e-a95d-f9d3-155df6eb2f91" name="Stampede (Apoc)" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
-    <rule id="702de286-c480-b115-bf5e-e46c5761e747" name="Stomp" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
+    <rule id="3a2d9724-077e-a95d-f9d3-155df6eb2f91" name="Stampede (Apoc)" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>If the Formation's Warboss is your Warlord, he can use the Waaagh! special rule each and every turn after the 1st.</description>
+    </rule>
+    <rule id="702de286-c480-b115-bf5e-e46c5761e747" name="Stomp" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>Super-heavy walkers or Gargantuan Creatures engageed in combat may make a special type of attack called a Stomp attack.  The Stomp attack is made in addition to the Super-heavy Walker's normal attacks. Stomp attacks are resolved during the Fight sub-phase at the Initiative 1 step.  This does not grant the model an additional Pile In move at the Initiative 1 step.
+
+A Stomp attack consists of D3 Stomps.  Buildings, Flyers, Swooping Flying Monstrous Creatures, Gargantuan Creatures, Flying Gargantuan Creatures, Super-heavy Vehicles, Super-heavy Walkers, and Super-heavy Flyers cannot be stomped; do not roll on the Stomp table for them if they fall under the blast marker.  Any other units with models under the blast marker are stomped as normal.</description>
+    </rule>
     <rule id="7cce2248-ec35-1674-dcd3-4eae0bbc3824" name="Stomp, Stomp, STOMP!" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
     <rule id="7e8b9d32-6bed-7cd1-17f1-b1c64784d94f" name="Strategic Asset - Force Field Generator" publicationId="5e29cf46--pub38" page="0" hidden="false"/>
     <rule id="5f53dcfe-5a3a-2e85-b1c2-a88bfa8bd277" name="Stray Shot" publicationId="5e29cf46--pub2" page="0" hidden="false">
       <description>Roll a D6 each time da Dead Shiny Shoota fails To Hit its target (after re-rolls).  For each roll of 1, a friendly unit within 6" of the target, chosen by your opponent, suffers a single Strength 4 AP6 hit as if it were just shot by the wielder of da Dead Shiny Shoota.  The wielder of da Deat Shiny Shoota, and his unit, cannot be chosen as the targets for a Stray Shot.</description>
     </rule>
-    <rule id="ff74e077-2909-8d73-20f8-6d5a18e9bc7b" name="Strike Force" publicationId="5e29cf46--pub39" page="0" hidden="false"/>
+    <rule id="ff74e077-2909-8d73-20f8-6d5a18e9bc7b" name="Strike Force" publicationId="5e29cf46--pub39" page="0" hidden="false">
+      <description>All gunships in the cadre must be deployed within 6" of the command tank, or, if coming on from reserve, they must enter the table within 6" of the point entered by the command tank.</description>
+    </rule>
     <rule id="12873e27-9ce3-2402-6788-7b7a5e899b7c" name="Strike from da Shadows" publicationId="5e29cf46--pub14" page="60" hidden="false">
       <description>All units in this Formation have their Stealth special rule replaced with the Shrouded special rule on the turn they arrive from Reserves until the start of their next turn.</description>
     </rule>
-    <rule id="ec70ccee-0565-5b1f-cfe8-2c90fa2aff03" name="Sunder" publicationId="5e29cf46--pub7" page="137" hidden="false"/>
+    <rule id="ec70ccee-0565-5b1f-cfe8-2c90fa2aff03" name="Sunder" publicationId="5e29cf46--pub7" page="137" hidden="false">
+      <description>Re-roll all failed AP-rolls.</description>
+    </rule>
     <rule id="8af98c53-50fe-0044-9c91-a307cc78f244" name="Super-charged Engine / Overdrive" publicationId="5e29cf46--pub7" page="6" hidden="false"/>
     <rule id="c39503eb-1d7e-1dc4-f5e2-1c17db406d88" name="Swoop Attack" publicationId="5e29cf46--pub2" page="0" hidden="false"/>
-    <rule id="f8232bb0-c5a7-035f-8362-e81215f8988b" name="Tank Riders" publicationId="5e29cf46--pub7" page="6" hidden="false"/>
-    <rule id="1022b83e-b29b-7eed-879d-7d77aa97cefb" name="Tellyport Attack" publicationId="5e29cf46--pub3" page="29" hidden="false"/>
+    <rule id="f8232bb0-c5a7-035f-8362-e81215f8988b" name="Tank Riders" publicationId="5e29cf46--pub7" page="6" hidden="false">
+      <description>A vehicle with this special rule counts as Open-topped for the purposes of embarking and disembarking Infantry models, but not for resolving damage or any other situation.</description>
+    </rule>
+    <rule id="1022b83e-b29b-7eed-879d-7d77aa97cefb" name="Tellyport Attack" publicationId="5e29cf46--pub3" page="29" hidden="false">
+      <description>All the units in this Formation have the Deep Strike special rule. If all the units in this Formation start the game in Deep Strike Reserve, they will all automatically arrive from Reserve at the start of your first turn (no Reserve rolls are necessary).</description>
+    </rule>
     <rule id="0136f8ef-98fc-fa6a-f309-bec8a2a0b5e6" name="Tellyporta Strike" publicationId="5e29cf46--pub40" page="50" hidden="true">
       <description>Before deployment, roll a D6 for each non-Flyer unit in this Detachment, adding +1 to the result if the unit's Battlefield Role is Troops.  On a result of 6+, that unit has the Deep Strike special rule.</description>
     </rule>
@@ -20147,25 +20470,71 @@ Execute the Bombing Run attack normally. In addition, the flyer making the attac
     <rule id="b68c5cc1-bca9-54a9-31eb-aeb07229162f" name="The Greenskin Hordes" publicationId="5e29cf46--pub2" page="0" hidden="true">
       <description>Every unit with 10 or more models in this Detachment gains the Hammer of Wrath special rule in any Assault phase in which it successfully charges an enemy unit and the dice rolled for its charge range is 10 or more (before modifiers). Note that the unit does not need to move the full distance rolled to gain this effect and it does not matter if the unit's size is reduced below 10 models during its charge (as a result of Overwatch, Dangerous Terrain tests etc.) so long as it can still successfully make the charge.</description>
     </rule>
-    <rule id="df3ebb71-a2c4-0df0-2bc6-43cda1326d3a" name="The Greenskin Hordes (formation)" publicationId="5e29cf46--pub2" page="0" hidden="false"/>
+    <rule id="df3ebb71-a2c4-0df0-2bc6-43cda1326d3a" name="The Greenskin Hordes (formation)" publicationId="5e29cf46--pub2" page="0" hidden="false">
+      <description>Every unit with 10 or more models in this Detachment gains the Hammer of Wrath special rule in any Assault phase in which it successfully charges an enemy unit and the dice rolled for its charge range is 10 or more (before modifiers). Note that the unit does not need to move the full distance rolled to gain this effect and it does not matter if the unit's size is reduced below 10 models during its charge (as a result of Overwatch, Dangerous Terrain tests etc.) so long as it can still successfully make the charge.</description>
+    </rule>
     <rule id="8225a5bb-9f00-d4b0-e2cd-350b040695e1" name="Throttle" publicationId="5e29cf46--pub2" page="93" hidden="false">
       <description>When the wielder is fighing in a challenge, his opponent reduces their Attacks characteristic by 1 (to a minimum of 1).</description>
     </rule>
-    <rule id="2b7bd030-9073-b18d-c65c-ef5ba26ca7ee" name="Thunderblitz" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
+    <rule id="2b7bd030-9073-b18d-c65c-ef5ba26ca7ee" name="Thunderblitz" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>Super-heavy vehicles may Tank Shock or Ram.  When they do so, roll once on teh Thunderblitz table immediately before taking the Morale check for the unit being Tank Shocked, or immediately before rolling for armour penetrating when performing a Ram.
+
+Do not roll on the Thunderblitz table when Tank Shocking a Gargantuan Creature or Flying Gargantuan Creature, or when Ramming a Super-heavy vheicle or Super-heavy Walker.  Instead, simply carry out the Tank Shock or Ram as normal.</description>
+    </rule>
     <rule id="fe247f88-0662-0593-e8a1-a2d5b30f975e" name="Trakk Units" publicationId="5e29cf46--pub9" page="54" hidden="false"/>
-    <rule id="e0b42290-2b0b-ab52-8da2-c463aecd517a" name="Trakked" publicationId="5e29cf46--pub2" page="0" hidden="false"/>
+    <rule id="e0b42290-2b0b-ab52-8da2-c463aecd517a" name="Trakked" publicationId="5e29cf46--pub2" page="0" hidden="false">
+      <description>The vehicle re-rolls failed Dangerous Terrain tests.</description>
+    </rule>
     <rule id="99e9f74e-fb66-81e6-e393-24bb372efe8e" name="Traktor" publicationId="5e29cf46--pub2" page="0" hidden="false">
       <description>This weapon automatically causes an Immobilised result in addition to any other effects when it scores a glancing or penetrating hit against a Zooming Flyer.  If a Swooping Flying Monstrous Creature suffers one or more Wounds from this weapon it suffers a -3 penalty to its Grounded test that turn.</description>
     </rule>
-    <rule id="aeaa4862-28b7-55b1-6ca0-a4520de9f24e" name="Trample" publicationId="5e29cf46--pub7" page="118" hidden="false"/>
-    <rule id="eb2d503a-1994-3a19-b12c-9e2c92ffe057" name="Tusked" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
-    <rule id="333a54de-2edb-a60d-534b-392cc1d80b62" name="Underground Barracks" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
+    <rule id="aeaa4862-28b7-55b1-6ca0-a4520de9f24e" name="Trample" publicationId="5e29cf46--pub7" page="118" hidden="false">
+      <description>When a model with this special rule charges, it inflicts D3+1 Hammer of Wrath attacks instead of one.</description>
+    </rule>
+    <rule id="eb2d503a-1994-3a19-b12c-9e2c92ffe057" name="Tusked" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>When the Squiggoth charges, its charge bonus is +2 Attacks rather than +1.</description>
+    </rule>
+    <rule id="333a54de-2edb-a60d-534b-392cc1d80b62" name="Underground Barracks" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>Infantry units in Strategic Reserve may enter play from the Access Points of any Aquila Strongpoint in a Grand Redoubt.</description>
+    </rule>
     <rule id="6aea2a21-562b-b735-95e0-36f0670f7942" name="Unknown Quantity" publicationId="5e29cf46--pub27" page="0" hidden="false"/>
-    <rule id="6ddb480c-497e-1d60-451b-7681f56b18b0" name="Unstoppable" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
-    <rule id="756fd87f-dbb5-d5e5-2300-e46b377c0259" name="Vanish in the Gloom" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
-    <rule id="29337a1b-b546-1645-6a9b-4915e27637bb" name="Very Kunnin'" publicationId="5e29cf46--pub4" hidden="false"/>
+    <rule id="6ddb480c-497e-1d60-451b-7681f56b18b0" name="Unstoppable" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>Any attack that normally inflicts Instant Death or says that the target model is removed from play inflicts D3 Wounds on a Gargantuan Creature of Flying Gargantuan Creature instead.
+
+In addition, attacks with the Sniper special rule only cause a Wound on a roll of a 6.  Attacks with the Poisoned special rule only cause a Wound on a roll of a 6 (unless the attack's Strength would cause a Wound on a lower result)</description>
+    </rule>
+    <rule id="756fd87f-dbb5-d5e5-2300-e46b377c0259" name="Vanish in the Gloom" publicationId="5e29cf46--pub30" page="0" hidden="false">
+      <description>The raids and exhibitions of violence carried out by the Dark Eldar are lightning fast, and usually completely unexpected. An enemy subject to such an attack will usually be caught completely by surprise, and at first can do little but fight for survival. However, once the initial shock of the attack starts to fade, the embattled prey will start to mobilise their forces and strike back against the invaders. When this happens, a Haemonculus Coven will quickly find itself heavily outnumbered, and will be forced to withdraw back to the webway.
+THE ARMIES
+Choose armies. One player is the Haemonculus Covens player, and his opponent is the enemy player. The Haemonculus Covens player must choose a Warlord with the Dark Eldar Faction, and in addition the Warlord must be a Haemonculus model.
+THE BATTLEFIELD
+Set up terrain. Use the Deployment Map included with this mission. Each player rolls a D6, re-rolling ties. Whoever scores higher decides which half of the table they wish to deploy in. The opposing player deploys in the opposite half.
+DEPLOYMENT
+The Haemonculus Covens player deploys first, anywhere in their deployment zone that is more than 12" away from their own table edge. The enemy player deploys second, anywhere in their deployment zone that is more than 12" from the centre line.
+FIRST TURN
+The Haemonculus Covens player can choose to take the first or second turn. If they decide to take the first turn, their opponent can attempt to Seize the Initiative.
+GAME LENGTH
+The mission uses Variable Game Length.
+VICTORY CONDITIONS
+At the end of the game, the player who has scored the most Victory Points wins the game. If players have the same number of Victory Points, the game is a draw.
+Primary Objective
+At the end of the game, each player receives 1 Victory Point for each enemy unit that has been completely destroyed. Units that are Falling Back at the end of the game, and units belonging to the enemy player that are not on the board at the end of the game, count as destroyed for the purposes of this mission. Remember that Independent Characters and Dedicated Transports are individual units and award Victory Points if they are destroyed. Furthermore, both players have the chance to earn additional Victory Points (see below).
+Secondary Objectives
+First Blood, Linebreaker, Slay the Warlord.
+In addition to the Secondary Objectives listed above, if any models from the Haemonculus Covens army are still on the battlefield when the game ends, then the enemy player receives 1 Victory Point. If no models from the Haemonculus Covens army are still on the battlefield when the game ends, then the Haemonculus Covens player receives 1 Victory Point.
+MISSION SPECIAL RULES
+Night Fighting, Reserves.
+Got Them On The Run: All enemy units have the Stubborn special rule.
+We’ll Be Back: In this mission, all units in the Haemonculus Covens player’s army have the Hit &amp; Run special rule. In addition, starting from Game Turn 3, units in the Haemonculus Covens player’s army are allowed to exit the table by moving off their own table edge. These units do not count as destroyed unless they were Falling Back when they moved off the table.</description>
+    </rule>
+    <rule id="29337a1b-b546-1645-6a9b-4915e27637bb" name="Very Kunnin'" publicationId="5e29cf46--pub4" hidden="false">
+      <description>Before deployment, the controlling player can nominate up to D3 friendly Ork units; these units gain the Acute Senses and Outflank special rules. The controlling player also adds +1 to any attempts to Seize the Initiative, as described in Core Rulebook.</description>
+    </rule>
     <rule id="fc7ae90a-1463-7890-8704-dfc7fbaeb98a" name="Violent Temper" publicationId="5e29cf46--pub2" page="0" hidden="false"/>
-    <rule id="2ff26b94-8048-d15d-c541-fd4da0f49571" name="Voice of Command" publicationId="5e29cf46--pub8" page="28" hidden="false"/>
+    <rule id="2ff26b94-8048-d15d-c541-fd4da0f49571" name="Voice of Command" publicationId="5e29cf46--pub8" page="28" hidden="false">
+      <description>A model with this special rule is known as an officer. An officer can issue one order each turn. Orders are issued and their effects resolved at the start of your Shooting phase. If you have more than one officer, or if you have an officer that has a special rule allowing it to issue more than one order a turn, issue and resolve each order one at a time.
+An officer can attempt to issue an order provided he is not locked in combat, embarked in a vehicle or building, falling back, or has gone to ground. Issuing an order does not prevent the officer’s unit from acting (shooting, Running etc.) later in that phase.</description>
+    </rule>
     <rule id="79d60887-e69e-fd1c-d4d1-86fce1614485" name="Von Strab Must Die!" publicationId="5e29cf46--pub30" page="0" hidden="false"/>
     <rule id="4c7f89de-0820-ece2-ef17-8270e6965d70" name="Vulcha Skwad" publicationId="5e29cf46--pub14" page="58" hidden="false">
       <description>During deployment, the controlling player can choose to form Boss Zagstruk and all of the units of Stormboyz in this Formation into a single unit known as Da Vulcha Skwad.  Zagstruk cannot leave this unit.  Da Vulcha Skwad counts as 3 units for Victory Points purposes if it is completely destroyed.</description>
@@ -20173,7 +20542,9 @@ Execute the Bombing Run attack normally. In addition, the flyer making the attac
     <rule id="3c4b757d-bd20-642e-9324-7e9012713139" name="Waaagh!" publicationId="5e29cf46--pub2" page="54" hidden="false">
       <description>Once per game, at the start of any of your turns after the first, a model with this special rule can, if he is your Warlord, call a Waaagh! On the turn he does so, all friendly units made up entirely of models with the 'Ere We Go! special rule may charge in the Assault phase even if they made a Run move in the same turn.</description>
     </rule>
-    <rule id="08f305be-571a-d997-5670-82b654b8e725" name="Waaagh! Banner" publicationId="5e29cf46--pub2" page="33" hidden="false"/>
+    <rule id="08f305be-571a-d997-5670-82b654b8e725" name="Waaagh! Banner" publicationId="5e29cf46--pub2" page="33" hidden="false">
+      <description>All models in a unit that includes a Waaagh! Banner add +1 to the Weapon Skill characteristic on their profile.</description>
+    </rule>
     <rule id="4119a0d4-19f0-98f3-f4c2-bf351c2461b2" name="Waaagh! Energy" publicationId="5e29cf46--pub2" page="55" hidden="false">
       <description>A Weirdboy generates a bonus +1 Warp Charge point if, at the start of your Psychic phase, there are ten or more models with the 'Ere We Go! special rule within 12" of him. If a Weirdboy generates a bonus Warp Charge point in this manner, he must pass at least one Psychic test during that phase or suffer a single Strength 2 hit at the end of that Psychic phase with no saves allowed. This special rule does not apply if the Weirdboy is embarked inside a Transport or Building</description>
     </rule>
@@ -20183,22 +20554,32 @@ Execute the Bombing Run attack normally. In addition, the flyer making the attac
     <rule id="7e145c78-371a-7883-6bf0-6abdb9a3878e" name="Waaagh!plane" publicationId="5e29cf46--pub2" page="73" hidden="false">
       <description>During a turn in which a Waaagh! is called, each of this model's assault weapons fires one more shot than normal.</description>
     </rule>
-    <rule id="9c5413ca-39ce-c0f1-99e9-9f17b3351766" name="Wall of Spikes" publicationId="5e29cf46--pub5" page="0" hidden="false"/>
+    <rule id="9c5413ca-39ce-c0f1-99e9-9f17b3351766" name="Wall of Spikes" publicationId="5e29cf46--pub5" page="0" hidden="false">
+      <description>If the spearhead is in Broadsword Attack Pattern, all of the vehicles in the formation receive a 4 + cover save against attacks on their Front Armour facing.</description>
+    </rule>
     <rule id="36fd8bde-62aa-c292-dc10-814bd36c78d1" name="Wall of Steel" publicationId="5e29cf46--pub14" page="60" hidden="false">
       <description>All models in this Formation with the Hammer of Wrath special rule inflict D3 hits instead of the usual 1.</description>
     </rule>
-    <rule id="e0387285-c637-31a0-e2d3-6b870c40f53a" name="Warlord" publicationId="5e29cf46--pub18" page="0" hidden="false"/>
+    <rule id="e0387285-c637-31a0-e2d3-6b870c40f53a" name="Warlord" publicationId="5e29cf46--pub18" page="0" hidden="false">
+      <description>If Thulsa Kane is part of an army then he will always be the army's Warlord, regardless of the Leadership value of other HQ choices. He does not roll on the Warlord Traits table, but instead receives the following unique Warlord trait:
+
+• The Wrath of Old Night: During any Assault phase in which Thulsa Kane is fighting a challenge, all friendly units with Chapter Tactics (Executioners) gain a +1 bonus to their score for working out the victor in assaults and +1 to their Sweeping Advance.</description>
+    </rule>
     <rule id="beccfd4d-727c-b85e-2bc7-82d4855fc906" name="Warlord Trait 2: Bellowing Tyrant" publicationId="5e29cf46--pub2" page="92" hidden="false">
       <description>The Warlord, and all friendly units with the Orks Faction within 12" of him, re-roll failed Morale checks and Pinning tests.</description>
     </rule>
-    <rule id="0e8be61b-6e57-3d48-57b1-4c67ac179cac" name="Warlord Trait: Biker Boss" publicationId="5e29cf46--pub17" page="0" hidden="false"/>
+    <rule id="0e8be61b-6e57-3d48-57b1-4c67ac179cac" name="Warlord Trait: Biker Boss" publicationId="5e29cf46--pub17" page="0" hidden="false">
+      <description>An army led by Zhadsnark may include Warbikers (if available in the army list) as Troops choices, but the army may not include any Deff Dreads, Killa Kans or Mek Gunz. In addition, if Zhadsnark begins the game as part of a Warbikers unit then he gains the Scout special rule.</description>
+    </rule>
     <rule id="806f3f6a-03d4-bf6d-545c-899c8e3ff182" name="Warlord Trait 4: Brutal but Kunnin'" publicationId="5e29cf46--pub2" page="92" hidden="false">
       <description>The Warlord can re-roll one failed To Hit or To Wound roll each turn.</description>
     </rule>
     <rule id="8084e188-4887-867e-255f-ce7808d6e43d" name="Warlord Trait 5: Kunnin' but Brutal" publicationId="5e29cf46--pub2" page="92" hidden="false">
       <description>The Warlord can re-roll one failed armour or invulnerable saving throw each turn.</description>
     </rule>
-    <rule id="eb9e8a70-c303-ed50-5ee0-1fd389e31d7f" name="Warlord Trait: Mek Master" publicationId="5e29cf46--pub17" page="0" hidden="false"/>
+    <rule id="eb9e8a70-c303-ed50-5ee0-1fd389e31d7f" name="Warlord Trait: Mek Master" publicationId="5e29cf46--pub17" page="0" hidden="false">
+      <description>Any Deff Dreads or Mega-dreads within 6" of Mek Boss Buzzgob count as both scoring units. If Buzzgob has been exchanged for Buzzgob’s Kustom Stompa then this trait also affects Buzzgob’s Kustom Stompa.</description>
+    </rule>
     <rule id="daee95ca-0a91-d12f-deb5-a7787ad6339a" name="Warlord Trait: Orks" publicationId="5e29cf46--pub2" page="0" hidden="false">
       <description>1 Prophet of the Waaagh!
 2 Bellowing Tyrant
@@ -20235,11 +20616,15 @@ Execute the Bombing Run attack normally. In addition, the flyer making the attac
 6 Dead 'Ard</description>
     </rule>
     <rule id="dee47bd5-da9f-f4df-4eac-26b6ae43e8e1" name="Warphead" publicationId="5e29cf46--pub2" page="0" hidden="false"/>
-    <rule id="e26065d4-edff-b29a-4a4d-4032a722fed6" name="What Grukk Says Goes" publicationId="5e29cf46--pub3" page="29" hidden="false"/>
+    <rule id="e26065d4-edff-b29a-4a4d-4032a722fed6" name="What Grukk Says Goes" publicationId="5e29cf46--pub3" page="29" hidden="false">
+      <description>Whilst Grukk Face-Rippa is alive, all units in this Formation re-roll failed Morale, Pinning, Fear or Cowardly Grots! tests.</description>
+    </rule>
     <rule id="5ef5e4f3-bbd5-6fa9-a301-b9d6c88cd813" name="Whirrr Click-click" publicationId="5e29cf46--pub2" page="96" hidden="false">
       <description>If a double is rolled when determining the number of shots for any of the supa-gatler's shooting attacks, then it runs out of ammunition after that attack has been resolved and cannot shoot again for the rest of the battle. Tis does not apply to the very first shooting attack a supa-gatler makes in battle (so it will fire a minimum of two times before running out of ammunition).</description>
     </rule>
-    <rule id="209ba0ab-7282-650b-a990-398e59fc2570" name="Wild Rampage" publicationId="5e29cf46--pub7" page="118" hidden="false"/>
+    <rule id="209ba0ab-7282-650b-a990-398e59fc2570" name="Wild Rampage" publicationId="5e29cf46--pub7" page="118" hidden="false">
+      <description>After a model with this special rule has lost at least one wound, it gains an additional D6 attacks at the start of any Fight sub-phase in which it is locked in combat with an enemy unit that contains more models than the number of friendly models involved in the same combat.</description>
+    </rule>
     <rule id="099b219f-0a6f-9ae1-4e23-b1ae0bb04270" name="Zzap" publicationId="5e29cf46--pub2" page="0" hidden="false">
       <description>Each time a Zzap gun is fired, roll 2D6 to determine its Strength, after the target unit has been chosen.  If the roll is above 10, the shot is resolved at Strenght 10 and the weapon Gets Hot on any To Hit roll of 1, 2, or 3.  If a Zzap gun Gets Hot, the Wound is resolved against the crew. Zzap guns automatically cause a Crew Shaken result in addition to any other effects when they score a glancing or penetrating hit.</description>
     </rule>
@@ -21746,7 +22131,7 @@ An army that includes a Painboss as its Warlord may include a single unit of Cyb
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="0b69b688-1aaa-e32c-211e-c35b41779ab0" name="Krusha Ball" publicationId="5e29cf46--pub11" page="193" hidden="false">
       <characteristics>
-        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">Melee, S9, AP2, Unwieldy, Strikedown.</characteristic>
       </characteristics>
     </profile>
     <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" id="b7b7214c-8608-794b-8631-f5dfb03c45dc" name="Krusha Kannon (Blast Burna)" publicationId="5e29cf46--pub7" page="137" hidden="false">
@@ -22455,7 +22840,7 @@ An army that includes a Painboss as its Warlord may include a single unit of Cyb
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="ebdf26e7-5bcd-b249-3b6b-24b980c824d0" name="Repair Krew" publicationId="5e29cf46--pub11" page="193" hidden="false">
       <characteristics>
-        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">In the Shooting phase, instead of firing a weapon, the Repair Krew can roll a D6 for each Riggers model; on a 6, restore 1 Hull Point or repair an Immobilised/Weapon Destroyed result.</characteristic>
       </characteristics>
     </profile>
     <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" id="62b3c3ae-30d2-5b24-9218-30ef39477480" name="Rippa Klaw" publicationId="5e29cf46--pub7" page="137" hidden="false">

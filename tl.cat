@@ -21766,261 +21766,881 @@
       <description>These Characters are not part of the Tyrant's Legion Army List. However, they are included here due to their participation in the Badab War, where they fought for the secessionist cause.
 As such &amp; with the consent of your opponents, they may add colour to friendly games, but should not be chosen for competitive or tournament play.</description>
     </rule>
-    <rule id="913d454d-f14f-5c77-2f4a-97bcf531c2f3" name="Acute Senses" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
+    <rule id="913d454d-f14f-5c77-2f4a-97bcf531c2f3" name="Acute Senses" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>If a unit contains at least one model with this special rule, and that unit arrives on a random table edge (due to Outflank, or other special rules), then you can re-roll to see which table edge they arrive from.</description>
+    </rule>
     <rule id="562dd521-72dd-1514-e562-b75e24872113" name="Advisors" hidden="false" publicationId="cfd140ee--pub25" page="31"/>
-    <rule id="1fb6b0d1-113c-ac38-2765-e884bc33f7e5" name="Afterburner" hidden="false" publicationId="cfd140ee--pub6" page="154"/>
-    <rule id="e7631a3f-1fbc-f24c-de42-bb7ace11f322" name="Agile" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="a08bff8b-c7f3-5c2d-0516-2e866112b074" name="Agile (Super-heavy)" hidden="false" publicationId="cfd140ee--pub18" page="6"/>
-    <rule id="0179b91c-14ad-6ac1-ec6c-2394aaabe08f" name="Aid Unlooked For" hidden="false" publicationId="cfd140ee--pub4" page="95"/>
-    <rule id="1273-d037-717e-9ffe" name="Air Commander" hidden="true" publicationId="cfd140ee--pub22" page="104"/>
+    <rule id="1fb6b0d1-113c-ac38-2765-e884bc33f7e5" name="Afterburner" hidden="false" publicationId="cfd140ee--pub6" page="154">
+      <description>The Tempest can choose to ignite its afterburners at the start of any one of its turns.  Until the owning player declares otherwise, it is treated as a Flyer and uses all the normal rules for that vehicle except that it cannot fire any weapons whilst this is the case.  If one Tempest in the squadron uses its afterburners then all must do so.</description>
+    </rule>
+    <rule id="e7631a3f-1fbc-f24c-de42-bb7ace11f322" name="Agile" hidden="false" publicationId="cfd140ee--pub5" page="0">
+      <description>In the shooting phase, a Warhound can choose to either:
+
+-fire all available weapons
+-fire a single weapon and then Run
+-fire no weapons at all and Run twice</description>
+    </rule>
+    <rule id="a08bff8b-c7f3-5c2d-0516-2e866112b074" name="Agile (Super-heavy)" hidden="false" publicationId="cfd140ee--pub18" page="6">
+      <description>In the shooting phase, a Warhound can choose to either:
+
+-fire all available weapons
+-fire a single weapon and then Run
+-fire no weapons at all and Run twice</description>
+    </rule>
+    <rule id="0179b91c-14ad-6ac1-ec6c-2394aaabe08f" name="Aid Unlooked For" hidden="false" publicationId="cfd140ee--pub4" page="95">
+      <description>The Legion of the Damned cannot be joined by Independent Characters. They always start the game in Deep Strike Reserve. When they arrive by Deep Strike, you can choose to re-roll both the 2D6 and the scatter dice.</description>
+    </rule>
+    <rule id="1273-d037-717e-9ffe" name="Air Commander" hidden="true" publicationId="cfd140ee--pub22" page="104">
+      <description>Pick a Wing Leader from this Detachment to be its commander. If the commander is in Reserve, you can re-roll the dice in the Interception sub-phase. If you have Air Superiority and the commander is in Reserve, you can add or subtract 2 from your Reserve Rolls, rather than 1, and your opponent must subtract 2 from their Reserve Rolls.</description>
+    </rule>
     <rule id="356bf697-6389-998c-b7a5-11d7ebe638ac" name="Air-to-air" hidden="false" publicationId="cfd140ee--pub24" page="5"/>
-    <rule id="9eae1363-f11b-7fa2-8f81-7c0bc2ffc616" name="Airborne Assault" hidden="false" publicationId="cfd140ee--pub25" page="46"/>
+    <rule id="9eae1363-f11b-7fa2-8f81-7c0bc2ffc616" name="Airborne Assault" hidden="false" publicationId="cfd140ee--pub25" page="46">
+      <description>From your second turn, you may choose which turn the units from this Formation arrive from Reserve (no need to roll). All units must arrive on the same turn and all must Deep Strike. You may re-roll the scatter dice when Deep Striking units from this Formation.</description>
+    </rule>
     <rule id="0add4f9e-d9c0-f899-eb00-8258ba611a1e" name="All Guns Blazing" hidden="false" publicationId="cfd140ee--pub2" page="274"/>
     <rule id="6c8a768e-73a3-e73d-4753-f7af372ac84d" name="All Power to the Weapons!" hidden="false" publicationId="cfd140ee--pub15" page="0"/>
-    <rule id="c3c24c87-92a7-d6ee-ba91-d2e122d95920" name="Amphibious" hidden="false" publicationId="cfd140ee--pub25" page="39"/>
-    <rule id="44e0993d-4c19-297a-837a-869e17e25c12" name="And They Shall Know No Fear" hidden="false" publicationId="cfd140ee--pub4" page="51"/>
-    <rule id="8040ebe7-b3db-bb91-1ab9-a6188d94754e" name="Angel of Death" hidden="false" publicationId="cfd140ee--pub1" page="178"/>
-    <rule id="5317607a-3f17-ac41-76bc-3552cd4db4a2" name="Apocalyptic Barrage" hidden="false" publicationId="cfd140ee--pub24" page="0"/>
-    <rule id="d1d835f0-140a-48ce-d1d3-324966922435" name="Armoured Cockpit" hidden="false" page="0"/>
+    <rule id="c3c24c87-92a7-d6ee-ba91-d2e122d95920" name="Amphibious" hidden="false" publicationId="cfd140ee--pub25" page="39">
+      <description>All water terrain is open ground.</description>
+    </rule>
+    <rule id="44e0993d-4c19-297a-837a-869e17e25c12" name="And They Shall Know No Fear" hidden="false" publicationId="cfd140ee--pub4" page="51">
+      <description>A unit that contains at least one model with this special rule automatically passes Fear and Regroup tests. When it Regroups, the unit does not make the 3" Regroup move, but can instead move, shoot (or Run) and declare charges normally in that turn. Furthermore, if a unit containing one or more models with this special rule is caught by a Sweeping Advance, they are not destroyed, but remain locked in combat instead.</description>
+    </rule>
+    <rule id="8040ebe7-b3db-bb91-1ab9-a6188d94754e" name="Angel of Death" hidden="false" publicationId="cfd140ee--pub1" page="178">
+      <description>The Warlord personifies the fury of the Emperor’s wrath. In his righteous presence, heretics, traitors and xenos quail in fear as they feel the vengeance of the lmperium fall upon them.</description>
+    </rule>
+    <rule id="5317607a-3f17-ac41-76bc-3552cd4db4a2" name="Apocalyptic Barrage" hidden="false" publicationId="cfd140ee--pub24" page="0">
+      <description>An Apocalyptic Barrage follows all of the rules for a Barrage weapon, but uses the clover-shaped apocalyptic barrage marker. Before the marker is placed, the attacker is allowed to rotate the marker about its centre to maximise the number of models that could potentially be hit. Place the marker and roll for scatter in the same way you would for a Blast. If the marker scatters, be careful to maintain the same orientation as you move it.
+Once the final position of the marker has been determined, roll a number of dice equal to the number of attacks on the weapon’s profile. So, for example, with a weapon with the type ‘Heavy 4, Apocalyptic Barrage’, you would roll four dice. Each dice roll corresponds to a ‘strike’ on one of the circles on the apocalyptic barrage marker. For example, each roll of a 2 indicates a strike on circle number 2. Resolve the strikes as for a Multiple Barrage, as if each were a Barrage attack that had landed on that circle and hit all the models underneath it. To determine Wound allocation and cover saves, always assume the shot is coming from the centre of the entire apocalyptic barrage marker.
+Apocalyptic Barrage Marker
+In this example, a Heavy 4 weapon with the Apocalyptic Barrage special rule is fired. The centre of the apocalyptic barrage marker is placed over the target model and rotated by the firing player until he is happy with its position. The barrage marker then scatters 8" to the right – the player is careful to maintain the template’s orientation as he moves it. Once the final position is determined, four dice are rolled to determine where the strikes land, and the results are 2, 3, 3 and 6. The circles 2 and 5-6 are hit once each, and the circle 3 is hit twice. This results in a total of 12 hits. Wounds are allocated from the centre of the apocalyptic barrage marker (the centre of circle 5-6).</description>
+    </rule>
+    <rule id="d1d835f0-140a-48ce-d1d3-324966922435" name="Armoured Cockpit" hidden="false" page="0">
+      <description>One use only; has a 4++ save against missile weapons.</description>
+    </rule>
     <rule id="1ba5edb0-3e0e-d4ed-1dc8-a57d2c03ec51" name="Artillery Strike - (In)accuracy" hidden="false" publicationId="cfd140ee--pub1" page="192"/>
-    <rule id="bbeba0ce-c85f-ecf4-5066-e9568d842b2d" name="Artillery Strike - Pinning" hidden="false" publicationId="cfd140ee--pub1" page="192"/>
+    <rule id="bbeba0ce-c85f-ecf4-5066-e9568d842b2d" name="Artillery Strike - Pinning" hidden="false" publicationId="cfd140ee--pub1" page="192">
+      <description>If a non-vehicle unit suffers one or more unsaved Wounds from a weapon with the Pinning special rule, it must take a Leadership test once the firing unit has finished its shooting attacks for that phase. This is called a Pinning test. If the unit fails the test, it is Pinned and must immediately Go to Ground. As the unit has already taken its saves, Going to Ground does not protect it against the fire of the Pinning weapon that caused the test - it's too late! As long as the test is passed, a unit can be called upon to take multiple Pinning tests in a single turn, but only once for each unit shooting at them. If a unit has already Gone to Ground, no further Pinning tests are taken. If the special rules of a unit specify that the unit can never be Pinned, the unit automatically passes Pinning tests. Such units can still Go to Ground voluntarily if they wish.</description>
+    </rule>
     <rule id="89ee8c58-bb83-d97a-44a5-ac87b421cf48" name="Artillery Strike - Placement" hidden="false" publicationId="cfd140ee--pub1" page="192"/>
-    <rule id="bacc700c-3aa4-8358-4f97-35576dd8e1e6" name="Artillery Strike - Reserves" hidden="false" publicationId="cfd140ee--pub1" page="192"/>
-    <rule id="c800c5e2-98af-b5e4-b226-1c13a1c72125" name="Assault Vehicle" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="2df4c82f-a131-4460-f090-e74a510707fa" name="Auto-targeting" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="d1a63c74-2105-d623-3c11-5f70f6042e15" name="Automated Artillery" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="421a19b0-8b86-060e-5fc8-b501386a9956" name="Automated Weapons" hidden="false" publicationId="cfd140ee--pub6" page="161"/>
-    <rule id="76c84a18-93d6-3bcc-a380-e8f3503cc7a8" name="Baneblade Difficult Terrain" hidden="false" publicationId="cfd140ee--pub2" page="90"/>
-    <rule id="64cb52de-1127-254c-17db-888da5c6e24c" name="Baneblade Ordnance" hidden="false" publicationId="cfd140ee--pub2" page="90"/>
-    <rule id="74db9595-8f92-8934-a0f2-942d59916331" name="Baneblade Tank Shock" hidden="false" publicationId="cfd140ee--pub2" page="90"/>
+    <rule id="bacc700c-3aa4-8358-4f97-35576dd8e1e6" name="Artillery Strike - Reserves" hidden="false" publicationId="cfd140ee--pub1" page="192">
+      <description>Reserves are forces that can be called upon to reinforce a battle at short notice, or to conceal your true strength from the foe.</description>
+    </rule>
+    <rule id="c800c5e2-98af-b5e4-b226-1c13a1c72125" name="Assault Vehicle" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>Passengers disembarking from Access Points on a vehicle with this special rule can charge on the turn they do so (even in a turn that the vehicle was destroyed, or in the following turn) unless the vehicle arrived from Reserve that turn.</description>
+    </rule>
+    <rule id="2df4c82f-a131-4460-f090-e74a510707fa" name="Auto-targeting" hidden="false" publicationId="cfd140ee--pub5" page="0">
+      <description>Weapons with this special rule ignore any cover saves or cover save bonuses provided by the Supersonic or Jink special rules, as well as any provided by moving Flat Out.</description>
+    </rule>
+    <rule id="d1a63c74-2105-d623-3c11-5f70f6042e15" name="Automated Artillery" hidden="false" publicationId="cfd140ee--pub5" page="0">
+      <description>Unlike standard artillery, Automated Artillery does not require crew in order to function. It is not removed from play due to lack of crew and each Sentry Gun must be destroyed normally before it is removed. Automated Artillery cannot move and cannot charge. If assualted, they do not pile-in and cannot be locked in combat, their attackers will hit automatically, but must roll To Wound normally. 
+If a unit of Automated Artillery loses an assault, nothing happens - there are no Sweeping Advances, no Pile-ins and no Consolidation moves. The Automated Artillery remains in place and may fire normally in future turns. If the Automated Artillery wins an assault, the enemy must take a Morale check as normal, although the artillery piece cannot Consolidate or make a Sweeping Advance. Independant Characters may not join units of Automated Artillery.</description>
+    </rule>
+    <rule id="421a19b0-8b86-060e-5fc8-b501386a9956" name="Automated Weapons" hidden="false" publicationId="cfd140ee--pub6" page="161">
+      <description>When a Deathstorm Drop Pod lands, it opens fire indiscriminately in its first Shooting phase. Each unit (enemy or friendly) within 12" of the model's weapons mounts comes under attack from a hail of fire which sweeps the surrounding area. Each target caught in this area suffers either D3 Whirlwild attacks or D3 assault cannon attacks as per the Drop Pod's armament, resolved using the Deathstorms BS 2.
+
+In subsequent turns the Deathstorm may continue to fire, picking a single enemy target within its weapon's normal range and line of sight, resolving the attack as normal.</description>
+    </rule>
+    <rule id="76c84a18-93d6-3bcc-a380-e8f3503cc7a8" name="Baneblade Difficult Terrain" hidden="false" publicationId="cfd140ee--pub2" page="90">
+      <description>A Baneblade does not take Dangerous Terrain tests when moving through Difficult Terrain.</description>
+    </rule>
+    <rule id="64cb52de-1127-254c-17db-888da5c6e24c" name="Baneblade Ordnance" hidden="false" publicationId="cfd140ee--pub2" page="90">
+      <description>A Baneblade may fire all of its weapons in addition to its Ordnance weapons at full Ballistic Skill.</description>
+    </rule>
+    <rule id="74db9595-8f92-8934-a0f2-942d59916331" name="Baneblade Tank Shock" hidden="false" publicationId="cfd140ee--pub2" page="90">
+      <description>When a Baneblade performs a Tank Shock or Ram, enemy units suffer -2 to their Morale check and the Baneblade adds +2 to its Armour Value for Ramming.</description>
+    </rule>
     <rule id="3d12c629-759b-db9d-5f0c-2b135c889d34" name="Barrage Patterns" hidden="false" publicationId="cfd140ee--pub26" page="21"/>
-    <rule id="22745eed-217f-9a44-4bf1-61c064ddef2e" name="Battle Alchemistry" hidden="false" publicationId="cfd140ee--pub3" page="29"/>
+    <rule id="22745eed-217f-9a44-4bf1-61c064ddef2e" name="Battle Alchemistry" hidden="false" publicationId="cfd140ee--pub3" page="29">
+      <description>If Valthex is present in an army, then both he and any one friendly unit chosen from Codex: Space Marines with Chapter Tactics (Astral Claws) may upgrade their boltguns, bolt pistols or storm bolters to use specially modified Hellfire rounds at no cost. This means the affected weapons gain the Poisoned (2+) ability, though otherwise their weapon profiles remain unchanged. The squad that has been selected for this upgrade must be noted down before the battle.</description>
+    </rule>
     <rule id="6cff167c-2594-b4cc-2944-929a88e01980" name="Battle Psyker" hidden="false" publicationId="cfd140ee--pub13" page="174"/>
-    <rule id="0a090012-f12d-cd74-02ba-be2bf569ed79" name="Behind Enemy Lines" hidden="false" publicationId="cfd140ee--pub25" page="46"/>
-    <rule id="15c94625-405c-6b67-5cdb-0fdceae5c11b" name="Blessings of the Omnissiah" hidden="false" publicationId="cfd140ee--pub4" page="70"/>
-    <rule id="663fc49f-77af-57d8-24f3-0cbe817a797f" name="Bloodline of Sanguinius" hidden="false" publicationId="cfd140ee--pub3" page="16"/>
-    <rule id="010690eb-a734-b3e1-49bf-d334707b7176" name="Bolster Defences" hidden="false" publicationId="cfd140ee--pub4" page="70"/>
+    <rule id="0a090012-f12d-cd74-02ba-be2bf569ed79" name="Behind Enemy Lines" hidden="false" publicationId="cfd140ee--pub25" page="46">
+      <description>The Defender suffers a -2 penalty to his Reserve Rolls.</description>
+    </rule>
+    <rule id="15c94625-405c-6b67-5cdb-0fdceae5c11b" name="Blessings of the Omnissiah" hidden="false" publicationId="cfd140ee--pub4" page="70">
+      <description>Instead of shooting, may repair a friendly vehicle embarked or in base contact.  Need 5+, adding +1 for each Servitor with servo-arm in unit. Success restores hull point, or repairs destroyed weapon, or repairs Immobilised.</description>
+    </rule>
+    <rule id="663fc49f-77af-57d8-24f3-0cbe817a797f" name="Bloodline of Sanguinius" hidden="false" publicationId="cfd140ee--pub3" page="16">
+      <description>For the purposes of any rules that target Blood Angels, or models chosen from Codex: Blood Angels, Malakim Phoros counts as a Blood Angel (see Codex: Blood Angels for more details).</description>
+    </rule>
+    <rule id="010690eb-a734-b3e1-49bf-d334707b7176" name="Bolster Defences" hidden="false" publicationId="cfd140ee--pub4" page="70">
+      <description>After deployment, but before Scout redeployments and Infiltrate deployments, nominate one piece of terrain in your deployment zone (this cannot be one you have purchased as part of your army).  The terrain piece's cover save is increased by 1 for the duration of the game (to a maximum of 3+). Note that a piece of terrain can only be bolstered once.</description>
+    </rule>
     <rule id="2fb51a3c-c346-5ba5-c8aa-f12d03f797a3" name="Breacher Charge" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
     <rule id="5b26572c-53a5-110c-5589-e5530110e956" name="Brutes" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="32b0b507-82e7-5304-1a9c-b69fb2f5ae98" name="Bulky" hidden="false" publicationId="cfd140ee--pub23" page="35"/>
-    <rule id="dd2b4264-c6fb-66d3-11cc-af4db52f69cb" name="Burning Retros" hidden="false" publicationId="cfd140ee--pub18" page="24"/>
-    <rule id="c0f83592-51f5-3687-c4f2-0101fe82d51a" name="Caestus Ram" hidden="false" page="0"/>
+    <rule id="32b0b507-82e7-5304-1a9c-b69fb2f5ae98" name="Bulky" hidden="false" publicationId="cfd140ee--pub23" page="35">
+      <description>Bulky models count as two models for the purposes of Transport Capacity.</description>
+    </rule>
+    <rule id="dd2b4264-c6fb-66d3-11cc-af4db52f69cb" name="Burning Retros" hidden="false" publicationId="cfd140ee--pub18" page="24">
+      <description>The Lucius Pattern Dreadnought Drop Pod has the Shrouded rule on the game turn it arrives.  Should the Dreadnought carried by the Drop Pod remain on any part of its structure (including its doors) on the game turn the Drop Pod arrives, it benefits from the Shrouded rule also, as does any unit targeted by any fire whose line of sight passes through or over the drop pod on the game turn of its arrival.</description>
+    </rule>
+    <rule id="c0f83592-51f5-3687-c4f2-0101fe82d51a" name="Caestus Ram" hidden="false" page="0">
+      <description>When conducting a ram attack, the Caestus' player rolls two dice and picks the highest number when determining if it has penetrated the target's armour and adds +1 to any rolls on the Damage chart that it uses.  In addition, the Caestus has a save of 5+ against any attacks against its front armour, including damage it suffers as a result of ramming or being rammed itself from the front.</description>
+    </rule>
     <rule id="eeda8380-ed1d-56ad-06a3-8a36e9b99a6d" name="Careful Planner" hidden="false" publicationId="cfd140ee--pub27" page="77"/>
-    <rule id="9c49a9ac-b424-8a55-e98d-025bdd01c169" name="Cavalry" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="8aee75d3-609b-c5cc-1eb5-fcd37ea6ff6b" name="Chapter Master" hidden="false" publicationId="cfd140ee--pub3" page="161"/>
-    <rule id="4e4128e3-9b5a-92c6-81f1-f4eea84a5510" name="Chapter Tactics" hidden="false" publicationId="cfd140ee--pub13" page="0"/>
-    <rule id="b4f4716a-f6ec-5d9c-a870-cca0e6e522a4" name="Chapter Tactics: Rapid Attack and Encirclement" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="584425e8-e6e6-eb6a-f56c-a41c14101fae" name="Chapter Tactics: Reckless Courage" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
+    <rule id="9c49a9ac-b424-8a55-e98d-025bdd01c169" name="Cavalry" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>[text removed]</description>
+    </rule>
+    <rule id="8aee75d3-609b-c5cc-1eb5-fcd37ea6ff6b" name="Chapter Master" hidden="false" publicationId="cfd140ee--pub3" page="161">
+      <description>If Malakim Phoros is included in an army then none of its primary detachments may include another Chapter Master, named or otherwise.</description>
+    </rule>
+    <rule id="4e4128e3-9b5a-92c6-81f1-f4eea84a5510" name="Chapter Tactics" hidden="false" publicationId="cfd140ee--pub13" page="0">
+      <description>When choosing an army, all models in the same Detachment or Formation must be drawn from the same Chapter.  If a unit's datasheet contains a Chapter in brackets after the Chapter Tactics special rule - for example, "Chapter Tactics (Ultramarines)" - the unit must always be drawn from this Chapter, and therefore cannot be included in a Detachment or Formation with any units that are drawn from other Chapters. All models drawn from a given Chapter benefit from that Chapter's Special Rule. If a unit contains models drawn from two different Chapters, it counts as from neither Chapter, and thus benefits from neither Chapter Tactic.</description>
+    </rule>
+    <rule id="b4f4716a-f6ec-5d9c-a870-cca0e6e522a4" name="Chapter Tactics: Rapid Attack and Encirclement" hidden="false" publicationId="cfd140ee--pub5" page="0">
+      <description>Models with this special rule with the unit type Bike gain the Skilled Rider special rule. Vehicles in the same detachment that are Fast Skimmers gain the Scout special rule.</description>
+    </rule>
+    <rule id="584425e8-e6e6-eb6a-f56c-a41c14101fae" name="Chapter Tactics: Reckless Courage" hidden="false" publicationId="cfd140ee--pub5" page="0">
+      <description>Any model with Chapter Tactics (Astral Claws) has the Stubborn special rule and may never choose to automatically fail a Morale check.</description>
+    </rule>
     <rule id="8133a58a-5a90-5b68-4ae3-cf6c6374833c" name="Chapter Tactics: The Badab Wars" hidden="false" publicationId="cfd140ee--pub28" page="0"/>
     <rule id="ac4ca3ba-215a-25d6-d46c-fdb7f4918d34" name="Chapter Tactics: The Tyrant's Legion" hidden="false" publicationId="cfd140ee--pub28" page="0"/>
     <rule id="b9eb9189-e791-a4eb-9f64-13e91ac8254f" name="Chief Librarian" hidden="false" publicationId="cfd140ee--pub13" page="174"/>
-    <rule id="1cf8bee4-06d6-ec61-eb6c-f865cae26137" name="Combat Squads" hidden="false" publicationId="cfd140ee--pub4" page="51"/>
-    <rule id="8ca5-e7fb-9f47-27b9" name="Combined Formation" hidden="true" publicationId="cfd140ee--pub22" page="104"/>
-    <rule id="89354426-c301-fbb1-128f-0916ee8f04bf" name="Combined Squad" hidden="false" publicationId="cfd140ee--pub25" page="37"/>
-    <rule id="e53371b7-8995-9e57-6b79-6f46c13125cc" name="Command Tank" hidden="false" publicationId="cfd140ee--pub15" page="0"/>
+    <rule id="1cf8bee4-06d6-ec61-eb6c-f865cae26137" name="Combat Squads" hidden="false" publicationId="cfd140ee--pub4" page="51">
+      <description>A full strength, ten-man unit with this special rule can break down into two five-man units, called combat squads, considered to be two five-man squads of the same type. For example, a ten-man Tactical Squad can split into two five-man Tactical Squads using the Combat Squads special rule.
+
+You must decide which units are splitting into combat squads, and which models go into each combat squad, immediately before determining your Warlord Traits. A unit split into combat squads therefore is now two separate units for all game purposes, including calculating the total number of units in the army and determining the number of units you can place in reserve. Then proceed with deployment as normal. In an exception to the normal rules, two combat squads split from the same unit can embark in the same transport vehicle, providing its Transport Capacity allows. Once you have decided whether or not to split a unit into combat squads, it must remain that way for the entire battle. It cannot split up or join back together later on in the battle, nor can you use a redeployment to split up a unit or join it back together.
+
+Note that Bike Squads count as being at full strength when they have eight Space Marine Bikers and one Attack Bike. If split into combat squads, one combat squad will have five Bikers, the other will have three and the Attack Bike.</description>
+    </rule>
+    <rule id="8ca5-e7fb-9f47-27b9" name="Combined Formation" hidden="true" publicationId="cfd140ee--pub22" page="104">
+      <description>You can roll once for all of the Wings in this Detachment to see if they arrive from Reserve. If the roll is successful they all arrive. If it fails none of them do. You can roll individually for each Wing if you prefer.</description>
+    </rule>
+    <rule id="89354426-c301-fbb1-128f-0916ee8f04bf" name="Combined Squad" hidden="false" publicationId="cfd140ee--pub25" page="37">
+      <description>[text removed]</description>
+    </rule>
+    <rule id="e53371b7-8995-9e57-6b79-6f46c13125cc" name="Command Tank" hidden="false" publicationId="cfd140ee--pub15" page="0">
+      <description>A Command Tank may be chosen as a HQ selection and confers command benefits to friendly units within 12" as described on its datasheet.</description>
+    </rule>
     <rule id="36088b48-f782-c692-bb97-aedac2786e2a" name="Commissariat Crew" hidden="false" publicationId="cfd140ee--pub15" page="0"/>
-    <rule id="8fce20c7-4989-1f17-1aee-8605459d2a61" name="Containment Failure" hidden="false" publicationId="cfd140ee--pub29" page="0"/>
-    <rule id="cf43-e6dd-c69d-e345" name="Convergent Targeting" hidden="false" publicationId="cfd140ee--pub4"/>
-    <rule id="7325dbb8-81ee-1150-735d-3c00808e39b3" name="Counter Attack" hidden="false" publicationId="cfd140ee--pub23" page="35"/>
-    <rule id="eead883a-5423-61ce-c77e-c41c77ad9c84" name="Crusader" hidden="false" publicationId="cfd140ee--pub23" page="30"/>
-    <rule id="e60281e5-ed41-0d9d-ea4f-beb543420eaf" name="Crushing Weight" hidden="false" publicationId="cfd140ee--pub18" page="6"/>
+    <rule id="8fce20c7-4989-1f17-1aee-8605459d2a61" name="Containment Failure" hidden="false" publicationId="cfd140ee--pub29" page="0">
+      <description>If the main strongpoint suffers a Total Collapse or Detonation! result, roll one dice for each remaining vortex missile.  On a roll of 1-2, the missile explodes.  Place the vortex's blast marker on the center of the main strongpoint, then scatter 2D6"</description>
+    </rule>
+    <rule id="cf43-e6dd-c69d-e345" name="Convergent Targeting" hidden="false" publicationId="cfd140ee--pub4">
+      <description>Whilst this unit includes three Thunderfire Cannons, all Techmarine Gunners in the unit have +1 Ballistic Skill.</description>
+    </rule>
+    <rule id="7325dbb8-81ee-1150-735d-3c00808e39b3" name="Counter Attack" hidden="false" publicationId="cfd140ee--pub23" page="35">
+      <description>If a unit contains at least one model with this special rule, and that unit is charged, every model with the Counter-attack special rule in the unit gets +1 Attack until the end of the phase.
+
+If, when charged, the unit was already locked in combat, the Counter-attack special rule has no effect.</description>
+    </rule>
+    <rule id="eead883a-5423-61ce-c77e-c41c77ad9c84" name="Crusader" hidden="false" publicationId="cfd140ee--pub23" page="30">
+      <description>A unit that contains at least one model with this special rule rolls an extra dice when making Run moves, using highest result rolled. IN addition, a unit that contains at least one model with this rule adds D3 to its Sweeping Advance totals (roll each time).</description>
+    </rule>
+    <rule id="e60281e5-ed41-0d9d-ea4f-beb543420eaf" name="Crushing Weight" hidden="false" publicationId="cfd140ee--pub18" page="6">
+      <description>A Super-Heavy vehicle with this special rule adds +1 to all rolls on the Thunderblitz table when making a Ram or Tank Shock attack.</description>
+    </rule>
     <rule id="467ee80b-6b32-01cc-fe7c-0ab14dc3d01b" name="Cumbersome" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
     <rule id="0b3bc56f-8670-00f4-d5e3-59b867890e69" name="Dark Harvest" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="df6d84f7-368b-957f-32b9-57e5cc42d42c" name="Decimator Protocols" hidden="false" publicationId="cfd140ee--pub4" page="94"/>
-    <rule id="90311584-d42b-5056-1554-0c859a6db9ab" name="Deep Strike" hidden="false" publicationId="cfd140ee--pub23" page="36"/>
-    <rule id="75f46c65-7f3d-f7a2-0075-2cbdf9092ce1" name="Defending Battle Force" hidden="true" publicationId="cfd140ee--pub30"/>
-    <rule id="979d1cc0-9ed5-22e8-101c-802e25393947" name="Defensive Strategy" hidden="true" publicationId="cfd140ee--pub30"/>
-    <rule id="d4b3d116-b57e-46c1-e3b8-2d6261b65ecb" name="Drop Pod Assault" hidden="false" publicationId="cfd140ee--pub4" page="99"/>
-    <rule id="7296e297-c708-e05d-45d1-f9a9c98cc4d3" name="Earthshock" hidden="false" publicationId="cfd140ee--pub15" page="0"/>
-    <rule id="1cd1806f-3b3e-a936-39a6-e36450f39efa" name="Engine Damage" hidden="false" publicationId="cfd140ee--pub18" page="6"/>
-    <rule id="5c931240-087a-3624-74d9-41572b0c32fd" name="Eternal Warrior" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="3d07f624-4f87-3389-b892-f6fd53515138" name="Explosive Demise" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="695c6e4d-b798-6881-19c5-f0f48fb554bf" name="Extremely Bulky" hidden="false" publicationId="cfd140ee--pub23" page="35"/>
-    <rule id="179e20b2-b985-74fe-b514-8f6da2e8dea3" name="Fear" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="92e3a95b-9df5-a19f-4932-3a0650a8daf2" name="Fearless" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="1a39557d-f118-167d-1363-0d5ceefa789f" name="Feel No Pain" hidden="false" publicationId="cfd140ee--pub23" page="35"/>
-    <rule id="76df281d-31ad-c62d-e333-9963746616f3" name="Ferromantic Invulnerability" hidden="false" publicationId="cfd140ee--pub6" page="57"/>
+    <rule id="df6d84f7-368b-957f-32b9-57e5cc42d42c" name="Decimator Protocols" hidden="false" publicationId="cfd140ee--pub4" page="94">
+      <description>A model with this special rule can fire up to two weapons in its Shooting phase.</description>
+    </rule>
+    <rule id="90311584-d42b-5056-1554-0c859a6db9ab" name="Deep Strike" hidden="false" publicationId="cfd140ee--pub23" page="36">
+      <description>Deep Strike Mishap Table: D6 Roll
+
+1: Terrible Accident! - The entire unit is destroyed!
+
+2-3: Misplaced - Your opponent may deploy the unit anywhere on the table (excluding impassable terrain, but including difficult terrain, which of course counts as dangerous for Deep Striking units), in a valid Deep Strike formation, without rolling for scatter. Units embarked on a misplaced Transport can disembark during their Movement phase as normal.
+
+4-6: Delayed - The unit is placed in Ongoing Reserves.</description>
+    </rule>
+    <rule id="75f46c65-7f3d-f7a2-0075-2cbdf9092ce1" name="Defending Battle Force" hidden="true" publicationId="cfd140ee--pub30">
+      <description>Once, in each of your turns, you can choose one unit before making any Reserve Rolls. You can choose to pass or fail the Reserve Roll for that unit automatically (it must still arrive on the fourth turn).</description>
+    </rule>
+    <rule id="979d1cc0-9ed5-22e8-101c-802e25393947" name="Defensive Strategy" hidden="true" publicationId="cfd140ee--pub30">
+      <description>If this is your Primary Detachment, you have +1 Stratagem Point to spend when selecting Planetstrike stratagems.</description>
+    </rule>
+    <rule id="d4b3d116-b57e-46c1-e3b8-2d6261b65ecb" name="Drop Pod Assault" hidden="false" publicationId="cfd140ee--pub4" page="99">
+      <description>Drop Pods and units embarked upon them must be held in Deep Strike Reserves. At the beginning of your first turn, half your Drop Pods (rounding up) automatically arrive from Reserve. The arrival of remaining Drop Pods is rolled for normally.</description>
+    </rule>
+    <rule id="7296e297-c708-e05d-45d1-f9a9c98cc4d3" name="Earthshock" hidden="false" publicationId="cfd140ee--pub15" page="0">
+      <description>All models under the tremor cannon’s massive blast marker that were not removed from play as a result of that shooting attack must take a Dangerous Terrain test once the hit has been resolved.</description>
+    </rule>
+    <rule id="1cd1806f-3b3e-a936-39a6-e36450f39efa" name="Engine Damage" hidden="false" publicationId="cfd140ee--pub18" page="6">
+      <description>When this Super-heavy vehicle suffers an Explodes! result on the Vehicle Damage table, roll a D6. On the score of a 4+, it is Immobilised (as per the entry on the Vehicle Damage table) as well as suffering the effects of any other damage inflicted upon it, this ignores a Super-heavy vehicle's normal immunity to such damage.</description>
+    </rule>
+    <rule id="5c931240-087a-3624-74d9-41572b0c32fd" name="Eternal Warrior" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>If a model with this special rule suffers an unsaved Wound from an attack that inflicts Instant Death, it only reduces its Wounds by 1, instead of automatically reducing its Wounds to 0.</description>
+    </rule>
+    <rule id="3d07f624-4f87-3389-b892-f6fd53515138" name="Explosive Demise" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>When the Rapier loses its last wound, roll a D6. If the result of this roll is 2-6 then remove the Rapier as a casualty as normal.  If the result of the roll is a 1 then place a Large Blast template onto the table, centered on the Rapier. All models, friendly and enemy, under this template take a single S3 AP- hit.  Once these hits are resolved, remove the Rapier as a casualty as normal.</description>
+    </rule>
+    <rule id="695c6e4d-b798-6881-19c5-f0f48fb554bf" name="Extremely Bulky" hidden="false" publicationId="cfd140ee--pub23" page="35">
+      <description>Extremely Bulky models count as five models for the purposes of Transport Capacity.</description>
+    </rule>
+    <rule id="179e20b2-b985-74fe-b514-8f6da2e8dea3" name="Fear" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>At the start of each Fight sub-phase, a unit in base contact with one or more enemy models that cause Fear must take a Leadership test (called a Fear test) before any blows are struck. If the test is passed, all is well and there is no effect. If the test is failed, the unit succumbs to fear - all models in the unit have their Weapon Skill reduced to 1 for the remainder of that Fight sub-phase. Note that a model that causes Fear is not itself immune to Fear, and will still need to take a Fear test if it is base contact with any enemy models that cause Fear.</description>
+    </rule>
+    <rule id="92e3a95b-9df5-a19f-4932-3a0650a8daf2" name="Fearless" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>Units containing one or more models with the Fearless special rule automatically pass Pinning, Fear, Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons Are Useless rule. If a unit has Gone to Ground and then gains the Fearless special rule, all the effects of Go to Ground are immediately cancelled.</description>
+    </rule>
+    <rule id="1a39557d-f118-167d-1363-0d5ceefa789f" name="Feel No Pain" hidden="false" publicationId="cfd140ee--pub23" page="35">
+      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that 'no saves of any kind are allowed', for example those inflicted by Perils of the Warp).
+
+Feel No Pain saves may not be taken against Destroyer attacks or against unsaved Wounds that have the Instant Death special rule.
+
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved  Wound is discounted - treat it as having been saved.
+
+If a unit has the Feel No Pain special rule with a number in brackets afterwards -Feel No Pain (6+), for example - then the number in brackets is the D6 result needed to discount the Wound.</description>
+    </rule>
+    <rule id="76df281d-31ad-c62d-e333-9963746616f3" name="Ferromantic Invulnerability" hidden="false" publicationId="cfd140ee--pub6" page="57">
+      <description>The Land Raider Achilles is not subject to the effects of the Lance and Melta special rules by attacks made against it. In addition, it reduces the effects of all roll son the damage chart caused by Penetrating hits by -1 (other than Destroyer Weaponry)</description>
+    </rule>
     <rule id="1d7a60b5-551e-4a01-2829-4c8cba70a0eb" name="Field Commander" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="0659c2f0-2ade-4c75-631f-ff484780df39" name="Fighter Ace" hidden="false" publicationId="cfd140ee--pub17" page="44"/>
+    <rule id="0659c2f0-2ade-4c75-631f-ff484780df39" name="Fighter Ace" hidden="false" publicationId="cfd140ee--pub17" page="44">
+      <description>At the start of the battle, roll a D6 for your Fighter Ace.  This model has one benefit for the rest of the game corresponding to the table below:
+
+1-2: The Fighter Ace has +1 Ballistic Skill
+3-4: The Fighter Ace can pivot up to 180 degrees before moving in the Movement phase each turn.
+5-6: All friendly units within 12" of the Fighter Ace that are from the same Faction as the Fighter Ace have the Hatred special rule.</description>
+    </rule>
     <rule id="6327d668-fc02-029d-d2a7-35457506ff6e" name="Fire Control" hidden="false" publicationId="cfd140ee--pub26" page="22"/>
-    <rule id="db8ad088-19ef-797a-f780-f789a285c39f" name="Fire Modes - Point Defence, Sentry, Interceptor" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="41121a8b-ffba-09d6-d08a-324b9991b02f" name="Firing Calibration" hidden="false" publicationId="cfd140ee--pub18" page="21"/>
-    <rule id="6d6b6e2d-9882-c696-8782-074c00a5f2e0" name="Fleet" hidden="false" publicationId="cfd140ee--pub23" page="35"/>
-    <rule id="b6168ee9-fcfd-3432-578b-fecd68533042" name="Fleshbane/Poisoned" hidden="false" publicationId="cfd140ee--pub25" page="61"/>
+    <rule id="db8ad088-19ef-797a-f780-f789a285c39f" name="Fire Modes - Point Defence, Sentry, Interceptor" hidden="false" publicationId="cfd140ee--pub5" page="0">
+      <description>A Tarantula Sentry Gun can fire in one of two ways and you must decide which mode it will be set up in before the start of the game. You cannot change its mode once you have decided, it remains in that mode for the rest of the game.
+
+ • Point Defence Mode: The Tarantula Sentry Gun is set up with a fixed firing arc. In this mode, the gun will engage enemy targets up to 36" away that are in a fixed 90° arc to it's front.
+
+ • Sentry Mode: The Tarantula Sentry Gun is programmed for close defence and may target enemy models within 18" to which it can draw line of sight and can fire all around itself.</description>
+    </rule>
+    <rule id="41121a8b-ffba-09d6-d08a-324b9991b02f" name="Firing Calibration" hidden="false" publicationId="cfd140ee--pub18" page="21">
+      <description>This weapon may not be fired if the model carrying it has moved in the same turn, regardless of the Relentless special rule or if the carrying model is a vehicle, etc.</description>
+    </rule>
+    <rule id="6d6b6e2d-9882-c696-8782-074c00a5f2e0" name="Fleet" hidden="false" publicationId="cfd140ee--pub23" page="35">
+      <description>A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
+    </rule>
+    <rule id="b6168ee9-fcfd-3432-578b-fecd68533042" name="Fleshbane/Poisoned" hidden="false" publicationId="cfd140ee--pub25" page="61">
+      <description>If a model has this special rule, or is attacking with a Melee weapon that has this special rule, they always Wound on a 2+ in close combat.
+
+Similarly, if a model makes a shooting attack with a weapon that has this special rule, they always Wound on a 2+. 
+
+In either case, this special rule has no effect against vehicles or buildings.</description>
+    </rule>
     <rule id="9c214c02-737f-647b-c4dc-0d62023ca3a9" name="Forward Deployment" hidden="false" publicationId="cfd140ee--pub26" page="22"/>
-    <rule id="ebc5a0a0-b1ff-0523-b9df-93e2950c6a92" name="Fully Automated" hidden="false" publicationId="cfd140ee--pub29" page="0"/>
-    <rule id="efc0f034-c92b-3279-9ccd-413c8bd50609" name="Furious Charge" hidden="false" publicationId="cfd140ee--pub23" page="27"/>
-    <rule id="4e687c5a-e4b7-4ca9-159c-3b586f364c49" name="Graviton Pulse" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
+    <rule id="ebc5a0a0-b1ff-0523-b9df-93e2950c6a92" name="Fully Automated" hidden="false" publicationId="cfd140ee--pub29" page="0">
+      <description>Emplaced weapons on a Firestorm Redoubt can only fire using the automated fire rule: models occupying a Firestorm Redoubt cannot use the manual fire rule to fire any of its emplaced weapons.</description>
+    </rule>
+    <rule id="efc0f034-c92b-3279-9ccd-413c8bd50609" name="Furious Charge" hidden="false" publicationId="cfd140ee--pub23" page="27">
+      <description>In a turn in which a model with this special rule charges into combat, it adds +1 to its Strength characteristic until the end of the Assault phase. A model that has made a disordered charge that turn receives no benefit from Furious Charge.</description>
+    </rule>
+    <rule id="4e687c5a-e4b7-4ca9-159c-3b586f364c49" name="Graviton Pulse" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Instead of rolling To Wound normally with this weapon, any model caught under the Blast template must instead roll equal to or under their Strength score on a D6 or suffer a wound (a roll of 6 always counts as a failure). After the Graviton pulse weapon has been fired, leave the Blast marker in place. This area now counts as both difficult terrain and dangerous terrain for the next player turn, thanks to the graviton flux.</description>
+    </rule>
     <rule id="d2937f8a-fa05-d47e-5ebe-b948f79d8337" name="Gun Carriage" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="670d6ea0-fd24-942e-0c0c-35c63a985f14" name="Hail of Fire" hidden="false" publicationId="cfd140ee--pub26" page="26"/>
-    <rule id="4f3e5d21-7348-f25b-ae11-dddb6da51267" name="Hammer of Wrath" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
+    <rule id="670d6ea0-fd24-942e-0c0c-35c63a985f14" name="Hail of Fire" hidden="false" publicationId="cfd140ee--pub26" page="26">
+      <description>This weapon makes Snap Shots at BS 2.</description>
+    </rule>
+    <rule id="4f3e5d21-7348-f25b-ae11-dddb6da51267" name="Hammer of Wrath" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>If a model with this special rule ends its charge move in base or hull contact with an enemy model, it makes one additional Attack that hits automatically and is resolved at the model's unmodified Strength with AP-. This Attack does not benefit from any of the model's special rules (such as Furious Charge, Rending etc.). This Attack is resolved during the Fight sub-phase at the Initiative 10 step, but does not grant the model an additional Pile In move.
+
+If a model with this special rule charges a building or vehicle, the hit is resolved against the Armour Value of the facing the charging model is touching. If a model with this special rule charges a building or vehicle that is a Transport or a Chariot, the hit is resolved against the building or vehicle, not the occupants or the rider.</description>
+    </rule>
     <rule id="2387bca9-ebf3-2521-0e0f-7dcadb8a4c7f" name="Hardened Crew" hidden="false" publicationId="cfd140ee--pub2" page="272"/>
-    <rule id="89e6cbe2-8b68-b1cf-c1cf-1b6741bf8309" name="Heat Seeker" hidden="false" publicationId="cfd140ee--pub24" page="5"/>
-    <rule id="b1769cfc-4434-03fe-0dff-28d2a80c8f8d" name="Heavy Vehicle" hidden="false" publicationId="cfd140ee--pub23" page="83"/>
-    <rule id="b640e138-3ca5-f1ca-1c90-be355ee36018" name="Heroic Intervention" hidden="false" publicationId="cfd140ee--pub4" page="87"/>
-    <rule id="defb89bb-4557-e9ae-c22a-4a017c2dad09" name="Hit and Run" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="894b5843-ba03-8505-424f-b97bf9b1a097" name="Honour of the Chapter" hidden="false" publicationId="cfd140ee--pub13" page="175"/>
-    <rule id="0dbae433-e710-f54b-6f9a-7f7718535ee6" name="Honour or Death" hidden="false" publicationId="cfd140ee--pub4" page="53"/>
-    <rule id="a760-2fd9-24c6-d5ff" name="Icarus Stormcannon Array" hidden="false" publicationId="cfd140ee--pub4"/>
-    <rule id="852d2433-a276-7db9-d635-062c2691cb3e" name="Ideal Mission Commander" hidden="true" publicationId="cfd140ee--pub23"/>
-    <rule id="721b6bb8-6e4a-46a7-25e3-a9f9fe9c86d8" name="Immobile" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
+    <rule id="89e6cbe2-8b68-b1cf-c1cf-1b6741bf8309" name="Heat Seeker" hidden="false" publicationId="cfd140ee--pub24" page="5">
+      <description>A weapon with this special rule can re-roll all failed rolls To Hit against Flyers and Fast Skimmers</description>
+    </rule>
+    <rule id="b1769cfc-4434-03fe-0dff-28d2a80c8f8d" name="Heavy Vehicle" hidden="false" publicationId="cfd140ee--pub23" page="83">
+      <description>[text removed]</description>
+    </rule>
+    <rule id="b640e138-3ca5-f1ca-1c90-be355ee36018" name="Heroic Intervention" hidden="false" publicationId="cfd140ee--pub4" page="87">
+      <description>A unit with this special rule can re-roll one or both dice when determining its charge range.  Furthermore, a unit with this special rule ignores the penalty for disordered charges.</description>
+    </rule>
+    <rule id="defb89bb-4557-e9ae-c22a-4a017c2dad09" name="Hit and Run" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>A unit that contains at least one model with this special rule that is locked in combat can choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it must take an Initiative test.
+
+If the test is failed, nothing happens and the models remain locked in the fight.
+
+If the test is passed, choose a direction - then roll 3D6. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over 1" away from all of the enemy units they are locked in combat with, the unit breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 3D6 result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6".
+
+A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1" away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</description>
+    </rule>
+    <rule id="894b5843-ba03-8505-424f-b97bf9b1a097" name="Honour of the Chapter" hidden="false" publicationId="cfd140ee--pub13" page="175">
+      <description>Your Warlord re-rolls all failed To Hit rolls in a challenge.</description>
+    </rule>
+    <rule id="0dbae433-e710-f54b-6f9a-7f7718535ee6" name="Honour or Death" hidden="false" publicationId="cfd140ee--pub4" page="53">
+      <description>A model with this special rule must issue and accept a challenge whenever possible.  If there is more than one friendly model in a combat with this rule, you may select which model issues or accepts the challen	ge.</description>
+    </rule>
+    <rule id="a760-2fd9-24c6-d5ff" name="Icarus Stormcannon Array" hidden="false" publicationId="cfd140ee--pub4">
+      <description>When a unit that contains one or more models equipped with Icarus stormcannon arrays shoots, choose either one or two targets.
+If one target is chosen, each model can re-roll failed To Hit rolls when firing its Icarus stormcannon array at that target.
+If two targets are chosen, each model that is able to fire its Icarus stormcannon array fires it at each target, resolving all shots from the unit against the first target before moving on to the second.
+Range
+S
+AP
+Type
+48"
+7
+4
+Heavy 3, Interceptor, Skyfire</description>
+    </rule>
+    <rule id="852d2433-a276-7db9-d635-062c2691cb3e" name="Ideal Mission Commander" hidden="true" publicationId="cfd140ee--pub23">
+      <description>You can re-roll the result on the Planetstrike Defender Warlord table.</description>
+    </rule>
+    <rule id="721b6bb8-6e4a-46a7-25e3-a9f9fe9c86d8" name="Immobile" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>A Drop Pod cannot move once it has entered play, and counts in all respects as a vehicle that has suffered an Immobilised result that cannot be repaired in any way. This does not cause it to lose a Hull Point.</description>
+    </rule>
     <rule id="773d272a-412a-8190-5cc4-1138def978d0" name="Imperial Guard Orders" hidden="false" publicationId="cfd140ee--pub25" page="29"/>
-    <rule id="bef7ff85-736f-7363-f061-8bd7b092585d" name="Improved Comms" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
+    <rule id="bef7ff85-736f-7363-f061-8bd7b092585d" name="Improved Comms" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>The presence of one or more vehicles on the battlefield adds +1 to the result of the controlling player's Reserve rolls (note that this effect is not cumulative with other bonuses).</description>
+    </rule>
     <rule id="e4de7bdf-262b-38c4-3d69-e7e5beaa7126" name="Improvised Weapon Mount" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
     <rule id="f7782c61-af76-5f6e-0555-d7bb0d42920e" name="In It for the Money" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="3a63aad4-b9a1-cdfa-0e6b-4a4a7351b77e" name="Independent Character" hidden="false" publicationId="cfd140ee--pub23" page="39"/>
-    <rule id="bdf1ab4a-2c0d-cb49-2948-d77b8fd93b73" name="Independent Turret Fire" hidden="false" publicationId="cfd140ee--pub31" page="0"/>
-    <rule id="3aa5a5a7-901a-6428-a35e-f9e377b5dbdc" name="Indirect Fire" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="f4c9c017-7d40-a30b-2a35-36e814f00f42" name="Inertial Guidance System" hidden="false" publicationId="cfd140ee--pub4" page="99"/>
-    <rule id="8f03a73f-941b-7192-f932-ebc4a5192379" name="Infiltrate" hidden="false" publicationId="cfd140ee--pub23" page="38"/>
-    <rule id="de599350-e12f-b552-6d76-4f6417a2769a" name="Instant Death" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="049f2c72-cf5d-6968-af00-7883c98e3024" name="Interceptor" hidden="false" publicationId="cfd140ee--pub23" page="42"/>
-    <rule id="596d8220-53fd-c63e-e0fc-d67cf1cf8977" name="Invading Battle Force" hidden="true" publicationId="cfd140ee--pub30"/>
-    <rule id="e4675f80-82d0-040f-4569-d027a34d5fed" name="Invincible Behemoth" hidden="false" publicationId="cfd140ee--pub15" page="66"/>
-    <rule id="2ef6-01f4-a4b7-dbea" name="Killshot" hidden="false" publicationId="cfd140ee--pub4"/>
-    <rule id="1d99fef5-00ed-4073-9e37-778ad342b35e" name="Legacies of Glory" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="823407ce-fe11-f727-94b9-a8e78037934f" name="Legacies of Glory: Ancient Mariner" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="aab46cf6-a524-e9fe-dace-8fdad7051bb8" name="Legacies of Glory: Battle of Calth" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="4b581d69-81e9-a219-e59a-91b1a2517d0d" name="Legacies of Glory: Battle of Keylek" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="cb016e8b-9518-525f-88ae-59a0d9851473" name="Legacies of Glory: Battle of Sarosh" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="28f65d90-e632-275e-78ae-e774717a66ea" name="Legacies of Glory: Battle of Signus Prime" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="af580a27-9ba2-0437-5515-afc06ac28521" name="Legacies of Glory: Battle of Terra" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="ce89e833-6f04-614e-5e20-ecd9721d5e5a" name="Legacies of Glory: Battle of the Phall System" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="65a972a4-7736-051f-b618-3618c6d57a19" name="Legacies of Glory: Burning of Prospero" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="61e835f3-697e-eff3-be66-8b255085f26d" name="Legacies of Glory: Icon of Glory" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="ad673d21-fae6-8a11-52e9-f17fe99f2213" name="Legacies of Glory: Isstan V Dropsite Massacre" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="82be3e7e-8fd8-cbdd-2521-e227fb92af8c" name="Legacies of Glory: Istvaan III" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="e5bad83d-7020-4df9-dae9-aef4956b25c3" name="Legacies of Glory: Schism of Mars" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="fc539ddc-6782-171f-e787-b77186c5e526" name="Legacies of Glory: Shrouded Provenance" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="3fa68876-1a4a-ab5b-3d76-0b431592d3b9" name="Legacies of Glory: Thramas Crusade" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="47ecceae-5903-409d-eeae-5e1c1e960333" name="Legacies of Glory: Ullanor Crusade" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
-    <rule id="d490888d-9ddd-3598-b7f4-eb791f2a3d80" name="Legacies of Glory: War of Murder" hidden="false" publicationId="cfd140ee--pub6" page="0"/>
+    <rule id="3a63aad4-b9a1-cdfa-0e6b-4a4a7351b77e" name="Independent Character" hidden="false" publicationId="cfd140ee--pub23" page="39">
+      <description>Independent characters can join other units.  They cannot, however, join units that contain vehicles or Monstrous Creatures.  They can join other Independent Characters, though, to form a powerful multi-character unit!  Independent Characters pass Look Out, Sir rolls on a 2+. A unit that contains one or more Independent Characters does not need a double 1 to Regroup if reduced to below 25% of its starting numbres, but instead tests as if it had at least 25% remaining.
+
+Full details in BRB. Rule too long to copy verbatim.</description>
+    </rule>
+    <rule id="bdf1ab4a-2c0d-cb49-2948-d77b8fd93b73" name="Independent Turret Fire" hidden="false" publicationId="cfd140ee--pub31" page="0">
+      <description>So long as the Fire Raptor is eligible to fire a weapon in the Shooting phase, each waist turret may fire at a target of its own and its weapons do not count towards the number of weapons the gunship may fire each turn.</description>
+    </rule>
+    <rule id="3aa5a5a7-901a-6428-a35e-f9e377b5dbdc" name="Indirect Fire" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>This weapon fires as a Barrage weapon.</description>
+    </rule>
+    <rule id="f4c9c017-7d40-a30b-2a35-36e814f00f42" name="Inertial Guidance System" hidden="false" publicationId="cfd140ee--pub4" page="99">
+      <description>If a Drop Pod scatters on top of impassable terrain or another model (friend or foe), reduce the scatter distance by the minimum required in order to avoid the obstacle. If a Drop Pod scatters off the edge of the board, it suffers a Deep Strike Mishap.</description>
+    </rule>
+    <rule id="8f03a73f-941b-7192-f932-ebc4a5192379" name="Infiltrate" hidden="false" publicationId="cfd140ee--pub23" page="38">
+      <description>Units that contain at least one model with this special rule are deployed last, after all other units (friend and foe) have been deployed. If both sides have Infiltrators, the players roll-off and the winner decides who goes first, then alternate deploying these units.
+
+Infiltrators can be set up anywhere on the table that is more than 12" from any enemy unit, as long as no deployed enemy unit can draw line of sight to them. This includes in a building, as long as the building is more than 12" from any enemy unit. Alternatively, they can be set up anywhere on the table more than 18" from any enemy unit, even in plain sight.
+
+If a unit with Infiltrate deploys inside a Dedicated Transport, they may Infiltrate along with their Transport. 
+
+A unit that deploys using these rules cannot charge in their first turn. Having Infiltrate also confers the Outflank special rule to units of Infiltrators that are kept as Reserves.
+
+If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
+    </rule>
+    <rule id="de599350-e12f-b552-6d76-4f6417a2769a" name="Instant Death" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>If a model suffers an unsaved Wound from an attack with this special rule, it is reduced to 0 Wounds and is removed as a casualty.</description>
+    </rule>
+    <rule id="049f2c72-cf5d-6968-af00-7883c98e3024" name="Interceptor" hidden="false" publicationId="cfd140ee--pub23" page="42">
+      <description>At the end of the enemy Movement phase, a weapon with the Interceptor special rule can be fired at any one unit that has arrived from Reserve within its range and line of sight. If this rule is used, the weapon cannot be fired in the next turn, but the firing model can shoot a different weapon if it has one.</description>
+    </rule>
+    <rule id="596d8220-53fd-c63e-e0fc-d67cf1cf8977" name="Invading Battle Force" hidden="true" publicationId="cfd140ee--pub30">
+      <description>Once, in each of your turns, you can choose one unit before making any Reserve Rolls. You can choose to pass or fail the Reserve Roll for that unit automatically (it must still arrive on the fourth turn).</description>
+    </rule>
+    <rule id="e4675f80-82d0-040f-4569-d027a34d5fed" name="Invincible Behemoth" hidden="false" publicationId="cfd140ee--pub15" page="66">
+      <description>A super-heavy vehicle is so large and strongly built that weapons which degrade the armour of smaller vehicles will not effect it.  Because of this, any attack that says that the target model is destroyed, wrecked, Explodes! or is otherwise removed from play inflicts D3 Hull Points of damage on a Super-heavy vehicle instead.
+
+In addition, any attacks or special abilities that permanently lower the Armour Values of a target vehicle do not affect a Super-heavy vehicle.  Note that attacks or abilities that count the Armour Value as being lower, but do not actually change it, work normally.</description>
+    </rule>
+    <rule id="2ef6-01f4-a4b7-dbea" name="Killshot" hidden="false" publicationId="cfd140ee--pub4">
+      <description>Whilst this unit includes three Predators, all Predators in the unit have the Monster Hunter and Tank Hunters special rules.</description>
+    </rule>
+    <rule id="1d99fef5-00ed-4073-9e37-778ad342b35e" name="Legacies of Glory" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>A WarMachine with a Legacy of Glory gains the special rules associated with that specific historical battle honour.</description>
+    </rule>
+    <rule id="823407ce-fe11-f727-94b9-a8e78037934f" name="Legacies of Glory: Ancient Mariner" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Only for Vehicles that are both Tank and Transport. The model or any Transported unit may reroll on the Archeotech Artefact or Mysterious Terrain-table.</description>
+    </rule>
+    <rule id="aab46cf6-a524-e9fe-dace-8fdad7051bb8" name="Legacies of Glory: Battle of Calth" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Preferred Enemy (Chaos Space Marine) and enemy Warlords within 12" suffer -1 to their Ld.</description>
+    </rule>
+    <rule id="4b581d69-81e9-a219-e59a-91b1a2517d0d" name="Legacies of Glory: Battle of Keylek" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Blast-weapons gain Ignore Cover</description>
+    </rule>
+    <rule id="cb016e8b-9518-525f-88ae-59a0d9851473" name="Legacies of Glory: Battle of Sarosh" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Once per game one of the weapons gains: Skyfire, Interceptor, Tank Hunter and Night Vision. (Declare before rolling to hit)</description>
+    </rule>
+    <rule id="28f65d90-e632-275e-78ae-e774717a66ea" name="Legacies of Glory: Battle of Signus Prime" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Preferred Enemy (Chaos Daemons) and friendly Space Marines that start their turn within 6" gain Furious Charge.</description>
+    </rule>
+    <rule id="af580a27-9ba2-0437-5515-afc06ac28521" name="Legacies of Glory: Battle of Terra" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>It Will Not Die</description>
+    </rule>
+    <rule id="ce89e833-6f04-614e-5e20-ecd9721d5e5a" name="Legacies of Glory: Battle of the Phall System" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Improve Jink with +1. Superheavies gain a Jink of 6+</description>
+    </rule>
+    <rule id="65a972a4-7736-051f-b618-3618c6d57a19" name="Legacies of Glory: Burning of Prospero" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Adamantium Will that grants +2 against Witchfires.</description>
+    </rule>
+    <rule id="61e835f3-697e-eff3-be66-8b255085f26d" name="Legacies of Glory: Icon of Glory" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>All models from the same army within 6" of any part of a vehicle's hull from this Formation may re-roll failed Regroup tests.</description>
+    </rule>
+    <rule id="ad673d21-fae6-8a11-52e9-f17fe99f2213" name="Legacies of Glory: Isstan V Dropsite Massacre" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Does not scatter when arriving by Deep Strike.</description>
+    </rule>
+    <rule id="82be3e7e-8fd8-cbdd-2521-e227fb92af8c" name="Legacies of Glory: Istvaan III" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Preferred Enemy (Chaos Space Marines) and automatically passes Dangerous Terrain-tests for ruins and similar terrain.</description>
+    </rule>
+    <rule id="e5bad83d-7020-4df9-dae9-aef4956b25c3" name="Legacies of Glory: Schism of Mars" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Tank Hunter; +1BS against Daemonforged models and ignores the 4+ effects of Haywire.</description>
+    </rule>
+    <rule id="fc539ddc-6782-171f-e787-b77186c5e526" name="Legacies of Glory: Shrouded Provenance" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Gains 'Venerable'-rule. Counts as Ally of Convenience to its own Detachment and as Desperate Ally to allied Detachments.</description>
+    </rule>
+    <rule id="3fa68876-1a4a-ab5b-3d76-0b431592d3b9" name="Legacies of Glory: Thramas Crusade" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>All friendly Space Marines within 12" gain Fearless.</description>
+    </rule>
+    <rule id="47ecceae-5903-409d-eeae-5e1c1e960333" name="Legacies of Glory: Ullanor Crusade" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Tanks: Preferred Enemy (Orks) Walkers: Hatred (Orks)  Charging enemies must re-roll succesful To-Hits in the first turn of combat.</description>
+    </rule>
+    <rule id="d490888d-9ddd-3598-b7f4-eb791f2a3d80" name="Legacies of Glory: War of Murder" hidden="false" publicationId="cfd140ee--pub6" page="0">
+      <description>Monster Hunter. Friendly Space Marines within 6" gain Fearless.</description>
+    </rule>
     <rule id="68e97352-0d97-3556-d781-30b02abe5cb9" name="Legion Overseer" hidden="false" publicationId="cfd140ee--pub3" page="30"/>
-    <rule id="30176319-9c88-8b2b-78cc-7e9c244d663b" name="Litany of Hate" hidden="false" publicationId="cfd140ee--pub3" page="12"/>
-    <rule id="fe6ed408-cd96-c12f-d2a4-f7f5db2c97f4" name="Living Legend" hidden="false" publicationId="cfd140ee--pub3" page="27"/>
-    <rule id="601cb1a4-14d8-0ad1-5a81-85e5496cad57" name="Look Out - Arghh!" hidden="false" publicationId="cfd140ee--pub25" page="31"/>
-    <rule id="126d4600-02bd-9e4e-9d9a-738f873cae46" name="Lord of the Armoury" hidden="false" publicationId="cfd140ee--pub4" page="163"/>
+    <rule id="30176319-9c88-8b2b-78cc-7e9c244d663b" name="Litany of Hate" hidden="false" publicationId="cfd140ee--pub3" page="12">
+      <description>On a player turn in which the Chaplain Dreadnought charges, they may re-roll failed rolls to hit in an assault.</description>
+    </rule>
+    <rule id="fe6ed408-cd96-c12f-d2a4-f7f5db2c97f4" name="Living Legend" hidden="false" publicationId="cfd140ee--pub3" page="27">
+      <description>All friendly units chosen from either Codex: Space Marines, the Space Marine Siege Assault Vanguard army list with Chapter Tactics (Astral Claws) or the Tyrant's Legion army list on the table —including those in allied detachments— may always choose to use Lugft Huron's Leadership value rather than their own as long as he is present on the table (modifiers apply to this as normal).</description>
+    </rule>
+    <rule id="601cb1a4-14d8-0ad1-5a81-85e5496cad57" name="Look Out - Arghh!" hidden="false" publicationId="cfd140ee--pub25" page="31">
+      <description>If a Wound is allocated to a character in this model’s unit (other than another model with this special rule), that character automatically passes its Look Out, Sir test if it can make one. The Wound must be allocated to the model with this special rule instead. If there is more than one model with this special rule in a unit when a Wound is allocated to a character, the owning player can choose which of them to re-allocate the Wound to.</description>
+    </rule>
+    <rule id="126d4600-02bd-9e4e-9d9a-738f873cae46" name="Lord of the Armoury" hidden="false" publicationId="cfd140ee--pub4" page="163">
+      <description>If Armenneus Valthex is included in an army then Dreadnoughts, Venerable Dreadnoughts and Ironclad Dreadnoughts may be taken as Heavy Support choices as well as Elites choices.</description>
+    </rule>
     <rule id="7f43f670-7c3c-e3fe-1aad-bf920a982494" name="Lumbering Behemoth" hidden="false" publicationId="cfd140ee--pub25" page="48"/>
-    <rule id="6409589d-c23b-3ca8-93ce-31cfdee2797e" name="Massive Fortification" hidden="false" publicationId="cfd140ee--pub29" page="0"/>
+    <rule id="6409589d-c23b-3ca8-93ce-31cfdee2797e" name="Massive Fortification" hidden="false" publicationId="cfd140ee--pub29" page="0">
+      <description>Massive Fortifications follow all th erules for buildings as defined in the Core Rulebook, but have the Mighty Bulwark special rule and can have an Armour Value of up to 15 rather than being limited to 14. The datasheet entry for the fortification will list the actual Armour Values it has.</description>
+    </rule>
     <rule id="cf745bf6-fab1-4aba-e53d-29d0411cf32f" name="Master of the Forge" hidden="false" publicationId="cfd140ee--pub4" page="70"/>
-    <rule id="18e6cadf-1688-ab8c-858b-cd4cee924d5d" name="Mindlock" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="9ea195ae-31b7-1918-7370-9eec98183fd6" name="Misericorde" hidden="false" page="0"/>
-    <rule id="3421c351-9fc2-119d-883e-52ce70d26e59" name="Mobile Command Vehicle" hidden="false" publicationId="cfd140ee--pub25" page="39"/>
-    <rule id="16f1ecd6-226c-37d6-8990-b0112bb8330a" name="Move Through Cover" hidden="false" publicationId="cfd140ee--pub23" page="40"/>
+    <rule id="18e6cadf-1688-ab8c-858b-cd4cee924d5d" name="Mindlock" hidden="false" publicationId="cfd140ee--pub5" page="0">
+      <description>Unless it also contains an Iron Priest, an unengaged unit that contains at least one model with this special rule must roll a D6 at the start of its turn. On a 4+, this special rule has no effect this turn. On a roll of a 1, 2 or 3, the unit is mindlocked until the start of its following turn. A mindlocked unit may not voluntarily move, shoot or charge, but must still complete compulsory moves, such as Pile In and Fall Back moves.</description>
+    </rule>
+    <rule id="9ea195ae-31b7-1918-7370-9eec98183fd6" name="Misericorde" hidden="false" page="0">
+      <description>The Caesus Assault Ram has a transport capacity of ten models which must either be in Power Armour, Artificer Armour, or Terminator Armour. The transport's capacity is not affected by the Bulky special rule and remains ten models regardless of the transported model's type.</description>
+    </rule>
+    <rule id="3421c351-9fc2-119d-883e-52ce70d26e59" name="Mobile Command Vehicle" hidden="false" publicationId="cfd140ee--pub25" page="39">
+      <description>An officer embarked within a Chimera may still issue orders to squads. Measure range from any part of the Chimera’s hull.</description>
+    </rule>
+    <rule id="16f1ecd6-226c-37d6-8990-b0112bb8330a" name="Move Through Cover" hidden="false" publicationId="cfd140ee--pub23" page="40">
+      <description>A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
+    </rule>
     <rule id="89a93651-3e2e-c18f-9511-ee1f63bdd081" name="Neutron Thunderstrike" hidden="false" publicationId="cfd140ee--pub32" page="212"/>
-    <rule id="10cc798c-0cef-41d4-dd97-37a0fbac9fae" name="Night Vision" hidden="false" publicationId="cfd140ee--pub23" page="40"/>
-    <rule id="906a5f96-4c50-0fd6-c525-cd611e4ee811" name="Objective Secured" hidden="true" publicationId="cfd140ee--pub23"/>
-    <rule id="dfa2c1f9-0c3c-c276-6fd3-abdc60fc2657" name="Offensive Strategy" hidden="true" publicationId="cfd140ee--pub30"/>
-    <rule id="e11cb4d3-9861-3a42-19c9-fc940a2c95ec" name="Orbital" hidden="false" publicationId="cfd140ee--pub4" page="79"/>
-    <rule id="7ae778b2-8ebc-ffde-bdbe-cbfcb6675c9d" name="Outflank" hidden="false" publicationId="cfd140ee--pub23" page="40"/>
-    <rule id="3070fdfe-1123-bf01-3249-59e8258c943e" name="Pinning" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="2dbae37d-01b7-170b-d5ee-036461e83917" name="Power of the Machine Spirit" hidden="false" publicationId="cfd140ee--pub4" page="0"/>
+    <rule id="10cc798c-0cef-41d4-dd97-37a0fbac9fae" name="Night Vision" hidden="false" publicationId="cfd140ee--pub23" page="40">
+      <description>A unit that contains at least one model with this special rule ignores the effects of Night Fighting.</description>
+    </rule>
+    <rule id="906a5f96-4c50-0fd6-c525-cd611e4ee811" name="Objective Secured" hidden="true" publicationId="cfd140ee--pub23">
+      <description>A unit with this special rule controls objectives even if an enemy scoring unit is within range of the objective marker, unless the enemy unit also has this special rule.</description>
+    </rule>
+    <rule id="dfa2c1f9-0c3c-c276-6fd3-abdc60fc2657" name="Offensive Strategy" hidden="true" publicationId="cfd140ee--pub30">
+      <description>If this is your Primary Detachment, you have +1 Stratagem Point to spend when selecting Planetstrike stratagems.</description>
+    </rule>
+    <rule id="e11cb4d3-9861-3a42-19c9-fc940a2c95ec" name="Orbital" hidden="false" publicationId="cfd140ee--pub4" page="79">
+      <description>If an arrow is rolled on the scatter dice when firing a weapon that has this special rule, the shot always scatters the full 2D6" regardless of the firing model's Ballistic Skill.  In addition, firing an Ordnance weapon that has this special rule does not prevent the firing model from declaring a charge against the target unit in the same turn.</description>
+    </rule>
+    <rule id="7ae778b2-8ebc-ffde-bdbe-cbfcb6675c9d" name="Outflank" hidden="false" publicationId="cfd140ee--pub23" page="40">
+      <description>During deployment, players can declare that any unit that contains at least one model with this special rule is attempting to Outflank the enemy. This means they are making a wide sweeping move to get behind enemy lines or come at the foe from an unexpected direction.
+
+When an Outflanking unit arrives from Reserves, but not Ongoing Reserve, the controlling player rolls a D6: on a 1-2, the unit comes in from the table edge to the left of their controlling player's own table edge; on a 3-4, they come on from the right; on a 5-6, the player can choose left or right. Models move onto the table as described for other Reserves. If such a unit deploys inside a Dedicated Transport, they may Outflank along with their Transport.</description>
+    </rule>
+    <rule id="3070fdfe-1123-bf01-3249-59e8258c943e" name="Pinning" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>If a non-vehicle unit suffers one or more unsaved Wounds from a weapon with the Pinning special rule, it must take a Leadership test once the firing unit has finished its shooting attacks for that phase. This is called a Pinning test. If the unit fails the test, it is Pinned and must immediately Go to Ground. As the unit has already taken its saves, Going to Ground does not protect it against the fire of the Pinning weapon that caused the test - it's too late! As long as the test is passed, a unit can be called upon to take multiple Pinning tests in a single turn, but only once for each unit shooting at them. If a unit has already Gone to Ground, no further Pinning tests are taken. If the special rules of a unit specify that the unit can never be Pinned, the unit automatically passes Pinning tests. Such units can still Go to Ground voluntarily if they wish.</description>
+    </rule>
+    <rule id="2dbae37d-01b7-170b-d5ee-036461e83917" name="Power of the Machine Spirit" hidden="false" publicationId="cfd140ee--pub4" page="0">
+      <description>In a turn in which the vehicle neither moves Flat Out nor uses smoke launchers, the vehicle can fire one more weapon at its full Ballistic Skill than normally permitted. In addition, this weapon can be fired at a different target unit to any other weapons, subject to the normal rules for shooting.</description>
+    </rule>
     <rule id="a089ad87-7fdf-5d1a-0884-adf431b7a8b1" name="Predator Tactics" hidden="false" publicationId="cfd140ee--pub1" page="198"/>
     <rule id="e7580905-4cb3-51e2-6e44-de24d5b99380" name="Prefect's Discipline" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="1577594b-de82-1c22-6cf5-4a77438ddb08" name="Preferred Enemy (Everything!)" hidden="false" publicationId="cfd140ee--pub2" page="232"/>
-    <rule id="fa7385f3-0ad8-76b7-3b40-b25dcebd4066" name="Primary Target" hidden="false" publicationId="cfd140ee--pub29" page="0"/>
+    <rule id="1577594b-de82-1c22-6cf5-4a77438ddb08" name="Preferred Enemy (Everything!)" hidden="false" publicationId="cfd140ee--pub2" page="232">
+      <description>This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</description>
+    </rule>
+    <rule id="fa7385f3-0ad8-76b7-3b40-b25dcebd4066" name="Primary Target" hidden="false" publicationId="cfd140ee--pub29" page="0">
+      <description>Emplaced weapons on a Firestorm Redoubt that have the Skyfire special rule must fire at the nearest enemy Flyer of Flying Monstrous Creature unit within range and line of sight. If no enemy unit of either of these types is within range or line of sight, that emplaced weapon must instead fire at the nearest enemy unit within range and line of sight.</description>
+    </rule>
     <rule id="765b868b-8bfa-8281-f859-4ed9a981e49a" name="Psychic - Avenger" hidden="false" publicationId="cfd140ee--pub4" page="57"/>
-    <rule id="df67ea4b-d702-765f-f6aa-dcd685108f3f" name="Psychic - Force Dome" hidden="false" publicationId="cfd140ee--pub4" page="57"/>
-    <rule id="ede56d46-6773-2112-e156-e6e55be516df" name="Psychic - Gate of Infinity" hidden="false" publicationId="cfd140ee--pub4" page="57"/>
-    <rule id="193b7025-f554-e002-7505-7c93d2807cc3" name="Psychic - Machine Curse" hidden="false" publicationId="cfd140ee--pub4" page="57"/>
+    <rule id="df67ea4b-d702-765f-f6aa-dcd685108f3f" name="Psychic - Force Dome" hidden="false" publicationId="cfd140ee--pub4" page="57">
+      <description>The Primus Redoubt is protected from enemy attack by a projected force shield intended primarily to ward off bombardments from planetary assault vessels in low orbit or from strategic bombardments fired from a great distance away. The redoubt has a 4+ invulnerable save against direct shooting attacks, increased to 3+ against barrage attacks that are fired without being adjusted by the firer's or an observer's Ballistic Skill.</description>
+    </rule>
+    <rule id="ede56d46-6773-2112-e156-e6e55be516df" name="Psychic - Gate of Infinity" hidden="false" publicationId="cfd140ee--pub4" page="57">
+      <description>Daemonology (Sanctic) Psychic Power</description>
+    </rule>
+    <rule id="193b7025-f554-e002-7505-7c93d2807cc3" name="Psychic - Machine Curse" hidden="false" publicationId="cfd140ee--pub4" page="57">
+      <description>Warp Сharge: 1
+Machine Curse is a focussed witchfire power that targets a single enemy vehicle unit within 18". The target model immediately suffers D3 Strength 1 АР- hits with the Haywire special rule.</description>
+    </rule>
     <rule id="86d51864-fe63-4639-0b15-d6996810e29e" name="Psychic - Might of the Ancients" hidden="false" publicationId="cfd140ee--pub4" page="57"/>
     <rule id="6408dbb5-0cb0-8e77-947a-762e4550bedd" name="Psychic - Mirage" hidden="false" publicationId="cfd140ee--pub3" page="21"/>
-    <rule id="d05c7bd0-3773-89e2-89da-df8f7d34d3bd" name="Psychic - Null Zone" hidden="false" publicationId="cfd140ee--pub4" page="57"/>
-    <rule id="a7e6f060-3498-ac1f-0a15-3516d83e5a35" name="Psychic - Quickening" hidden="false" publicationId="cfd140ee--pub4" page="57"/>
-    <rule id="2f0d1750-52e6-a1d4-6cd7-509608acdf74" name="Psychic - Smite" hidden="false" publicationId="cfd140ee--pub4" page="57"/>
-    <rule id="2c2a9f7e-d551-43fa-8a84-2070bff71496" name="Psychic - Vortex of Doom" hidden="false" publicationId="cfd140ee--pub4" page="57"/>
-    <rule id="281e230f-4363-bb46-ff31-2cad750bdbb5" name="Psychic Discipline: Biomancy" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="a004e025-5589-0768-4593-c70ab258d828" name="Psychic Discipline: Daemonology" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="116a1015-ae2b-c01a-35a8-9106cf0aa0a2" name="Psychic Discipline: Divination" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="eb29-a338-7ac7-b765" name="Psychic Discipline: Fulmination" hidden="false" publicationId="cfd140ee--pub10" page="107"/>
-    <rule id="3d57-4980-11a5-51d4" name="Psychic Discipline: Geokinesis" hidden="false" publicationId="cfd140ee--pub10" page="107"/>
-    <rule id="c094-685e-4d46-5c8a" name="Psychic Discipline: Librarius" hidden="false" publicationId="cfd140ee--pub10" page="107"/>
-    <rule id="5b55b0ce-44dc-1567-1f5c-c9d1c0994fbf" name="Psychic Discipline: Pyromancy" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="6bc3-daee-f143-3171" name="Psychic Discipline: Technomancy" hidden="false" publicationId="cfd140ee--pub10" page="107"/>
-    <rule id="d9621112-144a-fe7d-98d8-1cd9b723e323" name="Psychic Discipline: Telekinesis" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="8cb13dba-746f-aff9-e02a-15c3de806d22" name="Psychic Discipline: Telepathy" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="a93869c6-4270-c60f-aee9-01f61581d06e" name="Psyker" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="7672255a-03d3-3a8b-e7f5-ea6d624175f0" name="Psyker Mastery Level 1" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="fa0ea3b3-9cba-8035-7c1d-33148075f3ac" name="Psyker Mastery Level 2" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="bad3236e-ab78-84bf-68cd-4485d30cf873" name="Rage Unto Death" hidden="false" publicationId="cfd140ee--pub3" page="16"/>
-    <rule id="e62673a2-b8b7-53eb-1836-d08c880ab3be" name="Reactor Meltdown" hidden="false" publicationId="cfd140ee--pub18" page="6"/>
-    <rule id="17b6-eadb-563a-9f25" name="Reinforced Structure" hidden="false" publicationId="cfd140ee--pub12"/>
-    <rule id="e45bac6e-634e-e66e-4394-49d88b42f182" name="Relentless" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="7b1222cf-4c4a-3408-2efd-a31a0e3742f9" name="Relic of the Armoury" hidden="false" publicationId="cfd140ee--pub31" page="0"/>
-    <rule id="b20afe1b-5f12-4250-ef66-66f047ebeb36" name="Rending" hidden="false" page="0"/>
-    <rule id="2d35c14d-04d9-34ec-b23a-611be89e72a4" name="Repair (Rhino)" hidden="false" publicationId="cfd140ee--pub4" page="0"/>
-    <rule id="1a0dc6b9-bd8b-79bb-8253-8a9e9834556c" name="Repair (Thunderbolt)" hidden="false" publicationId="cfd140ee--pub24" page="5"/>
-    <rule id="1795fc98-fbeb-f968-6fd2-22d975f4a62c" name="Rocket Barrage" hidden="false" publicationId="cfd140ee--pub33" page="0"/>
-    <rule id="fa3a-6af8-0a83-9679" name="Savant Interlocution" hidden="false" publicationId="cfd140ee--pub4"/>
-    <rule id="a8454c16-4eea-d95a-5f9b-4b88ef17eb5a" name="Savant Lock" hidden="false" publicationId="cfd140ee--pub4" page="121"/>
-    <rule id="ae716543-4d76-2571-3a91-1e57f66692fc" name="Scout" hidden="false" publicationId="cfd140ee--pub23" page="41"/>
-    <rule id="5e811d64-b1f3-2f4c-0cae-52fe296badb0" name="Sentry Defence System" hidden="false" publicationId="cfd140ee--pub29" page="0"/>
+    <rule id="d05c7bd0-3773-89e2-89da-df8f7d34d3bd" name="Psychic - Null Zone" hidden="false" publicationId="cfd140ee--pub4" page="57">
+      <description>Warp Сharge: 2
+Null Zone is a malediction that targets an enemy unit within 24". Whilst the power is in effect, all models in the target unit suffer a -2 penalty to any invulnerable saves they have. This is cumulative with any other modifiers to a model’s invulnerable save, but cannot make it worse than 6+.</description>
+    </rule>
+    <rule id="a7e6f060-3498-ac1f-0a15-3516d83e5a35" name="Psychic - Quickening" hidden="false" publicationId="cfd140ee--pub4" page="57">
+      <description>(Primaris Power)
+Warp Сharge: 1
+Quickening is a blessing that targets either the Psyker or a single friendly character within 12" of the Psyker. Whilst this power is in effect, the target has the Fleet special rule and +D3 Initiative and Attacks (roll once for both characteristics).</description>
+    </rule>
+    <rule id="2f0d1750-52e6-a1d4-6cd7-509608acdf74" name="Psychic - Smite" hidden="false" publicationId="cfd140ee--pub4" page="57">
+      <description>Can opt to exchange normal attacks for a single Smite attack at Strength x2, AP2.</description>
+    </rule>
+    <rule id="2c2a9f7e-d551-43fa-8a84-2070bff71496" name="Psychic - Vortex of Doom" hidden="false" publicationId="cfd140ee--pub4" page="57">
+      <description>Warp Сharge: 3
+Vortex of Doom is a witchfire power with the profile below. If, when using this power, the Psyker fails his Psychic test, he automatically suffers Perils of the Warp.
+Range
+S
+AP
+Type
+12"
+D
+1
+Assault 1, Blast, Vortex</description>
+    </rule>
+    <rule id="281e230f-4363-bb46-ff31-2cad750bdbb5" name="Psychic Discipline: Biomancy" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>This model may generate psychic powers from the Biomancy discipline.</description>
+    </rule>
+    <rule id="a004e025-5589-0768-4593-c70ab258d828" name="Psychic Discipline: Daemonology" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>This model may generate psychic powers from the Daemonology discipline.</description>
+    </rule>
+    <rule id="116a1015-ae2b-c01a-35a8-9106cf0aa0a2" name="Psychic Discipline: Divination" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>This model may generate psychic powers from the Divination discipline.</description>
+    </rule>
+    <rule id="eb29-a338-7ac7-b765" name="Psychic Discipline: Fulmination" hidden="false" publicationId="cfd140ee--pub10" page="107">
+      <description>This model may generate psychic powers from the Fulmination discipline.</description>
+    </rule>
+    <rule id="3d57-4980-11a5-51d4" name="Psychic Discipline: Geokinesis" hidden="false" publicationId="cfd140ee--pub10" page="107">
+      <description>This model may generate psychic powers from the Geokinesis discipline.</description>
+    </rule>
+    <rule id="c094-685e-4d46-5c8a" name="Psychic Discipline: Librarius" hidden="false" publicationId="cfd140ee--pub10" page="107">
+      <description>APOCALYPSE FORMATION • 5 Space Marine Librarians or
+• 5 Space Wolves Rune Priests
+RESTRICTIONS
+None.
+Designer’s Note: The following special character Psykers can be selected in place of one of the formation’s Librarians or Rune Priests: Chief Librarian Tigurius, Mephiston, Ezekiel or Njal Stormcaller. However, all units in the formation must belong to the same Chapter of Space Marines.
+PSYCHIC CHOIR POWER
+Warp Charge: 4
+Force Vortex is a witchfire power with the following profile:
+Range
+S
+AP
+Type
+24"
+D
+1
+Heavy 1, Large Blast, Vortex</description>
+    </rule>
+    <rule id="5b55b0ce-44dc-1567-1f5c-c9d1c0994fbf" name="Psychic Discipline: Pyromancy" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>This model may generate psychic powers from the Pyromancy discipline.</description>
+    </rule>
+    <rule id="6bc3-daee-f143-3171" name="Psychic Discipline: Technomancy" hidden="false" publicationId="cfd140ee--pub10" page="107">
+      <description>This model may generate psychic powers from the Technomancy discipline.</description>
+    </rule>
+    <rule id="d9621112-144a-fe7d-98d8-1cd9b723e323" name="Psychic Discipline: Telekinesis" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>This model may generate psychic powers from the Telekinesis discipline.</description>
+    </rule>
+    <rule id="8cb13dba-746f-aff9-e02a-15c3de806d22" name="Psychic Discipline: Telepathy" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>This model may generate psychic powers from the Telepathy discipline.</description>
+    </rule>
+    <rule id="a93869c6-4270-c60f-aee9-01f61581d06e" name="Psyker" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>A model with this special rule is a Psyker. This rule is typically presented with a Mastery level, shown in brackets - if no Mastery Level is shown then the model has a Mastery Level of 1. Rules for generating and manifesting psychic powers can be found in the Psychic phase section.</description>
+    </rule>
+    <rule id="7672255a-03d3-3a8b-e7f5-ea6d624175f0" name="Psyker Mastery Level 1" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>This model is a Mastery Level 1 Psyker.</description>
+    </rule>
+    <rule id="fa0ea3b3-9cba-8035-7c1d-33148075f3ac" name="Psyker Mastery Level 2" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>Ahazra Redth is a powerful psyker. He has the special Mirage Psychic power (shown below) and may also roll one additional power from any of the following Psychic disciplines (see the Core Rulebook, page 418):
+
+• Biomancy
+• Pyromancy
+• Telepathy
+• Divination
+
+Mirage - Warp Charge 1
+Mirage is a blessing that targets the psyker, as well as any unit he has joined or vehicle in which he is being transported. Any models charging the target/s of this power while it is in effect count as making a Disordered Charge (see page 27 of the Core Rulebook). However, if the charged unit was already locked in combat from a previous turn, or has gone to ground, the power has no effect and the attackers gain bonus attacks as normal. In addition, all models protected by this power gain the Shrouded special rule.</description>
+    </rule>
+    <rule id="bad3236e-ab78-84bf-68cd-4485d30cf873" name="Rage Unto Death" hidden="false" publicationId="cfd140ee--pub3" page="16">
+      <description>Once Malakim Phoros has lost one or more wounds, his Attacks and Strength are increased by +1 and he gains the Rage special rule for the rest of the battle. Any unit of friendly Space Marines chosen from Codex: Blood Angels that is joined by Malakim Phoros while he has lost at least one wound will also gain the Rage special rule until he leaves the squad or is slain.</description>
+    </rule>
+    <rule id="e62673a2-b8b7-53eb-1836-d08c880ab3be" name="Reactor Meltdown" hidden="false" publicationId="cfd140ee--pub18" page="6">
+      <description>Warlord Catastrophic Damage Table uses 12"/24"/36" blast measurements
+
+D6                    Result                           S                 AP
+ 1                   Explosion                    D/8/4             2/3/5
+2-3        Devastating Explosion        D/10/6           2/3/4
+4-6             Titanic Explosion            D/D/D            1/2/2</description>
+    </rule>
+    <rule id="17b6-eadb-563a-9f25" name="Reinforced Structure" hidden="false" publicationId="cfd140ee--pub12">
+      <description>The Warlord Titan has an invulnerable save of 5+ against any attacks that have breached its void shields.</description>
+    </rule>
+    <rule id="e45bac6e-634e-e66e-4394-49d88b42f182" name="Relentless" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>Relentless models can shoot with Heavy, Salvo or Ordnance weapons, counting as stationary, even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
+    </rule>
+    <rule id="7b1222cf-4c4a-3408-2efd-a31a0e3742f9" name="Relic of the Armoury" hidden="false" publicationId="cfd140ee--pub31" page="0">
+      <description>One Relic vehicle of any type may be taken in a Space Marine army's Primary Detachment, within the usual provisions of the army list.</description>
+    </rule>
+    <rule id="b20afe1b-5f12-4250-ef66-66f047ebeb36" name="Rending" hidden="false" page="0">
+      <description>If a model has the Rending special rule, or is attacking with a Melee weapon that has the Rending special rule, there is a chance that his close combat attacks will strike a critical blow. For each To Wound roll of a 6, the target automatically suffers a Wound, regardless of its Toughness. These Wounds are resolved at AP2.
+
+Similarly, if a model makes a shooting attack with a weapon that has the Rending special rule, a To Wound roll of 6 Wounds automatically, regardless of Toughness, and is resolved at AP2.
+
+In either case, against vehicles, each armour penetration roll of 6 allows a further D3 to be rolled, with the result added to the total. These hits are not resolved at AP2, but are instead resolved using the model/weapon's AP value.</description>
+    </rule>
+    <rule id="2d35c14d-04d9-34ec-b23a-611be89e72a4" name="Repair (Rhino)" hidden="false" publicationId="cfd140ee--pub4" page="0">
+      <description>If a Rhino is Immobilised, then in subsequent turns, it may attempt to repair itself instead of shooting. To make the attempt, roll a D6 in the Shooting phase; on the roll of a 6, the vehicle is no longer Immobilised. Note that a successful Repair does not restore a Hull Point.</description>
+    </rule>
+    <rule id="1a0dc6b9-bd8b-79bb-8253-8a9e9834556c" name="Repair (Thunderbolt)" hidden="false" publicationId="cfd140ee--pub24" page="5">
+      <description>If a Rhino is Immobilised, then in subsequent turns, it may attempt to repair itself instead of shooting. To make the attempt, roll a D6 in the Shooting phase; on the roll of a 6, the vehicle is no longer Immobilised. Note that a successful Repair does not restore a Hull Point.</description>
+    </rule>
+    <rule id="1795fc98-fbeb-f968-6fd2-22d975f4a62c" name="Rocket Barrage" hidden="false" publicationId="cfd140ee--pub33" page="0">
+      <description>In a turn in which the vehicle has not moved, the Multi-launcher's rate of fire is increased to Heavy 1+D3</description>
+    </rule>
+    <rule id="fa3a-6af8-0a83-9679" name="Savant Interlocution" hidden="false" publicationId="cfd140ee--pub4">
+      <description>Thilst this unit includes three Hunters, each model's skyspear missile launcher can re-roll the dice when resolving its Savant Lock special rule.</description>
+    </rule>
+    <rule id="a8454c16-4eea-d95a-5f9b-4b88ef17eb5a" name="Savant Lock" hidden="false" publicationId="cfd140ee--pub4" page="121">
+      <description>If any shot from a weapon with this special rule misses a Flyer, Flying Monstrous Creature, Skimmer, or Jetbike, roll a D6 at the start of the next friendly Shooting phase if the target unit is still on the battlefield and has not been destroyed.  On a 5+, the target unit suffers a hit (using it's rear Armour Value if it is a vehicle) with the profile above.</description>
+    </rule>
+    <rule id="ae716543-4d76-2571-3a91-1e57f66692fc" name="Scout" hidden="false" publicationId="cfd140ee--pub23" page="41">
+      <description>After both sides have deployed (including Infiltrators), but before the first player begins his first turn, a unit containing at least one model with this special rule can choose to redeploy. If the unit is Infantry, Artillery, a Walker or a Monstrous Creature, each model can redeploy anywhere entirely within 6" of its current position. If it is any other unit type, each model can instead
+redeploy anywhere entirely within 12" of its current position. During this redeployment, Scouts can move outside the owning player's deployment zone, but must remain more than 12" away from any enemy unit. A unit that makes a Scout redeployment cannot charge in the first game turn. A unit cannot embark or disembark as part of a Scout redeployment. 
+
+If both sides have Scouts, roll-off; the winner decides who redeploys first. Then alternate redeploying Scout units.
+
+If a unit with this special rule is deployed inside a Dedicated Transport, it confers the Scout special rule to the Transport (though a disembarkation cannot be performed as part of the redeployment). Note that a Transport with this special rule does not lose it if a unit without this special rule is embarked upon it. Having Scout also confers the Outflank special rule to units of Scouts that are kept as Reserves.
+
+If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
+    </rule>
+    <rule id="5e811d64-b1f3-2f4c-0cae-52fe296badb0" name="Sentry Defence System" hidden="false" publicationId="cfd140ee--pub29" page="0">
+      <description>A building with this special rule can use automated fire against enemy units, even if it is unoccupied. The weapons are emplaced and cannot be used as gun emplacements – another model may not fire them. In addition, enemy units can shoot at and charge a building with this special rule, even if it is unoccupied.</description>
+    </rule>
     <rule id="694039e2-1663-0b02-400e-c0d6cea749d2" name="Servo-tracking" hidden="false" publicationId="cfd140ee--pub4" page="121"/>
-    <rule id="2f99dc89-3e61-052d-3b9e-eccd1f1045f0" name="Shadowed Fate" hidden="false" publicationId="cfd140ee--pub3" page="27"/>
-    <rule id="3d8293cf-eed3-a505-8edd-aeb9c6fbce92" name="Shell Shock" hidden="false" publicationId="cfd140ee--pub9"/>
-    <rule id="81fc-91cf-c63e-aabd" name="Shield Projection" hidden="false" publicationId="cfd140ee--pub12"/>
-    <rule id="6b8d42ab-e38b-a1de-7dcf-4ca95231bb4d" name="Shrouded" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
+    <rule id="2f99dc89-3e61-052d-3b9e-eccd1f1045f0" name="Shadowed Fate" hidden="false" publicationId="cfd140ee--pub3" page="27">
+      <description>The first time Huron is removed from play as a casualty for any reason, leave him on his side on the table. At the end of the turn where this happened, roll a D6 and on a 2+ he instead survives with a single remaining wound (this includes attacks causing Instant Death, Destroyer weapons, and multiple wounds which remove him from play caused by a particular model's attacks, etc) and is placed back in play as close as possible to where he fell. This special rule does not apply to any subsequent damage he takes after he has already escaped death once earlier in the game.</description>
+    </rule>
+    <rule id="3d8293cf-eed3-a505-8edd-aeb9c6fbce92" name="Shell Shock" hidden="false" publicationId="cfd140ee--pub9">
+      <description>Due to the rapid impact of the Quad Mortar's shells, Pinning tests taken because of its attacks are made at a -1 Leadership penalty.</description>
+    </rule>
+    <rule id="81fc-91cf-c63e-aabd" name="Shield Projection" hidden="false" publicationId="cfd140ee--pub12">
+      <description>So long as the Sokar is in Hover mode and remains stationary this turn, its controlling player may declare that it is projecting its 
+void shields at the start of their turn. This means that their area extends to cover all units within 12" of the Sokar's main hull and 
+wings in their protection.</description>
+    </rule>
+    <rule id="6b8d42ab-e38b-a1de-7dcf-4ca95231bb4d" name="Shrouded" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it's in the open.
+
+Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
+    </rule>
     <rule id="1296-0ace-920c-32d4" name="Simulacra Repair" hidden="false" publicationId="cfd140ee--pub19" page="4"/>
-    <rule id="4e838fc1-ae18-44dc-3bef-d11412519e60" name="Skies of Fury" hidden="false" page="0"/>
+    <rule id="4e838fc1-ae18-44dc-3bef-d11412519e60" name="Skies of Fury" hidden="false" page="0">
+      <description>If the Stormraven has moved more than 6", passengers can still disembark, but they must do so as follows: Nominate any point over which the Stormraven moved that turn and deploy the squad as if it were Deep Striking onto that point.  If the unit scatters, every disembarking model must immediately take a Dangerous Terrain test.  If any of the models cannot be deployed, the entire unit is destroyed.  Models that disembark using the Skies of Fury special rule cannot charge on the turn they do so.</description>
+    </rule>
     <rule id="74af7cbd-0e94-4394-4492-5730777a2dee" name="Skilled Gunnery" hidden="false" publicationId="cfd140ee--pub2" page="272"/>
-    <rule id="48916643-2f54-dfcd-f165-4d47d6afb04b" name="Skyfire" hidden="false" publicationId="cfd140ee--pub23" page="42"/>
-    <rule id="e720-21eb-f52e-ab16" name="Skystorm" hidden="false" publicationId="cfd140ee--pub4"/>
-    <rule id="bb05d286-b406-d9b5-65d7-a487539e29aa" name="Slow" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="89022042-3a2b-3829-d0e9-09512a95dbd7" name="Slow And Purposeful" hidden="false" publicationId="cfd140ee--pub23" page="42"/>
-    <rule id="b9244de6-5d3b-4600-e67d-25ea2ee62d90" name="Smash" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="8694be98-1cbf-00cf-30d7-f8f76b516cc0" name="Sonic Boom" hidden="false" publicationId="cfd140ee--pub29" page="0"/>
+    <rule id="48916643-2f54-dfcd-f165-4d47d6afb04b" name="Skyfire" hidden="false" publicationId="cfd140ee--pub23" page="42">
+      <description>A model with this special rule, or that is firing a weapon with this special rule, fires using its normal Ballistic Skill when shooting at Flyers, Flying Monstrous Creatures and Skimmers, but it can only fire Snap Shots against other targets.</description>
+    </rule>
+    <rule id="e720-21eb-f52e-ab16" name="Skystorm" hidden="false" publicationId="cfd140ee--pub4">
+      <description>Whilst this unit includes three Stalkers, each model's Icarus stormcannon array has the Ignores Cover special rule.</description>
+    </rule>
+    <rule id="bb05d286-b406-d9b5-65d7-a487539e29aa" name="Slow" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>This vehicle may move up to 6" at Combat Speed and up to 12" at Cruising Speed, and cannot move Flat Out.</description>
+    </rule>
+    <rule id="89022042-3a2b-3829-d0e9-09512a95dbd7" name="Slow And Purposeful" hidden="false" publicationId="cfd140ee--pub23" page="42">
+      <description>A unit that contains at least one model with this special rule cannot Run, Turbo-boost, move Flat Out, perform Sweeping Advances or fire Overwatch. However, they can shoot with Heavy, Salvo and Ordnance weapons, counting as stationary even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
+    </rule>
+    <rule id="b9244de6-5d3b-4600-e67d-25ea2ee62d90" name="Smash" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>All of the close combat attacks, except Hammer of Wrath attacks, of a model with this special rule are resolved at AP2 (unless it's attacking with an AP1 weapon). Additionally, when it makes its close combat attacks, it can choose instead to make a single Smash Attack. If it does so, roll To Hit as normal, but resolve the Attack at double the model's Strength (to a maximum of 10). Furthermore, a model making a Smash Attack can re-roll its armour penetration rolls, but must abide by the second result.</description>
+    </rule>
+    <rule id="8694be98-1cbf-00cf-30d7-f8f76b516cc0" name="Sonic Boom" hidden="false" publicationId="cfd140ee--pub29" page="0">
+      <description>After firing a quake shell, draw a straight line between the Aquila macro-cannon and the central hole of the apocalyptic mega-blast template.  Roll a dice for each Flyer, Flying Monstrous Creature, or Flying Gargantuan Creature model crossed by this line.  On a roll of 1, a Flyer will Crash and Burn, while a Clying Monstrous Creature or Flying Gargantuan Creature will take D3 Wounds with no saving throws allowed.</description>
+    </rule>
     <rule id="f4d2c529-9c02-360a-0679-3af74377d682" name="Special Operations" hidden="false" publicationId="cfd140ee--pub25" page="49"/>
     <rule id="77cc5a93-aec1-b426-4afb-b058d4b2477b" name="Specialists: Hereteks" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
     <rule id="3eac78aa-91ca-74d8-348f-ca7818fbca41" name="Specialists: Murder Cultists" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="4bf778ec-4ca3-d257-b207-59a394cfc455" name="Specialists: Stalkers" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="25295fc6-d439-0585-616a-cfc202f1d52d" name="Split Fire" hidden="false" publicationId="cfd140ee--pub23" page="42"/>
-    <rule id="4ef69611-d89c-409b-2955-acb043e1cf2f" name="Stealth" hidden="false" publicationId="cfd140ee--pub23" page="42"/>
-    <rule id="702de286-c480-b115-bf5e-e46c5761e747" name="Stomp" hidden="false" publicationId="cfd140ee--pub15" page="0"/>
-    <rule id="05138154-c5cd-1abb-33fe-25e1699c590c" name="Strafing Run" hidden="false" publicationId="cfd140ee--pub23" page="42"/>
-    <rule id="ff74e077-2909-8d73-20f8-6d5a18e9bc7b" name="Strike Force" hidden="false" publicationId="cfd140ee--pub34" page="0"/>
+    <rule id="4bf778ec-4ca3-d257-b207-59a394cfc455" name="Specialists: Stalkers" hidden="false" publicationId="cfd140ee--pub5" page="0">
+      <description>75
+BS
+F
+S
+R
+HP
+Unit Type
+Stalker
+4
+12
+12
+10
+3
+Vehicle (Tank)
+Unit Composition: 1 Stalker
+Wargear:
+• Icarus stormcannon array
+• Searchlight
+• Smoke launchers
+Special Rules:
+• Skystorm
+Options:
+• May include up to two additional Stalkers75 pts/model
+• May take items from the Space Marine Vehicle Equipment list.</description>
+    </rule>
+    <rule id="25295fc6-d439-0585-616a-cfc202f1d52d" name="Split Fire" hidden="false" publicationId="cfd140ee--pub23" page="42">
+      <description>When a unit that contains at least one model with this special rule shoots, one model in the unit can shoot at a different target to the rest of his unit. Once this shooting attack has been resolved, resolve the shooting attacks made by the rest of the unit. These must be at a different target, which cannot be a unit forced to disembark as a result of the Split Firing unit's initial shooting attack.</description>
+    </rule>
+    <rule id="4ef69611-d89c-409b-2955-acb043e1cf2f" name="Stealth" hidden="false" publicationId="cfd140ee--pub23" page="42">
+      <description>A unit that contains at least one model with this special rule counts its cover saves as being 1 point better than normal. Note that this means that a model with the Stealth special rule always has a cover save of at least 6+, even if it is in the open. This rule is often presented as Stealth (X) where X indicates a specific type of terrain, such as Stealth (Woods) or Stealth (Ruins). If this is the case, the unit only gains the benefit whilst it is in terrain of the specified type. Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to amaximum of a 2+ cover save).</description>
+    </rule>
+    <rule id="702de286-c480-b115-bf5e-e46c5761e747" name="Stomp" hidden="false" publicationId="cfd140ee--pub15" page="0">
+      <description>Super-heavy walkers or Gargantuan Creatures engageed in combat may make a special type of attack called a Stomp attack.  The Stomp attack is made in addition to the Super-heavy Walker's normal attacks. Stomp attacks are resolved during the Fight sub-phase at the Initiative 1 step.  This does not grant the model an additional Pile In move at the Initiative 1 step.
+
+A Stomp attack consists of D3 Stomps.  Buildings, Flyers, Swooping Flying Monstrous Creatures, Gargantuan Creatures, Flying Gargantuan Creatures, Super-heavy Vehicles, Super-heavy Walkers, and Super-heavy Flyers cannot be stomped; do not roll on the Stomp table for them if they fall under the blast marker.  Any other units with models under the blast marker are stomped as normal.</description>
+    </rule>
+    <rule id="05138154-c5cd-1abb-33fe-25e1699c590c" name="Strafing Run" hidden="false" publicationId="cfd140ee--pub23" page="42">
+      <description>When shooting Assault, Heavy, Rapid Fire or Salvo weapons at Artillery, Beasts, Bikes, Cavalry, Infantry, Monstrous Creatures and vehicles without the Flyer or Skimmer type, this vehicle has +1 Ballistic Skill.</description>
+    </rule>
+    <rule id="ff74e077-2909-8d73-20f8-6d5a18e9bc7b" name="Strike Force" hidden="false" publicationId="cfd140ee--pub34" page="0">
+      <description>All gunships in the cadre must be deployed within 6" of the command tank, or, if coming on from reserve, they must enter the table within 6" of the point entered by the command tank.</description>
+    </rule>
     <rule id="5788ddea-2a24-e8f2-5018-f88f08dfd232" name="Strike Leader" hidden="false" publicationId="cfd140ee--pub26" page="26"/>
-    <rule id="deb5bfb5-551b-6485-032d-726b3380d365" name="Strikedown" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="aafe93ed-12e1-4622-7fd6-36a1b31c3695" name="Stubborn" hidden="false" publicationId="cfd140ee--pub23" page="43"/>
-    <rule id="e3493339-64c4-881d-a4e4-dfae745232e1" name="Summary Execution" hidden="false" publicationId="cfd140ee--pub25" page="32"/>
-    <rule id="1e7fece4-ca86-ae22-1b2d-9832c69373e0" name="Sunder" hidden="false" publicationId="cfd140ee--pub9"/>
-    <rule id="381bb905-a0f2-f66b-13ee-74bbf271a5cf" name="Supersonic" hidden="false" publicationId="cfd140ee--pub23" page="43"/>
+    <rule id="deb5bfb5-551b-6485-032d-726b3380d365" name="Strikedown" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>Any non-vehicle model that suffers one or more unsaved Wounds or passes one or more saving throws against an attack with the Strikedown special rule moves as if it is in difficult terrain until the end of its next turn. It is a good idea to mark affected models with counters or coins so that you remember.</description>
+    </rule>
+    <rule id="aafe93ed-12e1-4622-7fd6-36a1b31c3695" name="Stubborn" hidden="false" publicationId="cfd140ee--pub23" page="43">
+      <description>When a unit that contains at least one model with this special rule takes Morale checks or Pinning tests, they ignore any negative Leadership modifiers. If a unit is both Fearless and Stubborn, it uses the rules for Fearless instead.</description>
+    </rule>
+    <rule id="e3493339-64c4-881d-a4e4-dfae745232e1" name="Summary Execution" hidden="false" publicationId="cfd140ee--pub25" page="32">
+      <description>If the Commissar’s unit fails a Fear, Morale or Pinning test, after any re-rolls it is entitled to, the owning player can opt to have his Commissar summarily execute one of the Militarum Tempestus models in the unit. Roll a D6; on a 3+ you choose which model is executed, on a 1-2 your opponent chooses instead - note that neither player can ever choose to execute the Commissar himself. The executed model is immediately removed as a casualty with no saves of any kind allowed. Provided a model was executed, the unit is then treated as having passed the test.</description>
+    </rule>
+    <rule id="1e7fece4-ca86-ae22-1b2d-9832c69373e0" name="Sunder" hidden="false" publicationId="cfd140ee--pub9">
+      <description>Re-roll all failed AP-rolls.</description>
+    </rule>
+    <rule id="381bb905-a0f2-f66b-13ee-74bbf271a5cf" name="Supersonic" hidden="false" publicationId="cfd140ee--pub23" page="43">
+      <description>A Supersonic vehicle that moves Flat Out must move at least 18" and can move up to 36".</description>
+    </rule>
     <rule id="5f545bb5-3e7a-a99e-f18d-f4c9dd18bb6c" name="Support Vehicle" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="67f7-ca45-03f0-c435" name="Suppressive Bombardment" hidden="false" publicationId="cfd140ee--pub4"/>
-    <rule id="2bcf943d-60f4-fa44-21c8-564c556dc706" name="Tank Hunters" hidden="false" publicationId="cfd140ee--pub23" page="43"/>
-    <rule id="24c47b4a-a695-0455-6aa6-cd0686006b18" name="The Big Guns Never Tire" hidden="false" publicationId="cfd140ee--pub3" page="27"/>
+    <rule id="67f7-ca45-03f0-c435" name="Suppressive Bombardment" hidden="false" publicationId="cfd140ee--pub4">
+      <description>Whilst this unit includes three Whirlwinds, each model's Whirlwind multiple missile launcher has the Pinning and Shred special rules (regardless of which missile type it fires).</description>
+    </rule>
+    <rule id="2bcf943d-60f4-fa44-21c8-564c556dc706" name="Tank Hunters" hidden="false" publicationId="cfd140ee--pub23" page="43">
+      <description>A unit that contains at least one model with this special rule re-rolls failed armour penetration rolls against vehicles (both with shooting and in close combat) and can choose to re-roll glancing hits, in an attempt to instead get a penetrating hit - but the second result must be kept.</description>
+    </rule>
+    <rule id="24c47b4a-a695-0455-6aa6-cd0686006b18" name="The Big Guns Never Tire" hidden="false" publicationId="cfd140ee--pub3" page="27">
+      <description>This ability can be used once per game in the Shooting phase of any turn in which Lugft Huron has not moved in the preceding Movement phase (though he may declare a charge in the Assault phase as normal and need not charge the target this attack is made against). Using this ability counts as firing a weapon and uses the following profile:
+
+Range     Str AP Type
+Unlimited 10  1    Ordnance 2, Barrage, Large Blast (5")
+
+Note that if this attack scatters, it will always scatter the full 2D6" - Lugft Huron's Ballistic Skill makes no difference.</description>
+    </rule>
     <rule id="3b17f2d3-dc79-8d58-889d-a9a7b4633002" name="The Ghost Razors" hidden="false" publicationId="cfd140ee--pub3" page="27"/>
-    <rule id="bbaf6188-483b-f94f-352d-57a787e74a40" name="The Ground Shakes" hidden="false" publicationId="cfd140ee--pub35" page="7"/>
+    <rule id="bbaf6188-483b-f94f-352d-57a787e74a40" name="The Ground Shakes" hidden="false" publicationId="cfd140ee--pub35" page="7">
+      <description>[text removed]</description>
+    </rule>
     <rule id="6abdf1d4-213c-da1a-0c5c-c9c83511ab3a" name="The Hunter and the Hounds" hidden="false" publicationId="cfd140ee--pub32" page="206"/>
-    <rule id="1e64f4d1-82f0-95d6-0d63-2b0fac09d88a" name="The Red Thirst" hidden="false" publicationId="cfd140ee--pub11" page="0"/>
+    <rule id="1e64f4d1-82f0-95d6-0d63-2b0fac09d88a" name="The Red Thirst" hidden="false" publicationId="cfd140ee--pub11" page="0">
+      <description>In a turn in which a model from this Formation charges into combat, the model adds 1 to its Initiative characteristic until the end of the Assault phase. A model that has made a disordered charge that turn receives no benefit from the The Red Thirst.</description>
+    </rule>
     <rule id="5fecabf8-8d62-bfe0-9419-724d6e4bc2cb" name="The Thunder of the Guns" hidden="false" publicationId="cfd140ee--pub32" page="208"/>
     <rule id="38a5ebce-4ca7-91d2-3a32-997f2fdc447f" name="The Tip of the Claw" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="9598e36a-63b5-4524-fccf-a71f3eb35a44" name="The Tyrant's Champion" hidden="false" publicationId="cfd140ee--pub3" page="28"/>
+    <rule id="9598e36a-63b5-4524-fccf-a71f3eb35a44" name="The Tyrant's Champion" hidden="false" publicationId="cfd140ee--pub3" page="28">
+      <description>All friendly units, but not Independent Characters, chosen from Codex: Space Marines or the Space Marine Siege Assault Vanguard army list with the Chapter Tactics (Astral Claws) special rule as part of the same detachment as Corien Sumatris gain +1 WS while within 12" of him. Any squad he joins gains the Furious Charge special rule while he is part of the squad.</description>
+    </rule>
     <rule id="72921d86-bd3b-a36c-1c83-8eb63b7890bb" name="The Tyrant's Chosen" hidden="false" publicationId="cfd140ee--pub1" page="198"/>
     <rule id="c4fd9481-dc8c-5de7-8190-414012df7fff" name="The Tyrant's Due" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="2b7bd030-9073-b18d-c65c-ef5ba26ca7ee" name="Thunderblitz" hidden="false" publicationId="cfd140ee--pub15" page="0"/>
+    <rule id="2b7bd030-9073-b18d-c65c-ef5ba26ca7ee" name="Thunderblitz" hidden="false" publicationId="cfd140ee--pub15" page="0">
+      <description>Super-heavy vehicles may Tank Shock or Ram.  When they do so, roll once on teh Thunderblitz table immediately before taking the Morale check for the unit being Tank Shocked, or immediately before rolling for armour penetrating when performing a Ram.
+
+Do not roll on the Thunderblitz table when Tank Shocking a Gargantuan Creature or Flying Gargantuan Creature, or when Ramming a Super-heavy vheicle or Super-heavy Walker.  Instead, simply carry out the Tank Shock or Ram as normal.</description>
+    </rule>
     <rule id="1ef344a1-ca37-b686-ae9e-adf41f84f136" name="Thunderblitzing &amp; Assaulting the Minotaur" hidden="false" publicationId="cfd140ee--pub18" page="31"/>
-    <rule id="b4ba472d-2aa1-5f78-27a1-8a7aaf9ff7fe" name="Thunderfire Cannon" hidden="false" publicationId="cfd140ee--pub4" page="73"/>
+    <rule id="b4ba472d-2aa1-5f78-27a1-8a7aaf9ff7fe" name="Thunderfire Cannon" hidden="false" publicationId="cfd140ee--pub4" page="73">
+      <description>100
+WS
+BS
+S
+T
+W
+I
+A
+Ld
+Sv
+Unit Type
+Thunderfire Cannon
+-
+-
+-
+7
+2
+-
+-
+3+
+Artillery
+Techmarine Gunner
+4
+5
+4
+4
+2
+4
+2
+9
+2+
+Artillery
+Unit Composition: 1 Thunderfire Cannon, 1 Techmarine Gunner
+Wargear (Techmarine Gunner):
+• Bolt pistol
+• Frag grenades
+• Krak grenades
+• Servo-harness
+Wargear (Thunderfire Cannon):
+• Thunderfire cannon
+Options:
+• May include up to two additional Thunderfire Cannons (each including a Techmarine Gunner)100 pts/model
+• If the unit contains no additional Thunderfire Cannons, it may select a Drop Pod as a Dedicated Transport.
+Special Rules (Techmarine Gunner):
+• And They Shall Know No Fear
+• Blessing of the Omnissiah
+• Bolster Defences
+• Chapter Tactics
+• Convergent Targeting</description>
+    </rule>
     <rule id="57cbd571-5e4e-f3c1-af88-9b14b26fc4ff" name="Titan Maniple" hidden="false" publicationId="cfd140ee--pub32" page="206"/>
-    <rule id="9834f670-e5cf-2b60-26c9-c835bc67e20b" name="Tremor" hidden="false" publicationId="cfd140ee--pub4" page="73"/>
+    <rule id="9834f670-e5cf-2b60-26c9-c835bc67e20b" name="Tremor" hidden="false" publicationId="cfd140ee--pub4" page="73">
+      <description>Any unit hit moves as if in difficult terrain on its next turn. If it is already in difficult terrain, it rolls one less dice than normal to determine distance moved. Vehicles hit must take a Dangerous Terrain test if they move in the subsequent turn.</description>
+    </rule>
     <rule id="25752249-d60c-a4f1-6ea1-36b1f199a6b0" name="Unloading &amp; Loading Vehicles" hidden="false" publicationId="cfd140ee--pub18" page="23"/>
-    <rule id="23888c9c-deb0-2791-db21-ba0c3b1819ed" name="Unstable Reactor" hidden="false" publicationId="cfd140ee--pub18" page="6"/>
-    <rule id="56aa517d-4885-f53a-e5bb-2fc0d019aa8b" name="Unyielding Spectres" hidden="false" publicationId="cfd140ee--pub4" page="95"/>
-    <rule id="0ea0bab0-b3e8-ae0e-0777-1907941f311b" name="Vector Dancer" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="0b3eeda1-28b1-29a3-3582-33ba3f914afc" name="Venerable" hidden="false" publicationId="cfd140ee--pub4" page="0"/>
-    <rule id="e419b169-b2cc-88b0-1b87-34a329d99a2b" name="Very Bulky" hidden="false" publicationId="cfd140ee--pub23" page="35"/>
+    <rule id="23888c9c-deb0-2791-db21-ba0c3b1819ed" name="Unstable Reactor" hidden="false" publicationId="cfd140ee--pub18" page="6">
+      <description>When this vehicle suffers a Catastrophic Explosion result, add +D3" to the radius of the explosion.</description>
+    </rule>
+    <rule id="56aa517d-4885-f53a-e5bb-2fc0d019aa8b" name="Unyielding Spectres" hidden="false" publicationId="cfd140ee--pub4" page="95">
+      <description>The Legion of the Damned have a 3+ invulnerable save.</description>
+    </rule>
+    <rule id="0ea0bab0-b3e8-ae0e-0777-1907941f311b" name="Vector Dancer" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>A model with this special rule can make an additional pivot on the spot of up to 90 degrees at the end of its move. A model that uses this extra pivot cannot move Flat Out in the following Shooting phase.</description>
+    </rule>
+    <rule id="0b3eeda1-28b1-29a3-3582-33ba3f914afc" name="Venerable" hidden="false" publicationId="cfd140ee--pub4" page="0">
+      <description>If a Venerable Dreadnought suffers a penetrating hit, you can make your opponent re-roll the result on the Vehicle Damage table. You must accept the second roll, even if it is worse than the first.</description>
+    </rule>
+    <rule id="e419b169-b2cc-88b0-1b87-34a329d99a2b" name="Very Bulky" hidden="false" publicationId="cfd140ee--pub23" page="35">
+      <description>Very Bulky models instead count as three models.</description>
+    </rule>
     <rule id="c222f5b8-b30e-6582-c38d-72a86bd2090d" name="Veteran Crew" hidden="false" publicationId="cfd140ee--pub2" page="272"/>
-    <rule id="c0e087eb-6432-5d08-f153-827e53e8389d" name="Void Hardened Armour" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="21c4659e-140f-f1a9-3d65-3a1c44298066" name="Volcano Cannon Penetration" hidden="false" publicationId="cfd140ee--pub2" page="100"/>
-    <rule id="5ccb7ea6-84b4-1c34-d329-defa50209e31" name="Vortex" hidden="false" publicationId="cfd140ee--pub29" page="0"/>
-    <rule id="27cbbc05-d77c-f536-d21d-8fce6e701e32" name="Vulcan - Fire twice at same target if stationary" hidden="false" publicationId="cfd140ee--pub18" page="33"/>
-    <rule id="e0387285-c637-31a0-e2d3-6b870c40f53a" name="Warlord" hidden="false" publicationId="cfd140ee--pub23" page="0"/>
-    <rule id="7a02bfb4-c0ba-0562-fd84-36040079fddb" name="Warlord Trait: Born Survivor" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="ab732dc7-df61-7de2-7588-0c9a00289d5a" name="Warlord Trait: Cut Them Down!" hidden="false" publicationId="cfd140ee--pub3" page="30"/>
+    <rule id="c0e087eb-6432-5d08-f153-827e53e8389d" name="Void Hardened Armour" hidden="false" publicationId="cfd140ee--pub5" page="0">
+      <description>A model equipped with Void Hardened Armour may re-roll failed saves made against weapons of either the Template or Blast type and reduces the distance rolled for Charges, Sweeping Advances and Run moves by 1". Note that void hardened armour does not bestow or modify a model's armour save, and has some additional effects when playing a Zone Mortalis game (as noted in the Zone Mortalis rules).</description>
+    </rule>
+    <rule id="21c4659e-140f-f1a9-3d65-3a1c44298066" name="Volcano Cannon Penetration" hidden="false" publicationId="cfd140ee--pub2" page="100">
+      <description>Against non-Super-heavy vehicles and buildings, a Volcano Cannon adds +1 to all rolls on the Vehicle Damage table.</description>
+    </rule>
+    <rule id="5ccb7ea6-84b4-1c34-d329-defa50209e31" name="Vortex" hidden="false" publicationId="cfd140ee--pub29" page="0">
+      <description>A weapon with this special rule is a Destroyer weapon and uses a blast marker of some type (e.g. blast, large blast, massive blast, etc). Place the appropriate marker, roll for scatter and apply damage. For determining Wound allocation, always assume the shot is coming from the centre of the marker, in the same manner as a Barrage weapon.
+
+The marker for a Vortex weapon is not removed from play after damage has been resolved. Leave it in play on the tabletop. The marker is impassable terrain as long as it remains in play.
+
+At the beginning of every subsequent player turn, the marker scatters 2D6" (use the little arrow if you roll a Hit!). If a double is rolled, the marker is removed from play instead. Any unit under the marker's new location is hit. Apply damage as described above.</description>
+    </rule>
+    <rule id="27cbbc05-d77c-f536-d21d-8fce6e701e32" name="Vulcan - Fire twice at same target if stationary" hidden="false" publicationId="cfd140ee--pub18" page="33">
+      <description>If a Macharius Vulcan remains stationary in the Movement phase, it may fire its Vulcan Mega-bolter twice in the following Shooting phase at the same target.</description>
+    </rule>
+    <rule id="e0387285-c637-31a0-e2d3-6b870c40f53a" name="Warlord" hidden="false" publicationId="cfd140ee--pub23" page="0">
+      <description>If Thulsa Kane is part of an army then he will always be the army's Warlord, regardless of the Leadership value of other HQ choices. He does not roll on the Warlord Traits table, but instead receives the following unique Warlord trait:
+
+• The Wrath of Old Night: During any Assault phase in which Thulsa Kane is fighting a challenge, all friendly units with Chapter Tactics (Executioners) gain a +1 bonus to their score for working out the victor in assaults and +1 to their Sweeping Advance.</description>
+    </rule>
+    <rule id="7a02bfb4-c0ba-0562-fd84-36040079fddb" name="Warlord Trait: Born Survivor" hidden="false" publicationId="cfd140ee--pub5" page="0">
+      <description>Perhaps gifted regenerative powers by the immortal Hive Mind, the warlord can shrug off crippling injuries to fight on.</description>
+    </rule>
+    <rule id="ab732dc7-df61-7de2-7588-0c9a00289d5a" name="Warlord Trait: Cut Them Down!" hidden="false" publicationId="cfd140ee--pub3" page="30">
+      <description>Any friendly unit chosen from Codex: Space Marines or the Tyrant's Legion army list that is involved in the same combat as Commodus may re-roll any Sweeping Advances they are called upon to make.</description>
+    </rule>
     <rule id="b886e96d-eb6c-374f-c085-34b9e078f135" name="Warlord Trait: Icon of Dread" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
     <rule id="c1ecd5ef-a34d-4008-c51f-a86f81a3772c" name="Warlord Trait: Legacy of Valour" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="ca45612f-bed1-9557-ffaa-1554edc0953c" name="Warlord Trait: Legendary Fighter" hidden="false" publicationId="cfd140ee--pub3" page="18"/>
-    <rule id="d83691ae-ef95-5160-0806-6bcb2a9a49f9" name="Warlord Trait: Lord of Ruin" hidden="false" publicationId="cfd140ee--pub3" page="16"/>
-    <rule id="df1ea74f-d2da-166a-b811-f37dcc7e519e" name="Warlord Trait: Master of Machines" hidden="false" publicationId="cfd140ee--pub3" page="29"/>
+    <rule id="ca45612f-bed1-9557-ffaa-1554edc0953c" name="Warlord Trait: Legendary Fighter" hidden="false" publicationId="cfd140ee--pub3" page="18">
+      <description>Gain 1 VP for each enemy character slain by Zhufor</description>
+    </rule>
+    <rule id="d83691ae-ef95-5160-0806-6bcb2a9a49f9" name="Warlord Trait: Lord of Ruin" hidden="false" publicationId="cfd140ee--pub3" page="16">
+      <description>If taken must be your Warlord. Friendly Blood Angel-units within 6" gain Hatred.</description>
+    </rule>
+    <rule id="df1ea74f-d2da-166a-b811-f37dcc7e519e" name="Warlord Trait: Master of Machines" hidden="false" publicationId="cfd140ee--pub3" page="29">
+      <description>In each of your Shooting phases, instead of firing one of his weapons (controlling playerâ€™s choice), a Tech-Priest Dominus can choose either to repair a single friendly vehicle that he is in base contact with or embarked upon, or to restore a Wound lost earlier in the battle. To do either, roll a D6. If the result is a 2 or more, your attempt was successful: if repairing a vehicle you may restore a Hull Point that the nominated vehicle lost earlier in the battle, or repair a Weapon Destroyed or Immobilised result suffered earlier in the battle; this is effective immediately. If restoring a Wound, either the Tech-Priest Dominus or any model with the Skitarii or Cult Mechanicus Faction in his unit regains a Wound lost earlier in the battle; this is effective immediately.</description>
+    </rule>
     <rule id="b1b96b81-86f6-e28f-8de9-5dc030d4b396" name="Warlord Trait: Master of the Counter-assault" hidden="false" publicationId="cfd140ee--pub3" page="27"/>
     <rule id="cb373448-ff2e-5e6a-56c0-0fd606d9f630" name="Warlord Trait: Mechanised Infantry" hidden="false" publicationId="cfd140ee--pub2" page="274"/>
     <rule id="c9d28c63-1a53-8878-f2a2-146ed01dc705" name="Warlord Trait: Planetstrike Attacker" hidden="true" publicationId="cfd140ee--pub30">
@@ -22042,14 +22662,25 @@ As such &amp; with the consent of your opponents, they may add colour to friendl
     <rule id="d617d069-c009-b809-1015-27350fe84241" name="Warlord Trait: Scion of a Wealthy House" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
     <rule id="e6e290da-b31d-4232-9129-b24b72d60867" name="Warlord Trait: The Council of Thorns" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
     <rule id="5809818c-3911-5053-88e7-d4f70943f2a6" name="Warlord Trait: Victory Bought with Blood" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="fd10ccda-5d8f-681e-4c2f-a705cd375fc3" name="Warlord Trait: Whispers on the Wind" hidden="false" publicationId="cfd140ee--pub3" page="21"/>
+    <rule id="fd10ccda-5d8f-681e-4c2f-a705cd375fc3" name="Warlord Trait: Whispers on the Wind" hidden="false" publicationId="cfd140ee--pub3" page="21">
+      <description>: Any unit Ahazra Redth joins gains the Interceptor and Night Vision special rules while he is a part of it.</description>
+    </rule>
     <rule id="c1929956-c3fe-2253-71c3-76e878ecdc2e" name="Warlord Trait: Wrath of the Old Night" hidden="false" publicationId="cfd140ee--pub3" page="22"/>
     <rule id="e5aa6f40-0b63-1aff-c961-47edbc8e5e86" name="Weapon Destroyed destroys either the Lascannon or Twin-linked Plasma" hidden="false" page="0"/>
     <rule id="6259fef5-0e20-21d8-2516-5766499ab6b6" name="Weapons Drill" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="2657-f3cf-9a28-4cfd" name="Wing Leader" hidden="false" publicationId="cfd140ee--pub22"/>
+    <rule id="2657-f3cf-9a28-4cfd" name="Wing Leader" hidden="false" publicationId="cfd140ee--pub22">
+      <description>Wing Leaders are free upgrades for Flyers.  One model in each Flyer wing can be upgraded to a Wing Leader at no additional points cost.  At the start of any game, immediately after determining your Warlord Trait, roll on the Wing Leader table for each Wing Leader to determine their special rule.</description>
+    </rule>
     <rule id="7bfaad39-9954-9c72-e442-0901cd21ec92" name="Workhorse of the Fleet" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="f5d4f1dd-c724-6dfc-3638-3b732cc85c21" name="Wrecker" hidden="false" publicationId="cfd140ee--pub5" page="0"/>
-    <rule id="5644e67e-b2e9-dc98-dcaa-fedd25edbb45" name="Zealot" hidden="false" publicationId="cfd140ee--pub8" page="0"/>
+    <rule id="f5d4f1dd-c724-6dfc-3638-3b732cc85c21" name="Wrecker" hidden="false" publicationId="cfd140ee--pub5" page="0">
+      <description>Re-roll all failed AP-rolls against fortifications and immobile structures and add +1 to the Building Damage chart.
+If this destroys a wall section, remove it completely if possible.</description>
+    </rule>
+    <rule id="5644e67e-b2e9-dc98-dcaa-fedd25edbb45" name="Zealot" hidden="false" publicationId="cfd140ee--pub8" page="0">
+      <description>A unit containing one or more models with the Zealot special rule automatically passes Pinning, Fear and Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons Are Useless rule. If a unit gains the Zealot special rule when it has Gone to Ground, all the effects of Go to Ground are immediately cancelled.
+
+In addition, units containing one or more models with the Zealot special rule re-roll all failed To Hit rolls during the first round of each close combat - they do not get to re-roll failed To Hit rolls in subsequent rounds.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="90d61707-d019-1a02-64ce-ae28e9a9c897" name="6th Ed Psychic Powers" hidden="false" publicationId="cfd140ee--pub23" page="0">
@@ -22901,7 +23532,7 @@ As such &amp; with the consent of your opponents, they may add colour to friendl
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="9193eb56-75a4-19f3-db2b-f2c7735697b6" name="Defence Searchlight" hidden="false" publicationId="cfd140ee--pub2" page="206">
       <characteristics>
-        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">A building or vehicle equipped with a Defence Searchlight may illuminate an enemy unit within 48" during Night Fighting.</characteristic>
       </characteristics>
     </profile>
     <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" id="1e78f2f8-ee68-ccee-f7af-188f83e58665" name="Defensive Heavy Stubber" hidden="false" publicationId="cfd140ee--pub24" page="20">
@@ -24964,7 +25595,7 @@ As such &amp; with the consent of your opponents, they may add colour to friendl
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="ef6af060-dde7-99f1-ff46-29f66c3d765a" name="Space Marine Bike" hidden="false" publicationId="cfd140ee--pub23" page="0">
       <characteristics>
-        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">Models equipped with Space Marine bikes change their unit type to Bike. Space Marine bikes are fitted with a twin-linked boltgun.</characteristic>
       </characteristics>
     </profile>
     <profile typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" id="dec7eca3-f114-5676-d59b-c034a0e1db0f" name="Space Marine Sergeant" hidden="false" publicationId="cfd140ee--pub4" page="144">

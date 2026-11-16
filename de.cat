@@ -1714,7 +1714,7 @@
           <profiles>
             <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="54e41dbf-3b3d-1c2b-2078-d8bb5f9c61d1" name="Hellion Skyboard" page="0" hidden="false">
               <characteristics>
-                <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+                <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">Models on Hellion skyboards have the Jump Infantry unit type. Hellion skyboards also confer a 5+ Armour Save and are armed with splinter pods.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5870,7 +5870,15 @@ from. This is cumulative with the Agonising and/or Master of Pain special rules.
       <description>Models with the Daemon special rule have a 5+ invulnerable save, and also have the Fear
 special rule.</description>
     </rule>
-    <rule id="27fd7d6b-b679-5af5-0201-db2e55e7fe7d" name="Deep Strike" publicationId="635e04e0--pub14" page="162" hidden="false"/>
+    <rule id="27fd7d6b-b679-5af5-0201-db2e55e7fe7d" name="Deep Strike" publicationId="635e04e0--pub14" page="162" hidden="false">
+      <description>Deep Strike Mishap Table: D6 Roll
+
+1: Terrible Accident! - The entire unit is destroyed!
+
+2-3: Misplaced - Your opponent may deploy the unit anywhere on the table (excluding impassable terrain, but including difficult terrain, which of course counts as dangerous for Deep Striking units), in a valid Deep Strike formation, without rolling for scatter. Units embarked on a misplaced Transport can disembark during their Movement phase as normal.
+
+4-6: Delayed - The unit is placed in Ongoing Reserves.</description>
+    </rule>
     <rule id="75ab5748-3dba-82e5-db68-16b301ce7dc5" name="Dodge" publicationId="635e04e0--pub12" hidden="false">
       <description>A model with this special rule has a 4+ invulnerable save against all wounds inflicted in the Fight sub-phase.</description>
     </rule>
@@ -5941,8 +5949,22 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
     <rule id="6539c172-9130-9cc1-db41-860282ce01a1" name="Impale" hidden="false">
       <description>A model fighting with an impaler re-rolls all To Wound rolls of a 1 when fighting in close combat.</description>
     </rule>
-    <rule id="9dbb88f6-6d44-508b-507f-abb397a69ae2" name="Independent Character" publicationId="635e04e0--pub14" page="166" hidden="false"/>
-    <rule id="ae0a2011-4418-dfe7-199e-057eb524c495" name="Infiltrate" publicationId="635e04e0--pub14" page="167" hidden="false"/>
+    <rule id="9dbb88f6-6d44-508b-507f-abb397a69ae2" name="Independent Character" publicationId="635e04e0--pub14" page="166" hidden="false">
+      <description>Independent characters can join other units.  They cannot, however, join units that contain vehicles or Monstrous Creatures.  They can join other Independent Characters, though, to form a powerful multi-character unit!  Independent Characters pass Look Out, Sir rolls on a 2+. A unit that contains one or more Independent Characters does not need a double 1 to Regroup if reduced to below 25% of its starting numbres, but instead tests as if it had at least 25% remaining.
+
+Full details in BRB. Rule too long to copy verbatim.</description>
+    </rule>
+    <rule id="ae0a2011-4418-dfe7-199e-057eb524c495" name="Infiltrate" publicationId="635e04e0--pub14" page="167" hidden="false">
+      <description>Units that contain at least one model with this special rule are deployed last, after all other units (friend and foe) have been deployed. If both sides have Infiltrators, the players roll-off and the winner decides who goes first, then alternate deploying these units.
+
+Infiltrators can be set up anywhere on the table that is more than 12" from any enemy unit, as long as no deployed enemy unit can draw line of sight to them. This includes in a building, as long as the building is more than 12" from any enemy unit. Alternatively, they can be set up anywhere on the table more than 18" from any enemy unit, even in plain sight.
+
+If a unit with Infiltrate deploys inside a Dedicated Transport, they may Infiltrate along with their Transport. 
+
+A unit that deploys using these rules cannot charge in their first turn. Having Infiltrate also confers the Outflank special rule to units of Infiltrators that are kept as Reserves.
+
+If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
+    </rule>
     <rule id="c265aaa5-c077-d365-2a06-e62cb60cb352" name="Lethal Dose" publicationId="635e04e0--pub12" hidden="false">
       <description>Any To Wound roll of a 6 inflicted by this weapon has the Instant Death special rule.</description>
     </rule>
@@ -5955,7 +5977,9 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
     <rule id="b367beab-9501-f026-3fca-db6dfad8f757" name="Master of Pain" hidden="false">
       <description>The model and his unit treat the current turn as being one higher than it actually is when determining what special rules they benefit from as the result of the Power from Pain special rule. This is cumulative with the Agonising and/or Architect of Agony special rules.</description>
     </rule>
-    <rule id="b1146136-3264-8495-bf3c-7576c9f78d29" name="Move Through Cover" publicationId="635e04e0--pub14" page="168" hidden="false"/>
+    <rule id="b1146136-3264-8495-bf3c-7576c9f78d29" name="Move Through Cover" publicationId="635e04e0--pub14" page="168" hidden="false">
+      <description>A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
+    </rule>
     <rule id="62b7d0cb-bf73-74ae-2a99-8efa497f54f1" name="Murderous Assault" publicationId="635e04e0--pub12" hidden="false">
       <description>Drazhar gains a bonus Attack, made at the same Initiative step, each time he rolls a 6 to Wound in close combat. These bonus Attacks do not themselves generate any further bonus attacks.</description>
     </rule>
@@ -5995,14 +6019,20 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
     <rule id="650c5a09-ced1-f14c-d60e-e2031e28e3ab" name="Snatched" hidden="false">
       <description>When fighting in a challenge, this weapon has the Instant Death special rule.</description>
     </rule>
-    <rule id="62f56b85-ca6d-cc27-00d0-9538935b5b85" name="Soul Blaze" publicationId="635e04e0--pub14" page="172" hidden="false"/>
+    <rule id="62f56b85-ca6d-cc27-00d0-9538935b5b85" name="Soul Blaze" publicationId="635e04e0--pub14" page="172" hidden="false">
+      <description>If a unit suffers one or more unsaved Wounds from an attack with this special rule, it is set ablaze and continues to burn - mark it with a coin or counter as a reminder.
+
+At the end of each turn, roll a D6 for each unit with a Soul Blaze counter on it. On a 3 or less, the flames die out and the unit is no longer ablaze - remove your reminder counter. On a 4+, the unit takes D3 Strength 4 AP5 hits with the Ignores Cover special rule. These Wounds are Randomly Allocated. A unit cannot have more than one Soul Blaze counter on it at a time.</description>
+    </rule>
     <rule id="d4402a45-5af2-6c79-dfa8-53217825728b" name="Soulfright" hidden="false">
       <description>At the end of the Shooting phase, a unit that has suffered one or more hits from a weapon with this special rule in that phase must make a Leadership test. The unit suffers a single additional Wound, with no armour or cover saves allowed, for each point this test is failed by. Wounds cannot be allocated to models with the Fearless or And They Shall Know No Fear special rules (any excess wounds are lost)</description>
     </rule>
     <rule id="e098aba1-56e2-163e-d864-b860629f69e7" name="Stealth" publicationId="635e04e0--pub14" page="172" hidden="false">
       <description>+1 cover save</description>
     </rule>
-    <rule id="302a-4621-5e54-1d84" name="Strafing Run" publicationId="635e04e0--pub14" page="172" hidden="false"/>
+    <rule id="302a-4621-5e54-1d84" name="Strafing Run" publicationId="635e04e0--pub14" page="172" hidden="false">
+      <description>When shooting Assault, Heavy, Rapid Fire or Salvo weapons at Artillery, Beasts, Bikes, Cavalry, Infantry, Monstrous Creatures and vehicles without the Flyer or Skimmer type, this vehicle has +1 Ballistic Skill.</description>
+    </rule>
     <rule id="7c3ba9a4-61bc-0325-4734-9d734ecf796c" name="Supersonic" publicationId="635e04e0--pub14" page="172" hidden="false">
       <description>When moving Flat Out, must move between 18" and 36".</description>
     </rule>
@@ -6012,7 +6042,9 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
     <rule id="e2474521-9c0b-6902-508c-f809945d7a4a" name="Twin-Linked" publicationId="635e04e0--pub14" page="174" hidden="false">
       <description>Re-rolls all failed To Hit rolls.</description>
     </rule>
-    <rule id="5465-907d-42b9-c1bd" name="Vector Dancer" publicationId="635e04e0--pub14" page="174" hidden="false"/>
+    <rule id="5465-907d-42b9-c1bd" name="Vector Dancer" publicationId="635e04e0--pub14" page="174" hidden="false">
+      <description>A model with this special rule can make an additional pivot on the spot of up to 90 degrees at the end of its move. A model that uses this extra pivot cannot move Flat Out in the following Shooting phase.</description>
+    </rule>
     <rule id="1e4062e8-833e-90e6-e087-d68357d73cd7" name="Warlord Trait: Ancient Evil" hidden="false">
       <description>The Warlord, and all friendly units with the Dark Eldar Faction within 12" of the Warlord, have the Fear special rule.</description>
     </rule>

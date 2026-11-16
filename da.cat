@@ -1068,10 +1068,18 @@ If your force contains either a Ravenwing Support Squadron or a Ravenwing Strike
         </profile>
       </profiles>
       <rules>
-        <rule id="7904-7f9d-86af-4081" name="Transport Capacity - 10" hidden="false"/>
-        <rule id="6621-5ff0-54b9-c2f5" name="Supersonic" hidden="false"/>
-        <rule id="9392-d111-167b-cf10" name="Misericorde" hidden="false"/>
-        <rule id="f570-7ccf-c0ee-dde6" name="Caestus Ram" hidden="false"/>
+        <rule id="7904-7f9d-86af-4081" name="Transport Capacity - 10" hidden="false">
+      <description>Transport Capacity: 10 models.</description>
+    </rule>
+        <rule id="6621-5ff0-54b9-c2f5" name="Supersonic" hidden="false">
+      <description>A Supersonic vehicle that moves Flat Out must move at least 18" and can move up to 36".</description>
+    </rule>
+        <rule id="9392-d111-167b-cf10" name="Misericorde" hidden="false">
+      <description>The Caesus Assault Ram has a transport capacity of ten models which must either be in Power Armour, Artificer Armour, or Terminator Armour. The transport's capacity is not affected by the Bulky special rule and remains ten models regardless of the transported model's type.</description>
+    </rule>
+        <rule id="f570-7ccf-c0ee-dde6" name="Caestus Ram" hidden="false">
+      <description>When conducting a ram attack, the Caestus' player rolls two dice and picks the highest number when determining if it has penetrated the target's armour and adds +1 to any rolls on the Damage chart that it uses.  In addition, the Caestus has a save of 5+ against any attacks against its front armour, including damage it suffers as a result of ramming or being rammed itself from the front.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="2eb0-e96a-1262-de3c" hidden="false" targetId="8024-df0a-ec75-95c0" type="rule"/>
@@ -2346,7 +2354,7 @@ If your force contains either a Ravenwing Support Squadron or a Ravenwing Strike
         </profile>
         <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="141d-3dcd-beda-6f43" name="Teleport Beacon" hidden="false">
           <characteristics>
-            <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+            <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">Units arriving by teleport (using Deep Strike) which are part of the force containing the Damocles, do not need to roll to scatter if they choose to arrive within 12" of the Damocles.</characteristic>
           </characteristics>
         </profile>
         <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="a118-3283-1e1a-e21d" name="Command Vox Relay" hidden="false">
@@ -2742,7 +2750,9 @@ the laser destroyer's rate of fire. Stability is required for this overcharged f
                 </profile>
               </profiles>
               <rules>
-                <rule id="9b8b-9ced-836c-eedf" name="Pinning" hidden="false"/>
+                <rule id="9b8b-9ced-836c-eedf" name="Pinning" hidden="false">
+      <description>If a non-vehicle unit suffers one or more unsaved Wounds from a weapon with the Pinning special rule, it must take a Leadership test once the firing unit has finished its shooting attacks for that phase. This is called a Pinning test. If the unit fails the test, it is Pinned and must immediately Go to Ground. As the unit has already taken its saves, Going to Ground does not protect it against the fire of the Pinning weapon that caused the test - it's too late! As long as the test is passed, a unit can be called upon to take multiple Pinning tests in a single turn, but only once for each unit shooting at them. If a unit has already Gone to Ground, no further Pinning tests are taken. If the special rules of a unit specify that the unit can never be Pinned, the unit automatically passes Pinning tests. Such units can still Go to Ground voluntarily if they wish.</description>
+    </rule>
                 <rule id="92fc-baef-cae7-3535" name="Independent Tracking" hidden="false">
                   <description>his weapon may fire at a different target to that of the Deredeo's other shooting attacks if desired and ignores intervening obstacles to line of sight in open terrain. When firing at vehicles, it attacks their Side Armour value.</description>
                 </rule>
@@ -3318,8 +3328,12 @@ the laser destroyer's rate of fire. Stability is required for this overcharged f
         </profile>
       </profiles>
       <rules>
-        <rule id="5788-7b88-429a-f73a" name="Transport Capacity - 6" hidden="false"/>
-        <rule id="e9af-3a9b-105a-d709" name="Ferromantic Invulnerability" hidden="false"/>
+        <rule id="5788-7b88-429a-f73a" name="Transport Capacity - 6" hidden="false">
+      <description>Transport Capacity: 6 models.</description>
+    </rule>
+        <rule id="e9af-3a9b-105a-d709" name="Ferromantic Invulnerability" hidden="false">
+      <description>The Land Raider Achilles is not subject to the effects of the Lance and Melta special rules by attacks made against it. In addition, it reduces the effects of all roll son the damage chart caused by Penetrating hits by -1 (other than Destroyer Weaponry)</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="99f0-6e34-2e4e-1623" hidden="false" targetId="528d-4089-aaeb-bc3c" type="rule"/>
@@ -3423,7 +3437,9 @@ the laser destroyer's rate of fire. Stability is required for this overcharged f
         </profile>
       </profiles>
       <rules>
-        <rule id="9d42-0f17-9ca2-2449" name="Transport Capacity - 6" hidden="false"/>
+        <rule id="9d42-0f17-9ca2-2449" name="Transport Capacity - 6" hidden="false">
+      <description>Transport Capacity: 6 models.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="6581-2131-06a9-f405" hidden="false" targetId="528d-4089-aaeb-bc3c" type="rule"/>
@@ -3522,7 +3538,9 @@ the laser destroyer's rate of fire. Stability is required for this overcharged f
         </profile>
       </profiles>
       <rules>
-        <rule id="5356-6da8-cd23-af0a" name="Transport Capacity - 10" hidden="false"/>
+        <rule id="5356-6da8-cd23-af0a" name="Transport Capacity - 10" hidden="false">
+      <description>Transport Capacity: 10 models.</description>
+    </rule>
         <rule id="6f30-9e87-fa74-0ab3" name="Battle Auspex" hidden="false">
           <description>Night Vision
 Cover saves of enemy targets suffer -1 modifier</description>
@@ -3623,7 +3641,9 @@ Cover saves of enemy targets suffer -1 modifier</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="ba0f-8576-4141-b280" name="Transport Capacity - 10" hidden="false"/>
+        <rule id="ba0f-8576-4141-b280" name="Transport Capacity - 10" hidden="false">
+      <description>Transport Capacity: 10 models.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="3da1-cbf1-b87e-694f" hidden="false" targetId="528d-4089-aaeb-bc3c" type="rule"/>
@@ -3741,7 +3761,9 @@ Cover saves of enemy targets suffer -1 modifier</description>
             </profile>
           </profiles>
           <rules>
-            <rule id="d113-c2f4-2e47-6403" name="Afterburner" hidden="false"/>
+            <rule id="d113-c2f4-2e47-6403" name="Afterburner" hidden="false">
+      <description>The Tempest can choose to ignite its afterburners at the start of any one of its turns.  Until the owning player declares otherwise, it is treated as a Flyer and uses all the normal rules for that vehicle except that it cannot fire any weapons whilst this is the case.  If one Tempest in the squadron uses its afterburners then all must do so.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="23e3-a0d7-db22-4596" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
@@ -4146,7 +4168,9 @@ Cover saves of enemy targets suffer -1 modifier</description>
         </selectionEntry>
         <selectionEntry id="5a77-db63-56da-490c" name="Super-heavy Command Tank" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="e218-b121-525f-509b" name="Command Tank" publicationId="578f-d512-pub11" page="6" hidden="false"/>
+            <rule id="e218-b121-525f-509b" name="Command Tank" publicationId="578f-d512-pub11" page="6" hidden="false">
+      <description>A Command Tank may be chosen as a HQ selection and confers command benefits to friendly units within 12" as described on its datasheet.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -4268,7 +4292,9 @@ Cover saves of enemy targets suffer -1 modifier</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="1aec-8b70-8071-8e4a" name="Overtaxed Reactor" publicationId="578f-d512-pub14" hidden="false"/>
+        <rule id="1aec-8b70-8071-8e4a" name="Overtaxed Reactor" publicationId="578f-d512-pub14" hidden="false">
+      <description>When destroyed, the Knight adds +1 to the result rolled on the Catastrophic Damage table.</description>
+    </rule>
       </rules>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
@@ -4390,7 +4416,10 @@ Cover saves of enemy targets suffer -1 modifier</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="8f16-ab95-3f83-c00e" name="Wrecker" publicationId="578f-d512-pub14" hidden="false"/>
+                <rule id="8f16-ab95-3f83-c00e" name="Wrecker" publicationId="578f-d512-pub14" hidden="false">
+      <description>Re-roll all failed AP-rolls against fortifications and immobile structures and add +1 to the Building Damage chart.
+If this destroys a wall section, remove it completely if possible.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -4408,7 +4437,9 @@ Cover saves of enemy targets suffer -1 modifier</description>
                     </profile>
                   </profiles>
                   <rules>
-                    <rule id="680e-aba9-34ca-8cf2" name="Rad-phage" publicationId="578f-d512-pub14" hidden="false"/>
+                    <rule id="680e-aba9-34ca-8cf2" name="Rad-phage" publicationId="578f-d512-pub14" hidden="false">
+      <description>A model which loses one or more wounds to an attack with this special rule and survives has its Toughness value reduced by -1 for the rest of the battle.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -5311,7 +5342,9 @@ Cover saves of enemy targets suffer -1 modifier</description>
       <selectionEntries>
         <selectionEntry id="2a01-7728-5cf0-c97c" name="Space Marine Rapier Weapons Battery" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="03a1-a697-eb8c-8039" name="Explosive Demise" hidden="false"/>
+            <rule id="03a1-a697-eb8c-8039" name="Explosive Demise" hidden="false">
+      <description>When the Rapier loses its last wound, roll a D6. If the result of this roll is 2-6 then remove the Rapier as a casualty as normal.  If the result of the roll is a 1 then place a Large Blast template onto the table, centered on the Rapier. All models, friendly and enemy, under this template take a single S3 AP- hit.  Once these hits are resolved, remove the Rapier as a casualty as normal.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="5a6e-8d86-1441-0b1c" hidden="false" targetId="3498-7560-3a1a-9e27" type="rule"/>
@@ -5565,7 +5598,9 @@ Cover saves of enemy targets suffer -1 modifier</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="890a-5a6f-5999-ccb4" name="Transport Capacity - 20" hidden="false"/>
+        <rule id="890a-5a6f-5999-ccb4" name="Transport Capacity - 20" hidden="false">
+      <description>Transport Capacity: 20 models.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="b049-10ea-f452-eeb9" hidden="false" targetId="8024-df0a-ec75-95c0" type="rule"/>
@@ -5815,8 +5850,17 @@ Cover saves of enemy targets suffer -1 modifier</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="6b39-6d65-6152-81c8" name="Automated Artillery" page="0" hidden="false"/>
-                <rule id="a83b-4fe1-b301-c445" name="Fire Modes - Point Defence, Sentry, Targeting" publicationId="578f-d512-pub19" page="152" hidden="false"/>
+                <rule id="6b39-6d65-6152-81c8" name="Automated Artillery" page="0" hidden="false">
+      <description>Unlike standard artillery, Automated Artillery does not require crew in order to function. It is not removed from play due to lack of crew and each Sentry Gun must be destroyed normally before it is removed. Automated Artillery cannot move and cannot charge. If assualted, they do not pile-in and cannot be locked in combat, their attackers will hit automatically, but must roll To Wound normally. 
+If a unit of Automated Artillery loses an assault, nothing happens - there are no Sweeping Advances, no Pile-ins and no Consolidation moves. The Automated Artillery remains in place and may fire normally in future turns. If the Automated Artillery wins an assault, the enemy must take a Morale check as normal, although the artillery piece cannot Consolidate or make a Sweeping Advance. Independant Characters may not join units of Automated Artillery.</description>
+    </rule>
+                <rule id="a83b-4fe1-b301-c445" name="Fire Modes - Point Defence, Sentry, Targeting" publicationId="578f-d512-pub19" page="152" hidden="false">
+      <description>A Tarantula Sentry Gun can fire in one of two ways and you must decide which mode it will be set up in before the start of the game. You cannot change its mode once you have decided, it remains in that mode for the rest of the game.
+
+ • Point Defence Mode: The Tarantula Sentry Gun is set up with a fixed firing arc. In this mode, the gun will engage enemy targets up to 36" away that are in a fixed 90° arc to it's front.
+
+ • Sentry Mode: The Tarantula Sentry Gun is programmed for close defence and may target enemy models within 18" to which it can draw line of sight and can fire all around itself.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -5864,8 +5908,17 @@ Cover saves of enemy targets suffer -1 modifier</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="af6c-5e77-401d-8abf" name="Automated Artillery" page="0" hidden="false"/>
-                <rule id="afbe-0ec4-5bbd-d9dd" name="Fire Modes - Point Defence, Sentry, Targeting" publicationId="578f-d512-pub19" page="152" hidden="false"/>
+                <rule id="af6c-5e77-401d-8abf" name="Automated Artillery" page="0" hidden="false">
+      <description>Unlike standard artillery, Automated Artillery does not require crew in order to function. It is not removed from play due to lack of crew and each Sentry Gun must be destroyed normally before it is removed. Automated Artillery cannot move and cannot charge. If assualted, they do not pile-in and cannot be locked in combat, their attackers will hit automatically, but must roll To Wound normally. 
+If a unit of Automated Artillery loses an assault, nothing happens - there are no Sweeping Advances, no Pile-ins and no Consolidation moves. The Automated Artillery remains in place and may fire normally in future turns. If the Automated Artillery wins an assault, the enemy must take a Morale check as normal, although the artillery piece cannot Consolidate or make a Sweeping Advance. Independant Characters may not join units of Automated Artillery.</description>
+    </rule>
+                <rule id="afbe-0ec4-5bbd-d9dd" name="Fire Modes - Point Defence, Sentry, Targeting" publicationId="578f-d512-pub19" page="152" hidden="false">
+      <description>A Tarantula Sentry Gun can fire in one of two ways and you must decide which mode it will be set up in before the start of the game. You cannot change its mode once you have decided, it remains in that mode for the rest of the game.
+
+ • Point Defence Mode: The Tarantula Sentry Gun is set up with a fixed firing arc. In this mode, the gun will engage enemy targets up to 36" away that are in a fixed 90° arc to it's front.
+
+ • Sentry Mode: The Tarantula Sentry Gun is programmed for close defence and may target enemy models within 18" to which it can draw line of sight and can fire all around itself.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -5913,8 +5966,17 @@ Cover saves of enemy targets suffer -1 modifier</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="6e46-231f-ac89-7ae2" name="Automated Artillery" page="0" hidden="false"/>
-                <rule id="4dab-632c-41aa-41d7" name="Fire Modes - Point Defence, Sentry, Targeting" hidden="false"/>
+                <rule id="6e46-231f-ac89-7ae2" name="Automated Artillery" page="0" hidden="false">
+      <description>Unlike standard artillery, Automated Artillery does not require crew in order to function. It is not removed from play due to lack of crew and each Sentry Gun must be destroyed normally before it is removed. Automated Artillery cannot move and cannot charge. If assualted, they do not pile-in and cannot be locked in combat, their attackers will hit automatically, but must roll To Wound normally. 
+If a unit of Automated Artillery loses an assault, nothing happens - there are no Sweeping Advances, no Pile-ins and no Consolidation moves. The Automated Artillery remains in place and may fire normally in future turns. If the Automated Artillery wins an assault, the enemy must take a Morale check as normal, although the artillery piece cannot Consolidate or make a Sweeping Advance. Independant Characters may not join units of Automated Artillery.</description>
+    </rule>
+                <rule id="4dab-632c-41aa-41d7" name="Fire Modes - Point Defence, Sentry, Targeting" hidden="false">
+      <description>A Tarantula Sentry Gun can fire in one of two ways and you must decide which mode it will be set up in before the start of the game. You cannot change its mode once you have decided, it remains in that mode for the rest of the game.
+
+ • Point Defence Mode: The Tarantula Sentry Gun is set up with a fixed firing arc. In this mode, the gun will engage enemy targets up to 36" away that are in a fixed 90° arc to it's front.
+
+ • Sentry Mode: The Tarantula Sentry Gun is programmed for close defence and may target enemy models within 18" to which it can draw line of sight and can fire all around itself.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -7825,7 +7887,9 @@ The Warlord Titan's carapace-mounted weapons may not target models closer than 2
         <rule id="6d64-8a27-5979-563b" name="Tactical Precision" publicationId="578f-d512-pub24" page="99" hidden="false">
           <description>Belial and his unit do not scatter when arriving by Deep Strike.</description>
         </rule>
-        <rule id="2e4e-ef30-aa0d-fffe" name="Warlord Trait: The Hunt" hidden="false"/>
+        <rule id="2e4e-ef30-aa0d-fffe" name="Warlord Trait: The Hunt" hidden="false">
+      <description>If this model is chosen as your Warlord, it has the Warlord Trait "The Hunt": +1 Victory point if your Warlord or his unit kill enemy Warlord in the Assault phase.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="2a7a-2f6b-2c6c-493b" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
@@ -9896,7 +9960,9 @@ The Warlord Titan's carapace-mounted weapons may not target models closer than 2
         <rule id="f2a3-9c40-8fad-5b07" name="Restrictions" hidden="false">
           <description>Venerable Dreadnought Units may only include a single model and must have purchased a Drop Pod as Dedicated Transport. Independent Characters need to have purchased Terminator Armour.</description>
         </rule>
-        <rule id="360e-f9a8-6cdc-3cd0" name="Preferred Enemy (Chaos Space Marines)" hidden="false"/>
+        <rule id="360e-f9a8-6cdc-3cd0" name="Preferred Enemy (Chaos Space Marines)" hidden="false">
+      <description>Reroll all failed to hit and to wound rolls of 1 against the chosen enemy in both shooting and assault.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="73b1-072c-4e6b-bb0b" hidden="false" targetId="f4c0-fc6a-aeea-b010" type="rule"/>
@@ -10550,7 +10616,9 @@ The Warlord Titan's carapace-mounted weapons may not target models closer than 2
         </profile>
       </profiles>
       <rules>
-        <rule id="a4d4-49be-8b4a-fd03" name="Warlord Trait: Courage of the First Legion" hidden="false"/>
+        <rule id="a4d4-49be-8b4a-fd03" name="Warlord Trait: Courage of the First Legion" hidden="false">
+      <description>The Dark Angels have ever been famous for standing fast beside their leaders, for their loyalty never falters.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="349005ed-fa5a-5dd3-23d4-5bd8142d22d8" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
@@ -19022,7 +19090,9 @@ A mindlocked unit may not voluntarily move, shoot or charge.  A mindlocked unit 
     <rule id="300d-7bfc-2fe6-2e07" name="No sweeping advances" hidden="false">
       <description>This model or unit can never make sweeping advances.</description>
     </rule>
-    <rule id="243e-8093-97e2-127f" name="Objective Secured" hidden="false"/>
+    <rule id="243e-8093-97e2-127f" name="Objective Secured" hidden="false">
+      <description>A unit with this special rule controls objectives even if an enemy scoring unit is within range of the objective marker, unless the enemy unit also has this special rule.</description>
+    </rule>
     <rule id="7efe725d-80ba-52f2-0b7a-3ac65b79e496" name="Preferred Enemy (Chaos Space Marines)" publicationId="578f-d512-pub25" page="169" hidden="false">
       <description>Reroll all failed to hit and to wound rolls of 1 against the chosen enemy in both shooting and assault.</description>
     </rule>
@@ -19056,7 +19126,9 @@ A mindlocked unit may not voluntarily move, shoot or charge.  A mindlocked unit 
     <rule id="3923-3f86-0ccb-0785" name="Sunder" hidden="false">
       <description>May reroll failed armour penetration rolls with this weapon</description>
     </rule>
-    <rule id="03f4-38aa-6d47-fe34" name="Supersonic" hidden="false"/>
+    <rule id="03f4-38aa-6d47-fe34" name="Supersonic" hidden="false">
+      <description>A Supersonic vehicle that moves Flat Out must move at least 18" and can move up to 36".</description>
+    </rule>
     <rule id="e58d-b734-3f66-7dc6" name="Suppressive Bombardment" publicationId="578f-d512-pub24" page="134" hidden="false">
       <description>Whilst this unit includes 3 Whirlwinds, each model's Whirlwind Multiple Missile Launcher has the Pinning and Shred special rules. 
 Pinning: If target unit (non-vehicle) suffers any unsaved Wounds, it must pass a Ld test or Go to Ground.
@@ -19471,7 +19543,7 @@ of this Wing Leader will not scatter.</description>
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="efb16a3b-4862-c9a3-800f-b99cef9dfe80" name="LoG: Battle of the Phall System" hidden="false">
       <characteristics>
-        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">Improve Jink with +1. Superheavies gain a Jink of 6+</characteristic>
       </characteristics>
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="d043c075-9108-ba33-9338-a06d02f4f182" name="LoG: Burning of Prospero" hidden="false">

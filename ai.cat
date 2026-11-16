@@ -287,7 +287,13 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
-    <rule id="0d99-727c-5956-c2b8" name="Fighter Ace" publicationId="a150-ce2e-pub1" page="44" hidden="false"/>
+    <rule id="0d99-727c-5956-c2b8" name="Fighter Ace" publicationId="a150-ce2e-pub1" page="44" hidden="false">
+      <description>At the start of the battle, roll a D6 for your Fighter Ace.  This model has one benefit for the rest of the game corresponding to the table below:
+
+1-2: The Fighter Ace has +1 Ballistic Skill
+3-4: The Fighter Ace can pivot up to 180 degrees before moving in the Movement phase each turn.
+5-6: All friendly units within 12" of the Fighter Ace that are from the same Faction as the Fighter Ace have the Hatred special rule.</description>
+    </rule>
     <rule id="5e19-6d60-7985-2a0a" name="Grav Chute Insertion" publicationId="a150-ce2e-pub3" page="0" hidden="false">
       <description>Passengers may disembark as if Deep Striking even after vehicle moves more than 6". Roll scatter from point under vehicle's movement.  Scatter causes dangerous terrain test.</description>
     </rule>

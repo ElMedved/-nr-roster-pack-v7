@@ -30,7 +30,9 @@
         </categoryLink>
       </categoryLinks>
       <rules>
-        <rule id="0fad-06e7-fe3c-ec6b" name="Empyric Link" hidden="false"/>
+        <rule id="0fad-06e7-fe3c-ec6b" name="Empyric Link" hidden="false">
+      <description>[text removed]</description>
+    </rule>
       </rules>
     </forceEntry>
     <forceEntry id="c11d-014f-3a8a-8ee4" name="Castellans of the Imperium" hidden="false">
@@ -507,10 +509,18 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
-    <rule id="8e49-83db-e606-5b59" name="Psychic Discipline: Biomancy" publicationId="416c-2473-pub2" page="0" hidden="false"/>
-    <rule id="6fa6-c694-b923-33ff" name="Psychic Discipline: Divination" publicationId="416c-2473-pub2" page="0" hidden="false"/>
-    <rule id="0819-69b1-fd84-7bb5" name="Psychic Discipline: Pyromancy" publicationId="416c-2473-pub2" page="0" hidden="false"/>
-    <rule id="8c5d-c3e1-5472-1eb6" name="Psychic Discipline: Telekinesis" publicationId="416c-2473-pub2" page="0" hidden="false"/>
+    <rule id="8e49-83db-e606-5b59" name="Psychic Discipline: Biomancy" publicationId="416c-2473-pub2" page="0" hidden="false">
+      <description>This model may generate psychic powers from the Biomancy discipline.</description>
+    </rule>
+    <rule id="6fa6-c694-b923-33ff" name="Psychic Discipline: Divination" publicationId="416c-2473-pub2" page="0" hidden="false">
+      <description>This model may generate psychic powers from the Divination discipline.</description>
+    </rule>
+    <rule id="0819-69b1-fd84-7bb5" name="Psychic Discipline: Pyromancy" publicationId="416c-2473-pub2" page="0" hidden="false">
+      <description>This model may generate psychic powers from the Pyromancy discipline.</description>
+    </rule>
+    <rule id="8c5d-c3e1-5472-1eb6" name="Psychic Discipline: Telekinesis" publicationId="416c-2473-pub2" page="0" hidden="false">
+      <description>This model may generate psychic powers from the Telekinesis discipline.</description>
+    </rule>
     <rule id="a8f2-37a8-5d8a-2bce" name="It's for Your Own Good" publicationId="416c-2473-pub1" page="0" hidden="false">
       <description>Commissar executes Pyskers who suffer Perils of the Warp (after resolving its effects).</description>
     </rule>

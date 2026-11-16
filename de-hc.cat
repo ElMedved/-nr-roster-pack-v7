@@ -1495,7 +1495,13 @@ be placed in Reserve. All units in this Formation arrive automatically in the co
         <rule id="bca9a658-34f1-20d6-8ddd-90e7b88ea051" name="Father of Pain" page="0" hidden="false">
           <description>Urien Rakarth's Master of Pain special rule affects all friendly units within 12" of him, not just his own unit.</description>
         </rule>
-        <rule id="a435ae58-fb3a-a0ac-8d0f-15f120720416" name="Feel No Pain (4+)" hidden="false"/>
+        <rule id="a435ae58-fb3a-a0ac-8d0f-15f120720416" name="Feel No Pain (4+)" hidden="false">
+      <description>Roll a D6 each time an unsaved Wound is suffered. On a 3 or less, you must take the
+Wound as normal. On a 4+, the unsaved Wound is discounted  treat it as having been
+saved.
+  Feel No Pain saves may not be taken against Destroyer attacks or against unsaved
+Wounds that have the Instant Death special rule.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="fc651a15-ab5d-16a3-9e5a-5321ce3310e9" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
@@ -2271,7 +2277,9 @@ be placed in Reserve. All units in this Formation arrive automatically in the co
     <rule id="d4402a45-5af2-6c79-dfa8-53217825728b" name="Soulfright" hidden="false">
       <description>At the end of the Shooting phase, a unit that has suffered one or more hits from a weapon with this special rule in that phase must make a Leadership test. The unit suffers a single additional Wound, with no armour or cover saves allowed, for each point this test is failed by. Wounds cannot be allocated to models with the Fearless or And They Shall Know No Fear special rules (any excess wounds are lost)</description>
     </rule>
-    <rule id="a9daeb61-a843-9330-755e-96d5e11dc1e7" name="Swarms" hidden="false"/>
+    <rule id="a9daeb61-a843-9330-755e-96d5e11dc1e7" name="Swarms" hidden="false">
+      <description>If, when allocating Wounds to a unit with the Swarms special rule, two or more models could be chosen as the closest enemy, the closest enemy is always the model with the least number of Wounds. If a model with the Swarm special rule suffers an unsaved Wound from a Blast (any size) or Template weapon, each unsaved Wound is multiplied to two unsaved Wounds unless that Wound has the Instant Death special rule. However, a unit entirely composed of models with the Swarm special rule is not slowed by difficult terrain, but must test for Dangerous Terrain as normal.</description>
+    </rule>
     <rule id="1e4062e8-833e-90e6-e087-d68357d73cd7" name="Warlord Trait: Ancient Evil" hidden="false">
       <description>The Warlord, and all friendly units with the Dark Eldar Faction within 12" of the Warlord, have the Fear special rule.</description>
     </rule>
@@ -2895,7 +2903,7 @@ be placed in Reserve. All units in this Formation arrive automatically in the co
     </profile>
     <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="0e1ad416-95b9-b0e6-d6f9-6051d1a79157" name="Night shields" hidden="false">
       <characteristics>
-        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+        <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">A vehicle with night shields has the Stealth special rule.</characteristic>
       </characteristics>
     </profile>
     <profile typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" id="c13c1ddb-0333-0a88-f58d-55f8cbf73ad8" name="Nightfiend" page="0" hidden="false">

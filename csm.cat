@@ -7382,7 +7382,9 @@ When making armour penetration/To wound rolls against the chosen model, all roll
         <rule id="3c31-8604-8521-18d1" name="Unstoppable Slaughter" hidden="false">
           <description>The Kytan may assault another unit if the unit it was shooting at was killed in the previous phase.</description>
         </rule>
-        <rule id="fe1d-984c-81e4-dd0e" name="Crusader" hidden="false"/>
+        <rule id="fe1d-984c-81e4-dd0e" name="Crusader" hidden="false">
+      <description>A unit that contains at least one model with this special rule rolls an extra dice when making Run moves, using highest result rolled. IN addition, a unit that contains at least one model with this rule adds D3 to its Sweeping Advance totals (roll each time).</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="7976-d10c-c3dc-b800" hidden="false" targetId="3eda-669d-bd54-e3c0" type="rule"/>
@@ -7793,7 +7795,7 @@ When making armour penetration/To wound rolls against the chosen model, all roll
         </profile>
         <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="1f84-af84-e4cb-9369" name="Armoured Ceramite" hidden="false">
           <characteristics>
-            <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+            <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">Immune to the Melta USR</characteristic>
           </characteristics>
         </profile>
         <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="b3e1-7c6b-90e0-fad9" name="Void Shields" hidden="false">
@@ -12247,7 +12249,13 @@ The Warlord Titan's carapace-mounted weapons may not target models closer than 2
         </profile>
       </profiles>
       <rules>
-        <rule id="85e0-7118-2657-b7dc" name="Agile" page="0" hidden="false"/>
+        <rule id="85e0-7118-2657-b7dc" name="Agile" page="0" hidden="false">
+      <description>In the shooting phase, a Warhound can choose to either:
+
+-fire all available weapons
+-fire a single weapon and then Run
+-fire no weapons at all and Run twice</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="7d19-ccee-b65a-2051" hidden="false" targetId="3ecdf4e9-b4aa-7d91-909c-13c569906315" type="rule"/>
@@ -13181,10 +13189,18 @@ Hellflame, Las-Destructor, Shellstorm</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="c50c-d949-f994-50d9" name="Blazing Weapons" page="0" hidden="false"/>
-        <rule id="ec0b-ef8b-f0f9-1aba" name="Divine Protection" page="0" hidden="false"/>
-        <rule id="f7c3-cd5f-0641-cee3" name="Never Forgive" page="0" hidden="false"/>
-        <rule id="21a1-8f70-de4b-09eb" name="Shadowy Herald of Strife" page="0" hidden="false"/>
+        <rule id="c50c-d949-f994-50d9" name="Blazing Weapons" page="0" hidden="false">
+      <description>Cypher can shoot both of his pistols twice each in his Shooting phase, or can fire them once each either before or after making a Run move.  When making Overwatch shots, Cypher uses his full Ballistic Skill.  In the Assault phase, half of Cypher's close combat attakcs (rounding up) are Strength 4 and AP5, and all remaining attacks are Strength 7 and AP2.</description>
+    </rule>
+        <rule id="ec0b-ef8b-f0f9-1aba" name="Divine Protection" page="0" hidden="false">
+      <description>If there is an enemy model within D6" of Cypher when he loses his last Wound or is otherwise removed as a casualty, then Cypher is assumed to have been captured alive. If there are no enemy models within this range when Cypher is removed as a casualty, then he has made a miraculous escape. If Cypher escapes, then he is not considered to be a casualty for the purposes of awarding Victory Points. If he is captured, then Victory Points are awarded normally.</description>
+    </rule>
+        <rule id="f7c3-cd5f-0641-cee3" name="Never Forgive" page="0" hidden="false">
+      <description>In missions that include both Dark Angels Models and either Cypher or units of Fallen, all Dark Angels models with the Deathwing special rule also receive the Zealot special rule.</description>
+    </rule>
+        <rule id="21a1-8f70-de4b-09eb" name="Shadowy Herald of Strife" page="0" hidden="false">
+      <description>Cypher cannot be selected as the Warlord of an army. In addition, the Leadership characteristic of the Warlord of an army that includes Cypher suffers a -1 penalty.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="f120-028e-9da2-e28e" hidden="false" targetId="f172-03fe-1e9f-c363" type="rule"/>
@@ -19714,7 +19730,9 @@ At the end of a phase that the Black Mace caused an unsaved wound, all non vehic
           <description>A single Chaos Cultist unit from the formation may be returned to play after each scheduled break without spending a Strategic Victory Point. This does not count towards the number of units you</description>
         </rule>
         <rule id="f093-01be-87cd-0e0c" name="Boundless in Spite" hidden="false"/>
-        <rule id="37fd-c368-57ec-1254" name="Warped by Mutation" hidden="false"/>
+        <rule id="37fd-c368-57ec-1254" name="Warped by Mutation" hidden="false">
+      <description>All Chaos Cultists in the formation have the Feel No Pain and Furious Charge special rules.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="5eed-5287-cdb2-5a0f" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
@@ -22338,8 +22356,12 @@ Carry out the first set of attacks to completion, then carry out the second set 
         <categoryLink id="d97c-202c-ee3d-e6d7-8dbf948c-125b-4886-b21e-3ccabc1e1188" targetId="8dbf948c-125b-4886-b21e-3ccabc1e1188" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="6ceb-1227-e5b1-7d95" name="Their Finest Hours" hidden="false"/>
-        <rule id="5fc0-2ca5-5fb5-ca5b" name="The Planet Killer" hidden="false"/>
+        <rule id="6ceb-1227-e5b1-7d95" name="Their Finest Hours" hidden="false">
+      <description>Logan Grimnar, Njal Stormcaller, Ulrik the Slayer, Bjorn the Fell-handed and Arjac Rockfist may all use the Finest Hour rules. If they do so, they must all do so on the same turn. Any or all of them may choose to use the Sons of the Primarch rule if they prefer.</description>
+    </rule>
+        <rule id="5fc0-2ca5-5fb5-ca5b" name="The Planet Killer" hidden="false">
+      <description>Once per game, provided Abaddon is on the battlefield, the formation can call upon the support of the Warmaster's flagship. From that point on, the game uses the Magma Storm Unnatural Disaster rules, in addition to any other Unnatural Disasters in play. As long as Abaddon is alive, then the player controlling him is automatically the Master of Disaster when resolving the Magma Storm.</description>
+    </rule>
       </rules>
       <selectionEntryGroups>
         <selectionEntryGroup id="221e-caf7-96b0-f6ff" name="Abaddon" hidden="false" collective="false" defaultSelectionEntryId="ea65-49cb-1ef3-7b55">
@@ -22558,7 +22580,9 @@ Carry out the first set of attacks to completion, then carry out the second set 
         </profile>
       </profiles>
       <rules>
-        <rule id="9a31-19d3-e110-df06" name="Psyker: ML 5" hidden="false"/>
+        <rule id="9a31-19d3-e110-df06" name="Psyker: ML 5" hidden="false">
+      <description>This model is a Mastery Level 5 Psyker.</description>
+    </rule>
         <rule id="d9f8-7b37-afea-40cc" name="Omniscient Eye" hidden="false">
           <description>Magnus has line of sight to every unit on the battlefield when determining the targets of his psychic powers.</description>
         </rule>
@@ -26242,7 +26266,17 @@ On a roll of a 2+, the bearer gains that many additional attacks.</description>
       <description>Once per game, a model with this rule may re-roll failed to wound/penetration rolls. Declare at the start of the shooting or assault phase that you are using this ability.
 At the end of the phase, roll a D6, on a 1 the unit loses a HP with no saves allowed.</description>
     </rule>
-    <rule id="3cdee048-32be-90cc-752a-f3e198adfe8a" name="Daemonic Instability" hidden="false"/>
+    <rule id="3cdee048-32be-90cc-752a-f3e198adfe8a" name="Daemonic Instability" hidden="false">
+      <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear, Pinning, and Morale tests.
+
+When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
+
+1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon's presence fluctuates:
+  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1" from enemy models. If the returning modell's unit is locked in combat, the model Piles In.
+  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
+
+2) Now, if a double 1 or double 6 wasn't rolled, compare the roll to the Daemon's Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
+    </rule>
     <rule id="7c7b47f7-5150-42a0-96f3-1b7219635aac" name="Daemonic Resilience" page="0" hidden="false">
       <description>Ignores Crew Shaken and Stunned results on a 2+</description>
     </rule>
@@ -26270,7 +26304,11 @@ Heat Blast (Fire Sweep): If the controlling player wishes, any unit the model pa
     <rule id="7050b6c0-56e6-f142-9579-83b73560e74c" name="Infernal Relic" hidden="false">
       <description>Only 1 Infernal Relic may be taken per primary detachment, unless a Technomancer is taken as a HQ. An Infernal Relic can be taken in an allied Detachment if a Technomancer is taken as the compulsory HQ.</description>
     </rule>
-    <rule id="3ecdf4e9-b4aa-7d91-909c-13c569906315" name="Invincible Behemoth" page="0" hidden="false"/>
+    <rule id="3ecdf4e9-b4aa-7d91-909c-13c569906315" name="Invincible Behemoth" page="0" hidden="false">
+      <description>A super-heavy vehicle is so large and strongly built that weapons which degrade the armour of smaller vehicles will not effect it.  Because of this, any attack that says that the target model is destroyed, wrecked, Explodes! or is otherwise removed from play inflicts D3 Hull Points of damage on a Super-heavy vehicle instead.
+
+In addition, any attacks or special abilities that permanently lower the Armour Values of a target vehicle do not affect a Super-heavy vehicle.  Note that attacks or abilities that count the Armour Value as being lower, but do not actually change it, work normally.</description>
+    </rule>
     <rule id="fd1cfba8-13cd-d0fc-d7d5-b75afdb6f19d" name="Legacies of Ruin" hidden="false">
       <description>One Legacy of Ruin may be taken per 1,000 pts in the army.  
 Daemon Engines and any vehicle with Daemonic Possession/Daemonic Resilience may not take a Legacy of Ruin.</description>
@@ -26301,8 +26339,12 @@ If Abaddon is in the primary force, he must be the warlord.</description>
     <rule id="a12027c5-5b2d-bbf7-5b9a-09f916dda1a2" name="Plague Zombies" page="0" hidden="false">
       <description>Makes Plague Zombies.</description>
     </rule>
-    <rule id="6f2416c7-7153-cfbb-593d-0f5380f1ae86" name="Psyker: ML2" page="0" hidden="false"/>
-    <rule id="53dee84e-1b5b-6818-3681-013aa972df0f" name="Psyker: ML4" page="0" hidden="false"/>
+    <rule id="6f2416c7-7153-cfbb-593d-0f5380f1ae86" name="Psyker: ML2" page="0" hidden="false">
+      <description>This model is a Mastery Level 2 Psyker.</description>
+    </rule>
+    <rule id="53dee84e-1b5b-6818-3681-013aa972df0f" name="Psyker: ML4" page="0" hidden="false">
+      <description>This model is a Mastery Level 4 Psyker.</description>
+    </rule>
     <rule id="c36b4aae-d2ae-5058-2d3e-80d114a6043a" name="Random Attacks" page="0" hidden="false">
       <description>Roll a D6. The result is the number of attacks for that unit.</description>
     </rule>
@@ -26324,12 +26366,18 @@ Codex: Space Wolves
 Codex: Blood Angels
 Codex: Grey Knights</description>
     </rule>
-    <rule id="c4ccad01-0870-4bdc-481e-1bf28c66cff4" name="Warlord Trait: Hatred Incarnate" page="0" hidden="false"/>
+    <rule id="c4ccad01-0870-4bdc-481e-1bf28c66cff4" name="Warlord Trait: Hatred Incarnate" page="0" hidden="false">
+      <description>The intense animosity that festers in this Warlord’s soul spills out into those around him.</description>
+    </rule>
     <rule id="770f9e73-aef4-195b-3fe5-7a0087d74107" name="Warlord Traits: Black Crusader" page="0" hidden="false">
       <description>The Warlord and all units within 12" have Preferred Enemy (Space Marines).</description>
     </rule>
-    <rule id="f0122a16-1632-5d49-477a-c43f87dea546" name="Warlord Traits: Master of Deception" page="0" hidden="false"/>
-    <rule id="7cabdf3c-68a9-ada2-c1b5-369392a823cf" name="Warlord: Lord of Terror" page="0" hidden="false"/>
+    <rule id="f0122a16-1632-5d49-477a-c43f87dea546" name="Warlord Traits: Master of Deception" page="0" hidden="false">
+      <description>This Warlord has studied the tactics of his foe and has mastered cunning methods of circumventing them.</description>
+    </rule>
+    <rule id="7cabdf3c-68a9-ada2-c1b5-369392a823cf" name="Warlord: Lord of Terror" page="0" hidden="false">
+      <description>The aura of despair and hopelessness that surrounds this Warlord hangs in the air and brings to mind all of one’s worst nightmares.</description>
+    </rule>
     <rule id="2394-f49c-62ed-d029" name="Warpflame" hidden="false">
       <description>At the end of each phase, any unit that suffered one or more unsaved Wounds during the phase from an attack with this special rule (or from an attack made by a model with this special rule), must take a Toughness test. If the test is failed, the unit immediately suffers D3 Wounds with no armour or cover saves allowed. If the test is passed, all models in the unit gain the Feel No Pain (6+) special rule for the rest of the game. Any models in the unit that already have the FNP special rule instead gain +1 to all FNP rolls for the rest of the game. Chaos is fickle!</description>
     </rule>

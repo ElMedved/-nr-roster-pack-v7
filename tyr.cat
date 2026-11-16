@@ -1262,7 +1262,9 @@ Wound rolls of 1 in the Shooting phase.</description>
             </profile>
           </profiles>
           <rules>
-            <rule id="e83283ed-4e62-f6e3-3859-db5f366ad787" name="Warlord Trait: Innate Understanding" publicationId="f2f40acf--pub5" page="34" hidden="false"/>
+            <rule id="e83283ed-4e62-f6e3-3859-db5f366ad787" name="Warlord Trait: Innate Understanding" publicationId="f2f40acf--pub5" page="34" hidden="false">
+      <description>This Warlord has been genetically engineered to know the best methods of defeating its enemies.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="699d9057-2da1-3a83-416e-dec9b269ee19" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
@@ -1337,7 +1339,9 @@ The Horror - WC 1 : A malediction that targets a single enemy unit within 24”.
             </profile>
           </profiles>
           <rules>
-            <rule id="0fed4ce8-f160-08db-a785-437c14d16991" name="Raking Strike" publicationId="f2f40acf--pub3" page="56" hidden="false"/>
+            <rule id="0fed4ce8-f160-08db-a785-437c14d16991" name="Raking Strike" publicationId="f2f40acf--pub3" page="56" hidden="false">
+      <description>A Hive Crone's Vector Strike is resolved at Strength 8.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="441d1949-f2d4-4573-d51e-8bb6fcb0fae1" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
@@ -1663,8 +1667,17 @@ these Victory Points.</description>
             </profile>
           </profiles>
           <rules>
-            <rule id="1fbce04f-a6c5-5251-07bc-83555ca7fd13" name="Feeder-beast" publicationId="f2f40acf--pub3" page="51" hidden="false"/>
-            <rule id="94d33526-f870-b738-b934-3046c1506c7a" name="Rapacious Hunger" publicationId="f2f40acf--pub3" page="51" hidden="false"/>
+            <rule id="1fbce04f-a6c5-5251-07bc-83555ca7fd13" name="Feeder-beast" publicationId="f2f40acf--pub3" page="51" hidden="false">
+      <description>If a Haruspex inflicts at least one unsaved Wound in the Assault phase, then at the end of
+that phase it recovers a single Wound lost earlier in the battle.</description>
+    </rule>
+            <rule id="94d33526-f870-b738-b934-3046c1506c7a" name="Rapacious Hunger" publicationId="f2f40acf--pub3" page="51" hidden="false">
+      <description>In the turn in which a Haruspex charges, every unsaved Wound that it inflicts in close
+combat immediately allows it to make an additional Attack. These bonus Attacks cannot
+generate further Attacks. Wounds that inflict Instant Death only generate one bonus
+Attack. Note that Wounds caused by its Hammer of Wrath, acid blood or tail biomorph do
+not benefit from this rule.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="5361998f-44c8-ded1-386f-11f44fe47d2b" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
@@ -1848,7 +1861,11 @@ these Victory Points.</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="c36bd688-3bf5-2e62-4730-bec255679f17" name="Volatile" publicationId="f2f40acf--pub3" page="51" hidden="false"/>
+                <rule id="c36bd688-3bf5-2e62-4730-bec255679f17" name="Volatile" publicationId="f2f40acf--pub3" page="51" hidden="false">
+      <description>If a Pyrovore is slain by a Wound that inflicted Instant Death, every unit suffers a
+Strength 3 AP- hit for each model (excluding Pyrovores) within D6" of the slain Pyrovore
+(resolve damage before removing the Pyrovore as a casualty).</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="83f3a401-ffde-c3ec-ad60-85aafbf51d7b" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
@@ -1915,8 +1932,12 @@ these Victory Points.</description>
         <categoryLink id="46256d63-096b-cbc4-ada3-44c58f7f4f86-8dbf948c-125b-4886-b21e-3ccabc1e1188" targetId="8dbf948c-125b-4886-b21e-3ccabc1e1188" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="2e95635e-3ff5-87ba-c825-652506d4db82" name="Bodies over Bullets" publicationId="f2f40acf--pub7" page="161" hidden="false"/>
-        <rule id="c6f97686-0584-8b30-58ec-1333e1115925" name="Without Number" publicationId="f2f40acf--pub8" page="161" hidden="false"/>
+        <rule id="2e95635e-3ff5-87ba-c825-652506d4db82" name="Bodies over Bullets" publicationId="f2f40acf--pub7" page="161" hidden="false">
+      <description>If an enemy unit targets a unit in this formation with a shooting attack, roll a D3. If the result is less than the turn number, the enemy unit can only fire Snap Shots.</description>
+    </rule>
+        <rule id="c6f97686-0584-8b30-58ec-1333e1115925" name="Without Number" publicationId="f2f40acf--pub8" page="161" hidden="false">
+      <description>A single unit from the formation may be returned to play after each scheduled break without spending a Strategic Victory Point. This does not count towards the number of units you may return to play after each break.</description>
+    </rule>
       </rules>
       <selectionEntries>
         <selectionEntry id="179cc37d-1d1a-ecbe-0289-12cb8c72b204" name="Hormagaunt Brood" publicationId="f2f40acf--pub3" page="91" hidden="false" collective="false" type="unit">
@@ -1942,7 +1963,10 @@ these Victory Points.</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="e7e80522-62e3-4e3a-c027-80424c45dc19" name="Bounding Leap" publicationId="f2f40acf--pub3" page="42" hidden="false"/>
+                <rule id="e7e80522-62e3-4e3a-c027-80424c45dc19" name="Bounding Leap" publicationId="f2f40acf--pub3" page="42" hidden="false">
+      <description>Units entirely composed of models with this special rule Run an additional 3" (this will
+normally be D6+3").</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="2c2d0c3c-1467-a317-ddcd-83c4525b23ee" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
@@ -2837,7 +2861,10 @@ these Victory Points.</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="165fe0b1-0938-92d4-2dba-851edbfff83d" name="Bounding Leap" publicationId="f2f40acf--pub3" page="42" hidden="false"/>
+                <rule id="165fe0b1-0938-92d4-2dba-851edbfff83d" name="Bounding Leap" publicationId="f2f40acf--pub3" page="42" hidden="false">
+      <description>Units entirely composed of models with this special rule Run an additional 3" (this will
+normally be D6+3").</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="1d234321-6eba-6714-c3b9-34fe314ce14e" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
@@ -3406,7 +3433,9 @@ suffer -5 to their Initiative
         <categoryLink id="1212-2a5c-442d-2c3b-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="d7fa-75f4-7eb1-3090" name="Swoop Forth" publicationId="f2f40acf--pub10" hidden="false"/>
+        <rule id="d7fa-75f4-7eb1-3090" name="Swoop Forth" publicationId="f2f40acf--pub10" hidden="false">
+      <description>If, at the start of this Formation’s Movement phase, the Hive Vanguard’s unit of Gargoyles is within 18" of its Hive Tyrant, it can swoop forth instead of moving; remove the unit from the battlefield, even if it is locked in combat. It then immediately arrives anywhere on the board using the rules for Deep Strike. It will not scatter if it attempts to Deep Strike within 6" of the Tyranid Warriors from this Formation.</description>
+    </rule>
       </rules>
       <selectionEntries>
         <selectionEntry id="3d99-25f4-f95f-154c" name="Gargoyle Brood" publicationId="f2f40acf--pub3" page="93" hidden="false" collective="false" type="unit">
@@ -3524,7 +3553,9 @@ suffer -5 to their Initiative
           <selectionEntries>
             <selectionEntry id="b2bb-e0fd-ad39-cf7c" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="f492-ef21-3519-8a16" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="f492-ef21-3519-8a16" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3535,7 +3566,9 @@ suffer -5 to their Initiative
             </selectionEntry>
             <selectionEntry id="0231-f2e9-b9ac-59db" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="63b1-35c0-956e-6733" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="63b1-35c0-956e-6733" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3546,7 +3579,9 @@ suffer -5 to their Initiative
             </selectionEntry>
             <selectionEntry id="64a0-019a-a4df-14e9" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="913e-db8e-31d1-46d9" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="913e-db8e-31d1-46d9" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -4040,8 +4075,12 @@ suffer -5 to their Initiative
         <categoryLink id="d2610b9e-afa1-c698-974d-2a86af27ac91-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="326c00ef-8edc-98c0-197e-a338be8bd52b" name="Miasma of Death" publicationId="f2f40acf--pub11" hidden="false"/>
-        <rule id="95fcb2a9-61b4-cba8-49cd-f8085716ff7f" name="Hypertoxic" publicationId="f2f40acf--pub11" hidden="false"/>
+        <rule id="326c00ef-8edc-98c0-197e-a338be8bd52b" name="Miasma of Death" publicationId="f2f40acf--pub11" hidden="false">
+      <description>The Hive Tyrant in this Formation has the Toxic Miasma biomorph. In addition, the Hive Tyrant and any models in this Formation that are within 12" of the Hive Tyrant can use their Toxic Miasma in each of their turns, rather than only once per battle.</description>
+    </rule>
+        <rule id="95fcb2a9-61b4-cba8-49cd-f8085716ff7f" name="Hypertoxic" publicationId="f2f40acf--pub11" hidden="false">
+      <description>Any hit inflicted by this model that has the Poisoned special rule (including any hits caused by its choking cloud) gains the Instant Death special rule on a To Wound roll of a 6.</description>
+    </rule>
       </rules>
       <selectionEntries>
         <selectionEntry id="a30a4e76-b3b3-d863-6b0b-c90fb3d1abb7" name="Hive Tyrant" publicationId="f2f40acf--pub3" page="40" hidden="false" collective="false" type="model">
@@ -4075,7 +4114,9 @@ suffer -5 to their Initiative
           <selectionEntries>
             <selectionEntry id="0ee57185-27a0-d3a6-c656-af2ba33b371c" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="28b3cf8f-03ac-ecf6-50e3-219ec8365562" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="28b3cf8f-03ac-ecf6-50e3-219ec8365562" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -4086,7 +4127,9 @@ suffer -5 to their Initiative
             </selectionEntry>
             <selectionEntry id="307116e7-9032-bcf0-8b23-3f104cfb3490" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="b1c63a2e-b93c-3b1b-88f8-8716aefbdf3b" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="b1c63a2e-b93c-3b1b-88f8-8716aefbdf3b" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -4097,7 +4140,9 @@ suffer -5 to their Initiative
             </selectionEntry>
             <selectionEntry id="c379ea19-9313-d1cc-ed69-0a2a83b22aa0" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="e7df182f-8fcd-0b03-a750-c2b70e795dd1" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="e7df182f-8fcd-0b03-a750-c2b70e795dd1" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -5312,7 +5357,10 @@ suffer -5 to their Initiative
                     </profile>
                   </profiles>
                   <rules>
-                    <rule id="7f8c2fd1-71b1-8d8a-fe94-16e5176776a1" name="Bounding Leap" publicationId="f2f40acf--pub3" page="42" hidden="false"/>
+                    <rule id="7f8c2fd1-71b1-8d8a-fe94-16e5176776a1" name="Bounding Leap" publicationId="f2f40acf--pub3" page="42" hidden="false">
+      <description>Units entirely composed of models with this special rule Run an additional 3" (this will
+normally be D6+3").</description>
+    </rule>
                   </rules>
                   <infoLinks>
                     <infoLink id="dea7383f-6ebe-a1bf-c771-e6dfa00a8467" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
@@ -5695,7 +5743,9 @@ suffer -5 to their Initiative
             </profile>
           </profiles>
           <rules>
-            <rule id="c8806b8a-dafa-594b-c8a3-77cb9b7855ed" name="Gargoyle Brood" publicationId="f2f40acf--pub8" page="162" hidden="false"/>
+            <rule id="c8806b8a-dafa-594b-c8a3-77cb9b7855ed" name="Gargoyle Brood" publicationId="f2f40acf--pub8" page="162" hidden="false">
+      <description>May act as an Open-topped transport and carry up to 20 Gargoyles of a single unit. If he is slain, the Gargoyles each pass an Initiative test or are removed as casualties.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -5748,7 +5798,11 @@ suffer -5 to their Initiative
             </profile>
           </profiles>
           <rules>
-            <rule id="853e6f26-1561-8bd5-6c73-b2affb392420" name="Sonic Screech" publicationId="f2f40acf--pub3" page="57" hidden="false"/>
+            <rule id="853e6f26-1561-8bd5-6c73-b2affb392420" name="Sonic Screech" publicationId="f2f40acf--pub3" page="57" hidden="false">
+      <description>When a Harpy charges into combat, all enemy models in the combat
+suffer -5 to their Initiative
+(to a minimum of 1) until the end of that Assault phase.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="c88c809e-418d-d424-94ce-a040fc2a8039" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
@@ -6161,7 +6215,9 @@ suffer -5 to their Initiative
           <selectionEntries>
             <selectionEntry id="d3d84a6d-a10b-a57b-c9e6-2161289e94cc" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="880a04bc-1768-7ed5-2323-51557ec660da" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="880a04bc-1768-7ed5-2323-51557ec660da" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -6172,7 +6228,9 @@ suffer -5 to their Initiative
             </selectionEntry>
             <selectionEntry id="96655e40-2364-8f2f-29a0-67418d046657" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="f41a42e8-f3c5-2889-0e70-90b0832cf7a0" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="f41a42e8-f3c5-2889-0e70-90b0832cf7a0" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -6183,7 +6241,9 @@ suffer -5 to their Initiative
             </selectionEntry>
             <selectionEntry id="f97a2581-352d-6b11-c3b0-303f510807d2" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="92864c50-8149-8157-f458-636c10baf448" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="92864c50-8149-8157-f458-636c10baf448" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -6794,7 +6854,11 @@ suffer -5 to their Initiative
             </profile>
           </profiles>
           <rules>
-            <rule id="e6c06bac-64ef-4430-45cf-1fde8a128f4b" name="Symbiotic Targeting" publicationId="f2f40acf--pub3" page="50" hidden="false"/>
+            <rule id="e6c06bac-64ef-4430-45cf-1fde8a128f4b" name="Symbiotic Targeting" publicationId="f2f40acf--pub3" page="50" hidden="false">
+      <description>If an Exocrine does not move in its Movement phase, it gains a
++1 bonus to its Ballistic Skill until the end of its turn. An Exocrine cannot declare a charge
+during the same turn that it uses this special rule.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="e9db5077-c1d1-79e4-68f2-7f3d59baf3b2" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
@@ -6928,8 +6992,12 @@ suffer -5 to their Initiative
         <categoryLink id="6d82e67d-979c-0b24-9abc-bb982807eb88-8dbf948c-125b-4886-b21e-3ccabc1e1188" targetId="8dbf948c-125b-4886-b21e-3ccabc1e1188" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="dcd5674b-1a56-ba56-8717-ae05137e3a37" name="Command Node" publicationId="f2f40acf--pub8" page="164" hidden="false"/>
-        <rule id="1b55884d-854c-3733-0a2e-0430d0313a95" name="Fortress of Chitin" publicationId="f2f40acf--pub8" page="164" hidden="false"/>
+        <rule id="dcd5674b-1a56-ba56-8717-ae05137e3a37" name="Command Node" publicationId="f2f40acf--pub8" page="164" hidden="false">
+      <description>The Hive Tyrant in this Formation adds 6" to its synapse range.</description>
+    </rule>
+        <rule id="1b55884d-854c-3733-0a2e-0430d0313a95" name="Fortress of Chitin" publicationId="f2f40acf--pub8" page="164" hidden="false">
+      <description>If the Living Fortress is targeted by a shooting attack, you can opt to form a Fortress of Chitin. If you do so, the unit has the Shrouded special rule and adds +1 to their armour save rolls until the end of the turn (remember that a dice roll of 1 is always a failure). The formation moves as if in difficult terrain next turn.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="33d32713-7966-3f3f-6742-5c4f62e63cd4" hidden="false" targetId="42ff7c09-985b-a785-95ce-4efd13da042f" type="rule"/>
@@ -7055,8 +7123,18 @@ suffer -5 to their Initiative
                 </profile>
               </profiles>
               <rules>
-                <rule id="7672b471-5cc0-b239-8299-5efa3fd87b20" name="Blind Rampage" publicationId="f2f40acf--pub3" page="46" hidden="false"/>
-                <rule id="9e342658-e1d2-9791-0ae8-e10291757bc5" name="Shieldwall" publicationId="f2f40acf--pub3" page="46" hidden="false"/>
+                <rule id="7672b471-5cc0-b239-8299-5efa3fd87b20" name="Blind Rampage" publicationId="f2f40acf--pub3" page="46" hidden="false">
+      <description>If a Hive Tyrant (or the Swarmlord) is killed whilst part of a unit of
+Tyrant Guard (see the Shieldwall special rule, below), from the end of that turn the
+surviving Tyrant Guard have the Furious Charge and Rage special rules for the remainder
+of the battle.</description>
+    </rule>
+                <rule id="9e342658-e1d2-9791-0ae8-e10291757bc5" name="Shieldwall" publicationId="f2f40acf--pub3" page="46" hidden="false">
+      <description>A single Hive Tyrant (or the Swarmlord) may join a unit of Tyrant Guard
+exactly as if it were an Independent Character. A Hive Tyrant (or the Swarmlord) in a unit
+that contains at least one model with this special rule automatically passes Look Out, Sir
+rolls.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="099135c3-3a7a-bf96-9d8f-a867641c9704" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
@@ -7180,9 +7258,18 @@ suffer -5 to their Initiative
                 </profile>
               </profiles>
               <rules>
-                <rule id="7553a19d-bf96-5353-1dc1-d3e303e124f1" name="Alien Cunning" publicationId="f2f40acf--pub3" page="59" hidden="false"/>
-                <rule id="ce084d25-12ae-0816-b298-f5e66fff80ba" name="Warlord Trait: Synaptic Lynchpin" publicationId="f2f40acf--pub3" page="38" hidden="false"/>
-                <rule id="0b7a151e-f440-6371-ebaa-bbecfca15948" name="Swarm Leader" publicationId="f2f40acf--pub3" page="59" hidden="false"/>
+                <rule id="7553a19d-bf96-5353-1dc1-d3e303e124f1" name="Alien Cunning" publicationId="f2f40acf--pub3" page="59" hidden="false">
+      <description>Whilst the Swarmlord is alive, you must add 1 to your Reserve Rolls.</description>
+    </rule>
+                <rule id="ce084d25-12ae-0816-b298-f5e66fff80ba" name="Warlord Trait: Synaptic Lynchpin" publicationId="f2f40acf--pub3" page="38" hidden="false">
+      <description>The Warlord's synapse range is 18".</description>
+    </rule>
+                <rule id="0b7a151e-f440-6371-ebaa-bbecfca15948" name="Swarm Leader" publicationId="f2f40acf--pub3" page="59" hidden="false">
+      <description>At the beginning of your turn, choose either the Swarmlord's unit, or
+one friendly unit from Codex: Tyranids within 18" of the Swarmlord. Then, choose one of
+the following special rules: Furious Charge, Monster Hunter, or Preferred Enemy. The
+chosen unit has that special rule until the end of the turn.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="fd0a4015-85a7-f711-5c1c-df9012928a35" hidden="false" targetId="2ae91f87-7808-36b9-090d-2fbcc6bbd26c" type="rule"/>
@@ -7217,7 +7304,9 @@ suffer -5 to their Initiative
                     </profile>
                   </profiles>
                   <rules>
-                    <rule id="c44e6c7f-f3d9-766e-e8ce-0fd8bcb63eb0" name="Blade Parry" publicationId="f2f40acf--pub3" page="59" hidden="false"/>
+                    <rule id="c44e6c7f-f3d9-766e-e8ce-0fd8bcb63eb0" name="Blade Parry" publicationId="f2f40acf--pub3" page="59" hidden="false">
+      <description>The Swarmlord has a 4+ invulnerable save against Wounds caused by Melee weapons.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -7269,7 +7358,9 @@ suffer -5 to their Initiative
               <selectionEntries>
                 <selectionEntry id="cc666144-ca90-e4f0-0e0a-03fe13876a08" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="55111579-2c07-ad18-aa2d-7c43e492697c" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="55111579-2c07-ad18-aa2d-7c43e492697c" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -7280,7 +7371,9 @@ suffer -5 to their Initiative
                 </selectionEntry>
                 <selectionEntry id="9860358a-be35-4754-359b-0248ebce3f3b" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="f78ec016-f9aa-4fbf-be5c-e28245ba7c63" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="f78ec016-f9aa-4fbf-be5c-e28245ba7c63" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -7291,7 +7384,9 @@ suffer -5 to their Initiative
                 </selectionEntry>
                 <selectionEntry id="3030a5d4-0741-2494-bd77-c9f6c38e81b6" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="9f29b2d1-0032-e192-0625-d5b95b89c539" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="9f29b2d1-0032-e192-0625-d5b95b89c539" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -7585,7 +7680,9 @@ Leviathan II).</description>
             <categoryLink id="029704fb-52c5-fce7-44b1-8f4611816dd0-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
           </categoryLinks>
           <rules>
-            <rule id="6a7aa00c-c688-17d9-0393-6e8597b11c07" name="Synaptic Conduits" publicationId="f2f40acf--pub9" hidden="false"/>
+            <rule id="6a7aa00c-c688-17d9-0393-6e8597b11c07" name="Synaptic Conduits" publicationId="f2f40acf--pub9" hidden="false">
+      <description>All models in this Formation have a synapse range of 18".</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -7610,7 +7707,11 @@ Leviathan II).</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="f75f7c32-1dca-9585-7e66-71eda1c7b49e" name="Alpha Warrior" publicationId="f2f40acf--pub3" page="41" hidden="false"/>
+                <rule id="f75f7c32-1dca-9585-7e66-71eda1c7b49e" name="Alpha Warrior" publicationId="f2f40acf--pub3" page="41" hidden="false">
+      <description>All Tyranid Warriors or Tyranid Shrikes in the
+same unit as a Tyranid Prime use its Weapon Skill and Ballistic Skill rather than their
+own, unless their own would be higher for any reason.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="2123b9d0-0043-bcc5-e295-af695ee1f30b" hidden="false" targetId="eb3e56c5-e03f-7e98-8f7a-83475c28bb1f" type="rule"/>
@@ -7972,7 +8073,9 @@ Leviathan II).</description>
             <categoryLink id="70ea3b42-be4b-8a57-6c65-d5175c549bfa-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
           </categoryLinks>
           <rules>
-            <rule id="90a6474f-b658-bf30-874d-253dddb0874d" name="Skyswarm" publicationId="f2f40acf--pub9" hidden="false"/>
+            <rule id="90a6474f-b658-bf30-874d-253dddb0874d" name="Skyswarm" publicationId="f2f40acf--pub9" hidden="false">
+      <description>Each time a Gargoyle Brood from this Formation is completely destroyed, roll a D6: on a 4+ you can immediately place a new unit into Ongoing Reserve that is identical in terms of the original number of models, weapons and upgrades to the unit that was just destroyed. These new units count as being part of the original Formation, so roll a D6 as described above if they are subsequently destroyed. Victory points are awarded as normal for new units in this Formation that have been completely destroyed.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -7981,7 +8084,9 @@ Leviathan II).</description>
           <selectionEntries>
             <selectionEntry id="bed62d6f-b3ec-a6eb-bc80-a17876fd1472" name="Gargoyle Brood" publicationId="f2f40acf--pub3" page="93" hidden="false" collective="false" type="unit">
               <rules>
-                <rule id="f93591d5-4b92-8d07-29cc-7c351c4aa76a" name="Objective Secured" publicationId="f2f40acf--pub9" hidden="false"/>
+                <rule id="f93591d5-4b92-8d07-29cc-7c351c4aa76a" name="Objective Secured" publicationId="f2f40acf--pub9" hidden="false">
+      <description>A unit with this special rule controls objectives even if an enemy scoring unit is within range of the objective marker, unless the enemy unit also has this special rule.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -8087,7 +8192,9 @@ Leviathan II).</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="653ef6f4-fbd0-e9a9-4fd6-ccfad9137100" name="Raking Strike" publicationId="f2f40acf--pub3" page="56" hidden="false"/>
+                <rule id="653ef6f4-fbd0-e9a9-4fd6-ccfad9137100" name="Raking Strike" publicationId="f2f40acf--pub3" page="56" hidden="false">
+      <description>A Hive Crone's Vector Strike is resolved at Strength 8.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="04969bd0-11be-1478-0da9-514f87608889" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
@@ -8196,7 +8303,11 @@ Leviathan II).</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="7604f034-60b8-f331-ce22-22646a2e3660" name="Sonic Screech" publicationId="f2f40acf--pub3" page="57" hidden="false"/>
+                <rule id="7604f034-60b8-f331-ce22-22646a2e3660" name="Sonic Screech" publicationId="f2f40acf--pub3" page="57" hidden="false">
+      <description>When a Harpy charges into combat, all enemy models in the combat
+suffer -5 to their Initiative
+(to a minimum of 1) until the end of that Assault phase.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="d97e3190-1b35-b9ab-bdd9-c692d400761f" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
@@ -8301,7 +8412,9 @@ Leviathan II).</description>
               <selectionEntries>
                 <selectionEntry id="9c5f5356-c3eb-2f11-639b-ac3e0c16976e" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="eb0ee637-a7d6-ffe0-a40d-1da789afb356" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="eb0ee637-a7d6-ffe0-a40d-1da789afb356" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8312,7 +8425,9 @@ Leviathan II).</description>
                 </selectionEntry>
                 <selectionEntry id="47fb30ca-ad18-c522-fb1f-28ce5e2e73b0" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="f1d919c6-ae90-80e1-8070-bda0f6aafe5e" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="f1d919c6-ae90-80e1-8070-bda0f6aafe5e" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8323,7 +8438,9 @@ Leviathan II).</description>
                 </selectionEntry>
                 <selectionEntry id="3a6f96e6-3807-7ec0-16ba-96b113177eb0" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="cc912470-f1cd-7a2a-b707-580d4b1a26cf" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="cc912470-f1cd-7a2a-b707-580d4b1a26cf" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8593,7 +8710,9 @@ Leviathan II).</description>
             <categoryLink id="e022175a-8619-00f8-652e-e0609363c962-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
           </categoryLinks>
           <rules>
-            <rule id="a1e21298-53a9-8a42-a661-7198569fbb8e" name="Endless Swarm" publicationId="f2f40acf--pub9" hidden="false"/>
+            <rule id="a1e21298-53a9-8a42-a661-7198569fbb8e" name="Endless Swarm" publicationId="f2f40acf--pub9" hidden="false">
+      <description>Each time a Hormagaunt or Termagant Brood from this Formation is completely destroyed, roll a D6: on a 4+ you can immediately place a new unit into Ongoing Reserve that is identical in terms of the original number of models, weapons and upgrades to the unit that was just destroyed. These new units count as being part of the original Formation, so roll a D6 as described above if they are subsequently destroyed. Victory points are awarded as normal for new units in this Formation that have been completely destroyed.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -9137,7 +9256,10 @@ Leviathan II).</description>
                     </profile>
                   </profiles>
                   <rules>
-                    <rule id="248f16dd-4104-776a-25aa-70f2f3f0df37" name="Bounding Leap" publicationId="f2f40acf--pub3" page="42" hidden="false"/>
+                    <rule id="248f16dd-4104-776a-25aa-70f2f3f0df37" name="Bounding Leap" publicationId="f2f40acf--pub3" page="42" hidden="false">
+      <description>Units entirely composed of models with this special rule Run an additional 3" (this will
+normally be D6+3").</description>
+    </rule>
                   </rules>
                   <infoLinks>
                     <infoLink id="3c8f5261-1ba4-33d7-2a3e-a7d2195ce671" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
@@ -9203,7 +9325,9 @@ Leviathan II).</description>
             <categoryLink id="eb00c189-b2f0-cec7-e0c9-73db27b759fc-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
           </categoryLinks>
           <rules>
-            <rule id="2e441da2-edfb-08dc-e063-0fc2b545a647" name="Command Node" publicationId="f2f40acf--pub2" hidden="false"/>
+            <rule id="2e441da2-edfb-08dc-e063-0fc2b545a647" name="Command Node" publicationId="f2f40acf--pub2" hidden="false">
+      <description>The Hive Tyrant in this Formation adds 6" to its synapse range.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -9234,8 +9358,18 @@ Leviathan II).</description>
                     </profile>
                   </profiles>
                   <rules>
-                    <rule id="1558264e-5288-b49d-972b-ebebd0f47ad4" name="Blind Rampage" publicationId="f2f40acf--pub3" page="46" hidden="false"/>
-                    <rule id="01fbc865-9974-3c85-1b78-37480ad12f48" name="Shieldwall" publicationId="f2f40acf--pub3" page="46" hidden="false"/>
+                    <rule id="1558264e-5288-b49d-972b-ebebd0f47ad4" name="Blind Rampage" publicationId="f2f40acf--pub3" page="46" hidden="false">
+      <description>If a Hive Tyrant (or the Swarmlord) is killed whilst part of a unit of
+Tyrant Guard (see the Shieldwall special rule, below), from the end of that turn the
+surviving Tyrant Guard have the Furious Charge and Rage special rules for the remainder
+of the battle.</description>
+    </rule>
+                    <rule id="01fbc865-9974-3c85-1b78-37480ad12f48" name="Shieldwall" publicationId="f2f40acf--pub3" page="46" hidden="false">
+      <description>A single Hive Tyrant (or the Swarmlord) may join a unit of Tyrant Guard
+exactly as if it were an Independent Character. A Hive Tyrant (or the Swarmlord) in a unit
+that contains at least one model with this special rule automatically passes Look Out, Sir
+rolls.</description>
+    </rule>
                   </rules>
                   <infoLinks>
                     <infoLink id="39ec27b8-3885-8084-8821-c7cc3159d28d" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
@@ -9361,7 +9495,9 @@ Leviathan II).</description>
               <selectionEntries>
                 <selectionEntry id="4e605065-1271-a5c4-b778-8a759b206b34" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="7a285f67-8caa-c0e7-77f4-830e1efd89b6" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="7a285f67-8caa-c0e7-77f4-830e1efd89b6" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -9372,7 +9508,9 @@ Leviathan II).</description>
                 </selectionEntry>
                 <selectionEntry id="d740d99f-5748-fea1-de16-70c0a7df4041" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="f3959aa3-56e2-1fa7-1cf4-e50d23a12d93" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="f3959aa3-56e2-1fa7-1cf4-e50d23a12d93" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -9383,7 +9521,9 @@ Leviathan II).</description>
                 </selectionEntry>
                 <selectionEntry id="45bd0ff0-aad6-3ea7-9208-56a60beab23f" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="7e4bc786-81b7-670e-2ec8-225896deddac" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="7e4bc786-81b7-670e-2ec8-225896deddac" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -9701,7 +9841,11 @@ Leviathan II).</description>
             <categoryLink id="0bdb7b34-c229-50ff-138c-9c3810e9155f-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
           </categoryLinks>
           <rules>
-            <rule id="a28c6044-47e0-c6f7-86be-816ffeb78f7a" name="Rampage of Destruction" publicationId="f2f40acf--pub2" hidden="false"/>
+            <rule id="a28c6044-47e0-c6f7-86be-816ffeb78f7a" name="Rampage of Destruction" publicationId="f2f40acf--pub2" hidden="false">
+      <description>Carnifexes in this Formation inflict D3+1 Hammer of Wrath hits
+instead of the usual D3. In addition, models in this Formation that are within 12" of this
+Formation's Tyranid Warrior Brood can re-roll failed To Wound rolls of 1 in the Assault phase.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -10365,8 +10509,12 @@ Hits on Zooming Flyers are always resolved against the target model's side armou
         <categoryLink id="5d5ad3c6-2544-02ac-ea95-68dac932b6fd-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="39f2ba04-d0b2-6bd5-8276-0ab087025e51" name="Power of the Hive Mind" publicationId="f2f40acf--pub11" hidden="false"/>
-        <rule id="f2651fda-faca-5d81-50c7-47864584c583" name="A Monstrous Presence in the Warp" publicationId="f2f40acf--pub11" hidden="false"/>
+        <rule id="39f2ba04-d0b2-6bd5-8276-0ab087025e51" name="Power of the Hive Mind" publicationId="f2f40acf--pub11" hidden="false">
+      <description>The Maleceptor in this Formation, and all units from this Formation that are within 12" of the Maleceptor, can re-roll rolls of 1 when they take a Psychic test.</description>
+    </rule>
+        <rule id="f2651fda-faca-5d81-50c7-47864584c583" name="A Monstrous Presence in the Warp" publicationId="f2f40acf--pub11" hidden="false">
+      <description>Enemy models are affected by the Shadow in the Warp special rule if they are within 18" of the Maleceptor from this Formation, rather than 12" as would normally be the case.</description>
+    </rule>
       </rules>
       <selectionEntries>
         <selectionEntry id="25460708-aa14-c472-5c22-09a49d84c5f1" name="Maleceptor" hidden="false" collective="false" type="unit">
@@ -10587,8 +10735,12 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
         <categoryLink id="b15461d9-893e-d200-5a00-d20e519e303b-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="cf2cdb6c-97be-15ae-b307-1313d0d3b821" name="Crawl from the Shadows" publicationId="f2f40acf--pub5" page="37" hidden="false"/>
-        <rule id="03cb3c2e-dbc6-7d54-80fb-e9bbaf4ebfbe" name="Unnatural Intelligence" publicationId="f2f40acf--pub5" page="37" hidden="false"/>
+        <rule id="cf2cdb6c-97be-15ae-b307-1313d0d3b821" name="Crawl from the Shadows" publicationId="f2f40acf--pub5" page="37" hidden="false">
+      <description>All models in this Formation have the Stealth special rule. Models that already have the Stealth special rule also have the Shrouded Special rule.</description>
+    </rule>
+        <rule id="03cb3c2e-dbc6-7d54-80fb-e9bbaf4ebfbe" name="Unnatural Intelligence" publicationId="f2f40acf--pub5" page="37" hidden="false">
+      <description>Whilst the Spawn of Cryptus is alive, all units in this Formation have the Preferred Enemy special rule.</description>
+    </rule>
       </rules>
       <constraints>
         <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
@@ -10684,7 +10836,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="f7dcbcfe-a4c5-c575-aec9-1a96b885d38a" name="Warlord Trait: Innate Understanding" publicationId="f2f40acf--pub5" page="34" hidden="false"/>
+                <rule id="f7dcbcfe-a4c5-c575-aec9-1a96b885d38a" name="Warlord Trait: Innate Understanding" publicationId="f2f40acf--pub5" page="34" hidden="false">
+      <description>This Warlord has been genetically engineered to know the best methods of defeating its enemies.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="826a9991-7be2-0e76-edf7-8a0460c88663" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
@@ -10833,7 +10987,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
             </profile>
           </profiles>
           <rules>
-            <rule id="51b200c0-bded-bdfc-e3fa-287820ab30ff" name="Infested Ruins" publicationId="f2f40acf--pub5" page="35" hidden="false"/>
+            <rule id="51b200c0-bded-bdfc-e3fa-287820ab30ff" name="Infested Ruins" publicationId="f2f40acf--pub5" page="35" hidden="false">
+      <description>Phodian Hive Warriors do not suffer the penalty to their Initiative for charging through ruins but fight at their normal Initiative. Furthermore, models without the Tyranids Faction treat all ruins terrain within 12" of a Phodian Hive Warrior as dangerous terrain.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="a6350a52-9a57-0a51-f77f-4226681d198c" hidden="false" targetId="0489b7e8-ec5c-17db-625d-c939d408a20f" type="rule"/>
@@ -11007,7 +11163,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="09bd706b-9e27-aabe-59f7-8305c2264a47" name="Infested Ruins" publicationId="f2f40acf--pub5" page="35" hidden="false"/>
+        <rule id="09bd706b-9e27-aabe-59f7-8305c2264a47" name="Infested Ruins" publicationId="f2f40acf--pub5" page="35" hidden="false">
+      <description>Phodian Hive Warriors do not suffer the penalty to their Initiative for charging through ruins but fight at their normal Initiative. Furthermore, models without the Tyranids Faction treat all ruins terrain within 12" of a Phodian Hive Warrior as dangerous terrain.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="f5fe060d-9b5b-52c5-2378-17f56a528ece" hidden="false" targetId="0489b7e8-ec5c-17db-625d-c939d408a20f" type="rule"/>
@@ -11164,7 +11322,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
         <rule id="8abe2a51-724d-fcab-e030-9f3601f91193" name="Skyswarm" publicationId="f2f40acf--pub18" hidden="false">
           <description>Each time a Gargoyle Brood from this Formation is completely destroyed, roll a D6: on a 4+ you can immediately place a new unit into Ongoing Reserve that is identical in terms of the original number of models, weapons and upgrades to the unit that was just destroyed. These new units count as being part of the original Formation, so roll a D6 as described above if they are subsequently destroyed. Victory points are awarded as normal for new units in this Formation that have been completely destroyed.</description>
         </rule>
-        <rule id="00c14fe1-e5a5-55f1-3505-51cba17c3366" name="Objective Secured" publicationId="f2f40acf--pub17" hidden="false"/>
+        <rule id="00c14fe1-e5a5-55f1-3505-51cba17c3366" name="Objective Secured" publicationId="f2f40acf--pub17" hidden="false">
+      <description>A unit with this special rule controls objectives even if an enemy scoring unit is within range of the objective marker, unless the enemy unit also has this special rule.</description>
+    </rule>
       </rules>
       <selectionEntries>
         <selectionEntry id="1f56e928-72ad-1719-93bf-0e4a3d98e06c" name="Gargoyle Brood" publicationId="f2f40acf--pub3" page="93" hidden="false" collective="false" type="unit">
@@ -11277,7 +11437,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
             </profile>
           </profiles>
           <rules>
-            <rule id="2046752a-73b6-3078-cae1-e20858cb353b" name="Raking Strike" publicationId="f2f40acf--pub3" page="56" hidden="false"/>
+            <rule id="2046752a-73b6-3078-cae1-e20858cb353b" name="Raking Strike" publicationId="f2f40acf--pub3" page="56" hidden="false">
+      <description>A Hive Crone's Vector Strike is resolved at Strength 8.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="019926e8-84f6-b710-d240-379869e8c100" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
@@ -11386,7 +11548,11 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
             </profile>
           </profiles>
           <rules>
-            <rule id="fb74dd03-a906-fa1b-41da-75d1dfddf4cf" name="Sonic Screech" publicationId="f2f40acf--pub3" page="57" hidden="false"/>
+            <rule id="fb74dd03-a906-fa1b-41da-75d1dfddf4cf" name="Sonic Screech" publicationId="f2f40acf--pub3" page="57" hidden="false">
+      <description>When a Harpy charges into combat, all enemy models in the combat
+suffer -5 to their Initiative
+(to a minimum of 1) until the end of that Assault phase.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="ecda3f4b-f1b0-5972-a188-982bbb7dadc9" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
@@ -11491,7 +11657,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
           <selectionEntries>
             <selectionEntry id="3d23f4c8-2de7-2796-72d5-40f96c29375c" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="d8a8d353-36ca-91d4-245f-e055c7c2360d" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="d8a8d353-36ca-91d4-245f-e055c7c2360d" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -11502,7 +11670,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
             </selectionEntry>
             <selectionEntry id="da89898b-4326-12c0-a00e-cc92b84bdb75" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="631a1419-b8b6-7d6a-4df0-7d048c9134e5" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="631a1419-b8b6-7d6a-4df0-7d048c9134e5" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -11513,7 +11683,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
             </selectionEntry>
             <selectionEntry id="6a079c1f-9392-88aa-4ace-6584e710e9a7" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="61ca4845-874c-66c9-40e7-1ebc28495de9" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="61ca4845-874c-66c9-40e7-1ebc28495de9" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -11783,8 +11955,18 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
         <categoryLink id="5ff214f7-e358-7746-d754-253e547e29db-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="b4bc8028-f665-726a-07e5-112791d05d2c" name="Synaptic Command Network" publicationId="f2f40acf--pub11" hidden="false"/>
-        <rule id="10fe0d83-5d28-2402-05ed-5ef331356553" name="The Swarm Unleashed" publicationId="f2f40acf--pub11" hidden="false"/>
+        <rule id="b4bc8028-f665-726a-07e5-112791d05d2c" name="Synaptic Command Network" publicationId="f2f40acf--pub11" hidden="false">
+      <description>As long as the Hive Tyrant from the Tyrant Node Formation has
+not been removed as a casualty, then all other Synapse Creatures from this Formation that are
+within its synapse range add 6" to their own synapse range.</description>
+    </rule>
+        <rule id="10fe0d83-5d28-2402-05ed-5ef331356553" name="The Swarm Unleashed" publicationId="f2f40acf--pub11" hidden="false">
+      <description>As long as the Hive Tyrant from the Tyrant Node Formation has not
+been removed as a casualty, you can re-roll failed results when rolling to see if a Termagant,
+Hormagaunt or Gargoyle Brood from this Formation that has been completely destroyed is
+replaced (see the Endless Swarm or Skyswarm special rules in Tyranid Invasion - Rising
+Leviathan II).</description>
+    </rule>
       </rules>
       <selectionEntries>
         <selectionEntry id="e89d01a7-4470-55ee-912e-449457e3fc8f" name="Skyblight Swarm" publicationId="f2f40acf--pub17" page="0" hidden="false" collective="false" type="unit">
@@ -11795,7 +11977,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
             <rule id="8023c181-01ba-9798-36e0-6e1442fb4808" name="Skyswarm" publicationId="f2f40acf--pub18" hidden="false">
               <description>Each time a Gargoyle Brood from this Formation is completely destroyed, roll a D6: on a 4+ you can immediately place a new unit into Ongoing Reserve that is identical in terms of the original number of models, weapons and upgrades to the unit that was just destroyed. These new units count as being part of the original Formation, so roll a D6 as described above if they are subsequently destroyed. Victory points are awarded as normal for new units in this Formation that have been completely destroyed.</description>
             </rule>
-            <rule id="80912327-46cf-e11b-f68c-5159089b8aa6" name="Objective Secured" publicationId="f2f40acf--pub17" hidden="false"/>
+            <rule id="80912327-46cf-e11b-f68c-5159089b8aa6" name="Objective Secured" publicationId="f2f40acf--pub17" hidden="false">
+      <description>A unit with this special rule controls objectives even if an enemy scoring unit is within range of the objective marker, unless the enemy unit also has this special rule.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -11912,7 +12096,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="ad80dad0-858c-562c-0247-b7e6a0c28885" name="Raking Strike" publicationId="f2f40acf--pub3" page="56" hidden="false"/>
+                <rule id="ad80dad0-858c-562c-0247-b7e6a0c28885" name="Raking Strike" publicationId="f2f40acf--pub3" page="56" hidden="false">
+      <description>A Hive Crone's Vector Strike is resolved at Strength 8.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="ed51dc01-2d07-dbb5-15f4-6fbe0de05cec" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
@@ -12021,7 +12207,11 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="30a994a2-d8fb-6788-7800-2058e7cbb244" name="Sonic Screech" publicationId="f2f40acf--pub3" page="57" hidden="false"/>
+                <rule id="30a994a2-d8fb-6788-7800-2058e7cbb244" name="Sonic Screech" publicationId="f2f40acf--pub3" page="57" hidden="false">
+      <description>When a Harpy charges into combat, all enemy models in the combat
+suffer -5 to their Initiative
+(to a minimum of 1) until the end of that Assault phase.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="0c8dce03-1969-4b44-b6ac-ce4713c31599" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
@@ -12126,7 +12316,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
               <selectionEntries>
                 <selectionEntry id="4de905ea-c010-33e2-88f1-e500fe857bcd" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="0966b71b-47a0-24dc-b876-1035a389ec14" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="0966b71b-47a0-24dc-b876-1035a389ec14" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -12137,7 +12329,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </selectionEntry>
                 <selectionEntry id="4f9ce1a2-3e59-8c16-7809-0ad7ec7e6fb5" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="f9e61353-f304-1783-a3fb-8c91fdb0e695" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="f9e61353-f304-1783-a3fb-8c91fdb0e695" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -12148,7 +12342,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </selectionEntry>
                 <selectionEntry id="79d6f156-0251-f434-def7-be57e542e0ba" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="3a286f67-94e9-f7b8-5f37-57ebc97dd1e9" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="3a286f67-94e9-f7b8-5f37-57ebc97dd1e9" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -12418,8 +12614,12 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
             <categoryLink id="20d7575a-9fd2-1c5f-9b40-8e980e30cf4b-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
           </categoryLinks>
           <rules>
-            <rule id="9ce01447-27f0-3ea9-25a6-180bb68aa644" name="Monstrous Flock" publicationId="f2f40acf--pub11" hidden="false"/>
-            <rule id="a383c7ca-4203-ba5d-0c10-8e3fea2bbeb4" name="Command Node" publicationId="f2f40acf--pub11" hidden="false"/>
+            <rule id="9ce01447-27f0-3ea9-25a6-180bb68aa644" name="Monstrous Flock" publicationId="f2f40acf--pub11" hidden="false">
+      <description>The Hive Tyrant and Gargoyles in this Formation are a single unit. The Hive Tyrant can use the Look Out, Sir rule to attempt to re-allocate any Wounds that it suffers onto a Gargoyle model from the unit, and will pass Look Out, Sir rolls on a 2+. The Hive Tyrant cannot leave the unit during the battle, and can only use the Gliding flight mode. The combined unit counts as 3 units for Victory Points purposes if it is completely destroyed.</description>
+    </rule>
+            <rule id="a383c7ca-4203-ba5d-0c10-8e3fea2bbeb4" name="Command Node" publicationId="f2f40acf--pub11" hidden="false">
+      <description>The Hive Tyrant in this Formation adds 6" to its synapse range.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -12541,7 +12741,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
               <selectionEntries>
                 <selectionEntry id="31d2be46-c25b-a122-5366-e03716adbd0e" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="afb2d4f5-cdee-efc6-b9d2-4270f0286b29" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="afb2d4f5-cdee-efc6-b9d2-4270f0286b29" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -12552,7 +12754,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </selectionEntry>
                 <selectionEntry id="a36c892f-7e20-c4f5-5b09-ea74113b191e" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="a626c5ae-f58c-94df-a262-470890c78c6f" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="a626c5ae-f58c-94df-a262-470890c78c6f" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -12563,7 +12767,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </selectionEntry>
                 <selectionEntry id="3de08c89-0262-aa70-a951-d066724e8c75" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
                   <rules>
-                    <rule id="22e2e6f5-08ff-1128-f91a-6e3e90cd6680" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                    <rule id="22e2e6f5-08ff-1128-f91a-6e3e90cd6680" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
                   </rules>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -12833,7 +13039,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
             <categoryLink id="7dad58f7-cf53-0d6a-77bb-5dbc3c6f202b-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
           </categoryLinks>
           <rules>
-            <rule id="0fde40c7-df94-52b2-33d6-e74f1cf02fd9" name="Sporefield" publicationId="f2f40acf--pub11" hidden="false"/>
+            <rule id="0fde40c7-df94-52b2-33d6-e74f1cf02fd9" name="Sporefield" publicationId="f2f40acf--pub11" hidden="false">
+      <description>Each time a Mucolid Spore Cluster or Spore Mine Cluster from this Formation is completely destroyed, roll a D6: on a 4+ you can immediately place a new unit into Ongoing Reserve that is identical in terms of the original number of models, weapons and upgrades to the unit that was just destroyed. These new units count as being part of the original Formation, so roll a D6 as described above if they are subsequently destroyed. Victory points are awarded as normal for new units in this Formation that have been completely destroyed.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="d0560fd4-a959-36d4-dbe1-817b41a447a7" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
@@ -12950,8 +13158,12 @@ Hits on Zooming Flyers are always resolved against the target model's side armou
         <categoryLink id="cf0d0a04-331f-6a3a-99da-27e782e1f4dd-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="82b33535-ca11-ee42-c0c2-71f92a88a404" name="Monstrous Flock" publicationId="f2f40acf--pub11" hidden="false"/>
-        <rule id="d6ac3317-13fe-e373-0b70-35c015ab9d8e" name="Command Node" publicationId="f2f40acf--pub11" hidden="false"/>
+        <rule id="82b33535-ca11-ee42-c0c2-71f92a88a404" name="Monstrous Flock" publicationId="f2f40acf--pub11" hidden="false">
+      <description>The Hive Tyrant and Gargoyles in this Formation are a single unit. The Hive Tyrant can use the Look Out, Sir rule to attempt to re-allocate any Wounds that it suffers onto a Gargoyle model from the unit, and will pass Look Out, Sir rolls on a 2+. The Hive Tyrant cannot leave the unit during the battle, and can only use the Gliding flight mode. The combined unit counts as 3 units for Victory Points purposes if it is completely destroyed.</description>
+    </rule>
+        <rule id="d6ac3317-13fe-e373-0b70-35c015ab9d8e" name="Command Node" publicationId="f2f40acf--pub11" hidden="false">
+      <description>The Hive Tyrant in this Formation adds 6" to its synapse range.</description>
+    </rule>
       </rules>
       <selectionEntries>
         <selectionEntry id="7c8fd13a-1299-0ba1-3af5-21bbbf254ee7" name="Gargoyle Brood" publicationId="f2f40acf--pub3" page="93" hidden="false" collective="false" type="unit">
@@ -13069,7 +13281,9 @@ Hits on Zooming Flyers are always resolved against the target model's side armou
           <selectionEntries>
             <selectionEntry id="6106690a-d8b9-9c8c-6dc6-2ff3a152b698" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="791250b3-1b5c-0d3d-e26a-ebb3e23a556b" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="791250b3-1b5c-0d3d-e26a-ebb3e23a556b" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -13080,7 +13294,9 @@ Hits on Zooming Flyers are always resolved against the target model's side armou
             </selectionEntry>
             <selectionEntry id="1135e499-39ff-631d-969a-e31a17f43164" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="58a4234e-dc81-8901-e3cf-80f923fb3e18" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="58a4234e-dc81-8901-e3cf-80f923fb3e18" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -13091,7 +13307,9 @@ Hits on Zooming Flyers are always resolved against the target model's side armou
             </selectionEntry>
             <selectionEntry id="a2bbf28f-b2ab-3d41-a2ee-33646abd37c5" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="94703705-c6c0-a3a1-d5fd-f9b52673cf6f" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="94703705-c6c0-a3a1-d5fd-f9b52673cf6f" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -13361,7 +13579,9 @@ Hits on Zooming Flyers are always resolved against the target model's side armou
         <categoryLink id="5b328075-216b-f5b6-e4ec-babb64a4a054-28b94f51-e66b-4096-aa59-0c9df620a77d" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="924d00d1-50a3-293e-9132-6e495629d1c7" name="Sporefield" publicationId="f2f40acf--pub11" hidden="false"/>
+        <rule id="924d00d1-50a3-293e-9132-6e495629d1c7" name="Sporefield" publicationId="f2f40acf--pub11" hidden="false">
+      <description>Each time a Mucolid Spore Cluster or Spore Mine Cluster from this Formation is completely destroyed, roll a D6: on a 4+ you can immediately place a new unit into Ongoing Reserve that is identical in terms of the original number of models, weapons and upgrades to the unit that was just destroyed. These new units count as being part of the original Formation, so roll a D6 as described above if they are subsequently destroyed. Victory points are awarded as normal for new units in this Formation that have been completely destroyed.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="22ff1271-d026-fd61-1384-5aca35a33438" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
@@ -13470,7 +13690,9 @@ Hits on Zooming Flyers are always resolved against the target model's side armou
       </categoryLinks>
       <rules>
         <rule id="477bd811-3da5-515d-2e79-ced5ffa368db" name="Sporestorm" publicationId="f2f40acf--pub6" page="60" hidden="false"/>
-        <rule id="86ca468d-b2e2-3faa-0533-abb3dac9b7f9" name="Marked for Death" publicationId="f2f40acf--pub6" page="60" hidden="false"/>
+        <rule id="86ca468d-b2e2-3faa-0533-abb3dac9b7f9" name="Marked for Death" publicationId="f2f40acf--pub6" page="60" hidden="false">
+      <description>Such is the power at their disposal that, with but a simple gesture, an Archon can order the swift demise of those that displease them. At the start of each friendly turn, pick an enemy unit within line of sight of the Archon. All other units from the Purge Coterie have the Preferred Enemy special rule agains the unit you picked until the start of the next turn.</description>
+    </rule>
       </rules>
       <selectionEntries>
         <selectionEntry id="9ba98439-a922-dfcb-88a7-d9caca5af32e" name="Biovore Brood" publicationId="f2f40acf--pub3" page="94" hidden="false" collective="false" type="unit">
@@ -13545,7 +13767,11 @@ Hits on Zooming Flyers are always resolved against the target model's side armou
             </profile>
           </profiles>
           <rules>
-            <rule id="7bb19781-109d-8aa9-a18e-9075cd9e784b" name="Symbiotic Targeting" publicationId="f2f40acf--pub3" page="50" hidden="false"/>
+            <rule id="7bb19781-109d-8aa9-a18e-9075cd9e784b" name="Symbiotic Targeting" publicationId="f2f40acf--pub3" page="50" hidden="false">
+      <description>If an Exocrine does not move in its Movement phase, it gains a
++1 bonus to its Ballistic Skill until the end of its turn. An Exocrine cannot declare a charge
+during the same turn that it uses this special rule.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="cd166d25-90db-d1d2-86a1-e9851c03c485" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
@@ -14004,8 +14230,32 @@ The Formation's Trygon and Mawloc enter play via Deep Strike as usual.</descript
             </profile>
           </profiles>
           <rules>
-            <rule id="7ae51ebe-eb08-cc76-a312-93650236da87" name="Burrow" publicationId="f2f40acf--pub3" page="54" hidden="false"/>
-            <rule id="f40d4644-b129-ac65-9dbc-3efdab9f9675" name="Terror From the Deep" publicationId="f2f40acf--pub3" page="54" hidden="false"/>
+            <rule id="7ae51ebe-eb08-cc76-a312-93650236da87" name="Burrow" publicationId="f2f40acf--pub3" page="54" hidden="false">
+      <description>An unengaged Mawloc can, at any point during its Movement phases from the second
+game turn onwards, elect to Burrow. If it does so, remove it from the table and place it
+into Ongoing Reserves. A Mawloc cannot Deep Strike and Burrow in the same turn.</description>
+    </rule>
+            <rule id="f40d4644-b129-ac65-9dbc-3efdab9f9675" name="Terror From the Deep" publicationId="f2f40acf--pub3" page="54" hidden="false">
+      <description>When arriving from Deep Strike Reserve, a Mawloc can choose to Deep Strike onto a
+point occupied by another model (friend or foe) - roll for scatter as normal. If a Mawloc
+Deep Strikes onto a point occupied by another model, do not roll on the Deep Strike
+Mishap table. Instead, place the large blast marker directly over the spot the Mawloc is
+deep striking onto. All units except Flyers and Flying Monstrous Creatures beneath the
+blast marker suffer a number of Strength 6 AP2 hits with the Ignores Cover special rule
+equal to the number of models that unit has underneath the blast marker. If the blast
+marker is on a multi-level ruin, only models on the lowest level of the ruin count as being
+under the blast marker. For Wound allocation purposes, assume the attack is coming
+from the centre of the blast marker. Hits against vehicles are resolved against their side
+armour.
+
+If, after removing casualties, it is now possible to place the Mawloc on the table on the
+spot where the blast marker landed, then do so, even if this is within 1" of another model
+(but not if it would be in base contact with, or occupying the same space as, another
+model). If it is not possible to place the Mawloc, replace the large blast marker on the spot
+and resolve another round of damage as detailed above. If, after removing casualties for a
+second time, it is still not possible to place the Mawloc, roll on the Deep Strike Mishap
+table.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="b4bd010d-a3ca-04de-9b10-e45276d5b6d8" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
@@ -14195,7 +14445,21 @@ The Formation's Trygon and Mawloc enter play via Deep Strike as usual.</descript
                 </profile>
               </profiles>
               <rules>
-                <rule id="51c308b5-9e56-e755-7176-ec23aef5e809" name="Swallow Whole" publicationId="f2f40acf--pub3" page="49" hidden="false"/>
+                <rule id="51c308b5-9e56-e755-7176-ec23aef5e809" name="Swallow Whole" publicationId="f2f40acf--pub3" page="49" hidden="false">
+      <description>If the Red Terror hits with at least four of its close combat attacks in a
+single phase (excluding its prehensile pincer attack), you may nominate a single enemy
+Infantry, Jump Infantry or Jet Pack Infantry model in base contact with the Red Terror
+and attempt to swallow it whole.
+
+If you choose to do so, no To Wound rolls are made for any of the Red Terror's Attacks
+(excluding its prehensile pincer attack). Instead, the nominated model must pass a single
+invulnerable save (if it has one) or be removed from play as a casualty. There is no need
+to decide beforehand if you will attempt to swallow a model whole; declare after rolling
+To Hit. Enemy models with either the Very Bulky or Extremely Bulky special rule cannot
+be nominated as targets to be Swallowed Whole. If no models in the target unit can be
+nominated, the Red Terror cannot choose to Swallow Whole and must roll To Wound
+normally.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="a66afdfa-a21f-b989-2251-0ed631da249b" hidden="false" targetId="0489b7e8-ec5c-17db-625d-c939d408a20f" type="rule"/>
@@ -14346,8 +14610,12 @@ The Formation's Trygon and Mawloc enter play via Deep Strike as usual.</descript
         <categoryLink id="f11e60e0-01bb-6264-ee92-a8152218a071-8dbf948c-125b-4886-b21e-3ccabc1e1188" targetId="8dbf948c-125b-4886-b21e-3ccabc1e1188" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="a17c2c86-8f17-0b63-d087-6147c998b4fa" name="Tremor Zone" publicationId="f2f40acf--pub8" page="165" hidden="false"/>
-        <rule id="a70f968f-b3d6-f9e7-cc81-d44265b9b7c2" name="Coordinated Attack" publicationId="f2f40acf--pub8" page="165" hidden="false"/>
+        <rule id="a17c2c86-8f17-0b63-d087-6147c998b4fa" name="Tremor Zone" publicationId="f2f40acf--pub8" page="165" hidden="false">
+      <description>Once the Subterranean Swarm has entered play, any enemy unit within 6" of a unit from this formation must take a Pinning test. Furthermore, until the beginning of their next turn, all units in a Subterranean Swarm have the Shrouded special rule.</description>
+    </rule>
+        <rule id="a70f968f-b3d6-f9e7-cc81-d44265b9b7c2" name="Coordinated Attack" publicationId="f2f40acf--pub8" page="165" hidden="false">
+      <description>All units in this formation must be placed in Strategic Reserve and enter play by Deep Strike. The Trygon Prime must deploy first. Once this is done, the rest of the units from the Subterranean Swarm may be placed anywhere within 12" of the Trygon Prime - do not roll for scatter.</description>
+    </rule>
       </rules>
       <selectionEntries>
         <selectionEntry id="4929dee6-6cdc-db92-bbdd-5aaed7457bfd" name="Trygon Prime" publicationId="f2f40acf--pub3" page="95" hidden="false" collective="false" type="model">
@@ -14468,8 +14736,32 @@ The Formation's Trygon and Mawloc enter play via Deep Strike as usual.</descript
             </profile>
           </profiles>
           <rules>
-            <rule id="fd1fab6a-9101-dd05-91b5-21d08bf7d395" name="Burrow" publicationId="f2f40acf--pub3" page="54" hidden="false"/>
-            <rule id="10f3eb42-8c85-3470-f57b-e8a46d615b09" name="Terror From the Deep" publicationId="f2f40acf--pub3" page="54" hidden="false"/>
+            <rule id="fd1fab6a-9101-dd05-91b5-21d08bf7d395" name="Burrow" publicationId="f2f40acf--pub3" page="54" hidden="false">
+      <description>An unengaged Mawloc can, at any point during its Movement phases from the second
+game turn onwards, elect to Burrow. If it does so, remove it from the table and place it
+into Ongoing Reserves. A Mawloc cannot Deep Strike and Burrow in the same turn.</description>
+    </rule>
+            <rule id="10f3eb42-8c85-3470-f57b-e8a46d615b09" name="Terror From the Deep" publicationId="f2f40acf--pub3" page="54" hidden="false">
+      <description>When arriving from Deep Strike Reserve, a Mawloc can choose to Deep Strike onto a
+point occupied by another model (friend or foe) - roll for scatter as normal. If a Mawloc
+Deep Strikes onto a point occupied by another model, do not roll on the Deep Strike
+Mishap table. Instead, place the large blast marker directly over the spot the Mawloc is
+deep striking onto. All units except Flyers and Flying Monstrous Creatures beneath the
+blast marker suffer a number of Strength 6 AP2 hits with the Ignores Cover special rule
+equal to the number of models that unit has underneath the blast marker. If the blast
+marker is on a multi-level ruin, only models on the lowest level of the ruin count as being
+under the blast marker. For Wound allocation purposes, assume the attack is coming
+from the centre of the blast marker. Hits against vehicles are resolved against their side
+armour.
+
+If, after removing casualties, it is now possible to place the Mawloc on the table on the
+spot where the blast marker landed, then do so, even if this is within 1" of another model
+(but not if it would be in base contact with, or occupying the same space as, another
+model). If it is not possible to place the Mawloc, replace the large blast marker on the spot
+and resolve another round of damage as detailed above. If, after removing casualties for a
+second time, it is still not possible to place the Mawloc, roll on the Deep Strike Mishap
+table.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="07e377ec-99bb-bf9f-2b7f-ff493910d0b5" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
@@ -14654,7 +14946,21 @@ The Formation's Trygon and Mawloc enter play via Deep Strike as usual.</descript
                 </profile>
               </profiles>
               <rules>
-                <rule id="42a16a34-b653-e78e-bbed-498139d6266d" name="Swallow Whole" publicationId="f2f40acf--pub3" page="49" hidden="false"/>
+                <rule id="42a16a34-b653-e78e-bbed-498139d6266d" name="Swallow Whole" publicationId="f2f40acf--pub3" page="49" hidden="false">
+      <description>If the Red Terror hits with at least four of its close combat attacks in a
+single phase (excluding its prehensile pincer attack), you may nominate a single enemy
+Infantry, Jump Infantry or Jet Pack Infantry model in base contact with the Red Terror
+and attempt to swallow it whole.
+
+If you choose to do so, no To Wound rolls are made for any of the Red Terror's Attacks
+(excluding its prehensile pincer attack). Instead, the nominated model must pass a single
+invulnerable save (if it has one) or be removed from play as a casualty. There is no need
+to decide beforehand if you will attempt to swallow a model whole; declare after rolling
+To Hit. Enemy models with either the Very Bulky or Extremely Bulky special rule cannot
+be nominated as targets to be Swallowed Whole. If no models in the target unit can be
+nominated, the Red Terror cannot choose to Swallow Whole and must roll To Wound
+normally.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="d23e1c7b-6fe0-b2c4-23b0-f74e5d9a54ce" hidden="false" targetId="0489b7e8-ec5c-17db-625d-c939d408a20f" type="rule"/>
@@ -14824,7 +15130,11 @@ The Formation's Trygon and Mawloc enter play via Deep Strike as usual.</descript
             </profile>
           </profiles>
           <rules>
-            <rule id="27a82bbc-4742-0c74-f8d1-a864745f824d" name="Alpha Warrior" publicationId="f2f40acf--pub3" page="41" hidden="false"/>
+            <rule id="27a82bbc-4742-0c74-f8d1-a864745f824d" name="Alpha Warrior" publicationId="f2f40acf--pub3" page="41" hidden="false">
+      <description>All Tyranid Warriors or Tyranid Shrikes in the
+same unit as a Tyranid Prime use its Weapon Skill and Ballistic Skill rather than their
+own, unless their own would be higher for any reason.</description>
+    </rule>
           </rules>
           <infoLinks>
             <infoLink id="99e8110a-7dd0-7ef0-22d0-3ad44e331451" hidden="false" targetId="eb3e56c5-e03f-7e98-8f7a-83475c28bb1f" type="rule"/>
@@ -15620,7 +15930,9 @@ The Formation's Trygon and Mawloc enter play via Deep Strike as usual.</descript
           <selectionEntries>
             <selectionEntry id="baa81d89-3b8d-dc97-43ed-21772b977310" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="0971dfe2-5a07-242f-a7fa-7760ccb821cf" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="0971dfe2-5a07-242f-a7fa-7760ccb821cf" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -15631,7 +15943,9 @@ The Formation's Trygon and Mawloc enter play via Deep Strike as usual.</descript
             </selectionEntry>
             <selectionEntry id="7422cd19-b061-ae6f-4922-f6cba887a3b8" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="c4dac33e-41f4-fb39-4783-94b32a98603f" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="c4dac33e-41f4-fb39-4783-94b32a98603f" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -15642,7 +15956,9 @@ The Formation's Trygon and Mawloc enter play via Deep Strike as usual.</descript
             </selectionEntry>
             <selectionEntry id="365dcff8-12a8-f207-9f2a-603884809b69" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="a22176a4-eba2-2fa3-4d62-b1fb9dc400be" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="a22176a4-eba2-2fa3-4d62-b1fb9dc400be" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -15924,8 +16240,18 @@ The Formation's Trygon and Mawloc enter play via Deep Strike as usual.</descript
                 </profile>
               </profiles>
               <rules>
-                <rule id="9bf40cca-a346-c26e-fba6-4cf29bed9b73" name="Blind Rampage" publicationId="f2f40acf--pub3" page="46" hidden="false"/>
-                <rule id="2bed763c-9664-fc42-5381-65045ee50480" name="Shieldwall" publicationId="f2f40acf--pub3" page="46" hidden="false"/>
+                <rule id="9bf40cca-a346-c26e-fba6-4cf29bed9b73" name="Blind Rampage" publicationId="f2f40acf--pub3" page="46" hidden="false">
+      <description>If a Hive Tyrant (or the Swarmlord) is killed whilst part of a unit of
+Tyrant Guard (see the Shieldwall special rule, below), from the end of that turn the
+surviving Tyrant Guard have the Furious Charge and Rage special rules for the remainder
+of the battle.</description>
+    </rule>
+                <rule id="2bed763c-9664-fc42-5381-65045ee50480" name="Shieldwall" publicationId="f2f40acf--pub3" page="46" hidden="false">
+      <description>A single Hive Tyrant (or the Swarmlord) may join a unit of Tyrant Guard
+exactly as if it were an Independent Character. A Hive Tyrant (or the Swarmlord) in a unit
+that contains at least one model with this special rule automatically passes Look Out, Sir
+rolls.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="cf6c9097-441b-fcb6-da93-c838bc970269" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
@@ -16498,8 +16824,18 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="5fc3f84f-1700-945b-a2a8-cefa71706b66" name="Blind Rampage" publicationId="f2f40acf--pub3" page="46" hidden="false"/>
-                <rule id="05926b0d-11d9-6fac-63dd-c30f02ac206e" name="Shieldwall" publicationId="f2f40acf--pub3" page="46" hidden="false"/>
+                <rule id="5fc3f84f-1700-945b-a2a8-cefa71706b66" name="Blind Rampage" publicationId="f2f40acf--pub3" page="46" hidden="false">
+      <description>If a Hive Tyrant (or the Swarmlord) is killed whilst part of a unit of
+Tyrant Guard (see the Shieldwall special rule, below), from the end of that turn the
+surviving Tyrant Guard have the Furious Charge and Rage special rules for the remainder
+of the battle.</description>
+    </rule>
+                <rule id="05926b0d-11d9-6fac-63dd-c30f02ac206e" name="Shieldwall" publicationId="f2f40acf--pub3" page="46" hidden="false">
+      <description>A single Hive Tyrant (or the Swarmlord) may join a unit of Tyrant Guard
+exactly as if it were an Independent Character. A Hive Tyrant (or the Swarmlord) in a unit
+that contains at least one model with this special rule automatically passes Look Out, Sir
+rolls.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="92b78a7c-98fa-4aa4-bce4-72f3beb37b55" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
@@ -16625,7 +16961,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
           <selectionEntries>
             <selectionEntry id="b5ba1c6c-ce0a-3944-c3d6-f6034bf3218f" name="Hive Commander" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="d99ac59e-c041-fab2-80b3-2dd42ddb39f3" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="d99ac59e-c041-fab2-80b3-2dd42ddb39f3" name="Hive Commander" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>For each Hive Tyrant in your army with this upgrade, choose a single troops selection from the same detachment. All models in the selected unit gain the Outflank special rule.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -16636,7 +16974,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
             </selectionEntry>
             <selectionEntry id="c794c68f-a95d-336b-780f-b9979e156c4b" name="Old Adversary" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="55764343-37bd-f48b-6365-aab66a6468d1" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="55764343-37bd-f48b-6365-aab66a6468d1" name="Old Adversary" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>This Hive Tyrant re-rolls all failed To Hit and To Wound rolls of 1 when fighting in close combat.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -16647,7 +16987,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
             </selectionEntry>
             <selectionEntry id="166d2db6-a75c-eac2-189a-6e819f9de5ea" name="Indescribable Horror" page="0" hidden="false" collective="false" type="upgrade">
               <rules>
-                <rule id="d31e8c82-618a-259e-2b5b-801ca69f46b6" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false"/>
+                <rule id="d31e8c82-618a-259e-2b5b-801ca69f46b6" name="Indescribable Horror" publicationId="f2f40acf--pub3" page="40" hidden="false">
+      <description>Units taking a Fear test caused by this model must roll an extra dice when taking the test and use the highest two results. In most circumstances, this will mean the unit rolls 3D6 and discards the lowest dice roll.</description>
+    </rule>
               </rules>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -17151,9 +17493,17 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="db92bd51-a4e9-980a-f03d-04d4967fab88" name="&quot;It's after me!&quot;" publicationId="f2f40acf--pub3" page="61" hidden="false"/>
+                <rule id="db92bd51-a4e9-980a-f03d-04d4967fab88" name="&quot;It's after me!&quot;" publicationId="f2f40acf--pub3" page="61" hidden="false">
+      <description>Nominate an enemy character at the beginning of the game and roll a D3. Whilst
+Deathleaper is alive, that model's Leadership is reduced by the result.</description>
+    </rule>
                 <rule id="04af104e-2ff2-0d27-7b34-8b453c6c011e" name='"Where is it?"' publicationId="f2f40acf--pub3" page="61" hidden="false"/>
-                <rule id="5bb570de-fcfd-1c80-cc51-a8099c466ef9" name="Warlord Trait: Mind Eater" publicationId="f2f40acf--pub3" page="61" hidden="false"/>
+                <rule id="5bb570de-fcfd-1c80-cc51-a8099c466ef9" name="Warlord Trait: Mind Eater" publicationId="f2f40acf--pub3" page="61" hidden="false">
+      <description>Your army gains 2 Victory Points for each enemy model with the Independent
+Character special rule slain by your Warlord in a challenge. Killing an
+Independent Character as the result of a sweeping advance does not award
+these Victory Points.</description>
+    </rule>
               </rules>
               <infoLinks>
                 <infoLink id="7ba31d13-32a7-746d-1f39-37543cdc4148" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
@@ -18273,7 +18623,9 @@ these Victory Points.</description>
         <categoryLink id="15c7-5787-c3f7-6d46-c274d0b0-5866-44bc-9810-91c136ae7438" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="a23b-1893-03c7-e486" name="Rampage" hidden="false"/>
+        <rule id="a23b-1893-03c7-e486" name="Rampage" hidden="false">
+      <description>At the start of any Fight sub-phase, models with the Rampage special rule gain +D3 attacks if the combat they are in contains more enemy models than friendly models - count all models locked in the combat, not just those models that are engaged. Roll once to determine the number of bonus Attacks all Rampaging models involved in that combat receive that phase. A model that has made a disordered charge that turn receives no benefit from Rampage.</description>
+    </rule>
         <rule id="35e1-7111-7fe0-8f42" name="Leaper" hidden="false">
           <description>May Leap in Movement or Assault.
 Move-distance is per unit-type and the model may move over all models and terrain but takes a Dangerous Terrain-test if it begins or ends in Difficult Terrain.
@@ -18877,7 +19229,9 @@ not benefit from this rule.</description>
         <categoryLink id="a9ad-26d7-e61d-6200-c888f08a-6cea-4a01-8126-d374a9231554" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
       </categoryLinks>
       <rules>
-        <rule id="0aab-d4e4-98a4-69af" name="Bio-titan Warp Field" hidden="false"/>
+        <rule id="0aab-d4e4-98a4-69af" name="Bio-titan Warp Field" hidden="false">
+      <description>The Hierophant has a 6+ invulnerable save.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="7c38-7e52-d9fd-76fe" hidden="false" targetId="238969c7-395b-640c-abad-26be62c31944" type="rule"/>
@@ -21260,7 +21614,9 @@ chosen unit has that special rule until the end of the turn.</description>
             </profile>
           </profiles>
           <rules>
-            <rule id="426c-04aa-0d5e-bba4" name="Blade Parry" publicationId="f2f40acf--pub3" page="59" hidden="false"/>
+            <rule id="426c-04aa-0d5e-bba4" name="Blade Parry" publicationId="f2f40acf--pub3" page="59" hidden="false">
+      <description>The Swarmlord has a 4+ invulnerable save against Wounds caused by Melee weapons.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -22742,18 +23098,40 @@ against all units chosen from the same codex as the model removed as a casualty.
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="bac7528f-cf56-f2a9-c796-45643b9e9436" name="Acute Senses" publicationId="f2f40acf--pub22" page="33" hidden="false"/>
-    <rule id="238969c7-395b-640c-abad-26be62c31944" name="Agile" publicationId="f2f40acf--pub8" page="6" hidden="false"/>
+    <rule id="bac7528f-cf56-f2a9-c796-45643b9e9436" name="Acute Senses" publicationId="f2f40acf--pub22" page="33" hidden="false">
+      <description>If a unit contains at least one model with this special rule, and that unit arrives on a random table edge (due to Outflank, or other special rules), then you can re-roll to see which table edge they arrive from.</description>
+    </rule>
+    <rule id="238969c7-395b-640c-abad-26be62c31944" name="Agile" publicationId="f2f40acf--pub8" page="6" hidden="false">
+      <description>In the shooting phase, a Warhound can choose to either:
+
+-fire all available weapons
+-fire a single weapon and then Run
+-fire no weapons at all and Run twice</description>
+    </rule>
     <rule id="5ed20565-0401-ae39-8b05-2317f10a78f2" name="Brood Progenitor" publicationId="f2f40acf--pub3" page="52" hidden="false">
       <description>All Termagants in units within 12" of the Tervigon have the Counter-attack special rule.</description>
     </rule>
-    <rule id="18aaa654-8154-30cf-8813-d8af752f8aea" name="Bulky" publicationId="f2f40acf--pub22" page="35" hidden="false"/>
-    <rule id="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" name="Deep Strike" publicationId="f2f40acf--pub22" page="36" hidden="false"/>
+    <rule id="18aaa654-8154-30cf-8813-d8af752f8aea" name="Bulky" publicationId="f2f40acf--pub22" page="35" hidden="false">
+      <description>Bulky models count as two models for the purposes of Transport Capacity.</description>
+    </rule>
+    <rule id="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" name="Deep Strike" publicationId="f2f40acf--pub22" page="36" hidden="false">
+      <description>Deep Strike Mishap Table: D6 Roll
+
+1: Terrible Accident! - The entire unit is destroyed!
+
+2-3: Misplaced - Your opponent may deploy the unit anywhere on the table (excluding impassable terrain, but including difficult terrain, which of course counts as dangerous for Deep Striking units), in a valid Deep Strike formation, without rolling for scatter. Units embarked on a misplaced Transport can disembark during their Movement phase as normal.
+
+4-6: Delayed - The unit is placed in Ongoing Reserves.</description>
+    </rule>
     <rule id="47496344-bcf6-1216-a146-2af89ffca024" name="Drifting Death" hidden="false">
       <description>Tyrannocytes cannot Run or charge. They can consolidate but may not make a Sweeping Advance.</description>
     </rule>
-    <rule id="df1a8230-27ec-cae4-cee2-95e4ec56008a" name="Fear" publicationId="f2f40acf--pub22" page="35" hidden="false"/>
-    <rule id="be993f25-3873-e26f-ba32-20c8e35f0618" name="Fearless" publicationId="f2f40acf--pub22" page="35" hidden="false"/>
+    <rule id="df1a8230-27ec-cae4-cee2-95e4ec56008a" name="Fear" publicationId="f2f40acf--pub22" page="35" hidden="false">
+      <description>At the start of each Fight sub-phase, a unit in base contact with one or more enemy models that cause Fear must take a Leadership test (called a Fear test) before any blows are struck. If the test is passed, all is well and there is no effect. If the test is failed, the unit succumbs to fear - all models in the unit have their Weapon Skill reduced to 1 for the remainder of that Fight sub-phase. Note that a model that causes Fear is not itself immune to Fear, and will still need to take a Fear test if it is base contact with any enemy models that cause Fear.</description>
+    </rule>
+    <rule id="be993f25-3873-e26f-ba32-20c8e35f0618" name="Fearless" publicationId="f2f40acf--pub22" page="35" hidden="false">
+      <description>Units containing one or more models with the Fearless special rule automatically pass Pinning, Fear, Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons Are Useless rule. If a unit has Gone to Ground and then gains the Fearless special rule, all the effects of Go to Ground are immediately cancelled.</description>
+    </rule>
     <rule id="42ff7c09-985b-a785-95ce-4efd13da042f" name="Feel No Pain" publicationId="f2f40acf--pub22" page="35" hidden="false">
       <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel
 No Pain roll to avoid being wounded (this is not a saving throw). Roll a D6 each time an
@@ -22771,9 +23149,20 @@ method of Wound allocation should always be used for allocating Wounds and remov
 casualties from that unit; Feel No Pain rolls should be individually made after each failed
 save.</description>
     </rule>
-    <rule id="32db2eb1-474c-1b05-ec3d-ac79f870cafa" name="Fighter Ace" publicationId="f2f40acf--pub11" page="44" hidden="false"/>
-    <rule id="56c6b072-b405-6717-1664-78d761217927" name="Fleet" publicationId="f2f40acf--pub22" page="35" hidden="false"/>
-    <rule id="81015637-1c4d-77e2-0b82-b2cfe6847c5f" name="Floating Death" publicationId="f2f40acf--pub3" page="65" hidden="false"/>
+    <rule id="32db2eb1-474c-1b05-ec3d-ac79f870cafa" name="Fighter Ace" publicationId="f2f40acf--pub11" page="44" hidden="false">
+      <description>At the start of the battle, roll a D6 for your Fighter Ace.  This model has one benefit for the rest of the game corresponding to the table below:
+
+1-2: The Fighter Ace has +1 Ballistic Skill
+3-4: The Fighter Ace can pivot up to 180 degrees before moving in the Movement phase each turn.
+5-6: All friendly units within 12" of the Fighter Ace that are from the same Faction as the Fighter Ace have the Hatred special rule.</description>
+    </rule>
+    <rule id="56c6b072-b405-6717-1664-78d761217927" name="Fleet" publicationId="f2f40acf--pub22" page="35" hidden="false">
+      <description>A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
+    </rule>
+    <rule id="81015637-1c4d-77e2-0b82-b2cfe6847c5f" name="Floating Death" publicationId="f2f40acf--pub3" page="65" hidden="false">
+      <description>Spore Mines move 3" in the Movement phase and, when they Run or charge, move half the distance rolled. Spore Mines are never slowed by difficult terrain, but must take Dangerous Terrain tests as normal.
+Spore Mines do not attack in close combat. Instead, at the Initiative 10 step, the entire cluster detonates! To resolve this, centre the large blast marker over any one of the unit’s Spore Mines. Every other unit (friend or foe) under the blast marker suffers a number of hits equal to the number of its models under the blast marker. The Strength of these hits is equal to 4, but is increased by 1 for each additional Spore Mine in the detonating cluster (to a maximum of Strength 10). These hits are resolved at AP4 and ignore cover saves. Once all hits have been resolved, remove all models in the Spore Mine Cluster from play as casualties.</description>
+    </rule>
     <rule id="1da1bda2-e733-5f73-629b-c4c4e14480f0" name="Hit and Run" publicationId="f2f40acf--pub22" page="38" hidden="false">
       <description>A unit that contains at least one model with this special rule that is locked in combat can
 choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it
@@ -22793,8 +23182,22 @@ are units with this rule on both sides who wish to disengage, roll-off to determ
 and then alternate disengaging them. If the last of these ends up no longer in combat, it
 Consolidates instead.</description>
     </rule>
-    <rule id="eb3e56c5-e03f-7e98-8f7a-83475c28bb1f" name="Independent Character" publicationId="f2f40acf--pub22" page="39" hidden="false"/>
-    <rule id="ec080480-ade1-4910-3d11-9acfd44ec0c4" name="Infiltrate" publicationId="f2f40acf--pub22" page="38" hidden="false"/>
+    <rule id="eb3e56c5-e03f-7e98-8f7a-83475c28bb1f" name="Independent Character" publicationId="f2f40acf--pub22" page="39" hidden="false">
+      <description>Independent characters can join other units.  They cannot, however, join units that contain vehicles or Monstrous Creatures.  They can join other Independent Characters, though, to form a powerful multi-character unit!  Independent Characters pass Look Out, Sir rolls on a 2+. A unit that contains one or more Independent Characters does not need a double 1 to Regroup if reduced to below 25% of its starting numbres, but instead tests as if it had at least 25% remaining.
+
+Full details in BRB. Rule too long to copy verbatim.</description>
+    </rule>
+    <rule id="ec080480-ade1-4910-3d11-9acfd44ec0c4" name="Infiltrate" publicationId="f2f40acf--pub22" page="38" hidden="false">
+      <description>Units that contain at least one model with this special rule are deployed last, after all other units (friend and foe) have been deployed. If both sides have Infiltrators, the players roll-off and the winner decides who goes first, then alternate deploying these units.
+
+Infiltrators can be set up anywhere on the table that is more than 12" from any enemy unit, as long as no deployed enemy unit can draw line of sight to them. This includes in a building, as long as the building is more than 12" from any enemy unit. Alternatively, they can be set up anywhere on the table more than 18" from any enemy unit, even in plain sight.
+
+If a unit with Infiltrate deploys inside a Dedicated Transport, they may Infiltrate along with their Transport. 
+
+A unit that deploys using these rules cannot charge in their first turn. Having Infiltrate also confers the Outflank special rule to units of Infiltrators that are kept as Reserves.
+
+If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
+    </rule>
     <rule id="948f850e-5bc2-9955-77c7-66ca26251928" name="Instinctive Behaviour - Feed" publicationId="f2f40acf--pub3" page="33" hidden="false">
       <description>1-3 - Cannibalistic Hunger: The unit immediately suffers a number of hits equal to
 the number of models in that unit. These hits are resolved using the unit's majority
@@ -22838,23 +23241,35 @@ Stealth special rule.</description>
     <rule id="df193096-f043-32d5-c3ea-47959c56e10d" name="Instinctive Fire" publicationId="f2f40acf--pub11" hidden="false">
       <description>Each weapon on this model automatically fires at the nearest enemy unit within range and line of sight. The shots are resolved at the end of the Shooting phase before Morale checks are taken. Each weapon can fire at a different target unit, but they cannot be fired in any other way or at any other time.</description>
     </rule>
-    <rule id="addf502a-88d2-5bf0-d96d-d744d00c5e1b" name="It Will Not Die" publicationId="f2f40acf--pub22" page="38" hidden="false"/>
+    <rule id="addf502a-88d2-5bf0-d96d-d744d00c5e1b" name="It Will Not Die" publicationId="f2f40acf--pub22" page="38" hidden="false">
+      <description>At the end of each of your turns, roll a D6 for each of your models with this special rule that has less than its starting number of Wounds or Hull Points, but has not been removed as a casualty or destroyed. On a 5+, that model regains a Wound or Hull Point lost earlier in the game.</description>
+    </rule>
     <rule id="def8d884-9fb8-40f7-a2f0-a7e4b0b564e8" name="Life Drain" publicationId="f2f40acf--pub3" page="63" hidden="false">
       <description>Any To Wound roll of a 6 made by this weapon has the Instant Death special rule.</description>
     </rule>
     <rule id="f7ad91af-904e-e6da-dd51-47093c84ebf8" name="Living Battering Ram" publicationId="f2f40acf--pub3" page="52" hidden="false">
       <description>When this model charges, it inflicts D3 Hammer of Wrath Attacks, rather than just 1.</description>
     </rule>
-    <rule id="18b954cd-f827-b45d-fb5b-b2ee38be97db" name="Living Bomb" publicationId="f2f40acf--pub3" page="65" hidden="false"/>
-    <rule id="3c71fd34-64af-5ac9-62ed-fd53370af369" name="Move Through Cover" publicationId="f2f40acf--pub22" page="40" hidden="false"/>
-    <rule id="9a0a1c97-7aae-812a-9c12-9a222f5ed167" name="Outflank" publicationId="f2f40acf--pub22" page="35" hidden="false"/>
+    <rule id="18b954cd-f827-b45d-fb5b-b2ee38be97db" name="Living Bomb" publicationId="f2f40acf--pub3" page="65" hidden="false">
+      <description>Spore Mine Clusters are non-scoring, non-denial units. They do not award Victory Points when destroyed, and Wounds suffered by Spore Mines in close combat (including those caused by a Floating Death detonation) are not counted when determining assault results.</description>
+    </rule>
+    <rule id="3c71fd34-64af-5ac9-62ed-fd53370af369" name="Move Through Cover" publicationId="f2f40acf--pub22" page="40" hidden="false">
+      <description>A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
+    </rule>
+    <rule id="9a0a1c97-7aae-812a-9c12-9a222f5ed167" name="Outflank" publicationId="f2f40acf--pub22" page="35" hidden="false">
+      <description>During deployment, players can declare that any unit that contains at least one model with this special rule is attempting to Outflank the enemy. This means they are making a wide sweeping move to get behind enemy lines or come at the foe from an unexpected direction.
+
+When an Outflanking unit arrives from Reserves, but not Ongoing Reserve, the controlling player rolls a D6: on a 1-2, the unit comes in from the table edge to the left of their controlling player's own table edge; on a 3-4, they come on from the right; on a 5-6, the player can choose left or right. Models move onto the table as described for other Reserves. If such a unit deploys inside a Dedicated Transport, they may Outflank along with their Transport.</description>
+    </rule>
     <rule id="d6598fb5-d5f5-3935-9324-32e0e4561a97" name="Pheromone Trail" publicationId="f2f40acf--pub3" page="44" hidden="false">
       <description>If a friendly unit from Codex: Tyranids arrives on the battlefield via Deep Strike, it will
 not scatter so long as the first model in the unit is placed within 6" of a model with this
 special rule. Note that the model with the Pheromone Trail special rule must already be
 on the table at the start of the turn for this ability to be used.</description>
     </rule>
-    <rule id="b0cd4292-39c6-4b45-3ec8-53588a4e6eba" name="Poisoned (2+)" publicationId="f2f40acf--pub22" page="40" hidden="false"/>
+    <rule id="b0cd4292-39c6-4b45-3ec8-53588a4e6eba" name="Poisoned (2+)" publicationId="f2f40acf--pub22" page="40" hidden="false">
+      <description>If a model has the Poisoned special rule, or is attacking with a Melee weapon that has the Poisoned special rule, it always wounds on a fixed number (generally shown in brackets), unless a lower result would be required, when attacking in close combat. In addition, if the Strength of the wielder (or the Poisoned weapon) is higher than the Toughness of the victim, the wielder must re-roll failed rolls To Wound in close combat. Similarly, if a model makes a shooting attack with a weapon that has the Poisoned special rule, it always wounds on a fixed number (generally shown in brackets), unless a lower result would be required. If no number is shown in brackets, the rule is Poisoned (4+). Unless otherwise stated, Poisoned weapons are treated as having a Strength of 1. The Poisoned special rule has no effect against vehicles.</description>
+    </rule>
     <rule id="a2a6-7948-3478-67c5" name="Powers of the Hive Mind" publicationId="f2f40acf--pub3" hidden="false">
       <description>Primaris Power (Dominion) - WC 1 : Dominion is a blessing that targets the Psyker. Whilst this power is in effect the Psyker adds 6" to its synapse range. If the Psyker doesn't have the Synapse Creature special rule, it gains it for the duration of this power and has a synapse range of 6".
 
@@ -22872,21 +23287,31 @@ on the table at the start of the turn for this ability to be used.</description>
 Burst :   Range - 24" | S5   | AP3 | Assault 1, Blast
 Lance :  Range - 18" | S10 | AP2 | Assault 1, Lance</description>
     </rule>
-    <rule id="4b70ff41-b11e-6952-db9c-0a916251a4d4" name="Preferred Enemy" publicationId="f2f40acf--pub22" page="40" hidden="false"/>
-    <rule id="32bc0cac-b0db-d3a1-a24e-2be318531019" name="Preferred Enemy (Character and Independent Character)" publicationId="f2f40acf--pub22" page="40" hidden="false"/>
+    <rule id="4b70ff41-b11e-6952-db9c-0a916251a4d4" name="Preferred Enemy" publicationId="f2f40acf--pub22" page="40" hidden="false">
+      <description>This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</description>
+    </rule>
+    <rule id="32bc0cac-b0db-d3a1-a24e-2be318531019" name="Preferred Enemy (Character and Independent Character)" publicationId="f2f40acf--pub22" page="40" hidden="false">
+      <description>This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</description>
+    </rule>
     <rule id="bdc4459e-d61f-0cdf-d340-2b32f15a0cd0" name="Psychic Scream" publicationId="f2f40acf--pub3" page="62" hidden="false">
       <description>Warp Charge 1
 Psychic Scream is a nova power with a range of 6". For each target unit, roll 2D6+2 and
 subtract their Leadership. That unit suffers a number of Wounds equal to the result.
 Armour and cover saves cannot be taken against Wounds caused by Psychic Scream.</description>
     </rule>
-    <rule id="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" name="Psyker" publicationId="f2f40acf--pub22" page="41" hidden="false"/>
+    <rule id="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" name="Psyker" publicationId="f2f40acf--pub22" page="41" hidden="false">
+      <description>A model with this special rule is a Psyker. This rule is typically presented with a Mastery level, shown in brackets - if no Mastery Level is shown then the model has a Mastery Level of 1. Rules for generating and manifesting psychic powers can be found in the Psychic phase section.</description>
+    </rule>
     <rule id="2ae91f87-7808-36b9-090d-2fbcc6bbd26c" name="Shadow in the Warp" publicationId="f2f40acf--pub3" page="38" hidden="false">
       <description>All enemy units and models with the Psyker, Psychic Pilot or Brotherhood of Psykers
 special rules suffer a -3 penalty to their Leadership whilst they are within 12" of one or
 more models with the Shadow in the Warp special rule.</description>
     </rule>
-    <rule id="148bd9df-ab60-ca21-8976-7c77decb8053" name="Shrouded" publicationId="f2f40acf--pub22" page="41" hidden="false"/>
+    <rule id="148bd9df-ab60-ca21-8976-7c77decb8053" name="Shrouded" publicationId="f2f40acf--pub22" page="41" hidden="false">
+      <description>A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it's in the open.
+
+Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
+    </rule>
     <rule id="4681220c-4af2-e2bc-d69e-8caef1c7a0b7" name="Spawn Termagants" publicationId="f2f40acf--pub3" page="52" hidden="false">
       <description>At the end of your Movement phase, a Tervigon can spawn Termagants, even if it is
 locked in close combat. If it does so, roll 3D6 - this is the number of models spawned.

@@ -1562,8 +1562,20 @@ Super-heavies, Gargantuan Creatures and buildings cannot be dragged by the impal
 
 Cor'bax Utterblight inflicts D3 Hammer of Wrath hits when charging. He ignores all dangerous terrain and difficult terrain. He counts as being armed with assault grenades when charging. In addition, if he is destroyed replace his model with the Massive Blast (7") template. All models under the template that do not have the Daemon of Nurgle special rule suffer a single Poisoned (4+) AP 4 hit.</description>
         </rule>
-        <rule id="e300-9af4-712b-b5c2" name="Poisoned (3+)" hidden="false"/>
-        <rule id="2d0b-97c5-c3e9-1a72" name="Psyker (Mastery Level 2)" hidden="false"/>
+        <rule id="e300-9af4-712b-b5c2" name="Poisoned (3+)" hidden="false">
+      <description>Always Wounds on 3+. May re-roll To Wound if Strength higher than target's Toughness.</description>
+    </rule>
+        <rule id="2d0b-97c5-c3e9-1a72" name="Psyker (Mastery Level 2)" hidden="false">
+      <description>Ahazra Redth is a powerful psyker. He has the special Mirage Psychic power (shown below) and may also roll one additional power from any of the following Psychic disciplines (see the Core Rulebook, page 418):
+
+• Biomancy
+• Pyromancy
+• Telepathy
+• Divination
+
+Mirage - Warp Charge 1
+Mirage is a blessing that targets the psyker, as well as any unit he has joined or vehicle in which he is being transported. Any models charging the target/s of this power while it is in effect count as making a Disordered Charge (see page 27 of the Core Rulebook). However, if the charged unit was already locked in combat from a previous turn, or has gone to ground, the power has no effect and the attackers gain bonus attacks as normal. In addition, all models protected by this power gain the Shrouded special rule.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="96c6-be67-4b84-0774" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
@@ -1598,8 +1610,14 @@ Cor'bax Utterblight inflicts D3 Hammer of Wrath hits when charging. He ignores a
         </profile>
       </profiles>
       <rules>
-        <rule id="d0ef-2780-7128-8b50" name="Random Attacks" page="0" hidden="false"/>
-        <rule id="8a40-d222-3d28-ec02" name="Mutated Beyond Sanity" page="0" hidden="false"/>
+        <rule id="d0ef-2780-7128-8b50" name="Random Attacks" page="0" hidden="false">
+      <description>Roll a D6. The result is the number of attacks for that unit.</description>
+    </rule>
+        <rule id="8a40-d222-3d28-ec02" name="Mutated Beyond Sanity" page="0" hidden="false">
+      <description>1 Sword-spines
+2 Gibbering Jaws
+3 Frenzied Regeneration</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="ab83-929d-246b-85c2" hidden="false" targetId="280d-1a0c-5916-3012" type="rule"/>
@@ -1631,10 +1649,18 @@ Cor'bax Utterblight inflicts D3 Hammer of Wrath hits when charging. He ignores a
         </profile>
       </profiles>
       <rules>
-        <rule id="e044-3650-00d5-1f08" name="Frenzied Charge" publicationId="83d27dcf--pub4" page="51" hidden="false"/>
-        <rule id="b4ba-09f1-b258-5425" name="Runes of the Blood God" publicationId="83d27dcf--pub4" page="51" hidden="false"/>
-        <rule id="fd2e-d9f4-5564-b61d" name="Doomsday Reactor" publicationId="83d27dcf--pub4" page="51" hidden="false"/>
-        <rule id="bbda-e21d-0134-4fdd" name="Multi-legged Terror" publicationId="83d27dcf--pub4" page="51" hidden="false"/>
+        <rule id="e044-3650-00d5-1f08" name="Frenzied Charge" publicationId="83d27dcf--pub4" page="51" hidden="false">
+      <description>when charging, roll 3D6 and add together for total charge distance.</description>
+    </rule>
+        <rule id="b4ba-09f1-b258-5425" name="Runes of the Blood God" publicationId="83d27dcf--pub4" page="51" hidden="false">
+      <description>A psyker who targets the Tower suffers a perils of the warp regardless of circumstance. If they rolled a double 1 or double 6 they then suffer a Terrors of the Warp as well.</description>
+    </rule>
+        <rule id="fd2e-d9f4-5564-b61d" name="Doomsday Reactor" publicationId="83d27dcf--pub4" page="51" hidden="false">
+      <description>When a model with this rule rolls on the Apocalyptic explosion chart, it adds +2 to the result.</description>
+    </rule>
+        <rule id="bbda-e21d-0134-4fdd" name="Multi-legged Terror" publicationId="83d27dcf--pub4" page="51" hidden="false">
+      <description>When making stomp attacks, the scorpion makes D3+2 stomps</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="7d93-57d9-ddf7-0593" hidden="false" targetId="8de3-9e93-da02-b9dd" type="rule"/>
@@ -2058,9 +2084,15 @@ At the end of the phase in which this is used, roll a D6. On a 1 the model immed
         </profile>
       </profiles>
       <rules>
-        <rule id="7dfe-6f8b-0021-4c92" name="Psyker (Mastery Level 3)" page="0" hidden="false"/>
-        <rule id="ff98-4ead-e7f3-0724" name="Shadow Form" page="0" hidden="false"/>
-        <rule id="122c-b33c-4eb0-bace" name="Lord of Torment" page="0" hidden="false"/>
+        <rule id="7dfe-6f8b-0021-4c92" name="Psyker (Mastery Level 3)" page="0" hidden="false">
+      <description>Be'lakor knows ALL the powers of the Telepathy Discipline</description>
+    </rule>
+        <rule id="ff98-4ead-e7f3-0724" name="Shadow Form" page="0" hidden="false">
+      <description>Be'lakor has a 4+ Invunerable save and shrouded. He automatically passes Dangerous Terrain tests.</description>
+    </rule>
+        <rule id="122c-b33c-4eb0-bace" name="Lord of Torment" page="0" hidden="false">
+      <description>If one or more units fail a Ld check in the previous turn, Be'lakor gets +D3 Warp charges in the next psychic phase.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="d7f7-edac-f3aa-aa8c" hidden="false" targetId="3eda-669d-bd54-e3c0" type="rule"/>
@@ -3865,7 +3897,13 @@ Wounds / Effect
     </selectionEntry>
     <selectionEntry id="685156ec-d040-61a1-65e7-cf5ba676de3f" name="Fighter Ace" hidden="false" collective="false" type="upgrade">
       <rules>
-        <rule id="f9ac-68da-824f-9d4f" name="Fighter Ace" hidden="false"/>
+        <rule id="f9ac-68da-824f-9d4f" name="Fighter Ace" hidden="false">
+      <description>At the start of the battle, roll a D6 for your Fighter Ace.  This model has one benefit for the rest of the game corresponding to the table below:
+
+1-2: The Fighter Ace has +1 Ballistic Skill
+3-4: The Fighter Ace can pivot up to 180 degrees before moving in the Movement phase each turn.
+5-6: All friendly units within 12" of the Fighter Ace that are from the same Faction as the Fighter Ace have the Hatred special rule.</description>
+    </rule>
       </rules>
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -5119,7 +5157,9 @@ No. of Models	Benefit(s)
       <selectionEntries>
         <selectionEntry id="9fc6-4a9a-f92a-4d08" name="Warlord Trait:" page="0" hidden="false" collective="false" type="upgrade">
           <rules>
-            <rule id="760a-1f9c-8f2b-471a" name="Lord of Unreality" page="0" hidden="false"/>
+            <rule id="760a-1f9c-8f2b-471a" name="Lord of Unreality" page="0" hidden="false">
+      <description>Whilst the Warlord is alive, you can re-roll results on the Warp Storm table.</description>
+    </rule>
           </rules>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -5330,7 +5370,15 @@ No. of Models	Benefit(s)
       <profiles>
         <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" id="fd2a-0146-45c1-8fbc" name="Daemonic possession" page="0" hidden="false">
           <characteristics>
-            <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+            <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">The Adversary’s Warlord gains the Daemon, Fleshbane, Armourbane and Smash special rules, as well as a 3+ invulnerable save.
+The Adversary can take one of the following options for any Independent Characters in their army (except those with the Genestealer Cults, Necrons, Tau Empire or Tyranids Faction):
+• May be upgraded to a Psyker (Mastery Level 1) with the Daemon special rulefree
+• May be upgraded to a Psyker (Mastery Level 2) with the Daemon special rule25 pts/model
+Independent Characters upgraded in this way generate their powers from the Daemonology (Malefic) discipline.
+The Adversary can also take the following option for any Independent Characters in their army that are already Psykers (except those with the Genestealer Cults or Tyranids Faction):
+• May be upgraded with the Daemon special rulefree
+Independent Characters upgraded in this way generate their powers from the Daemonology (Malefic) discipline.
+The Adversary can include units with the Chaos Daemons Faction as Allies of Convenience of all units in their army (unless they would normally be Battle Brothers).</characteristic>
           </characteristics>
         </profile>
         <profile typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" id="c3bb-1d47-72dc-0973" name="Khorne Lord of Skulls" publicationId="83d27dcf--pub6" page="83" hidden="false">
@@ -5357,7 +5405,10 @@ No. of Models	Benefit(s)
         </profile>
       </profiles>
       <rules>
-        <rule id="0e3e-71bd-27d1-fdf3" name="Daemonforge" page="0" hidden="false"/>
+        <rule id="0e3e-71bd-27d1-fdf3" name="Daemonforge" page="0" hidden="false">
+      <description>Once per game, a model with this rule may re-roll failed to wound/penetration rolls. Declare at the start of the shooting or assault phase that you are using this ability.
+At the end of the phase, roll a D6, on a 1 the unit loses a HP with no saves allowed.</description>
+    </rule>
         <rule id="55e4-d934-0d30-4d25" name="Fuelled by Rage" publicationId="83d27dcf--pub6" page="84" hidden="false">
           <description>For every Hull Point the Khorne Lord of Skulls has lost, it gains an
 additional Attack, even if that Hull Point is later regained (keep a note on your roster).
@@ -6762,7 +6813,9 @@ Super-heavy vehicle, but it may not make Stomp attacks.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="d194-c4c0-09e5-f367" name="Skulls for the Skull Throne!" page="0" hidden="false"/>
+        <rule id="d194-c4c0-09e5-f367" name="Skulls for the Skull Throne!" page="0" hidden="false">
+      <description>Model must issue and accept challenges. If multiple models have this rule then the controlling player chooses.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="b4b7-dd75-f743-5ff2" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
@@ -7800,7 +7853,9 @@ The Dance of Dreaming: Until the start of the Masque's next Shooting phase, the 
         </profile>
       </profiles>
       <rules>
-        <rule id="8a19-6899-5032-d3e0" name="Hatred (Characters)" hidden="false"/>
+        <rule id="8a19-6899-5032-d3e0" name="Hatred (Characters)" hidden="false">
+      <description>This rule is often presented as Hatred (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then the unit has Hatred against everyone. This can refer to a Faction, or a specific unit. For example, Hatred (Orks) means any model with the Ork Faction, whilst Hatred (Big Meks) means only Big Meks. A model striking a hated foe in close combat re-rolls all failed To Hit rolls during the first round of each close combat.</description>
+    </rule>
       </rules>
       <infoLinks>
         <infoLink id="ab02-8f9f-7985-888d" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
@@ -9015,7 +9070,17 @@ On a roll of a 2-5, it remains wrecked but the controlling player may attempt to
     <rule id="add2bfb1-23e3-51d0-287b-1e4a6d4f4f19" name="Aura of Change" page="0" hidden="false">
       <description>The Burning Chariot's Hammer of Wrath attacks have Warpflame</description>
     </rule>
-    <rule id="2cc57d46-37f2-f4bb-b7a2-ecfe2f839ca4" name="Bellow of Endless Fury" page="0" hidden="false"/>
+    <rule id="2cc57d46-37f2-f4bb-b7a2-ecfe2f839ca4" name="Bellow of Endless Fury" page="0" hidden="false">
+      <description>Skarbrand’s roar is lethal in itself.
+Range
+S
+AP
+Type
+Template
+5
+-
+Assault 1</description>
+    </rule>
     <rule id="5cb054a3-97b5-4578-dd3e-f69e2ef5b170" name="Bloodletter Crew" publicationId="83d27dcf--pub9" hidden="false">
       <description>This mode makes 2 additional Str 4 AP3 attacks at WS 5 each assault phase. These are done Initiative step 4 (does not grant an extra pile in). On a successful charge, the strength is increased to 5.</description>
     </rule>
@@ -9049,7 +9114,9 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
     <rule id="87adee1e-acae-74dc-0663-046470e4c144" name="Daemonic Resilience" page="0" hidden="false">
       <description>Ignore Crew Shaken and Crew Stunned results on a 2+.</description>
     </rule>
-    <rule id="28e85a6b-69ef-5afb-7c92-32decbc0dc0a" name="Decapitating Blow" page="0" hidden="false"/>
+    <rule id="28e85a6b-69ef-5afb-7c92-32decbc0dc0a" name="Decapitating Blow" page="0" hidden="false">
+      <description>Any To Wound rolls of 6 made with this weapon have the Instant Death special rule.</description>
+    </rule>
     <rule id="dfc1a725-4312-12be-dfdb-67660992857c" name="Disruptive Song" page="0" hidden="false">
       <description>Enemy Psykers wihin 12" have -1 Leadership for Psychic tests.</description>
     </rule>
@@ -9059,7 +9126,26 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
     <rule id="aa11-a814-7133-fb3f" name="Escalating Bloodlust" hidden="false">
       <description>Units from a Murderhorde add 1 to their Attacks in close combat whilst they are within 6" of any other unit from their Formation.</description>
     </rule>
-    <rule id="63673c55-151e-2440-c5e7-273a93b61648" name="Exalted Rewards" page="0" hidden="false"/>
+    <rule id="63673c55-151e-2440-c5e7-273a93b61648" name="Exalted Rewards" page="0" hidden="false">
+      <description>D6Daemonic Reward
+0Hellforged Artefact: The Daemon has a Hellforged Artefact of your choice. Each can be chosen only once per army. If your army already includes all the Hellforged Artefact, you cannot swap any further Exalted Rewards for this result.
+1Doubly Blessed: Roll again on this table, re-rolling further results of 1, and roll once on the Lesser Rewards table. The Daemon has both these rewards at no additional cost.
+2Riftbringer: At the end of any Assault phase in which this Daemon causes one or more unsaved Wounds, roll 2D6, adding 1 to the total for every full 3 unsaved Wounds the Daemon caused this phase. If the total is less than 9, nothing happens. If the total is 9 or greater, a new unit of Daemons is created as described for a Summoned from the Warp result.
+3Souleater: At the end of any Assault phase in which the Daemon caused one or more unsaved Wounds, roll a D6. On a 2+ it gains a single Wound (to a maximum of 10). Note that this may take the Daemon above its starting number of Wounds.
+4Unholy Frenzy: The Daemon has the Rage and Rampage special rules.
+5Warp Tether: The first time the Daemon is slain it is not removed from play as a casualty, but instead is removed from the battlefield. Any enemy unit locked in combat solely with this model immediately consolidates. The Daemon is then placed in ongoing reserve with a single Wound remaining. If the model with Warp Tether is riding a Chariot, the first time it is slain the entire model is removed and placed in ongoing reserve - the Chariot’s remaining Hull Points, damage results, etc. are unaffected.
+6Wind of Chaos: Wind of Chaos is a weapon with the following profile:
+Range
+S
+AP
+Type
+24"
+2D6
+4
+Assault 1, Blast, Flux
+Flux:
+Roll to determine the Strength immediately after the target has been nominated. If an 11 or 12 is rolled, Wind of Chaos is resolved at Strength 10 and has the Large Blast special rule instead of Blast.</description>
+    </rule>
     <rule id="5c742f7d-fd81-ee06-4793-5f99e25f4aab" name="Excess Discipline" page="0" hidden="false"/>
     <rule id="c0ffb4b1-a5e3-f56f-c2b2-2f3bfa2fcb54" name="Fleshshredder" page="0" hidden="false">
       <description>Make D6 Hammer of Wrath attacks for each remaining Hull Point at S4 AP- and Rending.</description>
@@ -9074,7 +9160,24 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
       <description>+5 Initiative.</description>
     </rule>
     <rule id="c5d58cf9-4a96-1325-27fd-a0a6cee6d73b" name="Greater Magic Weapons" page="0" hidden="false"/>
-    <rule id="538ab613-3704-07d2-1af2-7b5514a5517f" name="Greater Rewards" page="0" hidden="false"/>
+    <rule id="538ab613-3704-07d2-1af2-7b5514a5517f" name="Greater Rewards" page="0" hidden="false">
+      <description>D6Daemonic Reward
+0Greater Magic Weapon: The Daemon has a Greater Etherblade. Any Daemon of Khorne can instead choose a Blade of Blood, any Daemon of Tzeentch can instead choose a Mutating Warpblade, any Daemon of Nurgle can instead choose a Balesword and any Daemon of Slaanesh can instead choose a Lash of Despair.
+1Corpulescence: The Daemon has +1 Wound and the It Will Not Die special rule.
+2Daemonic Resilence: The Daemon has the Feel No Pain (4+) special rule.
+3Dark Blessing: The Daemon re-rolls failed invulnerable saves.
+4Hellfire Gaze: Hellfire Gaze is a weapon with the following profile:
+Range
+S
+AP
+Type
+18"
+8
+1
+Assault 1, Lance
+5Touch of Uncreation: The Daemon’s close combat attacks have the Armourbane and Fleshbane special rules.
+6Unbreakable Hide: The Daemon has an armour save of 3+.</description>
+    </rule>
     <rule id="2815-f85c-fa92-9679" name="Harbinger of Khorne" page="66" hidden="false">
       <description>If the Herald of Khorne from this Formation is a Lesser Locus of Abjuration, Greater Focus of Fury, or an Exalted Locus of Wrath, the special rules associated with that locus affect all units from this Formation within 12" of him. If such a unit is also affected by another locus, they will receive both benefits.</description>
     </rule>
@@ -9127,24 +9230,66 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
     <rule id="e8614f30-7c26-21f0-74c0-ea5b73c18bb3" name="Lesser Locus of Virulence" page="0" hidden="false">
       <description>To Hit rolls of 6 are Poisoned (2+).</description>
     </rule>
-    <rule id="abf4c9f1-a16b-a62e-33f3-9e571b95c5fe" name="Lesser Rewards" page="0" hidden="false"/>
+    <rule id="abf4c9f1-a16b-a62e-33f3-9e571b95c5fe" name="Lesser Rewards" page="0" hidden="false">
+      <description>D6Daemonic Reward
+0Magic Weapon: The Daemon has an Etherblade. Any Daemon of Khorne can instead choose an Axe of Khorne, any Daemon of Tzeentch can instead choose a Staff of Change, any Daemon of Nurgle can instead choose a Plague Flail and any Daemon of Slaanesh can instead choose a Witstealer Sword.
+1Burning Blood: Whenever the Daemon suffers an unsaved Wound in close combat, the enemy unit that caused the Wound immediately suffers D3 Strength 4 hits with an AP of 5 with no cover saves allowed. Any unsaved Wounds caused in this manner count towards combat resolution, but do not count towards the total Wounds caused by the Daemon for the purposes of the Riftbringer or Souleater Exalted Reward.
+2Cleaving Strike: In close combat, any To Hit rolls of 6 made by the Daemon are resolved at twice the Daemon’s Strength characteristic (to a max of 10).
+3Corrosive Breath: Corrosive Breath is a weapon with the following profile:
+Range
+S
+AP
+Type
+Template
+5
+5
+Assault 1, Armourbane
+4Spell Breaker: The Daemon has the Adamantium Will special rule.
+5Warp Breath: Warp Breath is a weapon with the following profile:
+Range
+S
+AP
+Type
+18"
+8
+4
+Assault 1, Soul Blaze
+6Warp Strider: The Daemon, and his unit, add +1 to their Reserve Rolls.</description>
+    </rule>
     <rule id="4db62daf-117a-2864-1144-f39ea2f605c2" name="Magic Made Manifest" page="0" hidden="false">
       <description>A unit of 11-15 generates 2 Warp Charge points; a unit of 16-20 generates 3 Warp Charge points.</description>
     </rule>
     <rule id="f14de5d7-6371-3f85-c30a-c82bd5cf264c" name="Magic Weapons" page="0" hidden="false"/>
-    <rule id="d48ac220-a057-199d-7d2a-981c094216eb" name="Oracle of Eternity" page="0" hidden="false"/>
+    <rule id="d48ac220-a057-199d-7d2a-981c094216eb" name="Oracle of Eternity" page="0" hidden="false">
+      <description>Kairos has a 4+ invulnerable save.</description>
+    </rule>
     <rule id="8d6f4c07-9f52-8cd7-4b85-72716d063bf4" name="Plague Discipline" page="0" hidden="false"/>
-    <rule id="6ac2f44f-d25b-8ea5-d36a-5f2267ad7613" name="Poisoned (4+)" page="0" hidden="false"/>
+    <rule id="6ac2f44f-d25b-8ea5-d36a-5f2267ad7613" name="Poisoned (4+)" page="0" hidden="false">
+      <description>If a model has the Poisoned special rule, or is attacking with a Melee weapon that has the Poisoned special rule, it always wounds on a fixed number (generally shown in brackets), unless a lower result would be required, when attacking in close combat. In addition, if the Strength of the wielder (or the Poisoned weapon) is higher than the Toughness of the victim, the wielder must re-roll failed rolls To Wound in close combat. Similarly, if a model makes a shooting attack with a weapon that has the Poisoned special rule, it always wounds on a fixed number (generally shown in brackets), unless a lower result would be required. If no number is shown in brackets, the rule is Poisoned (4+). Unless otherwise stated, Poisoned weapons are treated as having a Strength of 1. The Poisoned special rule has no effect against vehicles.</description>
+    </rule>
     <rule id="843b0787-9074-2cd1-3aa1-d963f9ea4d51" name="Preffered Enemy (Eldar &amp; Dark Eldar)" page="0" hidden="false"/>
-    <rule id="e06ec47b-ac59-1fe9-5e5e-8bc9af5ff0df" name="Prey of the Blood God" page="0" hidden="false"/>
+    <rule id="e06ec47b-ac59-1fe9-5e5e-8bc9af5ff0df" name="Prey of the Blood God" page="0" hidden="false">
+      <description>At the start of the game, before deployment, nominate one character in the enemy army; this is Karanak's quarry. Karanak re-rolls all failed To Hit and To Wound rolls against the nominated model and his unit whilst the target model is alive.</description>
+    </rule>
     <rule id="057845e6-6ec3-8899-62b9-1576ba1891fc" name="Psyker Discipline - Change" page="0" hidden="false"/>
     <rule id="78f1-f67e-ed98-b018" name="Psyker Discipline - Divination" hidden="false"/>
     <rule id="cea2f531-e1ab-7405-dac8-18c7d58fc61a" name="Riftbringer" page="0" hidden="false"/>
-    <rule id="6cf163f7-da38-2d67-9b2b-dba71fcbfa6a" name="Scout" page="0" hidden="false"/>
+    <rule id="6cf163f7-da38-2d67-9b2b-dba71fcbfa6a" name="Scout" page="0" hidden="false">
+      <description>After both sides have deployed (including Infiltrators), but before the first player begins his first turn, a unit containing at least one model with this special rule can choose to redeploy. If the unit is Infantry, Artillery, a Walker or a Monstrous Creature, each model can redeploy anywhere entirely within 6" of its current position. If it is any other unit type, each model can instead
+redeploy anywhere entirely within 12" of its current position. During this redeployment, Scouts can move outside the owning player's deployment zone, but must remain more than 12" away from any enemy unit. A unit that makes a Scout redeployment cannot charge in the first game turn. A unit cannot embark or disembark as part of a Scout redeployment. 
+
+If both sides have Scouts, roll-off; the winner decides who redeploys first. Then alternate redeploying Scout units.
+
+If a unit with this special rule is deployed inside a Dedicated Transport, it confers the Scout special rule to the Transport (though a disembarkation cannot be performed as part of the redeployment). Note that a Transport with this special rule does not lose it if a unit without this special rule is embarked upon it. Having Scout also confers the Outflank special rule to units of Scouts that are kept as Reserves.
+
+If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
+    </rule>
     <rule id="28a8-aef7-82fa-61d1" name="Skullrain Salvo" hidden="false">
       <description>All of the Skull Cannons in a Gorethunder Battery must be fielded as a single vehicle squadron. Whilst this Formation includes three Skull Cannons that can fire, the squadron can fire a single Skullrain Salvo instead of firing normally. To do so, nominate one model in the squadron as the firer and use the Skullrain Salvo profile.</description>
     </rule>
-    <rule id="b2739f3a-ade3-aa30-1556-db484ddffbf3" name="Skulls for the Skull Throne!" page="0" hidden="false"/>
+    <rule id="b2739f3a-ade3-aa30-1556-db484ddffbf3" name="Skulls for the Skull Throne!" page="0" hidden="false">
+      <description>Model must issue and accept challenges. If multiple models have this rule then the controlling player chooses.</description>
+    </rule>
     <rule id="4aaf30a3-4dc7-1f26-3cf6-b0887870bbd9" name="Slashing Attack" page="0" hidden="false">
       <description>If a unit of Screamers moves over one or more unengaged enemy units with its Turbo-boost movement, choose one of those units; it suffers D3 S4 AP- hits per Screamer that moved over it. Use the final position of the Screamers for the purposes of Wound allocation; vehicles are always hit on their side armour.</description>
     </rule>
@@ -9154,9 +9299,13 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
     <rule id="e3c5b8e4-c498-8b45-8ca0-7ed4926593af" name="Soporific Musk" page="0" hidden="false">
       <description>Enemy units charged by this unit have -5 Initiative in that Assault phase.</description>
     </rule>
-    <rule id="5bba22ed-99ed-1e83-0226-76fcfac840e1" name="Souleater" page="0" hidden="false"/>
+    <rule id="5bba22ed-99ed-1e83-0226-76fcfac840e1" name="Souleater" page="0" hidden="false">
+      <description>At the end of any fight sub-phase where this weapon has inflicted an unsaved wound, roll a D6. on a 2+, the bearer gains an additional wound (up to a max of 10).</description>
+    </rule>
     <rule id="e608a13f-b00d-0672-5d6a-8b6c7a72f4f8" name="Swarm" page="0" hidden="false"/>
-    <rule id="7655d6a3-a37d-e989-7e1a-d9ab8c69e711" name="Swarms" page="0" hidden="false"/>
+    <rule id="7655d6a3-a37d-e989-7e1a-d9ab8c69e711" name="Swarms" page="0" hidden="false">
+      <description>If, when allocating Wounds to a unit with the Swarms special rule, two or more models could be chosen as the closest enemy, the closest enemy is always the model with the least number of Wounds. If a model with the Swarm special rule suffers an unsaved Wound from a Blast (any size) or Template weapon, each unsaved Wound is multiplied to two unsaved Wounds unless that Wound has the Instant Death special rule. However, a unit entirely composed of models with the Swarm special rule is not slowed by difficult terrain, but must test for Dangerous Terrain as normal.</description>
+    </rule>
     <rule id="d0ca56e6-0fc6-1592-3364-7e44a1e6425f" name="Totem of Endless Bloodletting" page="0" hidden="false">
       <description>Daemon of Khorne units within 6" of a Herald on Blood Throne can use the Herald's locus.</description>
     </rule>
@@ -9182,8 +9331,35 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
     <rule id="4635-e1b8-ef02-27fb" name="Warlord Trait - Warp Beacon" hidden="false">
       <description>Friendly units with the Daemon special rule arriving by Deep Strike do not scatter as long as the first model is placed within 6" of the Warlord, provided he was on the table at the start of that turn.</description>
     </rule>
-    <rule id="f8658573-6aee-52ba-0d4e-be967a7472c6" name="Warp Storm table" page="0" hidden="false"/>
-    <rule id="2b869785-f82a-a861-2fd5-c16be9390dd7" name="Warp Tether" page="0" hidden="false"/>
+    <rule id="f8658573-6aee-52ba-0d4e-be967a7472c6" name="Warp Storm table" page="0" hidden="false">
+      <description>2D6Result
+2The Storm Abates: The storm momentarily subsides, dragging the Daemons back into the Warp.
+All units with the Daemonic Instability special rule (friend or foe) must immediately take a Daemonic Instability test.
+3Punished by the Gods: The Chaos Gods vent their anger upon their own minions.
+Randomly select one character (friend or foe) on the table with the Daemonic Instability special rule (even if embarked upon a Chariot). This character must immediately take a Daemonic Instability test on 3D6. Any Wounds caused can only be allocated to the selected character. If there are no characters with the Daemonic Instability special rule currendy on the board, count this result as The Warp is Calm instead.
+4Warp Ebb: The Chaos Gods’ feuds have left their minions drained of power.
+All models with the Daemon special rule suffer a -1 penalty to their invulnerable saves (which will normally be reduced to 6+) until you or your opponent next roll on the Warp Storm table.
+5Storm of Fire: Tzeentch’s magical storms rain from the sky.
+Roll a D6 for each unengaged friendly unit containing one or more Daemons of Nurgle (or models with the Mark of Nurgle) and each unengaged enemy unit, on the battlefield. On the roll of a 6, place a large blast marker centred directly over any model in the unit - it then scatters. Once the blast marker’s final position has been determined, each unit (friend or foe) suffers a number of Strength 4 AP5 hits, equal to the number of models from their unit that are at least partially under the template. This attack has the Barrage and Ignores Cover special rules.
+6Rot, Glorious Rot: Nurgle's plagues blossom across reality.
+Roll a D6 for each unengaged friendly unit that contains one or more Daemons of Tzeentch (or models with the Mark of Tzeentch) and each unengaged enemy unit, on the batdefield. On the roll of a 6, that unit suffers D6 Strength 4 AP3 hits. These hits have the Poisoned (4+) and Ignores Cover special rules. Vehicles are hit on their side armour. Wounds are allocated by the unit’s controlling player.
+7The Warp is Calm: The Warp storms momentarily cease.
+Nothing happens, this time...
+8The Dark Prince Thirsts: Slaanesh rips his foes’ souls free of their mortal shackles.
+Roll a D6 for each unengaged friendly unit that contains one or more Daemons of Khorne (or models with the Mark of Khorne) and each unengaged enemy unit, on the batdefield. On the roll of a 6, that unit suffers D6 Strength 6 AP`-` hits. These hits have the Rending and Ignores Cover special rules. Vehicles are hit on their side armour. Wounds are allocated by the unit’s controlling player.
+9Khorne’s Wrath: Khome hurls brass skulls at his foes.
+Roll a D6 for each unengaged friendly unit that contains one or more Daemons of Slaanesh (or models with the Mark of Slaanesh) and each unengaged enemy unit, on the batdefield. On the roll of a 6, place a small blast marker centred directly over any model in the unit - it then scatters. Once the final position of the blast marker has been determined, each unit (friend or foe) suffers a number of Strength 8 AP3 hits equal to the number of models from their unit that are at least partially under the template. This attack has the Barrage special rule.
+10Warp Surge: The winds of the Warp blow stronger.
+All models with the Daemon special rule gain a +1 bonus to their invulnerable saves (which will normally be increased to 4+) until you or your opponent next roll on the Warp Storm table.
+11Daemonic Possession*: An enemy Psyker is possessed by a powerful Daemon.
+Randomly select one non-vehicle enemy Psyker on the table who does not have the Daemon special rule. The selected Psyker must pass a Leadership test on 3D6 or be removed as a casualty with no saves of any kind allowed. If the Leadership test is failed, then before removing the Psyker, place a new Herald of Khome, Herald of Tzeentch, Herald of Nurgle or Herald of Slaanesh (you choose) anywhere within 6" of the slain model that is more than 1" from any unit (friendly or enemy) and more than 1" away from impassable terrain. This Herald cannot declare a charge on the turn it possesses a Psyker, but can otherwise act normally and is under your control. If you do not have a spare Herald model, or if it cannot be placed on the board according to the aforementioned restrictions, then the selected Psyker is removed as a casualty, but no Herald model is placed. If there are no non-Daemon enemy Psykers currendy on the board, count this result as The Warp is Calm instead.
+12Summoned from the Warp*: Daemonic reinforcements flood through a rift between worlds.
+A new unit (under your control) consisting of 2D6+3 Bloodletters, Pink Horrors, Plaguebearers or Daemonettes (you choose) immediately Deep Strikes onto the table. If you do not have enough models to place the entire unit on the board, place as many as you have models for - the excess are destroyed.
+* New units created by these results do not have any upgrades and, other than their unusual manner of arrival, are treated exactly as other units of their type, awarding Victory Points as normal.</description>
+    </rule>
+    <rule id="2b869785-f82a-a861-2fd5-c16be9390dd7" name="Warp Tether" page="0" hidden="false">
+      <description>This Daemon is blessed with an iron grip on the mortal world, sustaining those in its presence with the power of the Warp.</description>
+    </rule>
     <rule id="de070752-2c93-5c2c-d937-5cab4ff68531" name="Warpflame" page="0" hidden="false">
       <description>Units that take Wounds from this attack take a Toughness test. If failed, they suffer D3 Wounds (no armour or cover saves). If passed, they gain Feel No Pain (6+) or +1 to Feel No Pain rolls for the rest of the game.</description>
     </rule>
