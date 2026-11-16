@@ -9268,7 +9268,7 @@ In addition, any attacks or special abilities that permanently lower the Armour 
       <description>If a Wound is allocated to a character in this model’s unit (other than another model with this special rule), that character automatically passes its Look Out, Sir test if it can make one. The Wound must be allocated to the model with this special rule instead. If there is more than one model with this special rule in a unit when a Wound is allocated to a character, the owning player can choose which of them to re-allocate the Wound to.</description>
     </rule>
     <rule id="be35e109-ba91-4039-48ca-b84510f7b1cc" name="Lords of War" publicationId="4d97de7d--pub5" page="95" hidden="false">
-      <description>Lords of War are the most powerful and destructive units to wage war in the 41st Millennium. They include towering monstrosities and super-heavy vehicles that bristle with enough weaponry to lay waste to anything foolish enough to stand before them. You’ll find a selection of Lords of War units in some codexes and in Warhammer 40,000: Escalation.</description>
+      <description>Lords of War are the most powerful and destructive units to wage war in the 41st Millennium. They include towering monstrosities and super-heavy vehicles that bristle with enough weaponry to lay waste to anything foolish enough to stand before them. You’ll find a selection of Lords of War units in some codexes and in Escalation.</description>
     </rule>
     <rule id="baa9a165-bb2b-ce81-cbd8-8d3de8bef03b" name="Machine Destroyer" publicationId="4d97de7d--pub1" hidden="false">
       <description>When Attacking any target with an armour value, rolls of 1 on the Destroyer Damage table may be re-rolled.</description>
